@@ -1,5 +1,5 @@
 # Copyright:    Public domain.
-# Filename:     CM_BODY_ATTITUDE.s
+# Filename:     CM_BODY_ATTITUDE.agc
 # Purpose:      Part of the source code for Comanche, build 055. It
 #               is part of the source code for the Command Module's
 #               (CM) Apollo Guidance Computer (AGC), Apollo 11.

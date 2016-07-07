@@ -1,0 +1,335 @@
+# Copyright:	Public domain.
+# Filename:	THE_LUNAR_LANDING.agc
+# Purpose: 	Part of the source code for Luminary 1A build 099.
+#		It is part of the source code for the Lunar Module's (LM)
+#		Apollo Guidance Computer (AGC), for Apollo 11.
+# Assembler:	yaYUL
+# Contact:	Hartmuth Gutsche<hgutsche@xplornet.com>.
+# Website:	www.ibiblio.org/apollo.
+# Pages:	785-792
+# Mod history:	2009-05-20 HG	Transcribed from page images.
+#
+# This source code has been transcribed or otherwise adapted from
+# digitized images of a hardcopy from the MIT Museum.  The digitization
+# was performed by Paul Fjeld, and arranged for by Deborah Douglas of
+# the Museum.  Many thanks to both.  The images (with suitable reduction
+# in storage size and consequent reduction in image quality as well) are
+# available online at www.ibiblio.org/apollo.  If for some reason you
+# find that the images are illegible, contact me at info@sandroid.org
+# about getting access to the (much) higher-quality images which Paul
+# actually created.
+#
+# Notations on the hardcopy document read, in part:
+#
+#	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
+#	16:27 JULY 14, 1969 
+
+# Page 785
+		BANK	32
+		SETLOC	F2DPS*32
+		BANK
+
+		EBANK=	E2DPS
+
+#	*************************************
+#	P63: THE LUNAR LANDING, BRAKING PHASE
+#	*************************************
+
+		COUNT*	$$/P63
+
+P63LM		TC	PHASCHNG
+		OCT	04024
+
+		TC	BANKCALL	# DO IMU STATUS CHECK ROUTINE R02
+		CADR	R02BOTH
+
+		CAF	P63ADRES	# INITIALIZE WHICH FOR BURNBABY
+		TS	WHICH
+
+		CAF	DPSTHRSH	# INITIALIZE DVMON
+		TS	DVTHRUSH
+		CAF	FOUR
+		TS	DVCNTR
+
+		CS	ONE		# INITIALIZE WCHPHASE AND FLPASS0
+		TS	WCHPHASE
+
+		CA	ZERO
+		TS	FLPASS0
+
+		CS	BIT14
+		EXTEND
+		WAND	CHAN12		# REMOVE TRACK-ENABLE DISCRETE.
+
+FLAGORGY	TC	INTPRET		# DIONYSIAN FLAG WAVING
+		CLEAR	CLEAR
+			NOTHROTL
+			REDFLAG
+		CLEAR	SET
+			LRBYPASS
+			MUNFLAG
+		CLEAR	CLEAR
+			P25FLAG		# TERMINATE P25 IF IT IS RUNNING.
+			RNDVZFLG	# TERMINATE P20 IF IT IS RUNNING.
+
+					# ********************************
+
+IGNALG		SETPD	VLOAD		# FIRST SET UP INPUTS FOR RP-TO-R:
+# Page 786
+			0		# 	AT 0D LANDING SITE IN MOON FIXED FRAME
+			RLS		#	AT 6D ESTIMATED TIME OF LANDING
+		PDDL	PUSH		#	MPAC NON-ZERO TO INDICATE LUNAR CASE
+			TLAND
+		STCALL	TPIP		# ALSO SET TPIP FOR FIRST GUIDANCE PASS
+			RP-TO-R
+		VSL4	MXV
+			REFSMMAT
+		STCALL	LAND
+			GUIDINIT	# GUIDINIT INITIALIZES WM AND /LAND/
+		DLOAD	DSU
+			TLAND
+			GUIDDURN
+		STCALL	TDEC1		# INTEGRATE STATE FORWARD TO THAT TIME
+			LEMPREC
+		SSP	VLOAD
+			NIGNLOOP
+			40D
+			UNITX
+		STOVL	CG
+			UNITY
+		STOVL	CG +6
+			UNITZ
+		STODL	CG +14
+			99999CON
+		STOVL	DELTAH		# INITIALIZE DELTAH FOR V16N68 DISPLAY
+			ZEROVECS
+		STODL	UNFC/2		# INITIALIZE TRIM VELOCITY CORRECTION TERM
+			HI6ZEROS
+		STORE	TTF/8
+
+IGNALOOP	DLOAD
+			TAT
+		STOVL	PIPTIME1
+			RATT1
+		VSL4	MXV
+			REFSMMAT
+		STCALL	R
+			MUNGRAV
+		STCALL	GDT/2
+			?GUIDSUB	# WHICH DELIVERS N PASSES OF GUIDANCE
+
+# DDUMCALC IS PROGRAMMED AS FOLLOWS:
+#                                         2                                           ___
+#              (RIGNZ - RGU )/16 + 16(RGU  )KIGNY/B8 + (RGU - RIGNX)KIGNX/B4 + (ABVAL(VGU) - VIGN)KIGNV/B4
+#                          2             1                 0
+#	DDUM = -------------------------------------------------------------------------------------------
+#                                                10
+#                                               2   (VGU - 16 VGU KIGNX/B4)
+#                                                       2        0
+# Page 787 new page is actually one line earlier but this would put the indices on a seperate line 
+# disconnected from their respective variables
+# THE NUMERATOR IS SCALED IN METERS AT 2(28).  THE DENOMINATOR IS A VELOCITY IN UNITS OF 2(10) M/CS.
+# THE QUOTIENT IS THUS A TIME IN UNITS OF 2(18) CENTISECONDS.  THE FINAL SHIFT RESCALES TO UNITS OF 2(28) CS.
+# THERE IS NO DAMPING FACTOR.  THE CONSTANTS KIGNX/B4, KIGNY/B8 AND KIGNV/B4 ARE ALL NEGATIVE IN SIGN.
+
+DDUMCALC	TS	NIGNLOOP
+		TC	INTPRET
+		DLOAD	DMPR		# FORM DENOMINATOR FIRST
+			VGU
+			KIGNX/B4
+		SL4R	BDSU
+			VGU +4
+		PDDL	DSU
+			RIGNZ
+			RGU +4
+		SR4R	PDDL
+			RGU +2
+		DSQ	DMPR
+			KIGNY/B8
+		SL4R	PDDL
+			RGU
+		DSU	DMPR
+			RIGNX
+			KIGNX/B4
+		PDVL	ABVAL
+			VGU
+		DSU	DMPR
+			VIGN
+			KIGNV/B4
+		DAD	DAD
+		DAD	DDV
+		SRR
+			10D
+
+		PUSH	DAD
+			PIPTIME1
+		STODL	TDEC1		# STORE NEW GUESS FOR NEXT INTEGRATION
+		ABS	DSU
+			DDUMCRIT
+		BMN	CALL
+			DDUMGOOD
+			INTSTALL
+		SET	SET
+			INTYPFLG
+			MOONFLAG
+		DLOAD
+			PIPTIME1
+		STOVL	TET		# HOPEFULLY ?GUIDSUB DID NOT
+			RATT1		#	CLOBBER RATT1 AND VATT1
+# Page 788
+		STOVL	RCV
+			VATT1
+		STCALL	VCV
+			INTEGRVS
+		GOTO
+			IGNALOOP
+
+DDUMGOOD	SLOAD	SR
+			ZOOMTIME
+			14D
+		BDSU
+			TDEC1
+		STOVL	TIG		# COMPUTE DISTANCE LANDING SITE WILL BE
+			V		#	OUT OF LM'S ORBITAL PLANE AT IGNITION:
+		VXV	UNIT		#	SIGN IS + IF LANDING SITE IS TO THE
+			R		#	RIGHT, NORTH; - IF TO THE LEFT, SOUTH.
+		DOT	SL1
+			LAND
+R60INIT		STOVL	OUTOFPLN	# INITIALIZATION FOR CALCMANU
+			UNFC/2
+		STORE	R60VSAVE		# STORE UNFC/2 TEMPORARILY IN R60SAVE
+		EXIT
+					# *******************************************
+
+IGNALGRT	TC	PHASCHNG	# PREVENT REPEATING IGNALG
+		OCT	04024
+
+ASTNCLOK	CS	ASTNDEX
+		TC	BANKCALL
+		CADR	STCLOK2
+		TCF	ENDOFJOB	# RETURN IN NEW JOB AND IN EBANK FIVE
+
+ASTNRET		TC	INTPRET
+		SSP	RTB		# GO PICK UP DISPLAY AT END OF R51:
+			QMAJ		#	"PROCEED" WILL DO A FINE ALIGNMENT
+		FCADR	P63SPOT2	#	"ENTER" WILL RETURN TO P63SPOT2
+			R51P63
+P63SPOT2	VLOAD	UNIT		# INITIALIZE KALCMANU FOR BURN ATTITUDE
+			R60VSAVE
+		STOVL	POINTVSM
+			UNITX
+		STORE	SCAXIS
+		EXIT
+
+		CAF	EBANK7
+		TS	EBANK
+
+		INHINT
+		TC	IBNKCALL
+		CADR	PFLITEDB
+# Page 789
+		RELINT
+
+		TC	BANKCALL
+		CADR	R60LEM
+
+		TC	PHASCHNG	# PREVENT RECALLING R60
+		OCT	04024
+
+P63SPOT3	CA	BIT6		# IS THE LR ANTENNA IN POSITION 1 YET
+		EXTEND
+		RAND	CHAN33
+		EXTEND
+		BZF	P63SPOT4	# BRANCH IF ANTENNA ALREADY IN POSITION 1
+
+		CAF	CODE500		# ASTRONAUT:	PLEASE CRANK THE
+		TC	BANKCALL	#		SILLY THING AROUND
+		CADR	GOPERF1
+		TCF	GOTOP00H	# TERMINATE
+		TCF	P63SPOT3	# PROCEED	SEE IF HE'S LYING
+
+P63SPOT4	TC	BANKCALL	# ENTER		INITIALIZE LANDING RADAR
+		CADR	SETPOS1
+
+		TC	POSTJUMP	# OFF TO SEE THE WIZARD ...
+		CADR	BURNBABY
+
+#	---------------------------------
+
+# CONSTANTS FOR P63LM AND IGNALG
+
+P63ADRES	GENADR	P63TABLE
+
+ASTNDEX		=	MD1		# OCT 25:  INDEX FOR CLOKTASK
+
+CODE500		OCT	00500
+
+99999CON	2DEC	30479.7 B-24
+
+GUIDDURN	2DEC	+66440		# GUIDDURN +6.64400314 E+2
+DDUMCRIT	2DEC	+8 B-28		# CRITERION FOR IGNALG CONVERGENCE
+
+# Page 790
+#	--------------------------------
+
+# Page 791
+#	*************************
+#	P68: LANDING CONFIRMATION
+#	*************************
+
+		BANK	31
+		SETLOC	F2DPS*31
+		BANK
+
+		COUNT*	$$/P6567
+
+LANDJUNK	TC	PHASCHNG
+		OCT	04024
+
+		INHINT
+		TC	BANKCALL	# ZERO ATTITUDE ERROR
+		CADR	ZATTEROR
+
+		TC	BANKCALL	# SET 5 DEGREE DEADBAND
+		CADR	SETMAXDB	
+					
+		TC	INTPRET		# TO INTERPRETIVE AS TIME IS NOT CRITICAL
+		SET	CLEAR
+			SURFFLAG
+			LETABORT
+		SET	VLOAD
+			APSFLAG
+			RN
+		STODL	ALPHAV
+			PIPTIME
+		SET	CALL
+			LUNAFLAG
+			LAT-LONG
+		SETPD	VLOAD		# COMPUTE RLS AND STORE IT AWAY
+			0
+			RN
+		VSL2	PDDL
+			PIPTIME
+		PUSH	CALL
+			R-TO-RP
+		STORE	RLS
+		EXIT
+		CAF	V06N43*		# ASTRONAUT:  NOW LOOK WHERE TO ENDED UP
+		TC	BANKCALL
+		CADR	GOFLASH
+		TCF	GOTOP00H	# TERMINATE
+		TCF	+2		# PROCEED
+		TCF	-5		# RECYCLE
+
+		TC	INTPRET
+# Page 792
+		VLOAD			# INITIALIZE GSAV AND (USING REFMF)
+			UNITX		# YNBSAV, ZNBSAV AND ATTFLAG FOR P57
+		STCALL	GSAV
+			REFMF
+		EXIT
+
+		TCF	GOTOP00H	# ASTRONAUT:  PLEASE SELECT P57
+
+V06N43*		VN	0643
+

@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	LUNAR_LANDING_GUIDANCE_EQUATIONS.s
+# Filename:	LUNAR_LANDING_GUIDANCE_EQUATIONS.agc
 # Purpose: 	Part of the source code for Luminary 1A build 099.
 #		It is part of the source code for the Lunar Module's (LM)
 #		Apollo Guidance Computer (AGC), for Apollo 11.
@@ -1240,7 +1240,7 @@ DESCBITS	MASK	BIT7		# COME HERE FROM MARKRUPT CODING WITH BIT
 #	                                               N        N-1
 #	ROOTPSRS FINDS ONE ROOT OF THE POWER SERIES A X  + A   X    + ... + A X + A
 #	                                             N      N-1              1     0
-# USING NETON'S METHOD STARTING WITH AN INITIAL GUESS FOR THE ROOT.  THE ENTERING DATA MUST BE AS FOLLOWS:
+# USING NEWTON'S METHOD STARTING WITH AN INITIAL GUESS FOR THE ROOT.  THE ENTERING DATA MUST BE AS FOLLOWS:
 #	A	SP	LOC-3		ADRES FOR REFERENCING PWR COF TABL
 #	L	SP	N-1		N IS THE DEGREE OF THE POWER SERIES
 #	MPAC	DP	X		INITIAL GUESS FOR ROOT
