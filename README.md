@@ -4,12 +4,6 @@ Apollo-11
 Original Apollo 11 guidance computer (AGC) source code, in assembly, for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at Virtual AGC and MIT.
 
 ####Attribution
-Apollo-11
-=========
-
-Original Apollo 11 guidance computer (AGC) source code, in assembly, for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at Virtual AGC and MIT.
-
-####Attribution
 
      Copyright: Public domain.
      Filename:  CONTRACT_AND_APPROVALS.agc
