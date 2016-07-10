@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	P32-P33_P72-P73.agc
+# Filename:	P32-P33_P72-P73.s
 # Purpose:	Part of the source code for Colossus 2A, AKA Comanche 055.
 #		It is part of the source code for the Command Module's (CM)
 #		Apollo Guidance Computer (AGC), for Apollo 11.
@@ -8,7 +8,7 @@
 # Website:	www.ibiblio.org/apollo.
 # Pages:	649-683
 # Mod history:	2009-05-09 RSB	Adapted from the Luminary131/ file
-#				P32-P35_P72-P75.agc and Comanche055 page 
+#				P32-P35_P72-P75.s and Comanche055 page 
 #				images.
 #		2009-05-20 RSB	Corrected CSI/COM3 -> CSI/CDH3,
 #				CSI/CDHI -> CSI/CDH1, CDHTAB -> CDHTAG,

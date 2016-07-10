@@ -1,12 +1,12 @@
 # Copyright:	Public domain.
-# Filename:	MAIN.agc
+# Filename:	MAIN.s
 # Purpose:	Part of the source code for Colossus 2A, AKA Comanche 055.
 #		It is part of the source code for the Command Module's (CM)
 #		Apollo Guidance Computer (AGC) Apollo 11.
 # Assembler:	yaYUL
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo
-# Mod history:	2009-05-05 RSB	Adapted from Colossus249/MAIN.agc.
+# Mod history:	2009-05-05 RSB	Adapted from Colossus249/MAIN.s.
 #
 # This source code has been transcribed or otherwise adapted from digitized
 # images of a hardcopy from the MIT Museum.  The digitization was performed
@@ -33,7 +33,7 @@
 # it a little easier to work with.  The code chunks correspond to natural divisions
 # into sub-programs.  In fact, these divisions are more-or-less specified by
 # the source code itself.  Refer to the "SUBROUTINE CALLS" at the
-# very beginning of the file ASSEMBLY_AND_OPERATION_INFORMATION.agc.
+# very beginning of the file ASSEMBLY_AND_OPERATION_INFORMATION.s.
 #
 # It may be reasonably asked why tens of thousands of lines of source are joined by
 # means of inclusion, rather than simply assembling the source files individually and
@@ -62,103 +62,103 @@
 # but not duplicated by yaYUL, so it's still valuable even if the source-files
 # listed below are in hand.
 
-$CONTRACT_AND_APPROVALS.agc			# p. 1						
-$ASSEMBLY_AND_OPERATION_INFORMATION.agc		# pp. 2-26
-$TAGS_FOR_RELATIVE_SETLOC.agc			# pp. 27-35
+$CONTRACT_AND_APPROVALS.s			# p. 1						
+$ASSEMBLY_AND_OPERATION_INFORMATION.s		# pp. 2-26
+$TAGS_FOR_RELATIVE_SETLOC.s			# pp. 27-35
 
 						# p. 36 contains no code.
 # COMERASE
-$ERASABLE_ASSIGNMENTS.agc			# pp. 37-130
+$ERASABLE_ASSIGNMENTS.s			# pp. 37-130
 
 # COMAID
-$INTERRUPT_LEAD_INS.agc				# pp. 131-132
-$T4RUPT_PROGRAM.agc				# pp. 133-169
-$DOWNLINK_LISTS.agc				# pp. 170-180
-$FRESH_START_AND_RESTART.agc			# pp. 181-210
-$RESTART_TABLES.agc				# pp. 211-221
-$SXTMARK.agc 					# pp. 222-235
-$EXTENDED_VERBS.agc				# pp. 236-267
-$PINBALL_NOUN_TABLES.agc			# pp. 268-284
-$CSM_GEOMETRY.agc				# pp. 285-296
-$IMU_COMPENSATION_PACKAGE.agc			# pp. 297-306
-$PINBALL_GAME_BUTTONS_AND_LIGHTS.agc		# pp. 307-389
-$R60_62.agc					# pp. 390-398
-$ANGLFIND.agc					# pp. 399-411
-$GIMBAL_LOCK_AVOIDANCE.agc			# pp. 412-413
-$KALCMANU_STEERING.agc				# pp. 414-419
-$SYSTEM_TEST_STANDARD_LEAD_INS.agc		# pp. 420-422
-$IMU_CALIBRATION_AND_ALIGNMENT.agc		# pp. 423-455
+$INTERRUPT_LEAD_INS.s				# pp. 131-132
+$T4RUPT_PROGRAM.s				# pp. 133-169
+$DOWNLINK_LISTS.s				# pp. 170-180
+$FRESH_START_AND_RESTART.s			# pp. 181-210
+$RESTART_TABLES.s				# pp. 211-221
+$SXTMARK.s 					# pp. 222-235
+$EXTENDED_VERBS.s				# pp. 236-267
+$PINBALL_NOUN_TABLES.s			# pp. 268-284
+$CSM_GEOMETRY.s				# pp. 285-296
+$IMU_COMPENSATION_PACKAGE.s			# pp. 297-306
+$PINBALL_GAME_BUTTONS_AND_LIGHTS.s		# pp. 307-389
+$R60_62.s					# pp. 390-398
+$ANGLFIND.s					# pp. 399-411
+$GIMBAL_LOCK_AVOIDANCE.s			# pp. 412-413
+$KALCMANU_STEERING.s				# pp. 414-419
+$SYSTEM_TEST_STANDARD_LEAD_INS.s		# pp. 420-422
+$IMU_CALIBRATION_AND_ALIGNMENT.s		# pp. 423-455
 
 # COMEKISS
-$GROUND_TRACKING_DETERMINATION_PROGRAM.agc	# pp. 456-459
-$P34-35_P74-75.agc				# pp. 460-504
-$R31.agc					# pp. 505-510
-$P76.agc					# pp. 511-513
-$R30.agc					# pp. 514-524
-$STABLE_ORBIT.agc				# pp. 525-532
+$GROUND_TRACKING_DETERMINATION_PROGRAM.s	# pp. 456-459
+$P34-35_P74-75.s				# pp. 460-504
+$R31.s					# pp. 505-510
+$P76.s					# pp. 511-513
+$R30.s					# pp. 514-524
+$STABLE_ORBIT.s				# pp. 525-532
 
 # TROUBLE
-$P11.agc					# pp. 533-550
-$TPI_SEARCH.agc					# pp. 551-561
-$P20-P25.agc					# pp. 562-634
-$P30-P37.agc					# pp. 635-648
-$P32-P33_P72-P73.agc				# pp. 649-683
-$P40-P47.agc					# pp. 684-736
-$P51-P53.agc					# pp. 737-784
-$LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.agc	# pp. 785-788
-$P61-P67.agc					# pp. 789-818
-$SERVICER207.agc				# pp. 819-836
-$ENTRY_LEXICON.agc				# pp. 837-843
-$REENTRY_CONTROL.agc				# pp. 844-882
-$CM_BODY_ATTITUDE.agc				# pp. 883-889
-$P37_P70.agc					# pp. 890-933
-$S-BAND_ANTENNA_FOR_CM.agc			# pp. 934-935
-$LUNAR_LANDMARK_SELECTION_FOR_CM.agc		# pp. 936
+$P11.s					# pp. 533-550
+$TPI_SEARCH.s					# pp. 551-561
+$P20-P25.s					# pp. 562-634
+$P30-P37.s					# pp. 635-648
+$P32-P33_P72-P73.s				# pp. 649-683
+$P40-P47.s					# pp. 684-736
+$P51-P53.s					# pp. 737-784
+$LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.s	# pp. 785-788
+$P61-P67.s					# pp. 789-818
+$SERVICER207.s				# pp. 819-836
+$ENTRY_LEXICON.s				# pp. 837-843
+$REENTRY_CONTROL.s				# pp. 844-882
+$CM_BODY_ATTITUDE.s				# pp. 883-889
+$P37_P70.s					# pp. 890-933
+$S-BAND_ANTENNA_FOR_CM.s			# pp. 934-935
+$LUNAR_LANDMARK_SELECTION_FOR_CM.s		# pp. 936
 
 # TVCDAPS
-$TVCINITIALIZE.agc				# pp. 937-944
-$TVCEXECUTIVE.agc				# pp. 945-950
-$TVCMASSPROP.agc				# pp. 951-955
-$TVCRESTARTS.agc				# pp. 956-960
-$TVCDAPS.agc					# pp. 961-978
-$TVCSTROKETEST.agc				# pp. 979-983
-$TVCROLLDAP.agc					# pp. 984-998
-$MYSUBS.agc					# pp. 999-1001
-$RCS-CSM_DIGITAL_AUTOPILOT.agc			# pp. 1002-1024
-$AUTOMATIC_MANEUVERS.agc			# pp. 1025-1036
-$RCS-CSM_DAP_EXECUTIVE_PROGRAMS.agc		# pp. 1037-1038
-$JET_SELECTION_LOGIC.agc			# pp. 1039-1062
-$CM_ENTRY_DIGITAL_AUTOPILOT.agc			# pp. 1063-1092
+$TVCINITIALIZE.s				# pp. 937-944
+$TVCEXECUTIVE.s				# pp. 945-950
+$TVCMASSPROP.s				# pp. 951-955
+$TVCRESTARTS.s				# pp. 956-960
+$TVCDAPS.s					# pp. 961-978
+$TVCSTROKETEST.s				# pp. 979-983
+$TVCROLLDAP.s					# pp. 984-998
+$MYSUBS.s					# pp. 999-1001
+$RCS-CSM_DIGITAL_AUTOPILOT.s			# pp. 1002-1024
+$AUTOMATIC_MANEUVERS.s			# pp. 1025-1036
+$RCS-CSM_DAP_EXECUTIVE_PROGRAMS.s		# pp. 1037-1038
+$JET_SELECTION_LOGIC.s			# pp. 1039-1062
+$CM_ENTRY_DIGITAL_AUTOPILOT.s			# pp. 1063-1092
 
 # CHIEFTAN
-$DOWN-TELEMETRY_PROGRAM.agc			# pp. 1093-1102
-$INTER-BANK_COMMUNICATION.agc			# pp. 1103-1106
-$INTERPRETER.agc				# pp. 1107-1199
-$FIXED_FIXED_CONSTANT_POOL.agc			# pp. 1200-1204
-$INTERPRETIVE_CONSTANTS.agc			# pp. 1205-1206
-$SINGLE_PRECISION_SUBROUTINES.agc		# p.  1207
-$EXECUTIVE.agc					# pp. 1208-1220
-$WAITLIST.agc					# pp. 1221-1235
-$LATITUDE_LONGITUDE_SUBROUTINES.agc		# pp. 1236-1242
-$PLANETARY_INERTIAL_ORIENTATION.agc		# pp. 1243-1251
-$MEASUREMENT_INCORPORATION.agc			# pp. 1252-1261
-$CONIC_SUBROUTINES.agc				# pp. 1262-1308
-$INTEGRATION_INITIALIZATION.agc			# pp. 1309-1333
-$ORBITAL_INTEGRATION.agc			# pp. 1334-1354
-$INFLIGHT_ALIGNMENT_ROUTINES.agc		# pp. 1355-1364
-$POWERED_FLIGHT_SUBROUTINES.agc			# pp. 1365-1372
-$TIME_OF_FREE_FALL.agc				# pp. 1373-1388
-$STAR_TABLES.agc				# pp. 1389-1393
-$AGC_BLOCK_TWO_SELF-CHECK.agc			# pp. 1394-1403
-$PHASE_TABLE_MAINTENANCE.agc			# pp. 1404-1413
-$RESTARTS_ROUTINE.agc				# pp. 1414-1419
-$IMU_MODE_SWITCHING_ROUTINES.agc		# pp. 1420-1448
-$KEYRUPT_UPRUPT.agc				# pp. 1449-1451
-$DISPLAY_INTERFACE_ROUTINES.agc			# pp. 1452-1484
-$SERVICE_ROUTINES.agc				# pp. 1485-1492
-$ALARM_AND_ABORT.agc				# pp. 1493-1496
-$UPDATE_PROGRAM.agc				# pp. 1497-1507
-$RT8_OP_CODES.agc				# pp. 1508-1516
+$DOWN-TELEMETRY_PROGRAM.s			# pp. 1093-1102
+$INTER-BANK_COMMUNICATION.s			# pp. 1103-1106
+$INTERPRETER.s				# pp. 1107-1199
+$FIXED_FIXED_CONSTANT_POOL.s			# pp. 1200-1204
+$INTERPRETIVE_CONSTANTS.s			# pp. 1205-1206
+$SINGLE_PRECISION_SUBROUTINES.s		# p.  1207
+$EXECUTIVE.s					# pp. 1208-1220
+$WAITLIST.s					# pp. 1221-1235
+$LATITUDE_LONGITUDE_SUBROUTINES.s		# pp. 1236-1242
+$PLANETARY_INERTIAL_ORIENTATION.s		# pp. 1243-1251
+$MEASUREMENT_INCORPORATION.s			# pp. 1252-1261
+$CONIC_SUBROUTINES.s				# pp. 1262-1308
+$INTEGRATION_INITIALIZATION.s			# pp. 1309-1333
+$ORBITAL_INTEGRATION.s			# pp. 1334-1354
+$INFLIGHT_ALIGNMENT_ROUTINES.s		# pp. 1355-1364
+$POWERED_FLIGHT_SUBROUTINES.s			# pp. 1365-1372
+$TIME_OF_FREE_FALL.s				# pp. 1373-1388
+$STAR_TABLES.s				# pp. 1389-1393
+$AGC_BLOCK_TWO_SELF-CHECK.s			# pp. 1394-1403
+$PHASE_TABLE_MAINTENANCE.s			# pp. 1404-1413
+$RESTARTS_ROUTINE.s				# pp. 1414-1419
+$IMU_MODE_SWITCHING_ROUTINES.s		# pp. 1420-1448
+$KEYRUPT_UPRUPT.s				# pp. 1449-1451
+$DISPLAY_INTERFACE_ROUTINES.s			# pp. 1452-1484
+$SERVICE_ROUTINES.s				# pp. 1485-1492
+$ALARM_AND_ABORT.s				# pp. 1493-1496
+$UPDATE_PROGRAM.s				# pp. 1497-1507
+$RT8_OP_CODES.s				# pp. 1508-1516
 
 						# pp. 1517-1751: GAP-generated tables.
 

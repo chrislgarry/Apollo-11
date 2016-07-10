@@ -1,5 +1,5 @@
 # Copyright:    Public domain.
-# Filename:     RT8_OP_CODES.agc
+# Filename:     RT8_OP_CODES.s
 # Purpose:      Part of the source code for Comanche, build 055. It
 #               is part of the source code for the Command Module's
 #               (CM) Apollo Guidance Computer (AGC), Apollo 11.
@@ -7,7 +7,7 @@
 # Reference:    pp. 1508-1516
 # Contact:      Ron Burkey <info@sandroid.org>
 # Website:      http://www.ibiblio.org/apollo.
-# Mod history:  2009-05-07 RSB	Adapted from Colossus249/RT8_OP_CODES.agc
+# Mod history:  2009-05-07 RSB	Adapted from Colossus249/RT8_OP_CODES.s
 #				and page images. 
 #		2009-05-07 RSB	Oops! Left out the entire last page before.
 #

@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	TVCSTROKETEST.agc
+# Filename:	TVCSTROKETEST.s
 # Purpose:	Part of the source code for Colossus 2A, AKA Comanche 055.
 #		It is part of the source code for the Command Module's (CM)
 #		Apollo Guidance Computer (AGC), for Apollo 11.

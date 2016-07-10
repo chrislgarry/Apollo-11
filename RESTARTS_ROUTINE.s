@@ -1,5 +1,5 @@
 # Copyright:    Public domain.
-# Filename:     RESTARTS_ROUTINE.agc
+# Filename:     RESTARTS_ROUTINE.s
 # Purpose:      Part of the source code for Comanche, build 055. It
 #               is part of the source code for the Command Module's
 #               (CM) Apollo Guidance Computer (AGC), Apollo 11.

@@ -1,5 +1,5 @@
 # Copyright:    Public domain.
-# Filename:     SERVICER207.agc
+# Filename:     SERVICER207.s
 # Purpose:      Part of the source code for Comanche, build 055. It
 #               is part of the source code for the Command Module's
 #               (CM) Apollo Guidance Computer (AGC), Apollo 11.

@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	PINBALL_NOUN_TABLES.agc
+# Filename:	PINBALL_NOUN_TABLES.s
 # Purpose:	Part of the source code for Comanche, build 055. It
 #		is part of the source code for the Command Module's
 #		(CM) Apollo Guidance Computer (AGC), Apollo 11.
