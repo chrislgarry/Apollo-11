@@ -32,21 +32,21 @@ Original Apollo 11 guidance computer (AGC) source code, in assembly, for Command
      Page 1
 
     #************************************************************************
-    #                                   
-    #       THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:      
-    #                                   
-    #                                   
-    #               COLOSSUS 2A             
-    #                                   
-    #                                   
-    #   THIS PROGRAM IS INTENDED FOR USE IN THE CM AS SPECIFIED     
-    #   IN REPORT R-577.  THIS PROGRAM WAS PREPARED UNDER DSR       
-    #   PROJECT 55-23870, SPONSORED BY THE MANNED SPACECRAFT        
-    #   CENTER OF THE NATIONAL AERONAUTICS AND SPACE            
-    #   ADMINISTRATION THROUGH CONTRACT NAS 9-4065 WITH THE     
-    #   INSTRUMENTATION LABORATORY, MASSACHUSETTS INSTITUTE OF      
-    #   TECHNOLOGY, CAMBRIDGE, MASS.                    
-    #                                   
+    #                                                                       *
+    #       THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:                  *
+    #                                                                       *
+    #                                                                       *
+    #               COLOSSUS 2A                                             *
+    #                                                                       *
+    #                                                                       *
+    #   THIS PROGRAM IS INTENDED FOR USE IN THE CM AS SPECIFIED             *
+    #   IN REPORT R-577.  THIS PROGRAM WAS PREPARED UNDER DSR               *
+    #   PROJECT 55-23870, SPONSORED BY THE MANNED SPACECRAFT                *
+    #   CENTER OF THE NATIONAL AERONAUTICS AND SPACE                        *
+    #   ADMINISTRATION THROUGH CONTRACT NAS 9-4065 WITH THE                 *
+    #   INSTRUMENTATION LABORATORY, MASSACHUSETTS INSTITUTE OF              *
+    #   TECHNOLOGY, CAMBRIDGE, MASS.                                        *
+    #                                                                       *
     #************************************************************************
 
 
