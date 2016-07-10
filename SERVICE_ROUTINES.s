@@ -1,5 +1,5 @@
 # Copyright:    Public domain.
-# Filename:     SERVICE_ROUTINES.agc
+# Filename:     SERVICE_ROUTINES.s
 # Purpose:      Part of the source code for Comanche, build 055. It
 #               is part of the source code for the Command Module's
 #               (CM) Apollo Guidance Computer (AGC), Apollo 11.

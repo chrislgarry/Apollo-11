@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	P34-35_P74-75.agc
+# Filename:	P34-35_P74-75.s
 # Purpose:      Part of the source code for Comanche, build 055. It
 #               is part of the source code for the Command Module's
 #               (CM) Apollo Guidance Computer (AGC), Apollo 11.

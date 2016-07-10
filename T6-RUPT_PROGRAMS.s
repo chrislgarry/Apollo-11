@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	T6-RUPT_PROGRAMS.agc
+# Filename:	T6-RUPT_PROGRAMS.s
 # Purpose: 	Part of the source code for Luminary 1A build 099.
 #		It is part of the source code for the Lunar Module's (LM)
 #		Apollo Guidance Computer (AGC), for Apollo 11.

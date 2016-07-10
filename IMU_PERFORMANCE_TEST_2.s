@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	IMU_PERFORMANCE_TEST_2.agc
+# Filename:	IMU_PERFORMANCE_TEST_2.s
 # Purpose: 	Part of the source code for Luminary 1A build 099.
 #		It is part of the source code for the Lunar Module's (LM)
 #		Apollo Guidance Computer (AGC), for Apollo 11.

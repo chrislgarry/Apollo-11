@@ -1,5 +1,5 @@
 # Copyright:    Public domain.
-# Filename:     LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.agc
+# Filename:     LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.s
 # Purpose:      Part of the source code for Comanche, build 055. It
 #               is part of the source code for the Command Module's
 #               (CM) Apollo Guidance Computer (AGC), Apollo 11.

@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	LANDING_ANALOG_DISPLAYS.agc
+# Filename:	LANDING_ANALOG_DISPLAYS.s
 # Purpose:	Part of the source code for Luminary, build 099. It
 #		is part of the source code for the Lunar Module's
 #		(LM) Apollo Guidance Computer (AGC), Apollo 11.

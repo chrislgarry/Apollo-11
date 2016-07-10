@@ -1,5 +1,5 @@
 # Copyright:	Public domain.
-# Filename:	RADAR_LEADIN_ROUTINES.agc
+# Filename:	RADAR_LEADIN_ROUTINES.s
 # Purpose: 	Part of the source code for Luminary 1A build 099.
 #		It is part of the source code for the Lunar Module's (LM)
 #		Apollo Guidance Computer (AGC), for Apollo 11.

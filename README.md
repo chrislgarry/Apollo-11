@@ -6,7 +6,7 @@ Original Apollo 11 guidance computer (AGC) source code, converted from their cus
 ####Attribution
 
      Copyright: Public domain.
-     Filename:  CONTRACT_AND_APPROVALS.agc
+     Filename:  CONTRACT_AND_APPROVALS.s
      Purpose:   Part of the source code for Colossus 2A, AKA Comanche 055.
                 It is part of the source code for the Command Module's (CM)
                 Apollo Guidance Computer (AGC), for Apollo 11.
