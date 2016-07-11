@@ -28,7 +28,7 @@
 #       This AGC program shall also be referred to as Colossus 2A
 #
 #       Prepared by
-#                       Massachussets Institute of Technology
+#                       Massachusetts Institute of Technology
 #                       75 Cambridge Parkway
 #                       Cambridge, Massachusetts
 #
@@ -742,7 +742,7 @@ CSSUN		2DEC	.24148		# (COS 15)/4
 # FUNCTION
 #	THIS PROGRAM READS THE IMU-CDUS AND COMPUTES THE VEHICLE ORIENTATION
 #	WITH RESPECT TO INERTIAL SPACE.  IT THEN COMPUTES THE SHAFT AXIS (SAX)
-#	WITH RESPECT TO REFERENCE INTERTIAL.  EACH STAR IN THE CATALOG IS TESTED
+#	WITH RESPECT TO REFERENCE INERTIAL.  EACH STAR IN THE CATALOG IS TESTED
 # 	TO DETERMINE IF IT IS OCCULTED BY EITHER EARTH, SUN OR MOON.  IF A
 # 	STAR IS NOT OCCULTED THEN IT IS PAIRED WITH ALL STARS OF LOWER INDEX.
 # 	THE PAIRED STAR IS TESTED FOR OCCULTATION.  PAIRS OF STARS THAT PASS

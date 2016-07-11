@@ -19,7 +19,7 @@
 #       This AGC program shall also be referred to as Colossus 2A
 #
 #       Prepared by
-#                       Massachussets Institute of Technology
+#                       Massachusetts Institute of Technology
 #                       75 Cambridge Parkway
 #                       Cambridge, Massachusetts
 #
@@ -617,7 +617,7 @@ NORMLIZE	CAF	THIRTEEN	# SET UP TO COPY 14 REGS: RN1,VN1,PIPTIME1
 PIPASR		EXTEND
 		DCA	TIME2
 		DXCH	PIPTIME1	# CURRENT TIME	POSITIVE VALUE
-		CS	ZERO		# INITIALIZAE THESE AT NEG ZERO.
+		CS	ZERO		# INITIALIZE THESE AT NEG ZERO.
 		TS	TEMX
 		TS	TEMY
 		TS	TEMZ
