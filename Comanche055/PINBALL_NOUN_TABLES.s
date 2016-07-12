@@ -20,7 +20,7 @@
 #	This AGC program shall also be referred to as Colossus 2A
 #
 #	Prepared by
-#			Massachusetts Institute of Technology
+#			Massachussets Institute of Technology
 #			75 Cambridge Parkway
 #			Cambridge, Massachusetts
 #
