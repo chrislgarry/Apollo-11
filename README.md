@@ -1,7 +1,7 @@
 Apollo-11
 =========
 
-Original Apollo 11 guidance computer (AGC) source code, converted from their custom .agc files to .s files for syntax highlighting, for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC](www.ibiblio.org/apollo) and [MIT Museum](http://web.mit.edu/museum/). The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary](http://www.ibiblio.org/apollo/listings/Luminary099/) and [Comanche](http://www.ibiblio.org/apollo/listings/Comanche055/), as well as any files I may have missed.
+Original Apollo 11 guidance computer (AGC) source code, converted from their custom .agc files to .s files for syntax highlighting, for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC](http://www.ibiblio.org/apollo/) and [MIT Museum](http://web.mit.edu/museum/). The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) and [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/), as well as any files I may have missed.
 
 ####Attribution
 
