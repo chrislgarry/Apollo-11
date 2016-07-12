@@ -412,7 +412,7 @@ REDES1		DLOAD	DSU
 # *********************************************************************
 #
 #	RGVGCALC COMPUTATIONS ARE AS FOLLOWS:--
-#	VELOCITY RELATIVE TO THE SURFACE
+#	VELOCITY RELATIVE TO THE SURFACE:
 #		_______   _   _   __
 #		ANGTERM = V + R * WM
 #	STATE IN GUIDANCE COORDINATES:
