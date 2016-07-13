@@ -20,7 +20,7 @@
 #       This AGC program shall also be referred to as Colossus 2A
 #
 #       Prepared by
-#                       Massachussets Institute of Technology
+#                       Massachusetts Institute of Technology
 #                       75 Cambridge Parkway
 #                       Cambridge, Massachusetts
 #
@@ -250,7 +250,7 @@ TRANSP2		CAF	XNB1EB
 #	2.	GENERATE IN MPAC THE SIGNUM FUNCTION OF MPAC:
 #		ENTRY:		RTB
 #					SIGNMPAC
-# IN EITHER CASE, RETURN IS TO TEH NEXT INTERPRETIVE INSTRUCTION IN THE CALLING SEQUENCE.
+# IN EITHER CASE, RETURN IS TO THE NEXT INTERPRETIVE INSTRUCTION IN THE CALLING SEQUENCE.
 
 SIGNMPAC	EXTEND
 		DCA	DPOSMAX

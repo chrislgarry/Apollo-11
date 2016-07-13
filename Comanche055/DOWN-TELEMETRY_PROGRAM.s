@@ -22,7 +22,7 @@
 #       This AGC program shall also be referred to as Colossus 2A
 #
 #       Prepared by
-#                       Massachussets Institute of Technology
+#                       Massachusetts Institute of Technology
 #                       75 Cambridge Parkway
 #                       Cambridge, Massachusetts
 #
@@ -122,7 +122,7 @@
 #		SAME AS ECADR, BUT USED WHEN THE WORD ADDRESSED IS THE LEFT
 #		HALF OF A DOUBLE-PRECISION WORD FOR DOWN TELEMETRY.
 #	B.	2DNADR - 6DNADR		N-WORD DOWNLIST ADDRESS, N = 2 - 6.
-#		SAME AS 1DNADR, BUT WTIH THE 4 UNUSED BITS OF THE ECADR FORMAT
+#		SAME AS 1DNADR, BUT WITH THE 4 UNUSED BITS OF THE ECADR FORMAT
 #		FILLED IN WITH 0001-0101.  USED TO POINT TO A LIST OF N DOUBLE-
 #		PRECISION WORDS, STORED CONSECUTIVELY, FOR DOWN TELEMETRY.
 #	C.	DNCHAN			DOWNLIST CHANNEL ADDRESS.

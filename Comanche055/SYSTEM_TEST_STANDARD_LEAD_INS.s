@@ -18,7 +18,7 @@
 #	This AGC program shall also be referred to as Colossus 2A
 #
 #	Prepared by
-#			Massachussets Institute of Technology
+#			Massachusetts Institute of Technology
 #			75 Cambridge Parkway
 #			Cambridge, Massachusetts
 #
@@ -119,7 +119,7 @@ E/CALL		LXCH	LOC		# ADRES -1 OF CADR.
 		
 		COUNT*	 $$/P07
 		
-E/JOBWAK	TC	JOBWAKE		# ARRIVE IWTH ADRES IN A.
+E/JOBWAK	TC	JOBWAKE		# ARRIVE WITH ADRES IN A.
 		CS	BIT11
 		NDX	LOCCTR
 		ADS	LOC		# KNOCK FIXED MEMORY BIT OUT OF ADRES.

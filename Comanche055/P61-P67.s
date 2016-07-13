@@ -23,7 +23,7 @@
 #       This AGC program shall also be referred to as Colossus 2A
 #
 #       Prepared by
-#                       Massachussets Institute of Technology
+#                       Massachusetts Institute of Technology
 #                       75 Cambridge Parkway
 #                       Cambridge, Massachusetts
 #
@@ -343,7 +343,7 @@ POSECADR	2CADR	CM/POSE
 # MOD BY:	R. HIRSCHKOP
 # MOD NO: 2	MOD BY: RR BAIRNSFATHER		DATE: 8 MAY 68		REVISED COMMENTS FOR COLOSSUS
 # FUNCTION:	1.  TO START ENTRY GUIDANCE AT .05G SELECTING ROLL ATTITUDE, CONSTANT DRAG LEVEL, AND
-#		    DRAG THRESHHOLD, KA, WHICH ARE KEYED TO THE .05G POINT.
+#		    DRAG THRESHOLD, KA, WHICH ARE KEYED TO THE .05G POINT.
 #		2.  SELECT FINAL PHASE P67 IF V < 27000 FPS WHEN .2G OCCURS.
 #		3.  ITERATE FOR UP-CONTROL SOLUTION P65 IF V > 27000 FPS AND IF ALTITUDE RATE AND DRAG
 #		    LEVEL CONDITIONS ARE SATISFIED.  ENTER P65 WHEN CONSTANT DRAG CONTROLLER HAS BROUGHT RANGE

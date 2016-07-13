@@ -19,7 +19,7 @@
 #	2021112-061.  July 14, 1969.  
 #
 #	Prepared by
-#			Massachussets Institute of Technology
+#			Massachusetts Institute of Technology
 #			75 Cambridge Parkway
 #			Cambridge, Massachusetts
 #

@@ -28,7 +28,7 @@
 #       This AGC program shall also be referred to as Colossus 2A
 #
 #       Prepared by
-#                       Massachussets Institute of Technology
+#                       Massachusetts Institute of Technology
 #                       75 Cambridge Parkway
 #                       Cambridge, Massachusetts
 #
@@ -1787,7 +1787,7 @@ S52.2.1		AXC,1	AXC,2
 # TARG1 AND TARG2 FLAGS ARE LOOKED AT TO DETERMINE IF THE TARGET IS THE
 # LEM, STAR, OR LANDMARK.  IN CASE OF LEM OR LMK, THE PRESENT TIME PLUS
 # 2 SECONDS IS SAVED IN AOPTIME (ALIAS STARAD, +1).  IF THE LEM IS 
-# THE TARGET THEN CONIC UPDATES OF TEH CSM AND LEM ARE MADE TO
+# THE TARGET THEN CONIC UPDATES OF THE CSM AND LEM ARE MADE TO
 # THE TIME IN AOPTIME.  THE UNIT OF THE DIFFERENCE OF LEM AND CSM
 # POSITION VECTORS BECOMES THE REFERENCE SIGHTING VECTOR USED IN THE
 # COMMON PART OF THE THIS PROGRAM.

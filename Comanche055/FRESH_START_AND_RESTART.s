@@ -22,7 +22,7 @@
 #	This AGC program shall also be referred to as Colossus 2A
 #
 #	Prepared by
-#			Massachussets Institute of Technology
+#			Massachusetts Institute of Technology
 #			75 Cambridge Parkway
 #			Cambridge, Massachusetts
 #
@@ -130,7 +130,7 @@
 #	B.	ALARMS
 #
 #		1107	PHASE TABLE ERROR
-#		1110	RESTART WTIH NO ACTIVE GROUPS
+#		1110	RESTART WITH NO ACTIVE GROUPS
 
 # Page 183
 		BANK	10
