@@ -18,7 +18,7 @@
 #	This AGC program shall also be referred to as Colossus 2A
 #
 #	Prepared by
-#			Massachussets Institute of Technology
+#			Massachusetts Institute of Technology
 #			75 Cambridge Parkway
 #			Cambridge, Massachusetts
 #
@@ -89,7 +89,7 @@ INCRDCDU	TS	KSPNDX
 		TCF	INCRDCDU	# LOOP FOR THREE AXES
 		
 		RELINT		
-# COMPARE PRESENT TIME WTIH TIME TO TERMINATE MANEUVER
+# COMPARE PRESENT TIME WITH TIME TO TERMINATE MANEUVER
 
 TMANUCHK	TC	TIMECHK
 		TC	POSTJUMP
