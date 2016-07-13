@@ -14,21 +14,21 @@ Original Apollo 11 guidance computer (AGC) source code, converted from their cus
      Contact:   Ron Burkey <info@sandroid.org>.
      Website:   www.ibiblio.org/apollo.
      Mod history:   2009-05-06 RSB  Transcribed from page images.
-    
+
      This source code has been transcribed or otherwise adapted from digitized
      images of a hardcopy from the MIT Museum.  The digitization was performed
      by Paul Fjeld, and arranged for by Deborah Douglas of the Museum.  Many
      thanks to both.  The images (with suitable reduction in storage size and
      consequent reduction in image quality as well) are available online at
      www.ibiblio.org/apollo.  If for some reason you find that the images are
-     illegible, contact me at info@sandroid.org about getting access to the 
+     illegible, contact me at info@sandroid.org about getting access to the
      (much) higher-quality images which Paul actually created.
-    
+
      Notations on the hardcopy document read, in part:
-    
+
         Assemble revision 055 of AGC program Comanche by NASA
         2021113-051.  10:28 APR. 1, 1969  
-    
+
      Page 1
 
     #************************************************************************
