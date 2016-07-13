@@ -19,7 +19,7 @@
 #	This AGC program shall also be referred to as Colossus 2A
 #
 #	Prepared by
-#			Massachussets Institute of Technology
+#			Massachusetts Institute of Technology
 #			75 Cambridge Parkway
 #			Cambridge, Massachusetts
 #
@@ -520,7 +520,7 @@ REJECT3		CAF	LOW9			# DECREMENT POINTER TO REJECT MARK
 		TC	RESUME
 		
 # Page 232
-# PROGRAM DESCRIPTON MKVB51 AND MKVB50
+# PROGRAM DESCRIPTION MKVB51 AND MKVB50
 #
 # AUTHOR: 	BARNERT		DATE: 2-15-67		MOD: 0
 # PURPOSE:	FLASH V51N70,V51N43, OR V51 TO REQUEST MARKING,
