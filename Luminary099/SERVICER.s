@@ -19,7 +19,7 @@
 #	2021112-061.  July 14, 1969.  
 #
 #	Prepared by
-#			Massachussets Institute of Technology
+#			Massachusetts Institute of Technology
 #			75 Cambridge Parkway
 #			Cambridge, Massachusetts
 #
@@ -1067,7 +1067,7 @@ MUNRVG		VLOAD	VXSC
 			R1S
 		VXV	VSL2
 			WM
-		STODL	DELVS		# LUNAR ROTATION CORRECTON TERM*2(5) M/CS.
+		STODL	DELVS		# LUNAR ROTATION CORRECTION TERM*2(5) M/CS.
 			36D
 		DSU
 			/LAND/

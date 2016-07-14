@@ -22,7 +22,7 @@
 #       This AGC program shall also be referred to as Colossus 2A
 #
 #       Prepared by
-#                       Massachussets Institute of Technology
+#                       Massachusetts Institute of Technology
 #                       75 Cambridge Parkway
 #                       Cambridge, Massachusetts
 #
@@ -122,7 +122,7 @@
 #		V33E		VERB 33 TO SIGNAL THAT THE STATE VECTOR IS READY TO BE STORED.
 #
 #	2.  REFSMMAT (ALL DATA ENTRIES IN OCTAL)
-#		ENTRIES		DATA DEFINITITIONS				SCALE FACTORS:
+#		ENTRIES		DATA DEFINITIONS				SCALE FACTORS:
 # Page 1499
 #		V71E		CONTIGUOUS BLOCK UPDATE VERB
 #		   24E		NUMBER OF COMPONENTS FOR REFSMMAT UPDATE
