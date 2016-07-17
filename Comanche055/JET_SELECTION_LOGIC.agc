@@ -177,7 +177,7 @@ PYTABLE		OCT	0		# 0	0		0
 		OCT	2421		# +	+		3
 		OCT	2610		# -	+		3
 		OCT	0146		# 0	-		6
-		OCT	2504		# + -		6
+		OCT	2504		# +     -		6
 		OCT	2442		# -	-		6
 		OCT	0		# 0		A(B)	9
 		OCT	2421		# +		A(B)	9
