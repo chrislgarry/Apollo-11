@@ -25,7 +25,7 @@ If you are interested in compiling the original source code, check out [Virtual 
      該源代碼是通過 MIT Musuem 一個複印本中的圖片所抄錄出來, 並以其他方式進行改編.
      圖片的抄錄是由 Paul Fjeld 所完成, 而由 Museum 的 Deborah Douglas 進行整理.
      因此, 在此衷心感激兩位. 這些圖片 (適當的減少了存儲空間, 以及降低了圖像質量) 已經
-     可以在網站 www.ibiblio.org/apollo 觀看到. 如果你由於部分原因需要合法的圖片, 請
+     可以在網站 www.ibiblio.org/apollo 觀看到. 如果由於部分原因需要合法的圖片, 請
      通過郵箱 info@sandroid.org 聯繫我, 以獲取這些高質量圖片的使用權. 這些圖片實際上
      是屬於 Paul 的.
 
@@ -44,7 +44,7 @@ If you are interested in compiling the original source code, check out [Virtual 
     #               COLOSSUS 2A                                             *
     #                                                                       *
     #                                                                       *
-    #   如 R-577 報告所指出的一樣, 該程序主要用於 CM.                          *
+    #   如 R-577 報告所指出的一樣, 該程序主要用於阿波羅駕駛艙 CM.                          *
     #   此外, 该程序是由 DSR 項目 55-23870 所準備, 並由 (美國)                 *
     #   國家航空與航天局的載人航天中心通過合同 NAS 9-4065 所資助.               *
     #   該合同是由美國實驗儀器公司, 麻省理工學院及劍橋馬斯共同簽定.              *
