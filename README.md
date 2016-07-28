@@ -44,13 +44,10 @@ If you are interested in compiling the original source code, check out [Virtual 
     #               COLOSSUS 2A                                             *
     #                                                                       *
     #                                                                       *
-    #   THIS PROGRAM IS INTENDED FOR USE IN THE CM AS SPECIFIED             *
-    #   IN REPORT R-577.  THIS PROGRAM WAS PREPARED UNDER DSR               *
-    #   PROJECT 55-23870, SPONSORED BY THE MANNED SPACECRAFT                *
-    #   CENTER OF THE NATIONAL AERONAUTICS AND SPACE                        *
-    #   ADMINISTRATION THROUGH CONTRACT NAS 9-4065 WITH THE                 *
-    #   INSTRUMENTATION LABORATORY, MASSACHUSETTS INSTITUTE OF              *
-    #   TECHNOLOGY, CAMBRIDGE, MASS.                                        *
+    #   如 R-577 報告所指出的一樣, 該程序主要用於 CM.                          *
+    #   此外, 该程序是由 DSR 項目 55-23870 所準備, 並由 (美國)                 *
+    #   國家航空與航天局的載人航天中心通過合同 NAS 9-4065 所資助.               *
+    #   該合同是由美國實驗儀器公司, 麻省理工學院, 劍橋馬斯共同簽定.              *
     #                                                                       *
     #************************************************************************
 
