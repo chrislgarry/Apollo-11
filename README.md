@@ -13,10 +13,10 @@ If you are interested in compiling the original source code, check out [Virtual 
 
 ## Attribution 權限
 
-     版權: 公眾所有.
+     版權:    公眾所有.
      文件名:  CONTRACT_AND_APPROVALS.agc
-     目的:   Colossus 2A, AKA Comanche 055 中的部分源碼
-                It is part of the source code for the Command Module's (CM)
+     目的:    開放 Colossus 2A, AKA Comanche 055 中的部分源碼
+             這是命令模塊 (CM) 的部分源碼
                 Apollo Guidance Computer (AGC), for Apollo 11.
      Assembler: yaYUL
      Contact:   Ron Burkey <info@sandroid.org>.
