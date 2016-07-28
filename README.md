@@ -38,7 +38,7 @@ If you are interested in compiling the original source code, check out [Virtual 
 
     #************************************************************************
     #                                                                       *
-    #       該 AGC 程序可能也會被稱作                                         *
+    #           該 AGC 程序可能也會被稱作                                     *
     #                                                                       *
     #                                                                       *
     #               COLOSSUS 2A                                             *
