@@ -24,9 +24,9 @@ If you are interested in compiling the original source code, check out [Virtual 
 
      該源代碼是通過數位化 MIT Musum 一個複印本中的圖片所轉錄出來, 並以其他方式所改編.
      圖片的數位化是由 Paul Fjeld 所完成, 而由 Museum 的 Deborah Douglas 進行整理.
-     因此, 在此感激兩位. 這些圖片 (適當的減少了存儲空間, 以及降低了圖像質量) 已經可以
-     在網站 www.ibiblio.org/apollo 觀看到. 如果你由於部分原因需要合法的圖片, 請聯繫我的郵箱
-     info@sandroid.org 去獲取這些高質量圖片的使用權. 這些圖片其實是有 Paul 所創作的.
+     因此, 在此衷心感激兩位. 這些圖片 (適當的減少了存儲空間, 以及降低了圖像質量) 已經
+     可以在網站 www.ibiblio.org/apollo 觀看到. 如果你由於部分原因需要合法的圖片, 請聯繫
+     我的郵箱 info@sandroid.org 去獲取這些高質量圖片的使用權. 這些圖片其實是有 Paul 所創作的.
 
      在這份複印本中, 我們可以看到其中這樣的一段注釋:
 
