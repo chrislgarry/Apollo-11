@@ -44,7 +44,7 @@ If you are interested in compiling the original source code, check out [Virtual 
     #               COLOSSUS 2A                                             *
     #                                                                       *
     #                                                                       *
-    #   如 R-577 報告所指出的一樣, 該程序主要用於阿波羅駕駛艙 CM.                          *
+    #   如 R-577 報告所指出的一樣, 該程序主要用於阿波羅駕駛艙 CM.               *
     #   此外, 该程序是由 DSR 項目 55-23870 所準備, 並由 (美國)                 *
     #   國家航空與航天局的載人航天中心通過合同 NAS 9-4065 所資助.               *
     #   該合同是由美國實驗儀器公司, 麻省理工學院及劍橋馬斯共同簽定.              *
