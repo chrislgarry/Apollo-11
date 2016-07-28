@@ -47,38 +47,38 @@ If you are interested in compiling the original source code, check out [Virtual 
     #   如 R-577 報告所指出的一樣, 該程序主要用於 CM.                          *
     #   此外, 该程序是由 DSR 項目 55-23870 所準備, 並由 (美國)                 *
     #   國家航空與航天局的載人航天中心通過合同 NAS 9-4065 所資助.               *
-    #   該合同是由美國實驗儀器公司, 麻省理工學院, 劍橋馬斯共同簽定.              *
+    #   該合同是由美國實驗儀器公司, 麻省理工學院及劍橋馬斯共同簽定.              *
     #                                                                       *
     #************************************************************************
 
 
-    SUBMITTED:  MARGARET H. HAMILTON        DATE:   28 MAR 69
-        M.H.HAMILTON, COLOSSUS PROGRAMMING LEADER
-        APOLLO GUIDANCE AND NAVIGATION
+    提交者:  MARGARET H. HAMILTON        日期:   1969年3月28日
+        M.H.HAMILTON, COLOSSUS 編程負責人
+        阿波羅的指導及導航功能
 
-    APPROVED:   DANIEL J. LICKLY        DATE:   28 MAR 69
-        D.J.LICKLY, DIRECTOR, MISSION PROGRAM DEVELOPMENT
-        APOLLO GUIDANCE AND NAVIGATION PROGRAM
+    核准人:   DANIEL J. LICKLY           日期:   1969年3月28日
+        D.J.LICKLY, 負責人, 任務程序開發
+        阿波羅的指導及導航功能程序
 
-    APPROVED:   FRED H. MARTIN          DATE:   28 MAR 69
-        FRED H. MARTIN, COLOSSUS PROJECT MANAGER
-        APOLLO GUIDANCE AND NAVIGATION PROGRAM
+    核准人:   FRED H. MARTIN             日期:   1969年3月28日
+        FRED H. MARTIN, COLOSSUS 產品經理
+        阿波羅的指導及導航功能程序
 
-    APPROVED:   NORMAN E. SEARS         DATE:   28 MAR 69
-        N.E. SEARS, DIRECTOR, MISSION DEVELOPMENT
-        APOLLO GUIDANCE AND NAVIGATION PROGRAM
+    核准人:   NORMAN E. SEARS            日期:   1969年3月28日
+        N.E. SEARS, 負責人, 任務開發
+        阿波羅的指導及導航功能程序
 
-    APPROVED:   RICHARD H. BATTIN       DATE:   28 MAR 69
-        R.H. BATTIN, DIRECTOR, MISSION DEVELOPMENT
-        APOLLO GUIDANCE AND NAVIGATION PROGRAM
+    核准人:   RICHARD H. BATTIN          日期:   1969年3月28日
+        R.H. BATTIN, 負責人, 任務開發
+        阿波羅的指導及導航功能程序
 
-    APPROVED:   DAVID G. HOAG           DATE:   28 MAR 69
-        D.G. HOAG, DIRECTOR
-        APOLLO GUIDANCE AND NAVIGATION PROGRAM
+    核准人:   DAVID G. HOAG              日期:   1969年3月28日
+        D.G. HOAG, 負責人
+        阿波羅的指導及導航功能程序
 
-    APPROVED:   RALPH R. RAGAN          DATE:   28 MAR 69
-        R.R. RAGAN, DEPUTY DIRECTOR
-        INSTRUMENTATION LABORATORY
+    核准人:   RALPH R. RAGAN             日期:   1969年3月28日
+        R.R. RAGAN, 副負責人
+        美國實驗儀器公司
 
 <br />    
 
