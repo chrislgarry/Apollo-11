@@ -1,13 +1,13 @@
 Apollo-11 阿波羅11號
 =========
 
-起初阿波羅11號的指引計算機 (AGC) 源代碼. 其包含有該計算機的命令模塊 (Comanche055) 及登月艙模塊 (Luminary099), 並由身處 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的各位人員進行數位化. 目的在於, 把此當作為存放阿波羅11號源代碼的一個項目. 正因如此, 若你在項目轉錄或為 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 所進行的源代碼查看期間, 遇到了任何明顯的問題, 我們都歡迎你能為之提起一個 PR. 當然, 也包括那些我可能會以往的文件.
+起初阿波羅11號的指引計算機 (AGC) 源代碼. 其包含有該計算機的命令模塊 (Comanche055) 及登月艙模塊 (Luminary099). 它是由身處 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的各位人員所抄錄出來的. 目的在於建立一個項目, 用於存放阿波羅11號的源代碼. 正因如此, 若你在項目抄錄或為 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 所進行的源代碼查看過程中, 遇到了任何問題, 我們都歡迎你能為之提起一個 PR. 當然, 也包括那些我可能會遺忘的文件.
 
 Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC](http://www.ibiblio.org/apollo/) and [MIT Museum](http://web.mit.edu/museum/). The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) and [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/), as well as any files I may have missed.
 
 ## Compilation 編撰
 
-如果對編纂該源代碼有興趣, 你可以查閱一下 [Virtual AGC](https://github.com/rburkey2005/virtualagc) 的文檔.
+如果對編撰該源碼有興趣的話, 可以查閱一下 [Virtual AGC](https://github.com/rburkey2005/virtualagc) 的文檔.
 
 If you are interested in compiling the original source code, check out [Virtual AGC](https://github.com/rburkey2005/virtualagc).
 
@@ -20,13 +20,14 @@ If you are interested in compiling the original source code, check out [Virtual 
      彙編器:  yaYUL
      聯繫人:  Ron Burkey <info@sandroid.org>.
      網站:    www.ibiblio.org/apollo.
-     模塊歷史記錄:   2009-05-06 RSB  從頁面的圖片轉錄出來
+     模塊歷史記錄:   2009-05-06 RSB  從頁面的圖片抄錄出來
 
-     該源代碼是通過數位化 MIT Musum 一個複印本中的圖片所轉錄出來, 並以其他方式所改編.
-     圖片的數位化是由 Paul Fjeld 所完成, 而由 Museum 的 Deborah Douglas 進行整理.
+     該源代碼是通過 MIT Musuem 一個複印本中的圖片所抄錄出來, 並以其他方式進行改編.
+     圖片的抄錄是由 Paul Fjeld 所完成, 而由 Museum 的 Deborah Douglas 進行整理.
      因此, 在此衷心感激兩位. 這些圖片 (適當的減少了存儲空間, 以及降低了圖像質量) 已經
-     可以在網站 www.ibiblio.org/apollo 觀看到. 如果你由於部分原因需要合法的圖片, 請通過
-     郵箱 info@sandroid.org 聯繫我, 以獲取這些高質量圖片的使用權. 這些圖片其實是有 Paul 所創作的.
+     可以在網站 www.ibiblio.org/apollo 觀看到. 如果你由於部分原因需要合法的圖片, 請
+     通過郵箱 info@sandroid.org 聯繫我, 以獲取這些高質量圖片的使用權. 這些圖片實際上
+     是屬於 Paul 的.
 
      在這份複印本中, 我們可以看到其中這樣的一段注釋:
 
