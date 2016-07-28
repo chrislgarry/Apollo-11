@@ -1,7 +1,7 @@
 Apollo-11 阿波羅11號
 =========
 
-這是阿波羅11號指引計算機 (AGC) 用於駕駛艙 (Comanche055) 和登月艙 (Luminary099) 的初始源代碼. 其是由身處 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的各位工作人員所抄錄出來. 目的在於建立一個項目, 用於存放阿波羅11號的源代碼. 正因如此, 若你在項目抄錄或為 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 所進行的源代碼查看過程中, 遇到了任何問題, 我們都歡迎你能為之提起一個 PR. 當然, 也包括那些我可能會遺忘的文件.
+這是阿波羅11號指引計算機 (AGC) 用於駕駛艙 (Comanche055) 和登月艙 (Luminary099) 的初始源代碼. 其是由身處 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的各位工作人員所抄錄出來. 目的在於建立一個項目, 用於存放阿波羅11號的源代碼. 正因如此, 若你在項目抄錄或在查看 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 源代碼的過程中, 的確遇到了問題的話, 我們歡迎你能為之提起一個 PR. 當然, 也包括那些我可能會遺忘的文件.
 
 Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC](http://www.ibiblio.org/apollo/) and [MIT Museum](http://web.mit.edu/museum/). The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) and [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/), as well as any files I may have missed.
 
