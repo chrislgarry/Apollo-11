@@ -16,27 +16,24 @@ If you are interested in compiling the original source code, check out [Virtual 
      版權:    公眾所有.
      文件名:  CONTRACT_AND_APPROVALS.
      目的:    開放 Colossus 2A, AKA Comanche 055 中的部分源碼.
-              開放阿波羅11號指引計算機中命令模塊(CM) 的部分源碼.
-     Assembler: yaYUL
-     Contact:   Ron Burkey <info@sandroid.org>.
-     Website:   www.ibiblio.org/apollo.
-     Mod history:   2009-05-06 RSB  Transcribed from page images.
+              開放阿波羅11號指引計算機中命令模塊 (CM) 的部分源碼.
+     彙編器:  yaYUL
+     聯繫人:  Ron Burkey <info@sandroid.org>.
+     網站:    www.ibiblio.org/apollo.
+     模塊歷史記錄:   2009-05-06 RSB  從頁面的圖片轉錄出來
 
-     This source code has been transcribed or otherwise adapted from digitized
-     images of a hardcopy from the MIT Museum.  The digitization was performed
-     by Paul Fjeld, and arranged for by Deborah Douglas of the Museum.  Many
-     thanks to both.  The images (with suitable reduction in storage size and
-     consequent reduction in image quality as well) are available online at
-     www.ibiblio.org/apollo.  If for some reason you find that the images are
-     illegible, contact me at info@sandroid.org about getting access to the
-     (much) higher-quality images which Paul actually created.
+     該源代碼是通過數位化 MIT Musum 一個複印本中的圖片所轉錄出來, 並以其他方式所改編.
+     圖片的數位化是由 Paul Fjeld 所完成, 而由 Museum 的 Deborah Douglas 進行整理.
+     因此, 在此感激兩位. 這些圖片 (適當的減少了存儲空間, 以及降低了圖像質量) 已經可以
+     在網站 www.ibiblio.org/apollo 觀看到. 如果你由於部分原因需要合法的圖片, 請聯繫我的郵箱
+     info@sandroid.org 去獲取這些高質量圖片的使用權. 這些圖片其實是有 Paul 所創作的.
 
-     Notations on the hardcopy document read, in part:
+     在這份複印本中, 我們可以看到其中這樣的一段注釋:
 
-        Assemble revision 055 of AGC program Comanche by NASA
-        2021113-051.  10:28 APR. 1, 1969  
+        由 NASA 的 Comanche 所編寫的 AGC 彙編修訂版 055
+        2021113-051.  10:28 1969年8月1日
 
-     Page 1
+     第一頁
 
     #************************************************************************
     #                                                                       *
