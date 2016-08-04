@@ -26,10 +26,10 @@
 
 # *************************************************************************
 # *									  *
-# *	     THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:		  *
+# *	      THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:		  *
 # *									  *
 # *									  *
-# *		            COLOSSUS 2A				          *
+# *		             COLOSSUS 2A				  *
 # *									  *
 # *									  *
 # *	    THIS PROGRAM IS INTENDED FOR USE IN THE CM AS SPECIFIED	  *
