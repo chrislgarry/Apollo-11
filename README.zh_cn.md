@@ -1,7 +1,7 @@
 阿波罗11号
 =========
 
-这是阿波罗11号指引计算机（AGC）用于驾驶舱（Comanche055）和登月舱（Luminary099）的初始源代码。其是由身处 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的各位工作人员所抄录出来。目的在于建立一个项目，用于存放阿波罗11号的源代码。正因如此，若你在项目抄录或在查看 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 这两部分源代码的过程中，的确遇到了问题的话，我们欢迎你能为之提起一个 PR。当然，也包括那些我可能会遗忘的文件。
+这是起初，阿波罗11号指引计算机（AGC）用于驾驶舱（Comanche055）和登月舱（Luminary099）的源代码。其是由身处 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的各位工作人员所抄录出来，目的在于建立一个用于存放阿波罗11号源码的项目。正因如此，若你在项目抄录或在查看 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 这两部分源代码的过程中，明确地遇到了问题的话，我们欢迎你能为之提起一个 PR。当然，也包括那些我可能会遗忘的文件。
 
 ## 编译
 
@@ -19,10 +19,10 @@
      模块历史纪录：   2009-05-06 RSB  从页面的图片抄录出来
 
      该源代码是通过 MIT Musuem 一个复印本中的图片所抄录出来，并以其他方式进行改编。
-     图片的抄录是由 Paul Fjeld 所完成，而由 Museum 的 Deborah Douglas 进行整理。
+     图片的抄录是由 Paul Fjeld 所完成，而整理则由 Museum 的 Deborah Douglas 所进行。
      因此，在此衷心感激两位。这些图片（适当地减少了存储空间，以及降低了图像质量）已经
-     可以在网站 www.ibiblio.org/apollo 观看到。如果由于部分原因需要合法的图片，请
-     通过邮箱 info@sandroid.org 联系我，以获取这些高质量图片的使用权。这些图片实际上
+     可以在网站 www.ibiblio.org/apollo 上进行观看。如果由于部分原因需要到图片的合法使用，请
+     通过邮箱 info@sandroid.org 联系我，以获取这些高质量图片的使用权。其实，这些图片实际上
      是属于 Paul 的.
 
      在这份复印本中，我们可以看到其中这样的一段注释：
