@@ -1,7 +1,7 @@
 阿波罗11号
 =========
 
-*Also available in other languages: [English](README.md), [简体中文](README.zh_cn.md), [正體中文](README.zh_tw.md).*
+*Also available in: [English](README.md), [简体中文](README.zh_cn.md), [正體中文](README.zh_tw.md).*
 
 这是起初，阿波罗11号指引计算机（AGC）用于驾驶舱（Comanche055）和登月舱（Luminary099）的源代码。其是由身处 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的各位工作人员所抄录出来，目的在于建立一个用于存放阿波罗11号源码的项目。正因如此，若你在项目抄录或在查看 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 这两部分源代码的过程中，明确地遇到了问题的话，我们欢迎你能为之提起一个 PR。当然，也包括那些我可能会遗忘的文件。
 
