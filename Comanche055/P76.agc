@@ -159,4 +159,4 @@ P76SUB1		CLEAR   SLOAD
                         +2              #   =2.....SET MOONFLAG
                         MOONFLAG
                 RVQ 
-                
+
