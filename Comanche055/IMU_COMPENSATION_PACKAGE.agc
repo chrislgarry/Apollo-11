@@ -334,7 +334,7 @@ NBD3		EXTEND			# C(A) = DELTAT		(CS) X 2(+14)
 		TCF	1/GYRO		# YES
 		TCF	ENDOFJOB	# NO
 
-# Page 303
+# Page 306
 FBIASSUB	XCH	Q
 		TS	BUF +1
 		
