@@ -14,6 +14,7 @@
 #				STATSW -> SATSW.
 #		2009-05-23 RSB	At end of RESCALES, corrected TC 0 to TC Q.
 #				Added an SBANK= prior to a 2CADR.
+#		2010-08-24 JL	Fixed page numbers. Added missing comment character on p537.
 #
 # This source code has been transcribed or otherwise adapted from digitized
 # images of a hardcopy from the MIT Museum.  The digitization was performed
@@ -250,18 +251,18 @@ REP11A		INHINT
 		CADR	PROUT		# RETURN FROM EARTHR
 			EARTHR	+3
 MATRXJOB	ZL	                # STORE DP GIMBAL ANGLES FOR ATTITUDE
-                CA      CDUX            #       ERROR DISPLAY AFTER LIFTOFF
-                DXCH    OGC
-                ZL      
-                CA      CDUY
-                DXCH    IGC     
-                ZL
-                CA      CDUZ
-                DXCH    MGC
-                TC      INTPRET                 _
-                VLOAD   VSR1            # SCALE OGC B-1
-                        OGC
-                STORE   OGC
+		CA      CDUX            #       ERROR DISPLAY AFTER LIFTOFF
+		DXCH    OGC
+		ZL      
+		CA      CDUY
+		DXCH    IGC     
+		ZL
+		CA      CDUZ
+		DXCH    MGC
+                TC      INTPRET         #       _
+		VLOAD   VSR1            # SCALE OGC B-1
+			OGC
+		STORE   OGC
 		SSP			# ZERO RTX2
 			RTX2		# FOR
 			0		# EARTH
@@ -427,10 +428,10 @@ ATERTASK	CAF	PRIO1		# ESTABLISH JOB TO DISPLAY ATT ERRORS
 		TS      SATSW           # FOR DISPLAY
 		TC	TASKOVER
 GETDOWN         STQ     SETPD
-                        INCORPEX
-                        0D
-                DLOAD
-                        HI6ZEROS
+			INCORPEX
+			0D
+		DLOAD
+			HI6ZEROS
 # Page 541
 		STODL   6D
 		        DPHALF
@@ -654,20 +655,20 @@ ATTDISP2	STODL	16D		# 16D, .5(DPHI + DTHETA*SIN(CDUZ))
 		TC      SATOUT          # POS -- DISPLAY ONLY
 		TC      AKLOAD          # 0      STORE BIAS
 STEERSAT        TC      INTPRET         # NEG    STEER L/V
-                TLOAD   TAD
-                        BIASAK
-                        AK
-                STORE   AK              # AKS = AKS - STORED BIAS
-                EXIT
-                CA      AK
-                TC      RESCALES
-                TS      AK
-                CA      AK1
-                TC      RESCALES
-                TS      AK1
-                CA      AK2
-                TC      RESCALES
-                TS      AK2
+		TLOAD   TAD
+			BIASAK
+			AK
+		STORE   AK              # AKS = AKS - STORED BIAS
+		EXIT
+		CA      AK
+		TC      RESCALES
+		TS      AK
+		CA      AK1
+		TC      RESCALES
+		TS      AK1
+		CA      AK2
+		TC      RESCALES
+		TS      AK2
 #	DISPLAY ATTITUDE ERRORS ON FDAI VIA NEEDLER
 
 SATOUT		TC	BANKCALL
@@ -678,41 +679,41 @@ ATERSET		CAF	OCT31		# DELAY .25 SEC
 		TC	ATERJOB		# END OF ATT ERROR DISPLAY CYCLE
 
 AKLOAD          CS      AK              # STORE AKS
-                TS      BIASAK          # INTO BIAS
-                CS      AK1             # COMPLEMENTED
-                TS      BIASAK +1
+		TS      BIASAK          # INTO BIAS
+		CS      AK1             # COMPLEMENTED
+		TS      BIASAK +1
 # Page 546
-                CS      AK2
-                TS      BIASAK +2
-                CS      BIT1            # SET SW
-                TS      SATSW           # TO STEER
-                TC      STEERSAT        # GO STEER
-STRSAT          CA      SATSW           # CHECK IF NEDLER
-                EXTEND                  # HAS BEEN INITIALIZED
-                BZMF    ATTDISP         # YES -- CONTINUE
-ATRESET         CS      RCSFLAGS        # NO -- SET
-                MASK    BIT3            # INITIALIZATION SW
-                ADS     RCSFLAGS        # FOR NEDLER
-                TC      BANKCALL        # AND GO
-                CADR    NEEDLER         # DO IT
-                CAF     REVCNT          # OCT 6
-                TC      BANKCALL        # DELAY JOB
-                CADR    DELAYJOB        # 60 MS --WAIT TILL IMUERRCNTR ZEROED
-                CCS     SATSW          	# CHECK SW STATUS
-                TC      TAKEON          # POS   STEER INIT.
-                TC      +1              # 0     RETURN TO DISPLAY
-                CA      BIT1            # NEG   RETURN TO DISPLAY
-                TS      SATSW           # SW = DISPLAY ON
-                CS      BIT9            # DISABLE
-                EXTEND                  # SIVB
-                WAND    CHAN12          # TAKEOVER
-                TC      SATOUT          # DISPLAY
+		CS      AK2
+		TS      BIASAK +2
+		CS      BIT1            # SET SW
+		TS      SATSW           # TO STEER
+		TC      STEERSAT        # GO STEER
+STRSAT		CA      SATSW           # CHECK IF NEDLER
+		EXTEND                  # HAS BEEN INITIALIZED
+		BZMF    ATTDISP         # YES -- CONTINUE
+ATRESET		CS      RCSFLAGS        # NO -- SET
+		MASK    BIT3            # INITIALIZATION SW
+		ADS     RCSFLAGS        # FOR NEDLER
+		TC      BANKCALL        # AND GO
+		CADR    NEEDLER         # DO IT
+		CAF     REVCNT          # OCT 6
+		TC      BANKCALL        # DELAY JOB
+		CADR    DELAYJOB        # 60 MS --WAIT TILL IMUERRCNTR ZEROED
+		CCS     SATSW          	# CHECK SW STATUS
+		TC      TAKEON          # POS   STEER INIT.
+		TC      +1              # 0     RETURN TO DISPLAY
+		CA      BIT1            # NEG   RETURN TO DISPLAY
+		TS      SATSW           # SW = DISPLAY ON
+		CS      BIT9            # DISABLE
+		EXTEND                  # SIVB
+		WAND    CHAN12          # TAKEOVER
+		TC      SATOUT          # DISPLAY
 TAKEON          CAF     BIT9            # ENABLE
-                EXTEND                  # SIVB
-                WOR     CHAN12          # TAKEOVER
-                CA      ZERO            # INDICATE NEEDLER
-                TS      SATSW           # WAS INITIALIZED
-                TC      SATOUT		
+		EXTEND                  # SIVB
+		WOR     CHAN12          # TAKEOVER
+		CA      ZERO            # INDICATE NEEDLER
+		TS      SATSW           # WAS INITIALIZED
+		TC      SATOUT		
 S11.1		VLOAD	ABVAL
 			VN
 		STOVL	VMAGI		# VI	SCALED 2(7) IN METERS/CSEC
@@ -764,10 +765,10 @@ NOPOLY		TC	INTPRET		# COMES HERE IF
 COEFPOLY	ADRES	POLYLOC
 V06N62		VN	0662
 RESCALES        EXTEND                  # RESCALE AK S FOR
-                MP      SATSCALE        # NEW HARDWARE
-                DDOUBL                  # SCALING FOR
-                DDOUBL                  # STEERING
-                TC      Q               # SATURN
+		MP      SATSCALE        # NEW HARDWARE
+		DDOUBL                  # SCALING FOR
+		DDOUBL                  # STEERING
+		TC      Q               # SATURN
 
 # SATURN TAKEOVER FUNCTION
 # ************************
@@ -862,7 +863,7 @@ SATSTKON	EXTEND
 2REDOSAT	2CADR	REDOSAT
 
 
-                SBANK=  LOWSUPER
+		SBANK=  LOWSUPER
 		BANK	32
 		SETLOC	P11FOUR
 		BANK
