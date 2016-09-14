@@ -51,6 +51,7 @@ AHFNOROT	EXTEND
 		EXTEND
 		BZMF	HOLDFUNC
 
+
 AUTOCONT	CA	HOLDFLAG	# IF HOLDFLAG IS +, GO TO GRABANG.
 		EXTEND			# OTHERWISE, GO TO ATTHOLD.
 		BZMF	ATTHOLD
@@ -70,10 +71,10 @@ FREECONT	CAF	ONE
 		LXCH	CHANTEMP
 		TC	STICKCHK
 		INDEX	RMANNDX
-		CA	MINTAU		# MINTAU	+0
-		TS	TAU		#		+1	+14MS MINIMUM IMPULSE
-		INDEX	PMANNDX		#		+2	-14MS TIME
-		CA	MINTAU		#		+3	+0
+		CA	MINTAU		# MINTAU  +0
+		TS	TAU		#	      +1   +14MS MINIMUM IMPULSE
+		INDEX	PMANNDX		#	      +2   -14MS TIME
+		CA	MINTAU		#	      +3   +0
 		TS	TAU1
 		INDEX	YMANNDX
 		CA	MINTAU
@@ -85,22 +86,22 @@ MINTAU		DEC	0
 		DEC	23		# = 14MS
 		DEC	-23		# = -14MS
 		DEC	0
-
 # Page 1027
-# CALCULATION OF ATTITUDE ERRORS-
-#	-    *     -      -          -
-#	AK = AMGB (CDUX - THETADX) + BIAS
+# 	CALCULATION OF ATTITUDE ERRORS-
+#	   -    *     -      -          -
+#	   AK = AMGB (CDUX - THETADX) + BIAS
+# IE	   *AK *   * 1   SIN(PSI)            0	   ** CDUX - THETADX *    *BIAS *
+#	   *   *   *                               **                *    *     *
+#	   *AK1* = * 0   COS(PSI)COS(PHI)  SIN(PHI)** CDUY - THETADY *  + *BIAS1*
+#	   *   *   *                               **                *    *     *
+#	   *AK2*   * 0  -COS(PSI)SIN(PHI)  COS(PHI)** CDUZ - THETADZ *    *BIAS2*
 #
-# IE	*AK *   * 1   SIN(PSI)        	  0	** CDUX - THETADX *    *BIAS *
-#	*   *   *                               **                *    *     *
-#	*AK1* = * 0   COS(PSI)COS(PHI)  SIN(PHI)** CDUY - THETADY *  + *BIAS1*
-#	*   *   *                               **                *    *     *
-#	*AK2*   * 0  -COS(PSI)SIN(PHI)  COS(PHI)** CDUZ - THETADZ *    *BIAS2*
 #
 # 	THE BIASES ARE ADDED ONLY WHILE PERFORMING AUTOMATIC MANEUVERS (ESP KALCMANU) TO PROVIDE ADDITIONAL LEAD
 # AND PREVENT OVERSHOOT WHEN STARTING AN AUTOMATIC MANEUVER. NORMALLY THE REQUIRED LEAD IS ONLY 1-2 DEGREES.
 # BUT DURING HIGH RATE MANEUVERS IT CAN BE AS MUCH AS 7 DEGREES.  THE BIASES ARE COMPUTED BY KALCMANU AND REMAIN
 # FIXED UNTIL THE MANEUVER IS COMPLETED AT WHICH TIME THEY ARE RESET TO ZERO.
+
 
 ATTHOLD		CA	CDUX
 		EXTEND
@@ -144,6 +145,7 @@ ATTHOLD		CA	CDUX
 		ADS	ERRORZ
 		TCF	JETS
 
+
 HOLDFUNC	CCS	HOLDFLAG
 		TCF	+3
 		TCF	ATTHOLD
@@ -176,7 +178,6 @@ ENDDAMP		TS	HOLDFLAG	# SET HOLDFLAG +0
 		CA	CDUZ
 		TS	THETADZ
 		TCF	ATTHOLD
-
 # Page 1029
 # JET SWITCHING LOGIC AND CALCULATION OF REQUIRED ROTATION COMMANDS
 #
@@ -189,12 +190,12 @@ ENDDAMP		TS	HOLDFLAG	# SET HOLDFLAG +0
 #                                     .
 #   R22                          RATE . ERROR
 #        WL+H                         .
-# *********************************   .					***** SWITCH LINES ENCLOSING DEADZONES
+# *********************************   .					  ***** SWITCH LINES ENCLOSING DEADZONES
 #   R23  WL                        *  .
-# ----------------------------------* .					----- DESIRED RATE LINES
+# ----------------------------------* .					  ----- DESIRED RATE LINES
 #   R23  WL-H       -                *.
-# ****************** -                .					R20, R21, R22, ETC REGIONS IN PHASE
-#                   * -               .* R18      R20       R21		PLANE FOF COMPUTING DESIRED RESPONSE
+# ****************** -                .					  R20, R21, R22, ETC REGIONS IN PHASE
+#                   * -               .* R18      R20       R21		  PLANE FOF COMPUTING DESIRED RESPONSE
 #                    *                . *
 #                     *-              .  *
 #   R22             R24*-    R23      .   *
@@ -217,7 +218,8 @@ ENDDAMP		TS	HOLDFLAG	# SET HOLDFLAG +0
 #                                     .
 #
 #			FIG. 1	PHASE PLANE SWITCHING LOGIC
-#
+
+
 # CONSTANTS FOR JET SWITCHING LOGIC
 
 WLH/SLOP	DEC	.00463		# = WL+H/SLOPE = .83333 DEG	$180
@@ -486,9 +488,7 @@ DOJET		INDEX	SPNDX
 		CCS	SPNDX
 		TCF	JLOOP
 		TCF	T6PROG
-
 # Page 1036
-
 ZEROCMDS	CAF	ZERO
 		TS	TAU
 		TS	TAU1
