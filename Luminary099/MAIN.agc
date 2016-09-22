@@ -67,8 +67,7 @@
 # referenced to page numbers) created by GAP, but not duplicated by yaYUL, so it's
 # still valuable even if the source-files listed below are at hand.
 
-$CONTRACT_AND_APPROVALS.agc			# p. 1
-$ASSEMBLY_AND_OPERATION_INFORMATION.agc		# pp. 2-27
+$ASSEMBLY_AND_OPERATION_INFORMATION.agc		# pp. 1-27
 $TAGS_FOR_RELATIVE_SETLOC.agc			# pp. 28-37
 $CONTROLLED_CONSTANTS.agc			# pp. 38-53
 $INPUT_OUTPUT_CHANNEL_BIT_DESCRIPTIONS.agc	# pp. 54-60
