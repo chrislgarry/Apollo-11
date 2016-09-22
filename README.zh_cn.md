@@ -26,9 +26,9 @@
      可以在 www.ibiblio.org/apollo 在线查看。如果你发现图片太过模糊，请
      通过邮箱 info@sandroid.org 联系我，了解如何获取 Paul 原版的（更）高质量图片。
 
-     此印刷本中一段注释的部分，见下文：
+     此印刷本中一段注释的部分内容：
 
-        NASA AGC 程序 Comanche by NASA 汇编修订版 055
+        NASA AGC program Comanche 汇编修订版 055
         2021113-051.  1969年4月1日 10时28分
 
      第一页
