@@ -16,13 +16,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -38,11 +38,11 @@ POSMAX		OCT	37777
 
 LIMITS		=	NEG1/2
 
-NEG1/2		OCT	-20000		# USED BY SIN ROUTINE (MUST BE TWO 
+NEG1/2		OCT	-20000		# USED BY SIN ROUTINE (MUST BE TWO
 					# LOCATIONS IN FRONT OF BIT14)
-					
-# BIT TABLE					
-					
+
+# BIT TABLE
+
 BIT15		OCT	40000
 BIT14		OCT	20000
 BIT13		OCT	10000
@@ -160,7 +160,7 @@ OCT17770	OCT	17770
 PRIO21		OCT	21000
 		BLOCK	03
 		COUNT	03/FCONS
-		
+
 PRIO22		OCT	22000		# SERVICE ROUTINES
 PRIO23		OCT	23000
 PRIO24		OCT	24000
@@ -176,7 +176,7 @@ C1/2		DEC	.7853134	#			(OCTAL 31103)
 PRIO32		OCT	32000
 PRIO33		OCT	33000
 PRIO34		OCT	34000
-#		OCT	34034		# T4RUPT	RELTAB +6D		
+#		OCT	34034		# T4RUPT	RELTAB +6D
 PRIO35		OCT	35000
 PRIO36		OCT	36000
 # Page 1203

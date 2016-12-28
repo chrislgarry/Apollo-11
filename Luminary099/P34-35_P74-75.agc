@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	658-702
-# Mod history:	2009-05-19 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-19 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-05 RSB	Corrected a typo.
 #		2011-01-06 JL	Fixed pseudo-label indentation.
@@ -28,7 +28,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 658
 # TRANSFER PHASE INITITIATION (TPI) PROGRAMS (P34 AND P74)
@@ -1664,7 +1664,7 @@ SHIFTR1		LXA,2	SL*
 		BANK
 # Page 701
 		EBANK=	RPASS36
-		
+
 		COUNT*	$$/R36
 
 R36		ZL
@@ -1756,8 +1756,8 @@ LREGCHK		XCH	L
 		BZF	ENTTIM2		# L-REG ZERO, SET TIME = PRESENT TIME
 		XCH	L		# L-REG NON ZERO, TIME = ASTRO INPUT TIME
 		TCF	ASTROTIM
-ENTTIM2		TC	INTPRET				
-		RTB	GOTO	
+ENTTIM2		TC	INTPRET
+		RTB	GOTO
 			LOADTIME
 			R36INT
 V06N16N		VN	00616

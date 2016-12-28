@@ -12,11 +12,11 @@
 #		2009-07-26 RSB	Added annotations related to computation
 #				of the ephemeral(?) polynomials.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #       Assemble revision 055 of AGC program Comanche by NASA
-#       2021113-051.  April 1, 1969.  
+#       2021113-051.  April 1, 1969.
 #
 #       This AGC program shall also be referred to as Colossus 2A
 #
@@ -45,7 +45,7 @@
 #	INPUT BY THE USER SHOULD FALL WITHIN THIS 15 DAY INTERVAL.
 ##	The 9th-degree polynomial spoken of here is a pad load, meaning
 ##	that it is not actually hardcoded into the software.  Additional
-##	information about calculating the polynomial can be found on the 
+##	information about calculating the polynomial can be found on the
 ##	<a href="http://nassp.sourceforge.net/wiki/Lunar_Ephemeris_Polynomials">
 ##	<b>Orbiter</b> NASSP wiki</a>, as well as information about calculation
 ##	of the <a href="http://nassp.sourceforge.net/wiki/Solar_Ephemeris">
@@ -80,7 +80,7 @@
 #
 #	5) VESO -- VELOCITY VECTOR OF THE SUN RELATIVE TO THE EARTH AT
 #	TIMEMO IN METERS/CS x B-9
-# 
+#
 #	6) OMEGAES -- ANGULAR VELOCITY OF THE VECTOR RESO AT TIMEMO IN
 #	REV/CS x B+26
 #
@@ -131,7 +131,7 @@
 		BANK	36
 		SETLOC	EPHEM
 		BANK
-		
+
 		COUNT*	$$/EPHEM
 		EBANK=	END-E7
 LSPOS		AXT,2			# COMPUTES POSITION VECTORS OF BOTH THE
@@ -166,7 +166,7 @@ RES		PUSH	DMP		#					PD- 2
 			OMEGAES
 		PUSH	COS		#					PD- 4
 		VXSC	PDDL		#					PD- 8
-			RESO	
+			RESO
 		SIN	PDVL		#					PD-10
 			RESO
 		PUSH	UNIT		#					PD-16

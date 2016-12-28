@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1117-1132
-# Mod history:	2009-05-25 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-25 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2011-01-06 JL	Fixed pseudo-label indentation.
 #		2011-05-07 JL	Removed workarounds.
@@ -26,7 +26,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1117
 # PROGRAM DESCRIPTION								DATE -- 10 OCTOBER 1966
@@ -334,7 +334,7 @@ OCT40201	OCT	40201
 FILLED		DXCH	WAITEXIT
 		TC	BAILOUT1	# NO ROOM IN THE INN
 		OCT	01203
-		
+
 # Page 1127
 # THE ENTRY TC WTLST2 JUST PRECEDING OCT N IS FOR T  LE TD LE T   -1.
 #                                                  N           N+1
@@ -530,7 +530,7 @@ LONGCYCL	EXTEND			# CAN WE SUCCESFULLY TAKE ABOUT 1.25
 		TCF	MUCHTIME
 DPBIT14		OCT	00000
 		OCT	20000
-		
+
 					# LONGCALL
 # Page 1132
 LASTTIME	CA	BIT14		# GET BACK THE CORRECT DELTA T FOR WAITLIST
@@ -561,4 +561,4 @@ LONGP00H	DXCH	LONGEXIT
 WAITP00H	DXCH	WAITEXIT
  +2		TC	P00DOO1
 		OCT	01204
-		
+

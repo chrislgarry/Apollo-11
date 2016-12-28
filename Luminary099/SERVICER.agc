@@ -12,11 +12,11 @@
 #		2009-06-05 RSB	Fixed a couple of typos, plus a goofy relative
 #				label reference from the original source.
 #
-# The contents of the "Luminary099" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Luminary099" files, in general, are transcribed
+# from scanned documents.
 #
 #	Assemble revision 001 of AGC program Luminary099 by NASA
-#	2021112-061.  July 14, 1969.  
+#	2021112-061.  July 14, 1969.
 #
 #	Prepared by
 #			Massachusetts Institute of Technology
@@ -710,7 +710,7 @@ HIGATASK	INHINT
 		2CADR	HIGATJOB
 
 		TCF	CONTSERV	# CONTINUE SERVICER
-		
+
 # Page 874
 # MUNRETRN IS THE RETURN LOC FROM SPECIAL AVE G ROUTINE (MUNRVG)
 
@@ -769,7 +769,7 @@ HIGATCHK	CA	TTF/8		# IS TTF > CRITERION?  (TTF IS NEGATIVE)
 POS1CHK		CAF	BIT6		# HIGATE NOT IN SIGHT -- DO POS1 CHK
 		EXTEND
 		RAND	33
-		EXTEND	
+		EXTEND
 		BZF	UPDATCHK	# LR IN POS1 -- CHECK FOR LR UPDATE
 
 LRPOSALM	TC	ALARM		# LR NOT IN PROPER POS-ALARM-BYPASS UPDATE

@@ -7,9 +7,9 @@
 # Contact:      Hartmuth Gutsche <hgutsche@xplornet.com>.
 # Website:      www.ibiblio.org/apollo.
 # Pages:	525-532
-# Mod history:  2009-05-10 HG    Started adapting from the Colossus249/ file 
-#                of the same name, using Comanche055 page 
-#                images 0525.jpg - 0532.jpg. 
+# Mod history:  2009-05-10 HG    Started adapting from the Colossus249/ file
+#                of the same name, using Comanche055 page
+#                images 0525.jpg - 0532.jpg.
 #
 # This source code has been transcribed or otherwise adapted from digitized
 # images of a hardcopy from the MIT Museum.  The digitization was performed
@@ -17,13 +17,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #    Assemble revision 055 of AGC program Comanche by NASA
-#    2021113-051.  10:28 APR. 1, 1969  
+#    2021113-051.  10:28 APR. 1, 1969
 #
 #    This AGC program shall also be referred to as
 #            Colossus 2A
@@ -106,10 +106,10 @@
 		BANK	04
 		SETLOC	STBLEORB
 		BANK
-		
+
 		EBANK=	SUBEXIT
 		COUNT*	$$/P3879
-		
+
 P38		TC	AVFLAGA         # THIS VEHICLE ACTIVE
 		TC      +2
 P78		TC	AVFLAGP         # OTHER VEHICLE ACTIVE
@@ -207,7 +207,7 @@ JUNCTN2		DLOAD	DSU
 			TINT
 			DELTTIME
 		STORE	TARGTIME	# TT = TI - DELTA T
-		
+
 # .... MAINRTNE ....
 #
 # SUBROUTINES USED
@@ -275,7 +275,7 @@ DSPLY81		CAF	V06N81SR	# DISPLAY DELTA V (LV)
 			P39/79SW
 			P39/P79B
 			RECYCLE
-			
+
 # STABLE ORBIT MIDCOURSE PROGRAM (P39 AND P79)
 #
 # MOD NO -1		LOG SECTION - STABLE ORBIT - P38-P39
@@ -344,7 +344,7 @@ P39/P79B	RTB	DAD
 		DLOAD	GOTO
 			TARGTIME
 			MAINRTNE	# CALCULATE DELTA V AND DELTA V (LV)
-			
+
 # .... PREC/TT ....
 #
 # SUBROUTINES USED
@@ -378,7 +378,7 @@ PREC/TT		STQ	DLOAD
 		DLOAD	GOTO
 			T
 			RTRN
-			
+
 # .... INTRPVP ....
 #
 # SUBROUTINES USED
@@ -399,7 +399,7 @@ OTHERV		CALL
 			LEMPREC
 		GOTO
 			RTRN
-			
+
 # .... VNDSPLY ....
 #
 # SUBROUTINES USED

@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1095-1099
-# Mod history:	2009-05-25 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-25 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #
 # This source code has been transcribed or otherwise adapted from
@@ -24,7 +24,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1095
 		BLOCK	02
@@ -37,11 +37,11 @@ POSMAX		OCT	37777
 
 LIMITS		=	NEG1/2
 
-NEG1/2		OCT	-20000		# USED BY SIN ROUTINE (MUST BE TWO 
+NEG1/2		OCT	-20000		# USED BY SIN ROUTINE (MUST BE TWO
 					# LOCATIONS IN FRONT OF BIT14)
-					
-# BIT TABLE					
-					
+
+# BIT TABLE
+
 BIT15		OCT	40000
 BIT14		OCT	20000
 BIT13		OCT	10000
@@ -162,7 +162,7 @@ OCT17770	OCT	17770
 #		OCT	20033		# T4RUPT	RELTAB +3D
 PRIO21		OCT	21000
 		BLOCK	03
-		COUNT*	$$/FCONS	
+		COUNT*	$$/FCONS
 PRIO22		OCT	22000		# SERVICE ROUTINES
 PRIO23		OCT	23000
 PRIO24		OCT	24000
@@ -178,7 +178,7 @@ C1/2		DEC	.7853134	#			(OCTAL 31103)
 PRIO32		OCT	32000
 PRIO33		OCT	33000
 PRIO34		OCT	34000
-#		OCT	34034		# T4RUPT	RELTAB +6D		
+#		OCT	34034		# T4RUPT	RELTAB +6D
 # Page 1098
 PRIO35		OCT	35000
 PRIO36		OCT	36000

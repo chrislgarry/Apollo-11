@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1227-1248
-# Mod history:	2009-05-26 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-26 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-05 RSB	Fixed 3 typos.
 #		2009-06-06 RSB	Page 1248 was missing entirely for some reason.
@@ -27,7 +27,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1227
 # ORBITAL INTEGRATION
@@ -224,7 +224,7 @@ GAMCOMP		VLOAD	VSR1
 		NORM	ROUND
 			31D
 		PDDL	NORM		# NORMED B SQUARED TO PD LIST
-# Page 1232		
+# Page 1232
 			ALPHAM		# NORMALIZE (LESS ONE) LENGTH OF ALPHA
 			32D		# SAVING NORM SCALE FACTOR IN X1
 		SR1	PDVL
@@ -426,8 +426,8 @@ COMTERM		STORE	UZ
 			FV
 			GOBAQUE
 		STCALL	FV
-			QUALITY1	
-			
+			QUALITY1
+
 QUALITY3	DSQ			# J22 TERM X R**4 IN 2D, SCALED B61
 					# AS VECTOR.
 # Page 1236
@@ -465,7 +465,7 @@ QUALITY3	DSQ			# J22 TERM X R**4 IN 2D, SCALED B61
 			E32C31RM
 		DDV	VXSC		# IF X2 = 0, DIVISION GIVES B53, VXSC
 					# OUT OF 8D B5 GIVES B58
-		VSL*	VAD		# SHIFT MAKES B61, FOR ADDITION OF 
+		VSL*	VAD		# SHIFT MAKES B61, FOR ADDITION OF
 					# VECTOR IN 2D
 			0	-3,2
 		VSL*	V/SC		# OPERAND FROM 0D.  B108 FOR X1 = 0
@@ -481,7 +481,7 @@ QUALITY3	DSQ			# J22 TERM X R**4 IN 2D, SCALED B61
 		VAD	BOV		# OVERFLOW INDICATOR RESET IN "RP-TO-R"
 			FV
 			GOBAQUE
-# Page 1237			
+# Page 1237
 		STORE	FV
 NBRANCH		SLOAD	LXA,1
 			DIFEQCNT
@@ -583,7 +583,7 @@ LUNSPH		DLOAD	SR2
 			LUNPOS
 		VCOMP
 		STORE	RPQV
-# Page 1239		
+# Page 1239
 DOSWITCH	CALL
 			ORIGCHNG
 		GOTO
@@ -855,7 +855,7 @@ DOW..1		VLOAD	VSR4
 			34D
 		VSL*	RVQ
 # Page 1246
-			0 	-8D,2	
+			0 	-8D,2
 
 # ********************************************************************************
 # ********************************************************************************
@@ -974,4 +974,4 @@ QUALITY2	PDDL	DSQ		# SQUARE INTO 2D, B2
 			E3J22R2M
 		PDDL	RVQ		# J22 TERM X R**4 IN 2D, SCALED B61
 			COSPHI/2	# SAME AS URPV +4  Z COMPONENT
-			
+

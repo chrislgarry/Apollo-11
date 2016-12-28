@@ -19,13 +19,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -275,7 +275,7 @@
 		BANK
 		EBANK=	RRECTCSM
 		COUNT	13/INTIN
-		
+
 STATEINT	TC	PHASCHNG
 		OCT	00052
 		CAF	PRIO5
@@ -325,7 +325,7 @@ NOINT		EXIT
 
 		TC	DOWNFLAG
 		ADRES	QUITFLAG
-		
+
 		TC	ENDOFJOB
 
 # ATOPCSM TRANSFERS RRECT TO RRECT +41 TO RRECTCSM TO RRECTCSM +41
@@ -340,7 +340,7 @@ ATOPCSM		STQ	RTB
 			S2
 			MOVEACSM
 		SET	CALL
-# Page 1315		
+# Page 1315
 			CMOONFLG
 			SVDWN1
 		BON	CLRGO
@@ -438,7 +438,7 @@ USEPIOS		SETPD	VLOAD
 			RLS
 		PDDL	PUSH
 			TDEC1
-# Page 1317			
+# Page 1317
 		STODL	TET
 			5/8
 		CALL
@@ -464,7 +464,7 @@ USEPIOS		SETPD	VLOAD
 		STCALL	TNUV
 			A-PCHK
 OMEGMOON	2DEC*	2.66169947 E-8 B+23*
-			
+
 SETBANK		CAF	INTBANK
 		TS	BBANK
 		CAF	FORTYONE
@@ -646,7 +646,7 @@ ANDOUT		BOFCLR	EXIT
 		BON	GOTO
 			VINTFLAG
 			ATOPCSM
-# Page 1321			
+# Page 1321
 			ATOPLEM
 PHEXIT		CALL
 			GRP2PC
@@ -928,7 +928,7 @@ SETCOAST	AXT,2	CALL		# NOW MOVE PROPERLY SCALED RN,UN AS WELL AS
 			+3
 		CLEAR
 			CMOONFLG
-		
+
 		BON	DLOAD		# NOW DO LM
 			SURFFLAG
 			FAZAB5		# NO COASTING LM
@@ -1029,7 +1029,7 @@ ENTMID1		CLEAR	CALL
 		BZE	SET
 			+2
 			AMOONFLG
-		VLOAD	
+		VLOAD
 			RATT
 		STOVL	RN1
 			VATT
@@ -1055,7 +1055,7 @@ CKMID2		BOF	RTB
 			TDEC
 		BPL	CALL
 			TESTLOOP	# YES
-# Page 1331			
+# Page 1331
 			NOTIME
 
 TIMEINC		RTB	DAD
@@ -1071,14 +1071,14 @@ MID2		DLOAD	DSU
 			3CSECS
 		BPL
 			TIMEINC
-			
+
 		RTB	BDSU		# SEE IF 5.6 SECS. AVAILABLE TO CALLER
 			LOADTIME
 			TET
 		DSU	BPL
 			5.6SECS
 			A-PCHK		# YES. GET OUT.
-			
+
 		DLOAD	DAD		# NO. ADD TIMEDELT TO T-TO-ADD AND TRY
 			T-TO-ADD	# AGAIN.
 			TIMEDELT

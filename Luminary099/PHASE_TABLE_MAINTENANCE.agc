@@ -11,7 +11,7 @@
 #		2009-06-05 RSB	A few lines at the bottom of page image
 #				1294 were truncated.  I've fixed the page
 #				image and added those missing lines here.
-#		2011-05-07 JL	Flagged SBANK= workaround for future 
+#		2011-05-07 JL	Flagged SBANK= workaround for future
 #				removal.
 
 # This source code has been transcribed or otherwise adapted from
@@ -27,7 +27,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1294
 # SUBROUTINE TO UPDATE THE PROGRAM NUMBER DISPLAY ON THE DSKY.
@@ -79,7 +79,7 @@ DSPMMJOB	EQUALS	DSPMMJB
 		BLOCK	02
 		SETLOC	FFTAG1
 		BANK
-		
+
 # Page 1295
 # PHASCHNG IS THE MAIN WAY OF MAKING PHASE CHANGES FOR RESTARTS.  THERE ARE THREE FORMS OF PHASCHNG, KNOWN AS TYPE
 # A, TYPE B, AND TYPE C.  THEY ARE ALL CALLED AS FOLLOWS, WHERE OCT XXXXX CONTAINS THE PHASE INFORMATION,
@@ -407,5 +407,5 @@ CHECKB		MASK	BIT12		# SINCE THIS IS OF TYPE B, THIS BIT WOULD
 		TCF	GETPRIO		# IT IS, SO GET NEW PRIORITY
 
 		TCF	OLDPRIO		# IT ISN'T, USE THE OLD PRIORITY.
-		
+
 

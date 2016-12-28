@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	635-648
-# Mod history:	2009-05-10 RSB	Adapted from the Colossus249/ file 
-#				of the same name, using Comanche055 page 
+# Mod history:	2009-05-10 RSB	Adapted from the Colossus249/ file
+#				of the same name, using Comanche055 page
 #				images.
 #		2009-05-20 RSB	Corrected BDV -> BOV.
 #
@@ -18,32 +18,32 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
 
 # Page 635
 		BANK	32
-		
+
 		SETLOC	P30S1
 		BANK
-		
+
 		EBANK=	+MGA
-		
+
 		COUNT	35/P34
-		
+
 DISPMGA		STQ	EXIT		# USED IN P30
 
 			RGEXIT
 		TC	COMPTGO
-		
+
 DISP45		CAF	V16N45
 		TC	BANKCALL
 		CADR	GOFLASHR
@@ -57,15 +57,15 @@ END45		TC	INTPRET
 		CLEAR	GOTO
 			TIMRFLAG
 			RGEXIT
-			
+
 COMPTGO		EXTEND			# USED TO COMPUTE TTOGO
 		QXCH	PHSPRDT6	# ** GROUP 6 TEMPORARY USED, BEWARE **
-		
+
 		TC	UPFLAG		# SET TIMRFLAG
 		ADRES	TIMRFLAG	# BIT 11 FLAG 7
 		CAF	ZERO
 		TS	NVWORD1
-		
+
 		CAF	ONE
 		TC	WAITLIST
 		EBANK=	TIG
@@ -75,7 +75,7 @@ COMPTGO		EXTEND			# USED TO COMPUTE TTOGO
 		OCT	40036		# 6.3SPOT FOR CLOKTASK
 		OCT	05024		# GROUP 4 CONTINUES HERE
 		OCT	13000
-		
+
 		TC	PHSPRDT6
 # Page 636
 # PROGRAM DESCRIPTION P30	DATE 3-6-67
@@ -115,13 +115,13 @@ COMPTGO		EXTEND			# USED TO COMPUTE TTOGO
 #		X
 
 		COUNT	35/P30
-		
+
 P30		TC	P30/P31
 		TC	CNTNUP30
 		TC	DOWNFLAG	# RESET UPDATFLG
 		ADRES	UPDATFLG	# BIT 7 FLAG 1
 		TC	INTPRET
-		CALL	
+		CALL
 			S30.1
 		EXIT
 		TC	PARAM30
@@ -129,7 +129,7 @@ P30		TC	P30/P31
 # Page 637
 		ADRES	XDELVFLG	# SET XDELVFLG BIT 8 FLAG 2
 		TCF	GOTOP00H
-		
+
 P31		TC	P30/P31
 		TC	DOWNFLAG
 		ADRES	UPDATFLG	# RESET UPDATFLG BIT 7 FLAG 1
@@ -144,7 +144,7 @@ P31		TC	P30/P31
 		TC	DOWNFLAG
 		ADRES	XDELVFLG	# BIT 8 FLAG 2.
 		TCF	GOTOP00H
-		
+
 P30/P31		XCH	Q
 		TS	P30/31RT
 		TC	UPFLAG
@@ -160,7 +160,7 @@ P30/P31		XCH	Q
 		TC	PHASCHNG
 		OCT	00014
 		TC	ENDOFJOB
-		
+
 CNTNUP30	XCH	Q
 		TS	P30/RET
 		CAF	V06N81
@@ -200,7 +200,7 @@ FLASHMGA	CALL
 MARSDP		OCT	00000		# (00000) (16440) = (+00001)
 		OCT	35100
 					# ( .01 ) DEGREES IN THE LOW ORDER REGISTER
-			
+
 V06N33		VN	0633
 V06N42		VN	0642
 V16N35		VN	1635
@@ -251,15 +251,15 @@ V06N45		VN	0645
 
 		SETLOC	P30S1A
 		BANK
-		
+
 		COUNT	35/S30S
-		
+
 S30.1		STQ	DLOAD
 			QTEMP
 			TIG		# TIME IGNITION SCALED AT 2(+28)CS
 		STCALL	TDEC1
-			THISPREC	# ENCKE ROUTINE FOR 
-			
+			THISPREC	# ENCKE ROUTINE FOR
+
 		VLOAD	SXA,2
 			VATT
 			RTX2
@@ -282,19 +282,19 @@ S30.1		STQ	DLOAD
 		STOVL	VGDISP		# MAG DELV
 			RTIG
 		PDVL	VAD
-			DELVSIN	
+			DELVSIN
 			VTIG
 		CALL
 			PERIAPO1
 		CALL
-			SHIFTR1	
-		CALL			
+			SHIFTR1
+		CALL
 			MAXCHK
 		STODL	HPER		# PERIGEE ALT B+29
 			4D
 		CALL
-			SHIFTR1	
-		CALL		
+			SHIFTR1
+		CALL
 			MAXCHK
 		STCALL	HAPO		# APOGEE ALT B+29
 			QTEMP
@@ -338,7 +338,7 @@ S30.1		STQ	DLOAD
 S31.1		STQ	DLOAD
 			QTEMP
 			TIG
-		STCALL	TDEC1	
+		STCALL	TDEC1
 			AGAIN		# RETURNS RTX2,RTX1,RATT,VATT,VIPRIME
 		VLOAD	PDVL		# DELUEET3
 			RTIG
@@ -354,7 +354,7 @@ S31.1		STQ	DLOAD
 		CALL
 			SHIFTR1
 		CALL
-			MAXCHK	
+			MAXCHK
 		STOVL	HAPO		# B29
 # Page 642
 			DELVEET3
@@ -405,7 +405,7 @@ S31.1		STQ	DLOAD
 		SETLOC	DELRSPL1
 		BANK
 		COUNT*	$$/P30		# PROGRAMS: P30 EXTERNAL DELTA V
-		
+
 DELRSPL		STORE	8D
 		BPL	DSU
 			CANTDO		# GONE PAST 300K FT ALT
@@ -457,7 +457,7 @@ CANTDO		DLOAD	PDDL		# INITIALIZE ERASE TO DOT TARGET AND UR
 		PUSH			# ZERO TO PDL 2 FOR PHI ENTRY
 		STCALL	8D
 			GETARG		# GO SET RSP-RREC =0
-			
+
 AUGEKUGL	VLOAD
 			X1CON -2
 		STODL	X1 -2
@@ -521,7 +521,7 @@ TENT		DMP	RVQ
 TGR26		DLOAD	GOTO
 			TGR26CON
 			TENT
-			
+
 MAXPHI		DLOAD	PDDL
 			MAXPHIC
 		GOTO
@@ -531,31 +531,31 @@ MAXPHIC		2DEC	.09259298	# 2000 NM FOR MAXIMUM PHI ENTRY
 # Page 646
 
 		COUNT*	$$/P30
-		
+
 					# 		BELOW
 					# **** TABLE IS INDEXED. KEEP IN ORDER ***
 		2DEC	7.07304526 E-4		# 5500
-		
+
 		2DEC	3.08641975 E-4		# 2400
-		
+
 		2DEC	3.08641975 E-4		# 2400
-		
+
 		2DEC	-8.8888888 E-3		# -3.2
-		
+
 		2DEC	2.7777777 E-3		# 1
-		
+
 CK1K2		2DEC	6.6666666 E-3		# 2.4
 
 		2DEC	0			# 0
-		
+
 		2DEC*	-1.86909989 E-5 B7* 	# -.443
-		
+
 		2DEC	0
-		
+
 		2DEC*	1.11639691 E-3 B7*	# .001225
-		
+
 		2DEC*	9.56911636 E-4 B7*	# .00105
-		
+
 YK1K2		2DEC*	2.59733157 E-4 B7*	# .000285
 
 V(400)		2DEC	1.2192 B-7
@@ -567,7 +567,7 @@ V(3K)		2DEC	9.144 B-7
 V(24K)		2DEC	73.152 B-7
 
 		2DEC	85.344 B-7
-		
+
 V(32K)		2DEC	97.536 B-7
 
 V(4K)		2DEC	12.192 B-7
@@ -585,7 +585,7 @@ V(26K)		2DEC	79.248 B-7		# 26000
 X1CON		DEC	10
 
 		DEC	8
-		
+
 		DEC	6
 					# **** TABLE IS INDEXED.  KEEP IN ORDER ***
 					#		ABOVE

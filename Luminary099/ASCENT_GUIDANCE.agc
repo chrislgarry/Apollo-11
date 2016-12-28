@@ -24,7 +24,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 843
 		BANK	34
@@ -446,7 +446,7 @@ CHECKYAW	SET
 			EXITVR1
 		GOTO
 			KEEPVR
-			
+
 		BANK	5
 		SETLOC	ASENT3
 		BANK
@@ -568,7 +568,7 @@ V16N85C		VN	1685
 		SETLOC	ASENT1
 		BANK
 		COUNT* $$/ASENT
-		
+
 YCOMP		VLOAD	DOT
 			UNIT/R/
 			QAXIS
@@ -576,7 +576,7 @@ YCOMP		VLOAD	DOT
 			RCO
 		STORE	Y
 		RVQ
-		
+
 		BANK	30
 		SETLOC	ASENT
 		BANK

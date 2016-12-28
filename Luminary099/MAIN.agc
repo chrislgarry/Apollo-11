@@ -25,15 +25,15 @@
 #	...
 #
 # The page images themselves, as reduced in size (and consequently in
-# quality) to be suitable for online presentation, are available at 
+# quality) to be suitable for online presentation, are available at
 # http://www.ibiblio.org/apollo.  If you want to see the (much) higher
 # quality digital images that Paul actually made, contact info@sandroi.org
 # directly.
 #
-# This file is a little different from the other Luminary099 files I'm providing, 
-# in that it doesn't represent anything that appears directly in the original source.  
+# This file is a little different from the other Luminary099 files I'm providing,
+# in that it doesn't represent anything that appears directly in the original source.
 # What I (RSB) have done for organizational purposes is to split the huge monolithic
-# source code into smaller, more manageable chunks--i.e., into individual source 
+# source code into smaller, more manageable chunks--i.e., into individual source
 # files.  Those files are rejoined within this file as "includes".  It just makes
 # it a little easier to work with.  The code chunks correspond to natural divisions
 # into sub-programs.  In fact, these divisions are more-or-less specified by
@@ -42,23 +42,23 @@
 #
 # It may be reasonably asked why tens of thousands of lines of source are joined by
 # means of inclusion, rather than simply assembling the source files individually and
-# then linking them to form the executable.  The answer is that the original 
+# then linking them to form the executable.  The answer is that the original
 # development team had no linker.  The builds were monolithic just like this.
-# There was a big emphasis on reusability of the code in the original project, 
-# apparently, but this reusability took the form of inserting your deck of 
+# There was a big emphasis on reusability of the code in the original project,
+# apparently, but this reusability took the form of inserting your deck of
 # punch-cards at the appropriate position in somebody else's deck of punch-cards.
 # (Actually, I believe a tape-library method was used to avoid having to continually
 # reload the card decks, but that doesn't change the basic principle.)
-# So, indeed, the method of file-inclusion is a very fair representation of the 
+# So, indeed, the method of file-inclusion is a very fair representation of the
 # methods used in the original development ... with the improvement, of course,
-# that you no longer have to worry about dropping the card deck.  On the other hand, 
+# that you no longer have to worry about dropping the card deck.  On the other hand,
 # I wasn't there at the time, so I may have no idea what I'm talking about.
 #
-# Finally, note that the original Apollo AGC assembler (called "YUL") is no longer 
+# Finally, note that the original Apollo AGC assembler (called "YUL") is no longer
 # available (as far as I can tell).  In fact, it was replaced by another assembler
-# ("GAP") even before Apollo 11, but GAP is no more available than is YUL.  The 
-# replacement assembler yaYUL accepts a slightly different format for the source 
-# code from what YUL or GAP accepted, so the source code has been targeted for 
+# ("GAP") even before Apollo 11, but GAP is no more available than is YUL.  The
+# replacement assembler yaYUL accepts a slightly different format for the source
+# code from what YUL or GAP accepted, so the source code has been targeted for
 # assembly with yaYUL.
 
 # What follows is simply a bunch of file-includes for the individual code chunks.
@@ -72,7 +72,7 @@ $TAGS_FOR_RELATIVE_SETLOC.agc			# pp. 28-37
 $CONTROLLED_CONSTANTS.agc			# pp. 38-53
 $INPUT_OUTPUT_CHANNEL_BIT_DESCRIPTIONS.agc	# pp. 54-60
 $FLAGWORD_ASSIGNMENTS.agc			# pp. 61-88
-						# p.  89 is a GAP-generated table						
+						# p.  89 is a GAP-generated table
 $ERASABLE_ASSIGNMENTS.agc			# pp. 90-152
 $INTERRUPT_LEAD_INS.agc				# pp. 153-154
 $T4RUPT_PROGRAM.agc				# pp. 155-189

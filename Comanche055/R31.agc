@@ -10,11 +10,11 @@
 # Mod history:  2009-05-11 OH	Batch 2 Assignment Comanche Transcription
 #		2009-05-20 RSB	Corrected INSTALL -> INTSTALL
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #       Assemble revision 055 of AGC program Comanche by NASA
-#       2021113-051.  April 1, 1969.  
+#       2021113-051.  April 1, 1969.
 #
 #       This AGC program shall also be referred to as Colossus 2A
 #
@@ -96,7 +96,7 @@ R34ANG		VLOAD	UNIT
 			R31FLAG
 			+2		# R31-THETA
 			12D
-		CALL	
+		CALL
 			*NBSM*
 		VXM	PUSH		# UXORZ TO 6D		PD=12D
 			REFSMMAT
@@ -134,7 +134,7 @@ R34ANG		VLOAD	UNIT
 		CS	EXTVBACT
 		MASK	BIT12
 		ADS	EXTVBACT
-		
+
 		TCF	V83
 V16N54		VN	1654
 V16N53		VN	1653
@@ -240,7 +240,7 @@ OTHINT		STORE	TDEC1		# ENTERED IF AV G ON TO INTEG LM
 		STCALL	TET
 			INTEGRVS
 		GOTO
-			COMPDISP	# COMPUTE R RDOT RTHETA		
+			COMPDISP	# COMPUTE R RDOT RTHETA
 GETRVN5		CALL			# AV G ON
 			GETRVN
 		BON	CALL
@@ -268,7 +268,7 @@ GETRVN		STQ
 		STODL	VONE
 			PIPTIME
 		GOTO
-			0D	
+			0D
 		SETLOC	R34
 		BANK
 R34LOS		EXIT
@@ -284,7 +284,7 @@ R34LOS		EXIT
 		INDEX	FIXLOC
 		TS	X1
 		TC	INTPRET
-		CALL	
+		CALL
 			SXTNB
 		STCALL	12D
 			R34ANG

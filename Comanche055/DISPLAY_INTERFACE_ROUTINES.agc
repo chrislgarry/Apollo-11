@@ -8,16 +8,16 @@
 # Contact:      Ron Burkey <info@sandroid.org>
 # Website:      http://www.ibiblio.org/apollo.
 # Mod history:  2009-05-07 RSB	Adapted from Colossus249 file of the same
-#				name, and page images. Corrected various 
-#				typos in the transcription of program 
-#				comments, and these should be back-ported  
+#				name, and page images. Corrected various
+#				typos in the transcription of program
+#				comments, and these should be back-ported
 #				to Colossus249.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #       Assemble revision 055 of AGC program Comanche by NASA
-#       2021113-051.  April 1, 1969.  
+#       2021113-051.  April 1, 1969.
 #
 #       This AGC program shall also be referred to as Colossus 2A
 #
@@ -278,7 +278,7 @@
 #				...	...		# TERMINATE RETURN
 #				...	...		# PROCEED RETURN
 #				...	...		# ENTER OR RECYCLE RETURN
-#				
+#
 #				...	...		# IMMEDIATE RETURN TO THE USER
 
 #	GOMARK1 IS USED FOR A PLEASE PERFORM ON A MARK REQUEST WITH ONLY 1 ASTRONAUT RETURN TO THE USER.  NO IMMEDIATE
@@ -509,7 +509,7 @@
 		BANK
 
 		COUNT	02/DSPLA
-		
+
 BLANKET		TS	MPAC +6
 		CS	PLAYTEM4
 		MASK	MPAC +6
@@ -805,7 +805,7 @@ IFLEGAL		CAF	TWO
 
 PRIOBORT	TC	P00DOO
 		OCT	1502
-# Page 1471		
+# Page 1471
 
 OKTOPLAY	TC	COPIES2
 
@@ -957,7 +957,7 @@ COPIES2		INHINT
 		TS	EBANKSAV	# EQUIV TO DSPFLG
 		MASK	CADRMASK	# FLASH AND GODSPRET
 		EXTEND
-# Page 1474		
+# Page 1474
 		BZF	SKIPADD
 
 		CA	PLAYTEM3
@@ -1364,7 +1364,7 @@ MARKOVER	CAF	MINUS1		# RUPTREG2 IS - MEANS ENDOFJOB TO ENDRET
 		CA	FLAGWRD4	# IS ENDIDFLG SET
 		MASK	PRIO30		# IS NORMAL OR PRIO IN ENDIDLE
 		CCS	A
-# Page 1482		
+# Page 1482
 		TCF	NORMBNCH
 
 NORMRET		CA	FLAGWRD4	# IS MARK SLEEPING

@@ -28,7 +28,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1386
 # PROGRAM NAME:		P27
@@ -137,7 +137,7 @@
 #		XXXXXEXXXXXE	ROW 3 COLUMN 3					2(-1)
 #		V33E		VERB 33 TO SIGNAL THAT REFSMMAT IS READY TO BE STORED
 
-		
+
 
 		BANK	07
 		SETLOC	EXTVERBS
@@ -545,4 +545,4 @@ UPACTOFF	CS	BIT3
 		EXTEND			# TURN OFF UPLINK ACTIVITY LIGHT
 		WAND	DSALMOUT	# (BIT 3 OF CHANNEL 11)
 		TC	Q
-		
+

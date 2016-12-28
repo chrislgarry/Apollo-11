@@ -16,13 +16,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -116,7 +116,7 @@
 		EBANK=	LST1		# TASK LISTS IN SWITCHED E BANK.
 
 		COUNT	02/WAIT
-		
+
 TWIDDLE		INHINT
 		TS	L		# SAVE DELAY TIME IN L
 		CA	POSMAX
@@ -164,7 +164,7 @@ VARDELAY	XCH	Q		# DT TO Q.  TASK ADRES TO WAITADR.
 		TS	WAITADR
 		CA	BBANK		# BBANK IS SAVED DURING DELAY.
 		EXTEND
-# Page 1224		
+# Page 1224
 		ROR	SUPERBNK	# ADD SBANK TO BBCON.
 		TS	L
 		CAF	DELAYEX
@@ -185,7 +185,7 @@ SVCT3		CCS	FLAGWRD2	# DRIFT FLAG
 		TCF	+1
 
 		CCS	IMUCADR		# DON'T DO NBDONLY IF SOMEONE ELSE IS IN
-		TCF	SVCT3X	
+		TCF	SVCT3X
 		TCF	+3
 		TCF	SVCT3X
 		TCF	SVCT3X
@@ -195,7 +195,7 @@ SVCT3		CCS	FLAGWRD2	# DRIFT FLAG
 		2CADR	NBDONLY
 
 		TCF	TASKOVER
-		
+
 		SETLOC	FFTAG6
 		BANK
 
@@ -208,7 +208,7 @@ SVCT3X		TC	FIXDELAY	# DELAY MAX OF 2 TIMES FOR IMU ZERO
 
 		BANK	01
 		COUNT	01/WAIT
-		
+
 WAIT2		TS	WAITBANK	# BBANK OF CALLING PROGRAM.
 		CS	TIME3
 		AD	BIT8		# BIT 8 = OCT 200
@@ -319,7 +319,7 @@ WTLST5		CCS	A		# TEST TD - T2 + 1
 		OCT	6
 
 # Page 1229
-	+4	CCS	A	
+	+4	CCS	A
 		AD	LST1 +7
 		TCF	+4
 		AD	ONE
@@ -329,13 +329,13 @@ WTLST5		CCS	A		# TEST TD - T2 + 1
 	+4	CCS	A
 WTABORT		TC	BAILOUT		# NO ROOM IN THE INN
 		OCT	1203
-		
+
 		AD	ONE
 		TC	WTLST2
 		OCT	10
-		
+
 OCT40201	OCT	40201
-		
+
 # Page 1230
 # THE ENTRY TC WTLST2 JUST PRECEDING OCT N IS FOR T  LE TD LE T   -1.
 #                                                  N           N+1
@@ -411,7 +411,7 @@ T3RUPT2		CAF	NEG1/2		# DISPATCH WAITLIST TASK.
 
 		BLOCK	02
 		COUNT	02/WAIT
-		
+
 TASKOVER	CCS	RUPTAGN		# IF +1 RETURN TO T3RUPT, IF -0 RESUME.
 		CAF	WAITBB
 		TS	BBANK
@@ -495,7 +495,7 @@ LGCL2CDR	2CADR	LNGCALL2
 
 		BANK	01
 		COUNT	01/WAIT
-		
+
 LNGCALL2	LXCH	LONGEXIT +1	# SAVE THE CORRECT BB FOR RETURN
 		CA	TWO		# OBTAIN THE RETURN ADDRESS
 		ADS	Q

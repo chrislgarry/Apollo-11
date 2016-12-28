@@ -8,14 +8,14 @@
 # Website:	www.ibiblio.org/apollo.
 # Pages:	649-683
 # Mod history:	2009-05-09 RSB	Adapted from the Luminary131/ file
-#				P32-P35_P72-P75.agc and Comanche055 page 
+#				P32-P35_P72-P75.agc and Comanche055 page
 #				images.
 #		2009-05-20 RSB	Corrected CSI/COM3 -> CSI/CDH3,
 #				CSI/CDHI -> CSI/CDH1, CDHTAB -> CDHTAG,
 #				changed a SETLOC from CSI/CDH to CSI/CDH1,
 #				a SETLOC CSI/CDH1 to CSIPROG.
-#		2009-05-21 RSB	Changed a P32/P72D to P32/P72E in 
-#				P32/P72D.  DP1/4TH changed to DP1/4 in 
+#		2009-05-21 RSB	Changed a P32/P72D to P32/P72E in
+#				P32/P72D.  DP1/4TH changed to DP1/4 in
 #				CDHMVR.
 #
 # This source code has been transcribed or otherwise adapted from digitized
@@ -24,13 +24,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -450,7 +450,7 @@ P32/P72F	STORE	T2TOT3
 #	VN1645
 
 		COUNT	35/P3373
-		
+
 P33		TC	AVFLAGA
 		TC	P33/P73A
 P73		TC	AVFLAGP
@@ -497,7 +497,7 @@ P33/P73B	CALL
 		TC	BANKCALL
 		CADR	GOFLASH
 		TC	GOTOP00H
-# Page 659		
+# Page 659
 		TC	+2
 		TC	P33/P73A
 		TC	INTPRET
@@ -521,7 +521,7 @@ P33/P73D	DLOAD	DAD
 			P33/P73E
 		SETLOC	CSI/CDH1
 		BANK
-		
+
 P33/P73E	DSU	BPL
 			60MIN
 			P33/P73E
@@ -611,7 +611,7 @@ V06N50		VN	0650
 		BANK
 		EBANK=	SUBEXIT
 		COUNT	34/CSI
-		
+
 60MIN		2DEC	360000
 
 ALARM/TB	OCT	00600		# NO 1
@@ -710,10 +710,10 @@ CSI/B1		DLOAD	DAD		# IF LOOPCT = 16
 		BPL	GOTO
 			SCNDSOL
 			CSI/B2
-			
+
 		SETLOC	CSIPROG2
 		BANK
-		
+
 CSI/B2		SETPD
 			0D
 		DLOAD	ABS
@@ -737,17 +737,17 @@ CSI/B22		SET	DLOAD
 			DELVCSI
 		STCALL	DELVCSI
 			CSI/B23
-			
+
 		SETLOC	CSIPROG3
 		BANK
-		
+
 CSI/B23		VLOAD	PUSH
 			RACT1
 		UNIT	PDVL
 			UP1
 		VXV	UNIT		# UNIT (URP1 X UVP1 X URA1) = UH1
 		VXSC	VSL1
-# Page 666		
+# Page 666
 			DELVCSI
 		STORE	DELVEET1
 		VAD	BOV
@@ -798,7 +798,7 @@ CSI/B23D	STCALL	VACT4
 		SL2	DSU
 			1RTEB2		# 1.B.2
 		STODL	14D
-# Page 667		
+# Page 667
 			RTSR1/MU
 		SR1	DDV		# (1/ROOTMU)/R1		B-16-B29 = B-45 PL02D
 		PDDL	DMP
@@ -837,19 +837,19 @@ CSI/B3		PDVL	DOT
 		SETGO
 			RVSW
 			CSINEXT
-			
+
 SN359+		2DEC	-.000086601
 
 CS359+		2DEC	+.499999992
 
 		SETLOC	CSIPROG4
-		BANK			
-			
+		BANK
+
 CSINEXT		STCALL	RVEC
 			TIMETHET
 		PDDL	BPL
 			RDOTV
-# Page 668			
+# Page 668
 			NTP/2
 		DLOAD	DSU
 			HAFPA1
@@ -887,10 +887,10 @@ NTP/2		DLOAD	DMP
 			RPASS1
 		GOTO
 			CSINEXT1
-		
+
 		SETLOC	CSIPROG5
 		BANK
-			
+
 CSINEXT1	CALL
 			INTINT2C
 		STOVL	RPASS2
@@ -900,7 +900,7 @@ CSINEXT1	CALL
 		VLOAD	SETPD
 			RACT2
 			0D
-# Page 669			
+# Page 669
 		PDVL	CALL
 			VACT3
 			PERIAPO1
@@ -935,10 +935,10 @@ CSINEXT1	CALL
 		VXSC	STADR		# (COSLOS)(UH3)				B2 PL08D
 		STCALL	18D		#		PLUS
 			CSINEXT2
-			
+
 		SETLOC	CSIPROG6
 		BANK
-		
+
 CSINEXT2	DLOAD	VXSC		# (SINLOS)(URA3) = U			B2 PL00D
 		VAD	VSL1
 			18D		#					B1
@@ -951,7 +951,7 @@ CSINEXT2	DLOAD	VXSC		# (SINLOS)(URA3) = U			B2 PL00D
 			RACT3
 			RACT3
 		TLOAD	DCOMP		# RA3 . RA3
-# Page 670		
+# Page 670
 			MPAC
 		PDVL	DOT		# RP3 . RP3			    B58 PL14D
 			RPASS3
@@ -988,10 +988,10 @@ K10RK2		SQRT	PUSH		# TEMP3 = TEMP2**.5		    B29 PL10D
 			12D
 		STCALL	10D		# K EQUALS K1
 			K2.
-			
+
 		SETLOC	CSIPROG7
 		BANK
-			
+
 K2.		DLOAD
 			10D
 		VXSC	VSL1
@@ -1002,7 +1002,7 @@ K2.		DLOAD
 		PDVL	UNIT
 			VPASS3		#					PL12D
 		VXV	PDVL		# UVP3 X URP3				PL18D
-# Page 671		
+# Page 671
 			06D
 			06D
 		VXV	DOT
@@ -1050,11 +1050,11 @@ FRSTPAS		DLOAD
 			DELVCSI
 		STCALL	DVPREV
 			CSINEXT3
-			
+
 		SETLOC	CSIPROG8
 		BANK
-# Page 672					
-			
+# Page 672
+
 CSINEXT3	DSU	CLEAR
 			DELDV
 			S32.1F2
@@ -1116,10 +1116,10 @@ CSI/SOL		DLOAD	AXT,2
 		LXA,1	GOTO
 			RTX1
 			CSINEXT4
-			
+
 		SETLOC	CSIPROG9
 		BANK
-			
+
 CSINEXT4	DSU*	BMN
 			PMINE -2,1
 			SCNDSOL
@@ -1156,7 +1156,7 @@ SCNDSOL		BON	BOFF
 			ZEROVECS
 		CLEAR	SET
 			S32.1F1
-# Page 674			
+# Page 674
 			S32.1F2
 		CLEAR	CLEAR
 			S32.1F3A
@@ -1333,7 +1333,7 @@ CDHMVR		STQ	VLOAD
 		PDVL	ABVAL		# 0D = V SUB PV
 		SL*	PDVL
 			0,2
-# Page 681			
+# Page 681
 			RACT2
 		ABVAL	PDDL		# 2D = LENGTH OF R SUB A
 		DSU
@@ -1384,7 +1384,7 @@ CDHMVR		STQ	VLOAD
 			08D
 		VAD	VSL1
 		STADR
-# Page 682		
+# Page 682
 		STORE	VACT3
 		VSU
 			VACT2

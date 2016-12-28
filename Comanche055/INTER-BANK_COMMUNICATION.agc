@@ -10,14 +10,14 @@
 # Mod history:  2009-05-08 RSB	Adapted from Colossus249/ file of same name
 #				and page images. Corrected various typos
 #				in the transcription of program comments,
-#				and these should be back-ported to 
+#				and these should be back-ported to
 #				Colossus249.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #       Assemble revision 055 of AGC program Comanche by NASA
-#       2021113-051.  April 1, 1969.  
+#       2021113-051.  April 1, 1969.
 #
 #       This AGC program shall also be referred to as Colossus 2A
 #
@@ -37,7 +37,7 @@
 
 		BLOCK	02
 		COUNT	02/BANK
-		
+
 BANKCALL	DXCH	BUF2		# SAVE INCOMING A,L.
 		INDEX	Q		# PICK UP CADR.
 		CA	0
@@ -178,6 +178,6 @@ SUPERSW		EXTEND
 					# CHANNEL 07
 		TC	Q		# TC TO INSTRUCTION FOLLOWING
 					# 	TC SUPERSW
-		
+
 
 

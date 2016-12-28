@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	370-372
-# Mod history:	2009-05-17 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-17 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #
 # This source code has been transcribed or otherwise adapted from
@@ -24,17 +24,17 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 370
 		EBANK=	XSM
-		
+
 		BANK	33
 		SETLOC	E/PROG
 		BANK
-		
+
 		COUNT*	$$/P07
-		
+
 # SPECIAL PROGRAMS TO EASE THE PANGS OF ERASABLE MEMORY PROGRAMS.
 #
 # E/BKCALL	FOR DOING BANKCALLS FROM AND RETURNING TO ERASABLE.
@@ -72,7 +72,7 @@ E/BKCALL	DXCH	BUF2		# SAVE A,L AND GET DP RETURN
 		INCR	EBUF2
 E/SWITCH	DXCH	EBUF2
 		DTCB
-		
+
 # Page 371
 # E/CALL	FOR CALLING A FIXED MEMORY INTERPRETIVE SUBROUTINE FROM ERASABLE AND RETURNING TO ERASABLE.
 #
@@ -82,7 +82,7 @@ E/SWITCH	DXCH	EBUF2
 #		E/CALL
 #	CADR	ROUTINE			# THE INTERPRETIVE SUBROUTINE YOU WANT
 #					# RETURNS HERE IN INTERPRETIVE.
-	
+
 E/CALL		LXCH	LOC		# ADRES -1 OF CADR.
 		INDEX	L
 		CA	L		# CADR IN A.
@@ -95,7 +95,7 @@ E/CALL		LXCH	LOC		# ADRES -1 OF CADR.
 		EXIT			# LEAVE VIA RVQ OR EQUIVALENT.
 		LXCH	EBUF2 	+1	# PICK UP RETURN.
 		TCF	INTPRET +2	# SET LOC AND RETURN TO CALLER.
-		
+
 # Page 372
 # E/JOBWAK	FOR WAKING UP ERASABLE MEMORY JOBS.
 #
@@ -114,12 +114,12 @@ E/CALL		LXCH	LOC		# ADRES -1 OF CADR.
 		BANK	33
 		SETLOC	E/PROG
 		BANK
-		
+
 		COUNT*	 $$/P07
-		
+
 E/JOBWAK	TC	JOBWAKE		# ARRIVE WITH ADRES IN A.
 		CS	BIT11
 		NDX	LOCCTR
 		ADS	LOC		# KNOCK FIXED MEMORY BIT OUT OF ADRES.
 		TC	RUPTREG3	# RETURN
-		
+

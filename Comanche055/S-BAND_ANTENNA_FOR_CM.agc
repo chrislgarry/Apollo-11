@@ -23,7 +23,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #    Assemble revision 055 of AGC program Comanche by NASA
-#    2021113-051.  10:28 APR. 1, 1969 
+#    2021113-051.  10:28 APR. 1, 1969
 #
 #    This AGC program shall also be referred to as
 #            Colossus 2A
@@ -34,10 +34,10 @@
 		BANK	23
 		SETLOC	SBAND
 		BANK
-		
+
 		COUNT*	$$/R05
 		EBANK=	EMSALT
-		
+
 SBANDANT	TC	BANKCALL	# V 64 E GETS US HERE
 		CADR	R02BOTH		# CHECK IF IMU IS ON AND ALIGNED
 		TC	INTPRET

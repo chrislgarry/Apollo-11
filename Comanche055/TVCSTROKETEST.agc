@@ -16,13 +16,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -136,35 +136,35 @@
 		BANK	17
 		SETLOC	DAPS2
 		BANK
-		
+
 		COUNT*	$$/STRK
 		EBANK=	CADDY
-		
+
 STRKTSTI	TCR	TSTINIT		# STROKE TEST INITIALIZATION PKG (CALLED
 					# AS A JOB BY VERB68)
-					
+
 STRKCHK		INHINT
 
 		CAE	DAPDATR1	# CHECK FOR CSM/LM CONFIGURATION
 		MASK	BIT14
 		EXTEND
 		BZF	+3
-		
+
 		CAE	ESTROKER	# BEGIN ON NEXT DAP PASS (PITCH OR YAW)
 		TS	STROKER		# (STROKING DONE IN PITCH ONLY, HOWEVER)
-		
+
 		TCF	ENDOFJOB
-		
+
 TSTINIT		CS	FCADDY		# NORMAL ENTRY FROM STRKTSTI
 		TS	CADDY
 		TS	N		#	NOTE SGN CHNG FCADDY(+) TO CADDY(-)
-		
+
 		CAF	FREVS
 		TS	REVS
-		
+
 		CS	FCARD		# 	NOTE SGN CHNG FCARD(+) TO CARD(-)
 		TS	CARD
-		
+
 		TC	Q		# RETURN TO STRKTSTI+1 (OR CHKSTRK+2 OR +4)
 
 # Page 982
@@ -200,20 +200,20 @@ FCARD6		DEC	4		#                                 4..(+ 4)
 
 HACK		EXTEND			# ENTRY (IN T5 RUPT) FROM TVCDAPS
 		QXCH	BUNKER		# SAVE Q FOR DAP RETURN
-		
+
 		CAF	20MS		# 2DAPSx2(PASSES/DAP)x2(CS/PASS)=8CS=TVCDT
 		TC	WAITLIST
 		EBANK=	BUNKER
 		2CADR	HACKWLST
-		
+
 		TCF	+3
-		
+
 HACKWLST	CAF	TCTSKOVR	# ENTRY FROM WAITLIST
 		TS	BUNKER		# BUNKER IS TC TASKOVER
-		
+
 		CA	STROKER		# STROKE
 		ADS	TVCPITCH
-		
+
 		CAF	BIT11		# RELEASE THE ERROR COUNTERS
 		EXTEND
 		WOR	CHAN14
@@ -223,16 +223,16 @@ HACKWLST	CAF	TCTSKOVR	# ENTRY FROM WAITLIST
 		EXTEND
 		BZMF	+2
 		TC	BUNKER		# EXIT, WHILE ON A SLOPE
-		
+
 		CCS	REVS
 		TCF	REVUP		# POSITIVE REVS
 		TCF	REVUP +4	# FINAL REVERSAL, THE SET
-		
+
 		INCR	CARD		# NEGATIVE REVS SET LAST PASS, READY FOR
 		CS	CARD		#	THE NEXT SET.  CHECK IF NO MORE SETS
 		EXTEND
 		BZF	STROKILL	# ALL SETS COMPLETED
-		
+
 		INDEX	CARD
 		CAF	FCARD +4	# PICK UP NO. REVERSALS (-), NEXT SET
 		TS	REVS		# REINITIALIZE
@@ -241,21 +241,21 @@ HACKWLST	CAF	TCTSKOVR	# ENTRY FROM WAITLIST
 		TS	N		# REINITIALIZE
 		TS	CADDY
 		TC	BUNKER		# EXIT, AT END OF SET
-		
+
 STROKILL	TS	STROKER		# RESET (TO +0) TO END TEST
 		TC	BUNKER		# EXIT, STROKE TEST FINIS
-		
+
 REVUP		TS	REVS		# ALL REVERSALS EXCEPT LAST OF SET
 		CA	N
 		DOUBLE			# 2 x 1/2AMP
 		TCF	+4
-		
+
 	+4	CS	ONE		# FINAL REVERSAL, THIS SET
 		TS	REVS		# PREPARE TO BRANCH TO NEW BURST
 		CA	N		# JUST RETURN TO ZERO, FINAL SLOPE OF SET
 		TS	CADDY		# CADUP
-		
+
 		CS	STROKER		# CHANGE SIGN OF SLOPE
 		TS	STROKER
 		TC	BUNKER		# EXIT AT A REVERSAL (SLOPE CHANGE)
-		
+

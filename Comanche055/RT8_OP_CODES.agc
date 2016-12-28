@@ -8,14 +8,14 @@
 # Contact:      Ron Burkey <info@sandroid.org>
 # Website:      http://www.ibiblio.org/apollo.
 # Mod history:  2009-05-07 RSB	Adapted from Colossus249/RT8_OP_CODES.agc
-#				and page images. 
+#				and page images.
 #		2009-05-07 RSB	Oops! Left out the entire last page before.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #       Assemble revision 055 of AGC program Comanche by NASA
-#       2021113-051.  April 1, 1969.  
+#       2021113-051.  April 1, 1969.
 #
 #       This AGC program shall also be referred to as Colossus 2A
 #
@@ -59,7 +59,7 @@ CDULOGIC	CCS	MPAC
 		MP	HALF
 		DAS	MPAC
 		TCF	DANZIG		# MODE IS ALREADY AT DOUBLE-PRECISION
-		
+
 # READ THE PIPS INTO MPAC WITHOUT CHANGING THEM:
 
 READPIPS	INHINT
@@ -70,7 +70,7 @@ READPIPS	INHINT
 		CA	PIPAZ
 		RELINT
 		TS	MPAC +5
-		
+
 		CAF	ZERO
 		TS	MPAC +1
 		TS	MPAC +4
@@ -80,9 +80,9 @@ VECMODE		TCF	VMODE
 # FORCE TP SIGN AGREEMENT IN MPAC:
 
 SGNAGREE	TC	TPAGREE
-		
+
 # Page 1509
-		
+
 		TCF	DANZIG
 
 # CONVERT THE DP 1'S COMPLEMENT ANGLE SCALED IN REVOLUTIONS TO A SINGLE PRECISION 2'S COMPLEMENT ANGLE
@@ -148,17 +148,17 @@ INCRCDUS	CAF	LOCTHETA
 		TS	BUF		# PLACE ADRES(THETA) IN BUF.
 		CAE	MPAC		# INCREMENT IN 1'S COMPL.
 		TC	CDUINC
-		
+
 		INCR	BUF
 		CAE	MPAC +3
 		TC	CDUINC
-		
+
 		INCR	BUF
 		CAE	MPAC +5
 		TC	CDUINC
-		
+
 		TCF	VECMODE
-		
+
 LOCTHETA	ADRES	THETAD
 
 # THE FOLLOWING ROUTINE INCREMENTS IN 2'S COMPLEMENT THE REGISTER WHOSE ADDRESS IS IN BUF BY THE 1'S COMPL.
@@ -207,33 +207,33 @@ XNBEB		ECADR	XNB
 XNB1EB		ECADR	XNB1
 
 		EBANK=	XNB
-		
+
 TRANSP1		CAF	XNBEB
 		TS	EBANK
 		DXCH	XNB +2
 		DXCH	XNB +6
 		DXCH	XNB +2
-		
+
 		DXCH	XNB +4
 		DXCH	XNB +12D
 		DXCH	XNB +4
-		
+
 		DXCH	XNB +10D
 		DXCH	XNB +14D
 		DXCH	XNB +10D
 		TCF	DANZIG
 		EBANK=	XNB1
-		
+
 TRANSP2		CAF	XNB1EB
 		TS	EBANK
 		DXCH	XNB1 +2
 		DXCH	XNB1 +6
 		DXCH	XNB1 +2
-		
+
 		DXCH	XNB1 +4
 		DXCH	XNB1 +12D
 		DXCH	XNB1 +4
-		
+
 		DXCH	XNB1 +10D
 		DXCH	XNB1 +14D
 		DXCH	XNB1 +10D

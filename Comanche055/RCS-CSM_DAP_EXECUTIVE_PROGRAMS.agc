@@ -17,13 +17,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -44,7 +44,7 @@
 		BANK	20
 		SETLOC	DAPS8
 		BANK
-		
+
 		COUNT*	$$/DAPEX
 		EBANK=	KMPAC
 AMBGUPDT	CA	FLAGWRD6	# CHECK FOR RCS AUTOPILOT
@@ -53,8 +53,8 @@ AMBGUPDT	CA	FLAGWRD6	# CHECK FOR RCS AUTOPILOT
 		MASK	BIT14		# IF NOT RCS, EXIT
 		EXTEND
 		BZF	ENDOFJOB	# TO PROTECT TVC DAP ON SWITCHOVER
-		
-		CA	CDUZ	
+
+		CA	CDUZ
 		TC	SPSIN2
 		TS	AMGB1		# CALCULATE AMGB
 		CA	CDUZ

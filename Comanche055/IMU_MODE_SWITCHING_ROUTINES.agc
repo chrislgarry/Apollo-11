@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1420-1448
-# Mod history:	2009-05-10 SN	(Sergio Navarro).  Started adapting from 
-#				the Colossus249/ file of the same name, 
+# Mod history:	2009-05-10 SN	(Sergio Navarro).  Started adapting from
+#				the Colossus249/ file of the same name,
 #				using Comanche055 page images.
 #
 # This source code has been transcribed or otherwise adapted from digitized
@@ -23,7 +23,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #    Assemble revision 055 of AGC program Comanche by NASA
-#    2021113-051.  10:28 APR. 1, 1969 
+#    2021113-051.  10:28 APR. 1, 1969
 #
 #    This AGC program shall also be referred to as
 #            Colossus 2A
@@ -38,7 +38,7 @@
 # FIXED-FIXED ROUTINES
 
 		COUNT	02/IMODE
-		
+
 ZEROICDU	CAF	ZERO		# ZERO ICDU COUNTERS.
 		TS	CDUX
 		TS	CDUY
@@ -55,7 +55,7 @@ SPSCODE		=	BIT9
 		BANK
 
 		COUNT	07/IMODE
-		
+
 IMUZERO		INHINT			# ROUTINE TO ZERO ICDUS.
 		CS	DSPTAB +11D	# DON'T ZERO CDUS IS IMU IN GIMBAL LOCK AND
 		MASK	BITS4&6		# COARSE ALIGN (GIMBAL RUNAWAY PROTECTION)
@@ -844,7 +844,7 @@ GOMANUR		CA	ATTCADR		# IS KALCMANU FREE
 		BZF	+3
 		TC	P00DOO		# NO
 		OCT	1210		# 2 TRYING TO USE SAME DEVICE
-		
+
 	+3	EXTEND
 		DCA	BUF2
 		DXCH	ATTCADR		# SAVE FINAL RETURN FOR KALCMAN3
@@ -899,7 +899,7 @@ KALEBCON	ECADR	BCDU
 		SETLOC	R02
 		BANK
 		COUNT	04/R02		# COUNT*
-		
+
 DEC51		DEC	51
 R02BOTH		CAF	BIT13
 		MASK	STATE +3	# REFSMFLG
@@ -1063,6 +1063,6 @@ POSTCOM		EXTEND			# C(MPAC,+1) IS MAGNITUDE OF DELTA SCALER.
 		ADRES	NODOFLAG
 
 		TC	GOTOP00H
-		
+
 
 

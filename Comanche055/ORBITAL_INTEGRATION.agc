@@ -9,7 +9,7 @@
 # Pages:	1334-1354
 # Mod history:	2009-05-14 RSB	Adapted from the Colossus249/ file of the
 #				same name, using Comanche055 page images.
-#		2009-05-20 RSB	Corrections:  DAT -> DAD in one place, 
+#		2009-05-20 RSB	Corrections:  DAT -> DAD in one place,
 #				BWM -> BMN, DEFEQCNT -> DIFEQCNT.
 #
 # This source code has been transcribed or otherwise adapted from digitized
@@ -18,13 +18,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -391,18 +391,18 @@ COMTERM		STORE	UZ
 			J4REQ/J3,2
 		DDV	DAD
 			ALPHAM
-		DMPR*	SR3	           
+		DMPR*	SR3
 			2J3RE/J2,2
-		DDV	DAD	
+		DDV	DAD
 			ALPHAM
-		VXSC	VSL1	      
-			UZ	
-		BVSU		
-			TVEC	        
-		STODL	TVEC	
-			ALPHAM	
-		NORM	DSQ	
-			X1	
+		VXSC	VSL1
+			UZ
+		BVSU
+			TVEC
+		STODL	TVEC
+			ALPHAM
+		NORM	DSQ
+			X1
 		DSQ	NORM
 			S1		#         4
 		PUSH	BDDV*		# NORMED R  TO 0D
@@ -424,7 +424,7 @@ COMTERM		STORE	UZ
 QUALITY3	DSQ			# J22 TERM X R**4 IN 2D.  SCALED B61
 					# AS VECTOR.
 		PUSH	DMP		# STORE COSPHI**2 SCALED B2 IN 8D.
-# Page 1343		
+# Page 1343
 			5/8		# 5 SCALED B3
 		PDDL	SR2		# PUT 5 COSPHI**2, D5, IN 8D. GET
 					# COSPHI**2 D2 FROM 8D
@@ -492,14 +492,14 @@ COSPHIE		DLOAD
 DIFEQTAB	CADR	DIFEQ+0
 		CADR	DIFEQ+1
 		CADR	DIFEQ+2
-		
+
 TIMESTEP	BOF	CALL
 			MIDFLAG
 			RECTEST		# SKIP ORIGIN CHANGE LOGIC
 			CHKSWTCH
 		BMN
 			DOSWITCH
-			
+
 RECTEST		VLOAD	ABVAL		# RECTIFY IF
 			TDELTAV
 		BOV
@@ -526,7 +526,7 @@ CALLRECT	CALL
 			RECTIFY
 INTGRATE	VLOAD
 			TNUV
-# Page 1345			
+# Page 1345
 		STOVL	ZV
 			TDELTAV
 		STORE	YV
@@ -567,20 +567,20 @@ RPQOK		LXA,2	VLOAD		# RESTORE X2 AFTER USING LUNPOS
 			EARSPH
 		SR2	BDSU		# INSIDE
 			RSPHERE
-		GOTO	
+		GOTO
 			ORIGEX
 EARSPH		VSU	ABVAL		# OUTSIDE
 			RPQV
 		DSU	GOTO
 			RSPHERE
 			ORIGEX
-			
+
 DOSWITCH	CALL
 			ORIGCHNG
 		GOTO
 			INTGRATE
 
-# Page 1346			
+# Page 1346
 ORIGCHNG	STQ	CALL
 			ORIGEX
 			RECTIFY
@@ -848,7 +848,7 @@ DOW..1		VLOAD	VSR4
 			34D
 		VSL*	RVQ
 # Page 1353
-			0 -8D,2	
+			0 -8D,2
 
 		SETLOC	ORBITAL1
 		BANK
@@ -901,25 +901,25 @@ ASCALE		DEC	-7
 		DEC	-6
 # Page 1354
 		2DEC*	1.32715445 E16 B-54*	# S
-		
+
 		2DEC*	4.9027780 E8 B-30*	# M
-		
+
 MUEARTH		2DEC*	3.986032 E10 B-36*
 
 		2DEC	0
-		
+
 J4REQ/J3	2DEC*	.4991607391 E7 B-26*
 
 		2DEC	-176236.02 B-25
-		
+
 2J3RE/J2	2DEC*	-.1355426363 E5 B-27*
 
 		2DEC*	.3067493316 E18 B-60*
-		
+
 J2REQSQ		2DEC*	1.75501139 E21 B-72*
 
-3J22R2MU	2DEC*	9.20479048 E16 B-58*		
-		
+3J22R2MU	2DEC*	9.20479048 E16 B-58*
+
 5/8		2DEC	5 B-3
 
 -1/12		2DEC	-.1

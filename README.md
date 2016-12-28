@@ -31,7 +31,7 @@ If you are interested in compiling the original source code, check out [Virtual 
      Notations on the hardcopy document read, in part:
 
         Assemble revision 055 of AGC program Comanche by NASA
-        2021113-051.  10:28 APR. 1, 1969  
+        2021113-051.  10:28 APR. 1, 1969
 
      Page 1
 
