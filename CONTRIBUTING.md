@@ -1,8 +1,8 @@
 # Contributing
 ## Guidelines
 ### Comments
-- Comments in the transcribed code should match 1:1 with the 
-respective image. 
+- Comments in the transcribed code should match 1:1 with the
+respective image.
   - This could involve creating a deliberate typo or removing/adding
   an entire comment.
 
@@ -10,7 +10,7 @@ respective image.
 - Line breaks **with** `R0000` in column 1 should match 1:1.
 - Line breaks **without** `R0000` in column 1 should only contain 1
 to 2 blank lines in a row.
-  - If there are more than 2 blank lines breaks, strip the extra 
+  - If there are more than 2 blank lines breaks, strip the extra
   line breaks.
   - Lines with `R0000` in column 1 do not count towards this number.
   - In the source images, these were created by an unprinted digit
@@ -19,9 +19,9 @@ to 2 blank lines in a row.
   defined but never used. Read more about it in chrislgarry/Apollo-11/#159
 
 ## Formatting
-[AGC Assembly][4] for Sublime Text 3 and [Language AGC][5] for Atom
+GitHub, [AGC Assembly][4] for Sublime Text 3 and [Language AGC][5] for Atom
  will ensure you're using the correct formatting automatically.
- 
+
 [AGC Assembly][3] for Visual Studio Code provides language-specific
 settings overrides to add to your user settings [here][6].
 
@@ -33,7 +33,7 @@ settings overrides to add to your user settings [here][6].
 
 GitHub has syntax support for the AGC assembly language built-in.
 Unfortunately your code editor will not. Luckily there is a language
-extension that provides syntax highlighting for the following 
+extension that provides syntax highlighting for the following
 editors:
 - [Visual Studio Code][3]
 - [Sublime Text 3][4]
