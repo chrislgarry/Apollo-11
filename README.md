@@ -12,7 +12,7 @@ repository and the original source scans for [Luminary 099][2] and
 [Comanche 055][3], as well as any files I may have missed.
 
 ## Contributing
-Please read **[CONTRIBUTING][4]** before opening a pull request.
+Please read [CONTRIBUTING.md][4] before opening a pull request.
 
 ## Compiling
 If you are interested in compiling the original source code, check
