@@ -16,8 +16,7 @@ or 2 blank lines in a row.
   - In the source images, these were created by an unprinted digit
   in column 8. A 2 there forced a double space (single blank line)
   and a 3 forced a triple space (double blank line). Values 4-8 were
-  defined but never used. Read more about it in
-  chrislgarry/Apollo-11/#159
+  defined but never used. Read more about it in [#159][7]
 
 ## Formatting
 GitHub, [AGC Assembly][4] for Sublime Text 3 and [Language AGC][5]
