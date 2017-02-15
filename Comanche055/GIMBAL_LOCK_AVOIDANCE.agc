@@ -27,14 +27,12 @@
 # Refer directly to the online document mentioned above for further information.
 # Please report any errors to info@sandroid.org.
 
-
 # Page 412
 		BANK	15
 		SETLOC	KALCMON1
 		BANK
 
 		EBANK=	BCDU
-
 # DETECTING GIMBAL LOCK
 LOCSKIRT	EQUALS	WCALC
 WCALC		LXC,1	DLOAD*
@@ -77,10 +75,11 @@ ARATE		2DEC	.0022222222	# = .05 DEG/SEC
 ANGLTIME	2DEC	.000190735	# = 100B - 19
 
 					# MANEUVER ANGLE TO MANEUVER TIME
+					
 QUADROT		2DEC	.1		# ROTATION MATRIX FROM S/C AXES TO CONTROL
 
 # Page 413
-		2DEC	0		# AXES (X ROT = -7.25 DEG)
+		2DEC	0		# AXES	(X ROT = -7.25 DEG)
 
 		2DEC	0
 
