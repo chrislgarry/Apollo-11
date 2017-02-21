@@ -27,7 +27,7 @@
 
 #************************************************************************
 #*									*
-#*          THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:      *
+#*      THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:      *
 #*									*
 #*									*
 #*				COLOSSUS 2A				*
