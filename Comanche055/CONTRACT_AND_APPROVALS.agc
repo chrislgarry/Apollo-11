@@ -25,49 +25,49 @@
 # Page 1
 
 
-#************************************************************************
-#*                                                                      *
-#*          THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:              *
-#*									                                    *
-#*                                                                      *
-#*				           COLOSSUS 2A                                  *
-#*                                                                      *
-#*                                                                      *
-#*        THIS PROGRAM IS INTENDED FOR USE IN THE CM AS SPECIFIED		*
-#*        IN REPORT R-577. THIS PROGRAM WAS PREPARED UNDER DSR		    *
-#*        PROJECT 55-23870, SPONSORED BY THE MANNED SPACECRAFT		    *
-#*        CENTER OF THE NATIONAL AERONAUTICS AND SPACE			        *
-#*        ADMINISTRATION THROUGH CONTRACT NAS 9-4065 WITH THE		    *
-#*        INSTRUMENTATION LABORATORY, MASSACHUSETTS INSTITUTE OF		*
-#*        TECHNOLOGY, CAMBRIDGE, MASS.					                *
-#*                                                                      *
-#************************************************************************
+# ************************************************************************
+# *       .                                                              *
+# *	     THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:              *
+# *									 *
+# *                                                                      *
+# *			   COLOSSUS 2A                                   *
+# *                                                                      *
+# *                                                                      *
+# *	  THIS PROGRAM IS INTENDED FOR USE IN THE CM AS SPECIFIED	 *
+# *       IN REPORT R-577. THIS PROGRAM WAS PREPARED UNDER DSR		 *
+# *       PROJECT 55-23870, SPONSORED BY THE MANNED SPACECRAFT		 *
+# *       CENTER OF THE NATIONAL AERONAUTICS AND SPACE			 *
+# *       ADMINISTRATION THROUGH CONTRACT NAS 9-4065 WITH THE		 *
+# *       INSTRUMENTATION LABORATORY, MASSACHUSETTS INSTITUTE OF	 *
+# *       TECHNOLOGY, CAMBRIDGE, MASS.					 *
+# *                                                                      *
+# ************************************************************************
 
 
-#         SUBMITTED:    MARGARET H. HAMILTON        DATE:	28 MAR 69
-#           M.H.HAMILTON, COLOSSUS PROGRAMMING LEADER
-#           APOLLO GUIDANCE AND NAVIGATION
+#         SUBMITTED:	MARGARET H. HAMILTON		  DATE:	 28 MAR 69
+#             M.H.HAMILTON, COLOSSUS PROGRAMMING LEADER
+#             APOLLO GUIDANCE AND NAVIGATION
 
-#         APPROVED:	DANIEL J. LICKLY                DATE:	28 MAR 69
-#           D.J.LICKLY, DIRECTOR, MISSION PROGRAM DEVELOPMENT
-#           APOLLO GUIDANCE AND NAVIGATION PROGRAM
+#         APPROVED:	DANIEL J. LICKLY                  DATE:	 28 MAR 69
+#             D.J.LICKLY, DIRECTOR, MISSION PROGRAM DEVELOPMENT
+#             APOLLO GUIDANCE AND NAVIGATION PROGRAM
 
-#	      APPROVED:	FRED H. MARTIN                  DATE:	28 MAR 69
-#           FRED H. MARTIN, COLOSSUS PROJECT MANAGER
-#           APOLLO GUIDANCE AND NAVIGATION PROGRAM
+#	  APPROVED: FRED H. MARTIN                  	  DATE:	 28 MAR 69
+#             FRED H. MARTIN, COLOSSUS PROJECT MANGER
+#             APOLLO GUIDANCE AND NAVIGATION PROGRAM
 
-#         APPROVED:	NORMAN E. SEARS                 DATE:	28 MAR 69
-#           N.E. SEARS, DIRECTOR, MISSION DEVELOPMENT
-#           APOLLO GUIDANCE AND NAVIGATION PROGRAM
+#         APPROVED: NORMAN E.SEARS                 	  DATE:	 28 MAR 69
+#             N.E. SEARS, DIRECTOR, MISSION DEVELOPMENT
+#             APOLLO GUIDANCE AND NAVIGATION PROGRAM
 
-#         APPROVED:	RICHARD H. BATTIN               DATE:	28 MAR 69
-#           R.H. BATTIN, DIRECTOR, MISSION DEVELOPMENT
-#           APOLLO GUIDANCE AND NAVIGATION PROGRAM
+#         APPROVED: RICHARD H. BATTIN               	  DATE:	 28 MAR 69
+#             R.H. BATTIN, DIRECTOR, MISSION DEVELOPMENT
+#             APOLLO GUIDANCE AND NAVIGATION PROGRAM
 
-#         APPROVED:	DAVID G. HOAG			        DATE:	28 MAR 69
-#           D.G. HOAG, DIRECTOR
-#           APOLLO GUIDANCE AND NAVIGATION PROGRAM
+#         APPROVED: DAVID G. HOAG			  DATE:	 28 MAR 69
+#             D.G. HOAG, DIRECTOR
+#             APOLLO GUIDANCE AND NAVIGATION PROGRAM
 
-#         APPROVED:	RALPH R. RAGAN			        DATE:	28 MAR 69
-#           R.R. RAGAN, DEPUTY DIRECTOR
-#           INSTRUMENTATION LABORATORY
+#         APPROVED: RALPH R. RAGAN			  DATE:	 28 MAR 69
+#             R.R. RAGAN, DEPUTY DIRECTOR
+#             INSTRUMENTATION LABORATORY
