@@ -1,4 +1,22 @@
 # Contributing
+## Useful Extensions
+
+GitHub has syntax support for the AGC assembly language built-in.
+Unfortunately your code editor will not, however there are
+AGC language extensions that provides syntax highlighting for the
+following editors:
+- [Atom][5]
+- [Sublime Text 3][4]
+- [Visual Studio Code][3]
+
+## Formatting
+**Note:** GitHub and the 3 extensions listed above will ensure
+you're using the correct formatting automatically.
+
+- Use tab indentation
+- Use tab width of 8
+- Trim trailing whitespace
+
 ## What do I check?
 ### Comments
 - Comments in the transcribed code should match the scans exactly
@@ -34,26 +52,6 @@ R0820
 
  0820   LAMPTEST  CS  IMODES33
 ```
-
-## Formatting
-**Note:** GitHub, [AGC Assembly][3] for Visual Studio Code, 
-[AGC Assembly][4] for Sublime Text 3 and [Language AGC][5]
-for Atom will ensure you're using the correct formatting
-automatically.
-
-- Use tab indentation
-- Use tab width of 8
-- Trim trailing whitespace
-
-## Useful Extensions
-
-GitHub has syntax support for the AGC assembly language built-in.
-Unfortunately your code editor will not, however there are
-AGC language extensions that provides syntax highlighting for the
-following editors:
-- [Atom][5]
-- [Sublime Text 3][4]
-- [Visual Studio Code][3]
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
