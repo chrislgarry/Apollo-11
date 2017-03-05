@@ -36,12 +36,10 @@ R0820
 ```
 
 ## Formatting
-GitHub, [AGC Assembly][4] for Sublime Text 3 and [Language AGC][5]
+**Note:** GitHub, [AGC Assembly][3] for Visual Studio Code, 
+[AGC Assembly][4] for Sublime Text 3 and [Language AGC][5]
 for Atom will ensure you're using the correct formatting
 automatically.
-
-[AGC Assembly][3] for Visual Studio Code provides language-specific
-settings overrides to add to your user settings [here][6].
 
 - Use tab indentation
 - Use tab width of 8
