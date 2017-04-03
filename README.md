@@ -103,4 +103,4 @@ APPROVED:   RALPH R. RAGAN          DATE:   28 MAR 69
 [3]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [4]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [5]:https://github.com/rburkey2005/virtualagc
-[6]:https://rawgit.com/aleen42/badges/master/src/nasa.svg
+[6]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

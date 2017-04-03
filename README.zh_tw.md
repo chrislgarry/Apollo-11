@@ -79,4 +79,4 @@
   美國實驗儀器公司
 ```
 
-[6]:https://rawgit.com/aleen42/badges/master/src/nasa.svg
+[6]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
