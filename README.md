@@ -1,22 +1,22 @@
 # Apollo-11
-[![NASA][6]]()
+[![NASA][1]][2]
 
 *Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW].*
 
 Original Apollo 11 guidance computer (AGC) source code for Command
 Module (Comanche055) and Lunar Module (Luminary099). Digitized by
-the folks at [Virtual AGC][0] and [MIT Museum][1]. The goal is to be
+the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be
 a repo for the original Apollo 11 source code. As such, PRs are
 welcome for any issues identified between the transcriptions in this
-repository and the original source scans for [Luminary 099][2] and
-[Comanche 055][3], as well as any files I may have missed.
+repository and the original source scans for [Luminary 099][5] and
+[Comanche 055][6], as well as any files I may have missed.
 
 ## Contributing
-Please read [CONTRIBUTING.md][4] before opening a pull request.
+Please read [CONTRIBUTING.md][7] before opening a pull request.
 
 ## Compiling
 If you are interested in compiling the original source code, check
-out [Virtual AGC][5].
+out [Virtual AGC][8].
 
 ## Attribution
 ```plain
@@ -97,10 +97,11 @@ APPROVED:   RALPH R. RAGAN          DATE:   28 MAR 69
 [EN]:README.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[0]:http://www.ibiblio.org/apollo/
-[1]:http://web.mit.edu/museum/
-[2]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
-[3]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[4]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
-[5]:https://github.com/rburkey2005/virtualagc
-[6]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
+[1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
+[2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
+[3]:http://www.ibiblio.org/apollo/
+[4]:http://web.mit.edu/museum/
+[5]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
+[6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
+[8]:https://github.com/rburkey2005/virtualagc
