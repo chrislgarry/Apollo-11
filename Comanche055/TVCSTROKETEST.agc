@@ -89,7 +89,7 @@
 #        **              **
 #        **              **
 #        **              **		EXAMPLE WAVEFORM (EACH * REPRESENTS
-#       *  *            *  *		  (85.41 ARCSEC OF ACTUATOR CMD)
+#       *  *            *  *		  (85.41 ARCSEC OF ACTUATOR CMND)
 #       *  *            *  *
 #       *  *            *  *
 #      *    *          *    *          **      **      **      **      **
@@ -112,7 +112,7 @@
 #                **              **
 #                **              **
 #
-# FOR THIS (UNOFFICIAL, EXAMPLE) WAVEFORM, THE REQUIRED PARAMETERS ARE AS FOLLOWS....
+# FOR THIS (UNOFFICIAL. EXAMPLE) WAVEFORM, THE REQUIRED PARAMETERS ARE AS FOLLOWS....
 #
 #	FCARD	 = +3		(NUMBER OF SETS)
 #	ESTROKER = +3		(PULSE BURST SIZE, SC.AT 85.41 ARCSEC/BIT)
