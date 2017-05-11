@@ -69,7 +69,7 @@
 #		TABLES FOR THE IGNITION ROUTINE
 #	***********************************************
 #
-#			NOLI SE TANGERE
+#			NOLI ME TANGERE
 
 P12TABLE	VN	0674		# (0)
 		TCF	ULLGNOT		# (1)
