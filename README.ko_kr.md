@@ -1,7 +1,7 @@
 # Apollo-11
 [![NASA][1]][2]
 
-*다른 언어로 읽기 : [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES]. [한국어][KO_KR]*
+*다른 언어로 읽기 : [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES], [한국어][KO_KR]*
 
 통제 모듈 (Comanche055) 및 달 모듈 (Luminary099)을 위한 아폴로 11호 유도 컴퓨터(AGC)의 소스코드입니다. [Virtual AGC][3] 및 [MIT Museum][4]에 의해 디지털화 되었습니다.
 이 레포지토리는 아폴로 11호의 원본 소스코드를 완벽하게 보관하는 것을 목표로 합니다. 따라서 원본과 본 디지털본 간에 발견된 모든 이슈, 또한 빠뜨렸을 듯한 파일들에 대해 PR을 환영합니다. 
@@ -30,7 +30,7 @@ PR을 열기 전에 [CONTRIBUTING.md][7] 을 읽어주세요.
 어렵다면 info@sandroid.org로 연락을 주시기 바랍니다.
 Paul씨가 실제로 만들어 낸 이미지에 접근하실 수 있도록 도와드리겠습니다.
 
-Notations on the hardcopy document read, in part:
+다음은 하드카피 문서의 일부분입니다 :
 
 AGC 프로그램 Comanche 어셈블 판본 055, NASA에 의해 작성됨.
 2021113-051.  10:28 1969년 4월 1일
