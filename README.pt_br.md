@@ -2,7 +2,7 @@
 [![NASA][1]][2]
 
 *Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES], [한국어][KO_KR]*
-
+ 
 Código fonte do computador orientação (AGC) da Apollo 11 para o Módulo
 de Comando (Comanche055) e Módulo Lunar (Luminary099). Digitalizado 
 pelo pessoal da [Virtual AGC][3] e [Museu do MIT][4]. O objetivo é ser
