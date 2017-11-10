@@ -1,97 +1,84 @@
 # Apollo-11
 [![NASA][1]][2]
 
-*Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES]. [한국어][KO_KR]*
+*다른 언어로 읽기 : [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES]. [한국어][KO_KR]*
 
-Original Apollo 11 guidance computer (AGC) source code for Command
-Module (Comanche055) and Lunar Module (Luminary099). Digitized by
-the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be
-a repo for the original Apollo 11 source code. As such, PRs are
-welcome for any issues identified between the transcriptions in this
-repository and the original source scans for [Luminary 099][5] and
-[Comanche 055][6], as well as any files I may have missed.
+통제 모듈 (Comanche055) 및 달 모듈 (Luminary099)을 위한 아폴로 11호 유도 컴퓨터(AGC)의 소스코드입니다. [Virtual AGC][3] 및 [MIT Museum][4]에 의해 디지털화 되었습니다.
+이 레포지토리는 아폴로 11호의 원본 소스코드를 완벽하게 보관하는 것을 목표로 합니다. 따라서 원본과 본 디지털본 간에 발견된 모든 이슈, 또한 빠뜨렸을 듯한 파일들에 대해 PR을 환영합니다. 
 
-## Contributing
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+## 기여하기
+PR을 열기 전에 [CONTRIBUTING.md][7] 을 읽어주세요.
 
-## Compiling
-If you are interested in compiling the original source code, check
-out [Virtual AGC][8].
+## 컴파일
+만약 컴파일을 원하신다면, [Virtual AGC][8] 을 확인하여 보시면 좋습니다.
 
-## Attribution
+## 권한
 ```plain
-Copyright: Public domain.
-Filename:  CONTRACT_AND_APPROVALS.agc
-Purpose:   Part of the source code for Colossus 2A, AKA Comanche 055.
-        It is part of the source code for the Command Module's (CM)
-        Apollo Guidance Computer (AGC), for Apollo 11.
-Assembler: yaYUL
-Contact:   Ron Burkey <info@sandroid.org>.
-Website:   www.ibiblio.org/apollo.
-Mod history:   2009-05-06 RSB  Transcribed from page images.
+저작권: 퍼블릭 도메인
+파일명: CONTRACT_AND_APPROVALS.agc
+목적  : 콜로서스 2A(Comanche 055)의 소스코드 중 일부.
+      아폴로 11호의 AGC 통제 모듈 소스코드의 일부.
+어셈블러: yaYUL
+연락처 : Ron Burkey <info@sandroid.org>
+웹사이트 : www.ibiblio.org/apollo
+수정 기록 : 2009-05-06 RSB  문서 이미지에서 옮겨짐
 
-This source code has been transcribed or otherwise adapted from digitized
-images of a hardcopy from the MIT Museum.  The digitization was performed
-by Paul Fjeld, and arranged for by Deborah Douglas of the Museum.  Many
-thanks to both.  The images (with suitable reduction in storage size and
-consequent reduction in image quality as well) are available online at
-www.ibiblio.org/apollo.  If for some reason you find that the images are
-illegible, contact me at info@sandroid.org about getting access to the
-(much) higher-quality images which Paul actually created.
+이 소스코드는 MIT Museum에서 하드카피본을 디지털화, 옮긴 것 입니다.
+디지털화는 Paul Fjeld에 의해 이루어졌으며, Deborah Douglas가 정리하였습니다. 
+두 분께 깊은 감사를 표합니다.
+이미지는 www.ibiblio.org/apollo 에서 보실 수 있습니다. 만일 해당 이미지를 판독하기
+어렵다면 info@sandroid.org로 연락을 주시기 바랍니다.
+Paul씨가 실제로 만들어 낸 이미지에 접근하실 수 있도록 도와드리겠습니다.
 
 Notations on the hardcopy document read, in part:
 
-Assemble revision 055 of AGC program Comanche by NASA
-2021113-051.  10:28 APR. 1, 1969
+AGC 프로그램 Comanche 어셈블 판본 055, NASA에 의해 작성됨.
+2021113-051.  10:28 1969년 4월 1일
 
 Page 1
 
 #************************************************************************
-#                                                                       *
-#       THIS AGC PROGRAM SHALL ALSO BE REFERRED TO AS:                  *
-#                                                                       *
-#                                                                       *
-#               COLOSSUS 2A                                             *
-#                                                                       *
-#                                                                       *
-#   THIS PROGRAM IS INTENDED FOR USE IN THE CM AS SPECIFIED             *
-#   IN REPORT R-577.  THIS PROGRAM WAS PREPARED UNDER DSR               *
-#   PROJECT 55-23870, SPONSORED BY THE MANNED SPACECRAFT                *
-#   CENTER OF THE NATIONAL AERONAUTICS AND SPACE                        *
-#   ADMINISTRATION THROUGH CONTRACT NAS 9-4065 WITH THE                 *
-#   INSTRUMENTATION LABORATORY, MASSACHUSETTS INSTITUTE OF              *
-#   TECHNOLOGY, CAMBRIDGE, MASS.                                        *
-#                                                                       *
+#                                                                       
+#       본 아폴로 유도 컴퓨터 프로그램은 다음에 의해 참조됩니다 :           
+#                                                                       
+#                                                                       
+#               콜로서스 2A                                              
+#                                                                       
+#                                                                       
+#   이 프로그램은 R-577에 명세된 통제 모듈에 사용됩니다.             
+#   DSR 프로젝트 55-23870 에 의해 준비되었으며, NASA 유인 우주선 센터가                
+#   MIT 기계 연구소 와의 NAS 9-4065 계약에 의해 스폰싱 하였습니다.                                                  
+#                                                                       
 #************************************************************************
 
 
-SUBMITTED:  MARGARET H. HAMILTON        DATE:   28 MAR 69
-    M.H.HAMILTON, COLOSSUS PROGRAMMING LEADER
-    APOLLO GUIDANCE AND NAVIGATION
+제출됨: MARGARET H. HAMILTON           일시:    1969년 3월 28일
+    M.H.HAMILTON, 콜로서스 프로그래밍 리더
+    아폴로 유도 및 항해
 
-APPROVED:   DANIEL J. LICKLY        DATE:   28 MAR 69
-    D.J.LICKLY, DIRECTOR, MISSION PROGRAM DEVELOPMENT
-    APOLLO GUIDANCE AND NAVIGATION PROGRAM
+승인됨: DANIEL J. LICKLY    일시: 1969년 3월 28일
+    D.J.LICKLY, 감독, 임무 프로그램 개발
+    아폴로 유도 및 항법 프로그램
 
-APPROVED:   FRED H. MARTIN          DATE:   28 MAR 69
-    FRED H. MARTIN, COLOSSUS PROJECT MANAGER
-    APOLLO GUIDANCE AND NAVIGATION PROGRAM
+승인됨: FRED H. MARTIN      일시: 1969년 3월 28일
+    FRED H. MARTIN, 콜로서스 프로젝트 매니저
+    아폴로 유도 및 항법 프로그램
 
-APPROVED:   NORMAN E. SEARS         DATE:   28 MAR 69
-    N.E. SEARS, DIRECTOR, MISSION DEVELOPMENT
-    APOLLO GUIDANCE AND NAVIGATION PROGRAM
+승인됨: NORMAN E. SEARS      일시: 1969년 3월 28일
+    N.E. SEARS, 감독, 임무 개발
+    아폴로 유도 및 항법 프로그램
 
-APPROVED:   RICHARD H. BATTIN       DATE:   28 MAR 69
-    R.H. BATTIN, DIRECTOR, MISSION DEVELOPMENT
-    APOLLO GUIDANCE AND NAVIGATION PROGRAM
+승인됨: FRED H. MARTIN      일시: 1969년 3월 28일
+    R.H. BATTIN, 감독, 임무 개발
+    아폴로 유도 및 항법 프로그램
 
-APPROVED:   DAVID G. HOAG           DATE:   28 MAR 69
-    D.G. HOAG, DIRECTOR
-    APOLLO GUIDANCE AND NAVIGATION PROGRAM
+승인됨: DAVID G. HOAG      일시: 1969년 3월 28일
+    D.G. HOAG, 감독
+    아폴로 유도 및 항법 프로그램
 
-APPROVED:   RALPH R. RAGAN          DATE:   28 MAR 69
-    R.R. RAGAN, DEPUTY DIRECTOR
-    INSTRUMENTATION LABORATORY
+승인됨: FRED H. MARTIN      일시: 1969년 3월 28일
+    R.R. RAGAN, 부감독
+    기계 연구소
 ```
 
 [EN]:README.md
