@@ -1,5 +1,5 @@
 # Contributing
-*Available Languages : [English][EN_US], [한국어][KO_KR]*
+*Available in : [English][EN_US], [한국어][KO_KR]*
 
 ## Useful Extensions
 
