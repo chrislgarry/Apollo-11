@@ -1,8 +1,8 @@
 # 阿波羅11號
 [![NASA][1]][2]
 
-*Available in: [English](README.md), [简体中文](README.zh_cn.md), [正體中文](README.zh_tw.md), [Português](README.pt_br.md), [Español](README.es.md)*
-
+*Available in: [English](README.md), [简体中文](README.zh_cn.md), [正體中文](README.zh_tw.md), [Português](README.pt_br.md), [Español](README.es.md), [한국어](README.ko_kr.md)*
+ 
 原版的阿波羅11號電腦（Apollo 11 Guidance computer, AGC）用於駕駛艙（Comanche055）和登月艙（Luminary099）的原始碼，由 [Virtual AGC](http://www.ibiblio.org/apollo/) 及 [MIT Museum](http://web.mit.edu/museum/) 的工作人員數位化，目的在於建立一個存放阿波羅11號原始碼的程式庫。正因如此，若你在文件抄錄上或在查看 [Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 和 [Comanche 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 這兩部分原始碼過程中遇到問題的話，我們歡迎你能提起一個 PR。當然，也包括那些我可能遺忘的文件。
 
 ## 編譯

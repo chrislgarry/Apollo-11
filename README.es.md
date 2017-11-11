@@ -1,8 +1,8 @@
 # Apollo-11
 [![NASA][1]][2]
 
-*Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES]*
-
+*Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES], [한국어][KO_KR]*
+ 
 Código fuente original del ordenador de abordo del Apollo 11 (AGC)
 para el módulo de órdenes (Comanche055) y el módulo lunar (Luminary099).
 Digitalizado por los amigos de [Virtual AGC][3] y [el museo del MIT][4].
@@ -98,6 +98,7 @@ APROBADO:   RALPH R. RAGAN          FECHA:   28 MAR 69
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 [PT_BR]:README.pt_br.md
+[KO_KR]:README.ko_kr.md
 [ES]:README.es.md
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html

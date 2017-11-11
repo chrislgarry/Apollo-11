@@ -1,4 +1,6 @@
 # Contributing
+*Available in : [English][EN_US], [한국어][KO_KR]*
+
 ## Useful Extensions
 
 GitHub has syntax support for the AGC assembly language built-in.
@@ -52,6 +54,9 @@ R0820
 
  0820   LAMPTEST  CS  IMODES33
 ```
+
+[EN_US]:CONTRIBUTING.md
+[KO_KR]:CONTRIBUTING.ko_kr.md
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
