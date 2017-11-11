@@ -1,5 +1,5 @@
 # 기여하기
-*다른 언어: [English][EN_US], [한국어][KO_KR]*
+*Available in: [English][EN_US], [한국어][KO_KR]*
 
 ## 유용한 확장기능들
 GitHub은 내장 에디터에서 AGC문법을 지원합니다.
