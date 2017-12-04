@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	614-617
-# Mod history:	2009-05-17 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-17 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-05 RSB	Removed 4 lines of code that shouldn't
 #				have survived from Luminary 131.
@@ -26,7 +26,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 614
 # PROGRAM DESCRIPTION P30	DATE 3-6-67
@@ -63,13 +63,13 @@ P30		TC	UPFLAG		# SET UPDATE FLAG
 		ADRES	UPDATFLG
 		TC	UPFLAG		# SET TRACK FLAG
 		ADRES	TRACKFLG
-		
+
 P30N33		CAF	V06N33		# T OF IGN
 		TC	VNP00H		# RETURN ON PROCEED, P00H ON TERMINATE
-		
+
 		CAF	V06N81		# DISPLAY DELTA V (LV)
 		TC	VNP00H		#	REDISPLAY ON RECYCLE
-					
+
 		TC	DOWNFLAG	# RESET UPDATE FLAG
 		ADRES	UPDATFLG
 		TC	INTPRET
@@ -79,13 +79,13 @@ P30N33		CAF	V06N33		# T OF IGN
 			UPDATFLG
 PARAM30		CAF	V06N42		# DISPLAY APOGEE,PERIGEE,DELTA V
 		TC	VNP00H
-# Page 615		
-		
+# Page 615
+
 		TC	INTPRET
 		SETGO
 			XDELVFLG	# FOR P40'S: EXTERNAL DELTA-V GUIDANCE.
 			REVN1645	# TRKMKCNT, T60, +MGA  DISPLAY
-			
+
 V06N33		VN	0633
 V06N42		VN	0642
 
@@ -137,15 +137,15 @@ V06N42		VN	0642
 
 		SETLOC	P30S1
 		BANK
-		
+
 		COUNT*	$$/S30S
-		
+
 S30.1		STQ	DLOAD
 			QTEMP
 			TIG		# TIME IGNITION SCALED AT 2(+28)CS
 		STCALL	TDEC1
 			LEMPREC		# ENCKE ROUTINE FOR LEM
-			
+
 		VLOAD	SXA,2
 # Page 617
 			RATT
@@ -189,5 +189,5 @@ S30.1		STQ	DLOAD
 			MAXCHK
 		STCALL	HAPO		# APOGEE ALT 2(29) METERS FOR DISPLAY
 			QTEMP
-			
+
 

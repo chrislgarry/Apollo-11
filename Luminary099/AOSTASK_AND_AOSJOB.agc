@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1485-1506
-# Mod history:	2009-05-27 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-27 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-05 RSB	Corrected a memory-bank error type.
 #		2009-06-07 RSB	Corrected a typo.
@@ -26,7 +26,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1485
 # PROGRAM NAME:		1/ACCS
@@ -281,7 +281,7 @@ LRESC		CAE	ABDELV		# SCALED AT 2(13) CM/SEC(2)
 
 		EXTEND
 		MP	L,PVT-CG	# SCALED AT 8 FEET.
-# Page 1490		
+# Page 1490
 		INHINT
 		TS	MPAC
 		EXTEND
@@ -425,19 +425,19 @@ MAXPLUS		CAF	POSMAX		# -,- OR +,+
 # AND C IS SCALED AT B+16 KG.
 
 		2DEC	+.0410511917	# L		A		DESCENT
-		
+
 INERCONA	2DEC	+.0059347674	# 1JACCP	A		DESCENT
 
 		2DEC	+.0014979264	# 1JACCQ	A		DESCENT
-		
+
 		2DEC	+.0010451889	# 1JACCR	A		DESCENT
-		
+
 		2DEC	+.0065443852	# 1JACCP	A		ASCENT
-		
+
 		2DEC	+.0035784354	# 1JACCQ	A		ASCENT
-		
+
 		2DEC	+.0056946631	# 1JACCR	A		ASCENT
-		
+
 		DEC	+.155044	# L		B		DESCENT
 		DEC	-.025233	# L		C		DESCENT
 # Page 1494
@@ -754,7 +754,7 @@ NOTMUCH		TS	L		# ABS(AOS) LESS THAN AMIN, SAVE IN L
 		AD	L		# L HAS ABS(AOS) - AMIN
 		EXTEND			# RESULT IS ABS(AOS)- AMIN/2
 		BZMF	NOAOS		# ABS(AOS) LESS THAN AMIN/2
-		
+
 SOMEAOS		CA	DBVAL3		# AMIN/2 LT ABS(AOS) LT AMIN
 		INDEX	-SIGNAOS
 		TS	DBB3		# DB3(4) = DB/2
@@ -781,7 +781,7 @@ ACCTHERE	INDEX	-SIGNAOS
 
 		CA	ABSAOS		# SEE IF OVERFLOW IN MIN CASE
 		AD	1JACCU
-# Page 1501		
+# Page 1501
 		AD	BIT9		# MAXIMUM POSSIBLE VALUE
 		TS	A		# OVERFLOW POSSIBLE BUT REMOTE
 		TCF	+2
@@ -879,7 +879,7 @@ STORV		CA	ACCSW		# STORE V AXIS VALUES
 		TS	ACCSWV
 		CA	NINE
 		TC	GENTRAN +1
-# Page 1503		
+# Page 1503
 		ADRES 	1/ATEM1		# TEMPORARY BUFFER
 		ADRES	1/ANET1 +16D	# THE REAL PLACE
 
@@ -980,7 +980,7 @@ DOACCFUN	EXTEND
 
 NETNEG		CS	-.03R/S2	# ANET LESS THAN AMIN -- SET EQUAL TO AMIN
 		TS	ANET
-# Page 1505		
+# Page 1505
 		TCF	1/NETMIN +1	# CONTINUE AS IF NOTHING HAPPENED.
 
 FIXMIN		CCS	SIGNAOS
@@ -1066,4 +1066,4 @@ PAXISADR	GENADR	PAXIS
 		OCT	00022		# -V
 +UMASK		OCT	00204		# +U
 		OCT	00041		# +V
-		
+

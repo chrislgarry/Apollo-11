@@ -7,9 +7,9 @@
 # Contact:      Hartmuth Gutsche <hgutsche@xplornet.com>.
 # Website:      www.ibiblio.org/apollo.
 # Pages:	514-524
-# Mod history:  2009-05-09 HG    Started adapting from the Colossus249/ file 
-#               of the same name, using Comanche055 page 
-#               images 0514.jpg - 0524.jpg. 
+# Mod history:  2009-05-09 HG    Started adapting from the Colossus249/ file
+#               of the same name, using Comanche055 page
+#               images 0514.jpg - 0524.jpg.
 #
 # This source code has been transcribed or otherwise adapted from digitized
 # images of a hardcopy from the MIT Museum.  The digitization was performed
@@ -17,13 +17,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #    Assemble revision 055 of AGC program Comanche by NASA
-#    2021113-051.  10:28 APR. 1, 1969  
+#    2021113-051.  10:28 APR. 1, 1969
 #
 #    This AGC program shall also be referred to as
 #            Colossus 2A
@@ -103,7 +103,7 @@ V82CALL		TC	INTPRET
 
 V82GOFF		EXIT			# ALLOW ASTRONAUT TO SELECT VEHICLE
 		CAF	TWO		# DESIRED FOR ORBITAL PARAMETERS
-		TS	OPTIONX	
+		TS	OPTIONX
 		CAF	ONE
 		TS	OPTIONX +1
 		CAF	OPTIONVN	# V 04 N 06
@@ -171,7 +171,7 @@ BOTHSHIP	VLOAD			# MOVE RESULTS INTO TFFCONIC STORAGE AREAS
 		STORE	VONE		# VATT AT (-7)M/CS FOR EARTH OR MOON
 		DLOAD*
 			1/RTMUE,2	# X2 IS 0 FOR EARTH CENTERED STATE VEC
-			                # HG remark: In Comanche055 scan this line (5324) looks pretty much like 1/RTMUF.2 can not decide, leave it 
+			                # HG remark: In Comanche055 scan this line (5324) looks pretty much like 1/RTMUF.2 can not decide, leave it
 			                # as it is in start source
 		STORE	TFF/RTMU	# X2 IS 2 FOR MOON
 		DLOAD*			# AS LEFT BY THISPREC OR OTHPREC.
@@ -208,11 +208,11 @@ MOONPAD		VLOAD	ABVAL		# COMPUTE MOON PAD RADIUS FROM RLS VECTOR.
 			V82EMFLG	# INDICATE MOON SCALING FOR SR30.1
 BOTHPAD		STCALL	RPADTEM
 			SR30.1		# CALCULATE ORBITAL PARAMETERS
-		EXIT	
+		EXIT
 		CA	MODREG		# ARE WE IN P00
 		EXTEND
 		BZF	CANDEL		# YES, DO DELRSPL
-SPLRET1		TC	INTPRET	
+SPLRET1		TC	INTPRET
 		RTB	DSU
 			LOADTIME
 			TSTART82	# PRESENT TIME -- TIME V82GOFF1 BEGAN
@@ -225,12 +225,12 @@ TICKTPER	DLOAD	DAD		# (-TPER NON ZERO) TFF WAS NOT COMPUTED.
 			TSTART82	# TICK -TPER.  DISPLAY BOTH.
 		STORE	-TPER           # -TPER CORRECTED FOR TIME SINCE V82GOFF1
 		EXIT                    # BEGAN.
-			
+
 # Page 518
 		CAF	BIT1
 		TS	V82FLAGS	# INFORMS TICKTEST TO INCREMENT ONLY -TPER
 		TC	ENDOFJOB
-		
+
 TICKTFF		DLOAD	DAD		# (-TPER=0) TFF WAS COMPUTED.  TICK TFF.
 			TFF		# DO NOT TICK -TPER.  DISPLAY TFF, BUT NOT
 			TSTART82	# -TPER

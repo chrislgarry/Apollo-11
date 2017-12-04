@@ -10,14 +10,14 @@
 # Mod history:  2009-05-08 RSB	Adapted from Colossus249/ file of same name
 #				and page images. Corrected various typos
 #				in the transcription of program comments,
-#				and these should be back-ported to 
+#				and these should be back-ported to
 #				Colossus249.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #       Assemble revision 055 of AGC program Comanche by NASA
-#       2021113-051.  April 1, 1969.  
+#       2021113-051.  April 1, 1969.
 #
 #       This AGC program shall also be referred to as Colossus 2A
 #
@@ -168,9 +168,9 @@
 		BANK
 
 		EBANK=	DNTMBUFF
-		
+
 		COUNT	05/DPROG
-		
+
 DODOWNTM	TS	BANKRUPT
 		EXTEND
 		QXCH	QRUPT		# SAVE Q
@@ -423,7 +423,7 @@ DNDUMP		CA	TWO		# INCREMENT ECADR IN DUMPLOC
 		TCF	DNPHASE1	# YES -- SEND DOWNLIST AGAIN
 					# AGAIN
 		TCF	DNDUMPI +2	# NO -- GO BACK AND INITIALZE NEXT BANK
-		
+
 DNDUMP1		CA	LDNDUMP		# SET DNTMGOTO
 		TS	DNTMGOTO	# FOR WORDS 3 TO 256D OF CURRENT EBANK
 

@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	752-784
-# Mod history:	2009-05-19 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-19 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2011-01-06 JL	Fixed interpretive indentation.
 #
@@ -25,7 +25,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 752
 # PROGRAM DESCRIPTION: P40BOTH		DECEMBER 22, 1966
@@ -835,7 +835,7 @@ S40.2,3		VLOAD			# UT:  DESIRED THRUST DIRECTION (HALF-UNIT)
 		STOVL	POINTVSM	# SAVE FOR "VECPOINT" ROUTINE (LEMMANU).
 			UNITX		# SCAXIS SET TO +X, FOR P40 AND P42 AND
 		STOVL	SCAXIS		# FOR P41 IF RCS NOT -X,+Y,-Y,+Z,-Z.
-		
+
 			UT		# ASSUME +X BURN ALWAYS, EVEN FOR RCS.
 PLUSX		STORE	XSCREF		# XSCREF = UT (DESIRED THRUST DIRECTION)
 		VXV	UNIT		# RTIG = POSITION AT TIME-OF-IGNITION.
@@ -1201,31 +1201,31 @@ RASTEER1	VLOAD	ABVAL
 			MUASTEER
 		PDDL	DSU
 			SS
-			RMAG		
+			RMAG
 		NORM	SR1
-			X1		
-		DDV	DMP		
-			R1C		
+			X1
+		DDV	DMP
+			R1C
 		XSU,2	SL*
 			X1
 			1,2
-		LXA,2			
-			MUSCALE		
-		SQRT	SIGN		
-			GEOMSGN		
+		LXA,2
+			MUSCALE
+		SQRT	SIGN
+			GEOMSGN
 		STORE	32D		# + OR - A
 		DLOAD	DMP
 			SS
-			MU/A		
-		BDSU			
-			MUASTEER	
+			MU/A
+		BDSU
+			MUASTEER
 		PDDL	DSU
 			SS
 			RTMAG
 		NORM	SR1
-			X1		
-		DDV	DMP		
-					
+			X1
+		DDV	DMP
+
 # Page 778
 			R1C
 		XSU,2	SL*
@@ -1237,33 +1237,33 @@ RASTEER1	VLOAD	ABVAL
 			30D
 			SS
 		SQRT	PUSH
-		SR1	ASIN		
+		SR1	ASIN
 		DMP	PDDL
 			2PI+3
 		PDDL	DDV
 			30D
 			SS
-		BOV			
+		BOV
 			+1
-		SQRT	DMP		
+		SQRT	DMP
 		SR3	BDSU
 		SIGN	PDDL
-			GEOMSGN		
+			GEOMSGN
 			2PI+3
-		SR2	DSU		
+		SR2	DSU
 		DMP	PDDL
 			SS
-			SS		
-		SR3	SQRT		
+			SS
+		SR3	SQRT
 		DMP
-		PDDL	SL3		
-			MUASTEER	
-		SQRT	BDDV		
-		DSU	DAD		
-			TPASS4		
+		PDDL	SL3
+			MUASTEER
+		SQRT	BDDV
+		DSU	DAD
+			TPASS4
 			PIPTIME
-		STODL	30D		
-		SIGN			
+		STODL	30D
+		SIGN
 			30D		# B WITH SIGN
 		STORE	30D
 		BON	VLOAD
@@ -1272,14 +1272,14 @@ RASTEER1	VLOAD	ABVAL
 			IC
 		VSU	UNIT
 			UNIT/R/
-		VXSC	PDVL		
-			30D		
+		VXSC	PDVL
+			30D
 			IC
 		VAD	UNIT
-			UNIT/R/		
+			UNIT/R/
 # Page 779
 GETVRVG1	VXSC	VAD
-			32D		
+			32D
 GETVRVG2	LXC,2	VSR*
 			RTX2
 			0 	-1,2

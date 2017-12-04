@@ -7,9 +7,9 @@
 # Contact:      Hartmuth Gutsche <hgutsche@xplornet.com>.
 # Website:      www.ibiblio.org/apollo.
 # Pages:	pp  511-513
-# Mod history:  2009-05-08 HG    Adapting from the Luminary131/ file 
-#               of the same name, using Comanche055 page 
-#               images 0511.jpg - 0513.jpg. 
+# Mod history:  2009-05-08 HG    Adapting from the Luminary131/ file
+#               of the same name, using Comanche055 page
+#               images 0511.jpg - 0513.jpg.
 #
 # This source code has been transcribed or otherwise adapted from digitized
 # images of a hardcopy from the MIT Museum.  The digitization was performed
@@ -17,13 +17,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #    Assemble revision 055 of AGC program Comanche by NASA
-#    2021113-051.  10:28 APR. 1, 1969  
+#    2021113-051.  10:28 APR. 1, 1969
 #
 #    This AGC program shall also be referred to as
 #            Colossus 2A
@@ -62,7 +62,7 @@ P76		TC	UPFLAG
 		CAF	V06N84          # FLASH LAST DELTA V.
 		TC      BANKCALL        # AND WAIT FOR KEYBOARD ACTION.
 	        CADR    GOFLASH
-		TCF     ENDP76	
+		TCF     ENDP76
 		TC	+2		# PROCEED
 		TC	-5		# STORE DATA AND REPEAT FLASHING
 		CAF	V06N84 +1	# FLASH VERB 06 NOUN 33, DISPLAY LAST TIG,
@@ -131,7 +131,7 @@ INTOTHIS	STCALL	TDEC1
 # Page 513
 		TC	UPFLAG
 		ADRES	REINTFLG
-			 
+
 		TC	INTPRET
 		CALL
 			ATOPOTH
@@ -144,19 +144,19 @@ OUT		EXIT
 ENDP76		CAF	ZERO
 		TS	MARKCTR		# CLEAR RR TRACKING MARK COUNTER
 		TS      VHFCNT
-		
+
 		CAF     NEGONE
 		TS      MRKBUF2         # INVALIDATE MARK BUFFER
-		
+
 		TCF	GOTOP00H
 
 V06N84		NV	0684
 		NV	0633
 P76SUB1		CLEAR   SLOAD
-			MOONFLAG        
+			MOONFLAG
                         X2
                 BHIZ    SET             # X2=0...CLEAR MOONFLAG
                         +2              #   =2.....SET MOONFLAG
                         MOONFLAG
-                RVQ 
+                RVQ
 

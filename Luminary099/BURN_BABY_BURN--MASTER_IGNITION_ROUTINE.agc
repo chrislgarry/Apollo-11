@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	731-751
-# Mod history:	2009-05-19 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-19 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-07 RSB	Corrected 3 typos.
 #		2009-07-23 RSB	Added Onno's notes on the naming
@@ -28,7 +28,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 731
 ## At the get-together of the AGC developers celebrating the 40th anniversary
@@ -36,11 +36,11 @@
 ## with Peter Adler) has related to us a little interesting history behind the
 ## naming of the routine.
 ##
-## It traces back to 1965 and the Los Angeles riots, and was inspired 
+## It traces back to 1965 and the Los Angeles riots, and was inspired
 ## by disc jockey extraordinaire and radio station owner Magnificent Montague.
-## Magnificent Montague used the phrase "Burn, baby! BURN!" when spinning the 
+## Magnificent Montague used the phrase "Burn, baby! BURN!" when spinning the
 ## hottest new records. Magnificent Montague was the charismatic voice of
-## soul music in Chicago, New York, and Los Angeles from the mid-1950s to 
+## soul music in Chicago, New York, and Los Angeles from the mid-1950s to
 ## the mid-1960s.
 # BURN, BABY, BURN -- MASTER IGNITION ROUTINE
 
@@ -363,7 +363,7 @@ TIG-5		EXTEND
 		ADRES	IGNFLAG		# 	FOR LIGHT-UP LOGIC.
 		TC	DOWNFLAG
 		ADRES	ASTNFLAG
-		
+
 		INDEX	WHICH
 		TCF	11
 
@@ -380,7 +380,7 @@ P40SJUNK	CCS	PHASE3		# (11) P40 AND P42.  S40.13 IN PROGRESS?
 DISPCHNG	CS	VB99DEX		# (11)
 		TS	DISPDEX
 
-# Page 738		
+# Page 738
 COMMON		TC	PHASCHNG	# RESTART TIG-0 (4.7SPOT)
 		OCT	40074
 		TCF	TASKOVER
@@ -449,11 +449,11 @@ P63IGN		EXTEND			# (13)	INITIATE BURN DISPLAYS
 		CS	FLAGWRD9	# SET FLAG FOR P70-P71
 		MASK	LETABBIT
 		ADS	FLAGWRD9
-		
+
 		CS	FLAGWRD7	# SET SWANDISP TO ENABLE R10.
 		MASK	SWANDBIT
 		ADS	FLAGWRD7
-		
+
 		CS	PULSES		# MAKE SURE DAP IS NOT IN MINIMUM-IMPULSE
 		MASK	DAPBOOLS	# MODE, IN CASE OF SWITCH TO P66
 		TS	DAPBOOLS
@@ -680,7 +680,7 @@ STCLOK3		TC	MAKECADR	# SETTING DISPDEX POSITIVE KILLS IT.
 		DXCH	MPAC
 		EXTEND
 		DCS	TIME2
-# Page 744		
+# Page 744
 		DAS	MPAC		# HAVE TIG -- TIME2, UNDOUBTEDLY A + NUMBER
 		TC	TPAGREE		# POSITIVE, SINCE WE PASSED THE
 		CAF	1SEC		# 45 SECOND CHECK.
@@ -726,7 +726,7 @@ CLOKJOB		EXTEND
 		DCS	TIG
 		DXCH	TTOGO
 		EXTEND
-# Page 745		
+# Page 745
 		DCA	TIME2
 		DAS	TTOGO
 		INHINT

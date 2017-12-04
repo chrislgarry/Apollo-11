@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1460-1469
-# Mod history:	2009-05-27 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-27 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-06 RSB	Eliminated a stray instruction that had crept
 #				in somehow.
@@ -26,7 +26,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1460
 # PROGRAM DESCRIPTION
@@ -181,7 +181,7 @@ TJCALC		TS	NUMBERT		# SET TO +0,1,4 FOR (U,V-AXES) JET SELECT.
 
 ZONE4,5		INDEX	ADRSDIF1
 		CAE	1/ACOAST	# .5/ACC SCALED AT 2(6)/PI WHERE
-# Page 1463		
+# Page 1463
 		EXTEND			# ACC = MAX(AMIN, AOS-).
 		MP	EDOTSQ		# SCALED AT PI/2(8).
 		AD	E		# SCALED AT PI/4
@@ -232,7 +232,7 @@ ZONE5		TS	L		# TEMPORARILY STORE FUNCTION IN L.
 		TCF	+4		# AND ACCFCTZ5, WHICH MUST BE PICKED UP
 		TC	CCSHOLE		# FROM THE NEXT LOWER REGISTER IF THE
 		CS	TWO		# (ACTUAL) ERROR RATE IS NEGATIVE.
-# Page 1464		
+# Page 1464
 		ADS	ADRSDIF2
 
 	+4	CAE	L
@@ -285,7 +285,7 @@ RETURNTJ	EXTEND			# ALL BRANCHES TERMINATE HERE WITH TJET
 		EXTEND			#	IN A SENSE FOR WHICH 1/ACCS HAS FORCED
 		BZMF	+3		#	A MAX-JET CALCULATION.
 		CAF	FOUR
-# Page 1465		
+# Page 1465
 		TS	NUMBERT
 		TC	HOLDQ		# RETURN VIA SAVED Q.
 

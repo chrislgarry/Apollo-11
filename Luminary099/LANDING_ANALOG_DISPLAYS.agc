@@ -10,11 +10,11 @@
 # Website:	http://www.ibiblio.org/apollo.
 # Mod history:	05/06/09 FB	Transcription Batch 4 Assignment.
 #
-# The contents of the "Luminary099" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Luminary099" files, in general, are transcribed
+# from scanned documents.
 #
 #	Assemble revision 001 of AGC program Luminary099 by NASA
-#	2021112-061.  July 14, 1969.  
+#	2021112-061.  July 14, 1969.
 #
 #	Prepared by
 #			Massachusetts Institute of Technology

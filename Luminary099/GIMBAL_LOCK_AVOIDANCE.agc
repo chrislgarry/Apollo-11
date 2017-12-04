@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	364
-# Mod history:	2009-05-17 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-17 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2010-12-31 JL	Fixed page number comment.
 #
@@ -25,14 +25,14 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 364
 		BANK	15
-		
+
 		SETLOC	KALCMON1
 		BANK
-		
+
 # DETECTING GIMBAL LOCK
 LOCSKIRT	EQUALS	NOGIMLOC
 
@@ -55,22 +55,22 @@ WCALC		LXC,1	DLOAD*
 		SR
 			5
 		STORE	TM		# MANEUVER EXECUTION TIME SCALED AS T2
-		SETGO	
+		SETGO
 			CALCMAN2	# D(OFF) = CONTINUE MANEUVER
 			NEWANGL +1	# 1(ON) = START MANEUVER
-			
+
 # THE FOUR SELECTABLE FREE FALL MANEUVER RATES SELECTED BY
 # LOADING RATEINDX WITH 0, 2, 4, 6, RESPECTIVELY
 
 ARATE		2DEC	.0088888888	# = 0.2 DEG/SEC		$ 22.5 DEG/SEC
 
 		2DEC	.0222222222	# = 0.5 DEG/SEC		$ 22.5 DEG/SEC
-		
+
 		2DEC	.0888888888	# = 2.0 DEG/SEC		$ 22.5 DEG/SEC
-		
+
 		2DEC	.4444444444	# = 10.0 DEG/SEC	$ 22.5 DEG/SEC
-		
+
 ANGLTIME	2DEC	.0001907349	# = 100B-19 FUDGE FACTOR TO CONVERT
 					# MANEUVER ANGLE TO MANEUVER TIME
-					
+
 

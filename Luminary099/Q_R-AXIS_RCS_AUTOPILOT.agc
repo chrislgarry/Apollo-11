@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1442-1459
-# Mod history:	2009-05-27 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-27 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-07 RSB	Corrected "DEC 96.0" to "DEC 96", since
 #				the former is not compatible with yaYUL.
@@ -26,7 +26,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1442
 		BANK	17
@@ -747,7 +747,7 @@ TURNON		CA	BIT15
 		EXTEND
 		WOR	CHAN13
 		TC	Q
-		
+
 # Page 1457
 MIDORLST	AD	T6NEXT
 		EXTEND
@@ -848,7 +848,7 @@ ENDJASK		DXCH	DAPARUPT
 		DXCH	DAPZRUPT
 		DXCH	ZRUPT
 		TCF	NOQRSM
-# Page 1459		
+# Page 1459
 		BLOCK	3
 		SETLOC	FFTAG6
 		BANK
@@ -857,4 +857,4 @@ ENDJASK		DXCH	DAPARUPT
 
 MAKERUPT	EXTEND
 		EDRUPT	MAKERUPT
-		
+

@@ -8,16 +8,16 @@
 # Contact:      Ron Burkey <info@sandroid.org>
 # Website:      http://www.ibiblio.org/apollo.
 # Mod history:  2009-05-07 RSB	Adapted from Colossus249 file of the same
-#				name, and page images. Corrected various 
-#				typos in the transcription of program 
-#				comments, and these should be back-ported  
+#				name, and page images. Corrected various
+#				typos in the transcription of program
+#				comments, and these should be back-ported
 #				to Colossus249.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #       Assemble revision 055 of AGC program Comanche by NASA
-#       2021113-051.  April 1, 1969.  
+#       2021113-051.  April 1, 1969.
 #
 #       This AGC program shall also be referred to as Colossus 2A
 #
@@ -38,40 +38,40 @@
 		COUNT	03/FLAG
 
 UPENT2		TS	L		# WHICH FLAGWORD IS IT
-		MASK	OCT7		
+		MASK	OCT7
 		XCH	L		# SAVE IN L FOR INDEXING
-		
+
 		MASK	OCT77770	# OBTAIN THE BIT INFORMATION
 		INHINT			# PREVENT INTERRUPTS
 		TS	ITEMP1		# STORE THE BIT INFORMATION TEMPORARILY
-		
+
 		NDX	L
 		CS	FLAGWRD0
 		MASK	ITEMP1
 		NDX	L
 		ADS	FLAGWRD0
 		RELINT			# RELEASE INTERRUPT INHIBIT
-		
+
 		INCR	Q		# OBTAIN THE CORRECT RETURN ADDRESS
 		TC	Q		# RETURN
-		
+
 DOWNENT2	TS	L		# WHICH FLAGWORD IS IT
 		MASK	OCT7
 		XCH	L		# SAVE IN L FOR INDEXING
-		
+
 		MASK	OCT77770	# OBTAIN THE BIT INFORMATION
 		COM			# START TO PROCESS THE INFORMATION
-		
+
 		INHINT			# PREVENT INTERRUPTS
 		NDX	L
 		MASK	FLAGWRD0
 		NDX	L
 		TS	FLAGWRD0
 		RELINT			# RELEASE INTERRUPT INHIBIT
-		
+
 		INCR	Q		# OBTAIN THE CORRECT RETURN ADDRESS
 		TC	Q
-		
+
 OCT7		EQUALS	SEVEN
 		BANK	10
 
@@ -256,16 +256,16 @@ TRFAILOF	INHINT
 		CS	OPTMODES	# TO INSURE THAT OCDU FAIL WILL GO ON
 		MASK	BIT7		# AGAIN IF IT WAS ON IN ADDITION TO
 		ADS	OPTMODES	# TRACKER FAIL.
-		
+
 REQ		RELINT
 		TC	Q
-		
+
 TRFAILON	INHINT
 		CS	DSPTAB	+11D	# TURN ON
 		MASK	OCT40200
 		ADS	DSPTAB +11D
 		TCF	REQ
-		
+
 
 
 

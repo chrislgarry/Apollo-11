@@ -7,14 +7,14 @@
 # Reference:	pp. 456-459
 # Contact:	Onno Hommes <ohommes@cmu.edu>.
 # Website:	www.ibiblio.org/apollo.
-# Mod history:	2009-05-07 OH	Transcription Batch 1 Assignment 
+# Mod history:	2009-05-07 OH	Transcription Batch 1 Assignment
 #		2009-05-20 RSB	Corrected a couple of DIMOFLAG to DIM0FLAG.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  April 1, 1969.  
+#	2021113-051.  April 1, 1969.
 #
 #	This AGC program shall also be referred to as Colossus 2A
 #
@@ -90,7 +90,7 @@
 
 		EBANK=	P21TIME
 		COUNT	24/P21
-		
+
 PROG21		CAF	ONE
 		TS	OPTION2		# ASSUMED VEHICLE IS LM, R2 = 00001
 		CAF	BIT2		#  OPTION 2
@@ -106,7 +106,7 @@ P21PROG1	CAF	V6N34		# LOAD DESIRED TIME OF LAT-LONG.
 		TC	+2		# PROCEED VALUES OK
 		TC	-5		# TIME LOADED THROUGH DSKY
 		TC	INTPRET
-		DLOAD	
+		DLOAD
 			DSPTEM1
 		STCALL	TDEC1		# INTEG TO TIME SPECIFIED IN TDEC
 			INTSTALL
@@ -126,9 +126,9 @@ P21PROG1	CAF	V6N34		# LOAD DESIRED TIME OF LAT-LONG.
 			INTEGRV		# CALCULATE
 		GOTO			# .AND
 			P21VSAVE	# ..SAVE BASE VECTOR
-P21CONT		VLOAD			# RECYCLE..INTEG FROM BASE VECTOR			
+P21CONT		VLOAD			# RECYCLE..INTEG FROM BASE VECTOR
 			P21BASER
-# Page 458		
+# Page 458
 		STOVL	RCV		# ..POS
 			P21BASEV
 		STODL	VCV		# ..VEL
@@ -179,7 +179,7 @@ P21DSP		CLEAR	SLOAD		# GENERATE DISPLAY DATA
 		DMP			# MPAC = ALT, METERS B-29
 			K.01
 		STORE	P21ALT		# ALT/100 FOR N73 DSP
-# Page 459		
+# Page 459
 		EXIT
 		CAF	V06N43		# DISPLAY LAT,LONG,ALT
 		TC	BANKCALL	# LAT,LONG = REVS B0 BOTH EARTH/MOON
@@ -191,9 +191,9 @@ P21DSP		CLEAR	SLOAD		# GENERATE DISPLAY DATA
 			P21TIME
 			600SEC		# 600 SECONDS OR 10 MIN
 		STORE	DSPTEM1
-		RTB	
+		RTB
 			P21PROG1
-	
+
 600SEC		2DEC	60000		# 10 MIN
 
 P21ONENN	OCT	00001		# NEEDED TO DETERMINE VEHICLE

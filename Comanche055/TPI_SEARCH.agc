@@ -17,13 +17,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -40,7 +40,7 @@
 # FOR THE TPI AND TPF MANEUVERS.
 #
 # THE S17.1 ROUTINE EXTRAPOLATES THE STATE VECTORS OF BOTH VEHICLES TO THE TPI TIME AND COMPUTES THE
-# RELATIVE PHASE ANGLE BETWEEN THE VEHICLES, THE ALTITUDE DIFFERENCE (I.E., THE MAGNITUDE DIFFERENCE OF THE 
+# RELATIVE PHASE ANGLE BETWEEN THE VEHICLES, THE ALTITUDE DIFFERENCE (I.E., THE MAGNITUDE DIFFERENCE OF THE
 # POSITION VECTORS) AND SELECTS A SEARCH SECTOR BASED ON THE SIGN OF THE ALTITUDE DIFFERENCE.
 #
 # THE S17.2 ROUTINE FURTHER DEFINES THE SEARCH SECTOR BY COMPUTING ANGULAR LIMITS AND USES THE TIME THETA
@@ -64,11 +64,11 @@
 		BANK	36
 		SETLOC	P17S1
 		BANK
-		
+
 		COUNT	36/TPI
-		
+
 		EBANK=	RACT3
-		
+
 # **** TEMPORARY ****
 
 HPE		2DEC	157420.0 B-29		# EARTH'S MIN. PERICENTER ALTITUDE 85 N.M.
@@ -134,7 +134,7 @@ S17.1		STQ	DLOAD
 		SL1 	ACOS
 		PDVL
 		VXV	DOT
-# Page 553		
+# Page 553
 			RACT3
 			E2
 		PDDL	SIGN
@@ -185,7 +185,7 @@ S17.2		STQ	VLOAD			# COMPUTE SEARCH SECTOR LIMITS
 			TIMETHET
 		DLOAD				# SAVE START TIME AND GET END TIME
 			T
-# Page 554			
+# Page 554
 		STORE	TF
 		STODL	TFO
 			IT
@@ -197,7 +197,7 @@ S17.2		STQ	VLOAD			# COMPUTE SEARCH SECTOR LIMITS
 		STORE	CSTH
 		LXA,1	CALL
 			XRS
-			TIMETHET	
+			TIMETHET
 # INITIALIZE LOOP
 		DLOAD	CLEAR
 			T
@@ -287,7 +287,7 @@ JUNCT3		VLOAD
 			XRS
 		STOVL	X1
 			VIPRIME
-# Page 556			
+# Page 556
 		VSR*
 			0,2
 		STOVL	VVEC
@@ -338,7 +338,7 @@ INTERP		SET	DSU			# HP-HPO
 			X2
 		XSU,2	DDV
 			X1
-# Page 557			
+# Page 557
 		DMP	SR*
 			DELTEE
 			0 	-1,2
@@ -405,7 +405,7 @@ USEKAY		SLOAD	BON
 			DECTWO
 			KFLAG
 			NEXUS
-		DSU	
+		DSU
 			P21ONENN
 NEXUS		STODL	NN1
 			HP
@@ -415,7 +415,7 @@ NEXUS		STODL	NN1
 		SETLOC	XANG
 		BANK
 		COUNT	07/XANG
-		
+
 # CENTRAL ANGLE SUBROUTINE
 #
 # THIS SUBROUTINE COMPUTES THE CENTRAL ANGLE OF TRAVEL OF THE
@@ -472,7 +472,7 @@ TRANSANG	STQ	SETPD
 		SETLOC	P17S1
 		BANK
 		COUNT	35/P17
-		
+
 # TPI SEARCH DISPLAY ROUTNE
 
 P17		TC	AVFLAGA			# AVFLAG = CSM, SET TRACK + UPDATE FLAGS
@@ -531,7 +531,7 @@ P17.3		CAF	V06N58			# DISPLAY DELTA VTPI, DELTA VTPF, AND H
 		TC	BLANKET
 		TCF	ENDOFJOB
 		EBANK=	RTRN
-		
+
 VNCOMP17	EXTEND
 		QXCH	QSAVED
 		TS	VERBNOUN
@@ -543,7 +543,7 @@ VNCOMP17	EXTEND
 		CS	MPAC			# RECYCLE WITH NEW TPI TIME
 		AD	BIT6			# OR PROCEED WITH NEW SEARCH OPTION
 		EXTEND
-# Page 561		
+# Page 561
 		BZF	P17.1
 		TC	VNCOMP17 +3
 ALARUMS		SET	EXIT

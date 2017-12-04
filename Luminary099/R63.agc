@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	338-341
-# Mod history:	2009-05-16 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-16 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #
 # This source code has been transcribed or otherwise adapted from
@@ -24,7 +24,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 338
 # SUBROUTINE NAME:	V89CALL
@@ -83,7 +83,7 @@
 		BANK	32
 		SETLOC	BAWLANGS
 		BANK
-		
+
 		COUNT*	$$/R63
 V89CALL		TC	BANKCALL	# IMU STATUS CHECK.  RETURNS IF ORIENTATION
 		CADR	R02BOTH		# KNOWN.  ALARMS IF NOT.
@@ -143,12 +143,12 @@ V89CALL1	STCALL	SCAXIS		# STORE SELECTED ALIGNMENT AXIS
 		TC	BANKCALL	# PERFORMS LEM MANEUVER TO ALIGN SELECTED
 		CADR	R60LEM		# SPACECRAFT AXIS TO CSM.
 		TCF	ENDEXT		# TERMINATE R63
-		
+
 ALINEZ		TC	INTPRET		# Z AXIS ALIGNMENT
 		VLOAD	GOTO
 			UNITZ		# READ (0, 0, .5)
 			V89CALL1
-			
+
 VB04N12		VN	412
 VB06N18		VN	0618
 # Page 341

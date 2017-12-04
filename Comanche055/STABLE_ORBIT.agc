@@ -7,9 +7,9 @@
 # Contact:      Hartmuth Gutsche <hgutsche@xplornet.com>.
 # Website:      www.ibiblio.org/apollo.
 # Pages:	525-532
-# Mod history:  2009-05-10 HG    Started adapting from the Colossus249/ file 
-#                of the same name, using Comanche055 page 
-#                images 0525.jpg - 0532.jpg. 
+# Mod history:  2009-05-10 HG    Started adapting from the Colossus249/ file
+#                of the same name, using Comanche055 page
+#                images 0525.jpg - 0532.jpg.
 #
 # This source code has been transcribed or otherwise adapted from digitized
 # images of a hardcopy from the MIT Museum.  The digitization was performed
@@ -17,13 +17,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #    Assemble revision 055 of AGC program Comanche by NASA
-#    2021113-051.  10:28 APR. 1, 1969  
+#    2021113-051.  10:28 APR. 1, 1969
 #
 #    This AGC program shall also be referred to as
 #            Colossus 2A
@@ -56,7 +56,7 @@
 #
 #		(A)  TIG	TIME OF SOI MANEUVER
 #		(B)  CENTANG	ORBITAL CENTRAL ANGLE OF THE PASSIVE VEHICLE
-#				DURING THE TRANSFER FROM TIG TO TIME OF INTERCEPT
+#				DURING TRANSFER FROM TIG TO TIME OF INTERCEPT
 #		(C)  DELTAR	THE DESIRED SEPARATION OF THE TWO VEHICLES
 #				SPECIFIED AS A DISTANCE ALONG THE PASSIVE VEHICLE
 #				ORBIT
@@ -85,7 +85,7 @@
 #			THE SOI (SOR) MANEUVER
 #	(6)  DELVTPI	MAGNITUDE OF DELTA V AT SOI (SOR) TIME
 #	(7)  DELVTPF	MAGNITUDE OF DELTA V AT INTERCEPT TIME
-#	(8)  DELTA 	VELOCITY AT SOI (AND SOR) - LOCAL VERTICAL
+#	(8)  DELVLVC	DELTA VELOCITY AT SOI (AND SOR) - LOCAL VERTICAL
 #			COORDINATES
 #
 # SUBROUTINES USED
@@ -106,10 +106,10 @@
 		BANK	04
 		SETLOC	STBLEORB
 		BANK
-		
+
 		EBANK=	SUBEXIT
 		COUNT*	$$/P3879
-		
+
 P38		TC	AVFLAGA         # THIS VEHICLE ACTIVE
 		TC      +2
 P78		TC	AVFLAGP         # OTHER VEHICLE ACTIVE
@@ -122,7 +122,7 @@ P78		TC	AVFLAGP         # OTHER VEHICLE ACTIVE
 		TCF	GOTOP00H	# TERMINATE
 		TCF	+5		# PROCEED
 		TCF	-5		# RECYCLE
-		CAF	THREE		# IMMEDIATE RETURN -- BLANK R1, R2
+		CAF	THREE		# IMMEDIATE RETURN - BLANK R1, R2
 		TCR	BLANKET
 		TCF	ENDOFJOB
 		CAF	FIVE
@@ -130,13 +130,13 @@ P78		TC	AVFLAGP         # OTHER VEHICLE ACTIVE
 		CAF	ONE
 		TS	OPTION2		# OPTION CODE IS SET TO 1
 # Page 527
-		CAF	V04N06SR	# DISPLAY OPTION CODE -1 = SOI, 2 = SOR
+		CAF	V04N06SR	# DISPLAY OPTION CODE - 1 = SOI, 2 = SOR
 		TCR	BANKCALL
 		CADR	GOFLASHR
 		TCF	GOTOP00H	# TERMINATE
 		TCF	+5		# PROCEED
 		TCF	-5		# RECYCLE
-		CAF	BIT3		# IMMEDIATE RETURN -- BLANK R3
+		CAF	BIT3		# IMMEDIATE RETURN - BLANK R3
 		TCR	BLANKET
 		TCF	ENDOFJOB
 		TC	INTPRET
@@ -150,7 +150,7 @@ P78		TC	AVFLAGP         # OTHER VEHICLE ACTIVE
 			TINT
 		STORE	TINTSOI		# STORE FOR SOR PHASE
 		CLRGO
-			OPTNSW		# OPTNSW: ON = SOI. OFF = SOR
+			OPTNSW		# OPTNSW; ON = SOI, OFF = SOR
 			JUNCTN1
 OPTN1		SET	CLEAR		# SOI
 			OPTNSW
@@ -186,7 +186,7 @@ RECYCLE		CALL
 			OPTN2
 			TINT
 		STCALL	TDEC1		# PRECISION UPDATE PASSIVE VEHICLE TO
-			INTRPVP		# INTERCEPT TIME
+			INTRPVP		#	INTERCEPT TIME
 		VLOAD	UNIT
 			RATT		# RP/(RP)
 		PDVL	VXV
@@ -207,9 +207,8 @@ JUNCTN2		DLOAD	DSU
 			TINT
 			DELTTIME
 		STORE	TARGTIME	# TT = TI - DELTA T
-		
+
 # .... MAINRTNE ....
-#
 # SUBROUTINES USED
 #
 #	S3435.25
@@ -248,7 +247,7 @@ MAINRTN1	VLOAD	ABVAL
 			VPASS4
 		VSU	ABVAL
 			VTPRIME
-		STOVL	DELVTPF		# DELTA V (FINAL) = V-T - VT
+		STOVL	DELVTPF		# DELTA V (FINAL) = V'T - VT
 			RACT3
 		PDVL	CALL
 			VIPRIME
@@ -275,7 +274,7 @@ DSPLY81		CAF	V06N81SR	# DISPLAY DELTA V (LV)
 			P39/79SW
 			P39/P79B
 			RECYCLE
-			
+
 # STABLE ORBIT MIDCOURSE PROGRAM (P39 AND P79)
 #
 # MOD NO -1		LOG SECTION - STABLE ORBIT - P38-P39
@@ -287,7 +286,7 @@ DSPLY81		CAF	V06N81SR	# DISPLAY DELTA V (LV)
 #	CONDITIONS REQUIRED BY THE AGC TO MAKE A MIDCOURSE CORRECTION
 # Page 530
 #	MANEUVER AFTER COMPLETING THE SOI MANEUVER BUT BEFORE MAKING
-#	THE SOR MANEUVER.
+#	THE SOR MANEUVER
 #
 # CALLING SEQUENCE
 #
@@ -298,8 +297,8 @@ DSPLY81		CAF	V06N81SR	# DISPLAY DELTA V (LV)
 #
 # INPUT
 #
-#	(1)  TPASS4	TIME OF INTERCEPT -- SAVED FROM P38/P78
-#	(2)  TARGTIME	TIME THAT PASSIVE VEHICLE IS AT INTERCEPT POINT --
+#	(1)  TPASS4	TIME OF INTERCEPT - SAVED FROM P38/P78
+#	(2)  TARGTIME	TIME THAT PASSIVE VEHICLE IS AT INTERCEPT POINT -
 #			SAVED FROM P38/P78
 #
 # OUTPUT
@@ -307,7 +306,7 @@ DSPLY81		CAF	V06N81SR	# DISPLAY DELTA V (LV)
 #	(1)  TRKMKCNT	NUMBER OF MARKS
 #	(2)  TTOGO	TIME TO GO
 #	(3)  +MGA	MIDDLE GIMBAL ANGLE
-#	(4)  DELVLVC	DELTA VELOCITY AT MID -- LOCAL VERTICAL COORDINATES
+#	(4)  DELVLVC	DELTA VELOCITY AT MID - LOCAL VERTICAL COORDINATES
 #
 # SUBROUTINES USED
 #
@@ -338,15 +337,14 @@ P39/P79B	RTB	DAD
 		STORE	TIG		# TIG = T (PRESENT) + PREPARATION TIME
 # Page531
 		STCALL	TDEC1		# PRECISION UPDATE ACTIVE AND PASSIVE
-			PRECSET		# 	VEHICLES TO TIG
+			PRECSET		#	VEHICLES TO TIG
 		CALL
 			S34/35.1	# GET UNIT NORMAL
 		DLOAD	GOTO
 			TARGTIME
 			MAINRTNE	# CALCULATE DELTA V AND DELTA V (LV)
-			
+
 # .... PREC/TT ....
-#
 # SUBROUTINES USED
 #
 #	PRECSET
@@ -378,9 +376,7 @@ PREC/TT		STQ	DLOAD
 		DLOAD	GOTO
 			T
 			RTRN
-			
 # .... INTRPVP ....
-#
 # SUBROUTINES USED
 #
 #	CSMPREC
@@ -399,9 +395,7 @@ OTHERV		CALL
 			LEMPREC
 		GOTO
 			RTRN
-			
 # .... VNDSPLY ....
-#
 # SUBROUTINES USED
 #
 #	BANKCALL

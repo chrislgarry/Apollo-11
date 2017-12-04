@@ -10,11 +10,11 @@
 # Website:	http://www.ibiblio.org/apollo.
 # Mod history:	09/05/09 FB	Transcription of Batch FB-1 Assignment.
 #
-# The contents of the "Comanche055" files, in general, are transcribed 
-# from scanned documents. 
+# The contents of the "Comanche055" files, in general, are transcribed
+# from scanned documents.
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  April 1, 1969.  
+#	2021113-051.  April 1, 1969.
 #
 #	This AGC program shall also be referred to as Colossus 2A
 #
@@ -29,66 +29,66 @@
 # information.  Please report any errors to info@sandroid.org.
 
 # Page 131
-		SETLOC	4000 
-		
+		SETLOC	4000
+
 		COUNT	02/RUPTS
-		
+
 		INHINT			# GO
 		CAF	GOBB
 		XCH	BBANK
 		TCF	GOPROG
-		
+
 		DXCH	ARUPT		# T6RUPT
 		EXTEND
 		DCA	T6LOC
 		DTCB
-		
+
 		DXCH	ARUPT		# T5RUPT
 		CS	TIME5
 		AD	.5SEC
 		TCF	T5RUPT
-		
+
 		DXCH	ARUPT		# T3RUPT
 		CAF	T3RPTBB
 		XCH	BBANK
 		TCF	T3RUPT
-		
+
 		DXCH	ARUPT		# T4RUPT
 		CAF	T4RPTBB
 		XCH	BBANK
 		TCF	T4RUPT
-		
+
 		DXCH	ARUPT		# KEYRUPT1
 		CAF	KEYRPTBB
 		XCH	BBANK
 		TCF	KEYRUPT1
-		
+
 		DXCH	ARUPT		# KEYRUPT2
 		CAF	MKRUPTBB
 		XCH	BBANK
 		TCF	MARKRUPT
-		
+
 		DXCH	ARUPT		# UPRUPT
 		CAF	UPRPTBB
 		XCH	BBANK
 		TCF	UPRUPT
-		
+
 		DXCH	ARUPT		# DOWNRUPT
 		CAF	DWNRPTBB
 		XCH	BBANK
 		TCF	DODOWNTM
-		
+
 		DXCH	ARUPT		# RADAR RUPT
 # Page 132
 		CAF	RDRPTBB
 		XCH	BBANK
 		TCF	VHFREAD
-		
+
 		DXCH	ARUPT		# HAND CONTROL RUPT
 		CAF	HCRUPTBB
 		XCH	BBANK
 		TCF	RESUME +3	# NOT USED
-		
+
 		EBANK=	LST1		# RESTART USES E0,E3
 GOBB		BBCON	GOPROG
 
@@ -123,6 +123,6 @@ T5RUPT		EXTEND
 		EXTEND
 		DCA	T5LOC
 		DTCB
-		
-		
+
+
 

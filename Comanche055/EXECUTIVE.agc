@@ -16,13 +16,13 @@
 # thanks to both.  The images (with suitable reduction in storage size and
 # consequent reduction in image quality as well) are available online at
 # www.ibiblio.org/apollo.  If for some reason you find that the images are
-# illegible, contact me at info@sandroid.org about getting access to the 
+# illegible, contact me at info@sandroid.org about getting access to the
 # (much) higher-quality images which Paul actually created.
 #
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 055 of AGC program Comanche by NASA
-#	2021113-051.  10:28 APR. 1, 1969  
+#	2021113-051.  10:28 APR. 1, 1969
 #
 #	This AGC program shall also be referred to as
 #			Colossus 2A
@@ -33,7 +33,7 @@
 # TO ENTER A JOB REQUEST REQUIRING NO VAC AREA:
 
 		COUNT	02/EXEC
-		
+
 NOVAC		INHINT
 		AD	FAKEPRET	# LOC(MPAC +6) - LOC(QPRET)
 		TS	NEWPRIO		# PRIORITY OF NEW JOB + NOVAC C(FIXLOC)
@@ -130,7 +130,7 @@ FAKEPRET	ADRES	MPAC -36D	# LOC(MPAC +6) - LOC(QPRET)
 
 		BANK	01
 		COUNT	01/EXEC
-		
+
 FINDVAC2	TS	EXECTEM1	# (SAVE CALLER'S BANK FIRST.)
 		CCS	VAC1USE
 		TCF	VACFOUND

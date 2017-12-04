@@ -23,7 +23,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 926
 # PROGRAM NAME -- PROG52			DATE -- JAN 9, 1967
@@ -1248,7 +1248,7 @@ R52B		TC	DOWNFLAG
 		BZMF	GETAZEL		# CODE 0, COAS CALIBRATION
 
 		AD	NEG7
-		EXTEND 
+		EXTEND
 		BZF	GETAZEL		# CODE 7, COAS SIGHTING
 
 		EBANK=	XYMARK

@@ -7,9 +7,9 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	723-730
-# Mod history:	2009-05-19 RSB	Adapted from the corresponding 
+# Mod history:	2009-05-19 RSB	Adapted from the corresponding
 #				Colossus249 file (there being no corresponding
-#				Luminary131 source-code file), using page 
+#				Luminary131 source-code file), using page
 #				images from Luminary 1A.
 #		2009-06-07 RSB	Eliminated an extraneous instruction.
 #		2011-01-06 JL	Fixed pseudo-label indentation.
@@ -27,7 +27,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 723
 # STABLE ORBIT RENDEZVOUS PROGRAMS (P38 AND P78)
@@ -108,10 +108,10 @@
 		BANK	04
 		SETLOC	STBLEORB
 		BANK
-		
+
 		EBANK=	SUBEXIT
 		COUNT*	$$/P3879
-		
+
 P38		TC	BANKCALL
 		CADR	AVFLAGA		# THIS VEHICLE ACTIVE
 		TC	+3
@@ -131,7 +131,7 @@ P78		TC	BANKCALL
 		TCF	-5		# RECYCLE
 		CAF	THREE		# IMMEDIATE RETURN -- BLANK R1, R2
 		TCR	BLANKET
-# Page 725		
+# Page 725
 		TCF	ENDOFJOB
 		CAF	FIVE
 		TS	OPTION1
@@ -213,7 +213,7 @@ JUNCTN2		DLOAD	DSU
 			TINT
 			DELTTIME
 		STORE	TARGTIME	# TT = TI - DELTA T
-		
+
 # .... MAINRTNE ....
 #
 # SUBROUTINES USED:
@@ -235,7 +235,7 @@ MAINRTNE	STCALL	TDEC1		# PRECISION UPDATE PASSIVE VEHICLE TO
 		SSP	VLOAD
 			SUBEXIT
 			TEST3979
-# Page 727			
+# Page 727
 			RATT
 		CALL
 			S3435.25
@@ -281,7 +281,7 @@ DSPLY81		CAF	V06N81SR	# DISPLAY DELTA V (LV)
 			P39/79SW
 			P39/P79B
 			RECYCLE
-			
+
 # STABLE ORBIT MIDCOURSE PROGRAM (P39 AND P79)
 #
 # MOD NO -1		LOG SECTION -- STABLE ORBIT -- P38-P39
@@ -338,7 +338,7 @@ P39/P79A	DXCH	KT		# TIME TO PREPARE FOR BURN
 		TC	BANKCALL
 		CADR	P20FLGON	# SET UPDATFLG, TRACKFLG
 		TC	INTPRET
-# Page 729		
+# Page 729
 		SET	CALL
 			P39/79SW
 			SELECTMU	# SELECT MU, CLEAR FINALFLG, GO TO VN1645
@@ -353,7 +353,7 @@ P39/P79B	RTB	DAD
 		DLOAD	GOTO
 			TARGTIME
 			MAINRTNE	# CALCULATE DELTA V AND DELTA V (LV)
-			
+
 # .... PREC/TT ....
 #
 # SUBROUTINES USED
@@ -387,7 +387,7 @@ PREC/TT		STQ	DLOAD
 		DLOAD	GOTO
 			T
 			RTRN
-			
+
 # .... INTRPVP ....
 #
 # SUBROUTINES USED
@@ -408,7 +408,7 @@ OTHERV		CALL
 			LEMPREC
 		GOTO
 			RTRN
-			
+
 # .... VNDSPLY ....
 #
 # SUBROUTINES USED

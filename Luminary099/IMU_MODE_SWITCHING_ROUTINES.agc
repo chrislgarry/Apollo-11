@@ -10,7 +10,7 @@
 # Mod history:	2009-05-28 OH	Transcribed from page images.
 #		2009-06-05 RSB	Fixed a typo.
 #		2011-01-06 JL	Fixed pseudo-label indentation.
-#		2011-05-08 JL	Removed workaround. Flagged SBANK= 
+#		2011-05-08 JL	Removed workaround. Flagged SBANK=
 #				workaround for future removal.
 
 # This source code has been transcribed or otherwise adapted from
@@ -26,7 +26,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 
 # Page 1309
@@ -705,7 +705,7 @@ CAGETSTJ	CS	IMODES30	# IF DURING MODE SWITCH INITIALIZATION
 		MASK	BIT6		# IT IS FOUND THAT THE IMU IS BEING CAGED,
 		CCS	A		# SET IMUCADR TO -0 TO INDICATE OPERATION
 		TC	Q		# COMPLETE BUT FAILED.  RETURN IMMEDIATELY
-		
+
 		CS	ZERO		# TO SWRETURN.
 		TS	IMUCADR
 		TCF	MODEEXIT
@@ -844,10 +844,10 @@ IMUFIN20	=	IMUFINE
 GOMANUR		CA	ATTCADR		# IS KALCMANU FREE
 		EXTEND
 		BZF	+3
-		
+
 		TC	POODOO		# NO
 		OCT	1210		# 2 TRYING TO USE SAME DEVICE
-		
+
  +3		EXTEND
 		DCA	BUF2
 		DXCH	ATTCADR		# SAVE FINAL RETURN FOR KALCMAN3
@@ -1064,4 +1064,4 @@ POSTCOM		EXTEND			# C(MPAC,+1) IS MAGNITUDE OF DELTA SCALER.
 		ADRES	NODOFLAG
 
 		TC	GOTOPOOH
-		
+

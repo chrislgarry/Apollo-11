@@ -7,8 +7,8 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
 # Pages:	1421-1441
-# Mod history:	2009-05-27 RSB	Adapted from the corresponding 
-#				Luminary131 file, using page 
+# Mod history:	2009-05-27 RSB	Adapted from the corresponding
+#				Luminary131 file, using page
 #				images from Luminary 1A.
 #		2009-06-05 RSB	Corrected a relative jump from
 #				+8 to +8D.
@@ -27,7 +27,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
-#	16:27 JULY 14, 1969 
+#	16:27 JULY 14, 1969
 
 # Page 1421
 		BANK	16
@@ -748,7 +748,7 @@ RATERROR	CA	CDUX		# FINDCDUW REQUIRES THAT CDUXD=CDUX DURING
 		TCF	+3		# LEVEL, GO TO DIRECT RATE CONTROL.  IF NOT
 		TCF	+8D		# CHECK FOR DIRECT RATE CONTROL LAST TIME.
 		TCF	+1
-# Page 1435		
+# Page 1435
 		AD	-RATEDB
 		EXTEND
 		BZMF	+4
@@ -904,7 +904,7 @@ JETSOFF		TC	WRITEP 	-1
 CALCPERR	CA	CDUY		# P-ERROR CALCULATION.
 		EXTEND
 		MSU	CDUYD		# CDU VALUE -- ANGLE DESIRED (Y-AXIS)
-# Page 1438		
+# Page 1438
 		EXTEND
 		MP	M11		# (CDUY-CDUYD)M11 SCALED AT PI RADIANS
 		XCH	E		# SAVE FIRST TERM (OF TWO)
@@ -946,7 +946,7 @@ HEADTJET	CA	ZERO
 		TC	IBNKCALL
 		CADR	TJETLAW
 		RELINT
-		
+
 		CS	FIREFCT
 		AD	-FOURDEG
 		EXTEND
@@ -954,7 +954,7 @@ HEADTJET	CA	ZERO
 		CCS	TJP
 		TCF	+2
 		TCF	JETSOFF
-# Page 1439		
+# Page 1439
 		AD	-160MST6
 		EXTEND
 		BZMF	PJETSLEC -6

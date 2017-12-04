@@ -6,7 +6,7 @@
 # Assembler:	yaYUL
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo.
-# Pages:	1365-1372 
+# Pages:	1365-1372
 # Mod history:  2009-05-10 SN   (Sergio Navarro).  Started adapting
 #                               from the Colossus249/ file of the same
 #                               name, using Comanche055 page images.
@@ -23,7 +23,7 @@
 # Notations on the hardcopy document read, in part:
 #
 #    Assemble revision 055 of AGC program Comanche by NASA
-#    2021113-051.  10:28 APR. 1, 1969 
+#    2021113-051.  10:28 APR. 1, 1969
 #
 #    This AGC program shall also be referred to as
 #            Colossus 2A
@@ -158,7 +158,7 @@ QUICTRIG	INHINT			# INHINT SINCE DAP USES THE SAME TEMPS
 
 NBSM		STQ
 			X2
-		LXC,1	VLOAD*	
+		LXC,1	VLOAD*
 			S1		# BASE ADDRESS OF THE CDU ANGLES IS IN S1
 			0,1
 		STOVL	CDUSPOT
@@ -330,32 +330,32 @@ INDEXI		DEC	4		# **********   DON'T   ***********
 		BANK	14
 		SETLOC	POWFLIT1
 		BANK
-		
+
 SMCDURES	DLOAD	DMP
 			DTHETASM
 			COSCDUY
-			
+
 		PDDL	DMP
 			DTHETASM +4
 			SINCDUY
-			
+
 		BDSU
 		DDV
 			COSCDUZ
 		STORE	DCDU
-		
+
 		DMP	SL1		# SCALE
 			SINCDUZ
 		BDSU
-		
+
 			DTHETASM +2
 		STODL	DCDU +2
 			DTHETASM
-			
+
 		DMP	PDDL
 			SINCDUY
 			DTHETASM +4
-			
+
 		DMP	DAD
 			COSCDUY
 		SL1
