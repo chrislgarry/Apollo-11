@@ -7,6 +7,7 @@
 # Contact:	Ron Burkey <info@sandroid.org>.
 # Website:	www.ibiblio.org/apollo/index.html
 # Mod history:	2009-05-05 RSB	Adapted from Luminary131/MAIN.agc.
+# Jan Was Here
 #
 # The contents of the "Luminary099" files, in general, are
 # transcribed from a digital images created from a hardcopy of the program
@@ -94,7 +95,6 @@ $SYSTEM_TEST_STANDARD_LEAD_INS.agc		# pp. 370-372
 $IMU_PERFORMANCE_TEST_2.agc			# pp. 373-381
 $IMU_PERFORMANCE_TESTS_4.agc			# pp. 382-389
 $PINBALL_GAME_BUTTONS_AND_LIGHTS.agc		# pp. 390-471
-$R60_62.agc					# pp. 472-485
 $S-BAND_ANTENNA_FOR_LM.agc			# pp. 486-489
 $RADAR_LEADIN_ROUTINES.agc			# pp. 490-491
 $P20-P25.agc					# pp. 492-614
