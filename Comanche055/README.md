@@ -1,13 +1,8 @@
 # Comanche055
 
-This source code has been transcribed or otherwise adapted from digitized
-images of a hardcopy from the MIT Museum.  The digitization was performed
-by Paul Fjeld, and arranged for by Deborah Douglas of the Museum.  Many
-thanks to both.  The images (with suitable reduction in storage size and
-consequent reduction in image quality as well) are available online at
-www.ibiblio.org/apollo.  If for some reason you find that the images are
-illegible, contact me at info@sandroid.org about getting access to the
-(much) higher-quality images which Paul actually created.
+This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum.  The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.  
+
+The images (with suitable reduction in storage size and consequent reduction in image quality as well) are available online at www.ibiblio.org/apollo. If for some reason you find that the images are illegible, contact me at info@sandroid.org about getting access to the (much) higher-quality images which Paul actually created.
 
 Notations on the hardcopy document read, in part:
 
@@ -17,42 +12,19 @@ Notations on the hardcopy document read, in part:
 	This AGC program shall also be referred to as
 			Colossus 2A
 
-This file is a little different from the other Comanche055 files I'm providing,
-in that it doesn't represent anything that appears directly in the original source.
-What I (RSB) have done for organizational purposes is to split the huge monolithic
-source code into smaller, more manageable chunks--i.e., into individual source
-files.  Those files are rejoined within this file as "includes".  It just makes
-it a little easier to work with.  The code chunks correspond to natural divisions
-into sub-programs.  In fact, these divisions are more-or-less specified by
-the source code itself.  Refer to the "SUBROUTINE CALLS" at the
-very beginning of the file ASSEMBLY_AND_OPERATION_INFORMATION.agc.
+## Background 
 
-It may be reasonably asked why tens of thousands of lines of source are joined by
-means of inclusion, rather than simply assembling the source files individually and
-then linking them to form the executable.  The answer is that the original
-development team had no linker.  The builds were monolithic just like this.
-There was a big emphasis on reusability of the code in the original project,
-apparently, but this reusability took the form of inserting your deck of
-punch-cards at the appropriate position in somebody else's deck of punch-cards.
-(Actually, I think the card-decks were turned into tape libraries, and the modules
-were mixed-and-matched from the tape libraries, but the principle is the same.)
-So, indeed, the method of file-inclusion is a very fair representation of the
-methods used in the original development ... with the improvement, of course,
-that you no longer have to worry about dropping the card deck.  On the other hand,
-I wasn't there at the time, so I may have no idea what I'm talking about.
+For organizatinal purposes RSB split the huge monolithic source code into smaller, more manageable chunks--i.e., into individual source
+files. Those files are rejoined as "includes". The code chunks correspond to natural divisions into sub-programs. In fact, these divisions are more-or-less specified by the source code itself. Refer to the `"SUBROUTINE CALLS"` at the very beginning of `ASSEMBLY_AND_OPERATION_INFORMATION.agc`.
 
-Finally, note that the original Apollo AGC assembler (called "YUL") is no longer
-available (as far as I can tell).  Actually, it had already been replaced by another
-assembler (called "GAP") by the time of Apollo 11, but GAP isn't available either.
-The replacement assembler yaYUL accepts a slightly different format for the source
-code from what YUL or GAP accepted, so the source code has been targeted for
-assembly with yaYUL.
+It may be reasonably asked why tens of thousands of lines of source are joined by means of inclusion, rather than simply assembling the source files individually and then linking them to form the executable. The answer is that the original development team had no linker. The builds were monolithic just like this.
+
+There was a big emphasis on reusability of the code in the original project, apparently, but this reusability took the form of inserting your deck of punch-cards at the appropriate position in somebody else's deck of punch-cards. (Actually, I think the card-decks were turned into tape libraries, and the modules were mixed-and-matched from the tape libraries, but the principle is the same.) So, indeed, the method of file-inclusion is a very fair representation of the methods used in the original development...with the improvement, of course,
+that you no longer have to worry about dropping the card deck. On the other hand, I (RSB) wasn't there at the time, so I may have no idea what I'm talking about.
+
+Finally, note that the original Apollo AGC assembler (called `YUL`) is no longer available (as far as I can tell). Actually, it had already been replaced by another assembler (called `GAP`) by the time of Apollo 11, but GAP isn't available either. The replacement assembler yaYUL accepts a slightly different format for the source code from what YUL or GAP accepted, so the source code has been targeted for assembly with yaYUL.
  
-What follows is simply a bunch of file-includes for the individual code chunks.
-I've marked the page numbers to make proof-reading easier.  The page images also
-contain a lot of interesting tables (cross-referenced to page numbers) created by GAP,
-but not duplicated by yaYUL, so it's still valuable even if the source-files
-listed below are in hand.
+What follows is simply a bunch of file-includes for the individual code chunks. The page numbers have been marked to make proof-reading easier. The page images also contain a lot of interesting tables (cross-referenced to page numbers) created by GAP, but not duplicated by yaYUL, so it's still valuable even if the source-files listed below are in hand.
 
 ## Source Code Index
 
