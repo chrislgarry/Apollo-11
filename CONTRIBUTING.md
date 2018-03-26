@@ -55,6 +55,14 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
+## Note
+
+Before you make a PR, please make sure your changes are consistent with the following original AGC printouts!
+
+* [AGC printouts for Comanche][8]
+* [AGC printouts for Luminary][9]
+
+
 [EN_US]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 
@@ -66,3 +74,5 @@ R0820
 [5]:https://github.com/Alhadis/language-agc
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
+[8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
