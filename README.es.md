@@ -1,15 +1,30 @@
 # Apollo-11
 [![NASA][1]][2]
 
-*Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES], [한국어][KO_KR]*
- 
+:crossed_flags:
+[English][EN],
+Español,
+[Français][FR],
+[Português][PT_BR],
+[正體中文][ZH_TW],
+[简体中文][ZH_CN],
+[한국어][KO_KR]
+
+[EN]:README.md
+[ES]:README.es.md
+[FR]:README.fr.md
+[PT_BR]:README.pt_br.md
+[ZH_TW]:README.zh_tw.md
+[ZH_CN]:README.zh_cn.md
+[KO_KR]:README.ko_kr.md
+
 Código fuente original del ordenador de abordo del Apollo 11 (AGC)
 para el módulo de órdenes (Comanche055) y el módulo lunar (Luminary099).
 Digitalizado por los amigos de [Virtual AGC][3] y [el museo del MIT][4].
 El objetivo es ser un repositorio del código fuente original del Apollo 11.
 De este modo, las PRs serán bienvenidas para cualquier cuestión que se
 identifique entre las transcripciones en este repositorio y los escaneos
-del código fuente original para [Luminary 099][5] y 
+del código fuente original para [Luminary 099][5] y
 [Comanche 055][6], así como cualquier fichero que se haya olvidado.
 
 ## Cómo contribuir
@@ -29,7 +44,7 @@ Propósito:   Parte del código fuente es para el Colossus 2A, también conocido
 Ensamblador: yaYUL
 Contacto:   Ron Burkey <info@sandroid.org>.
 Sitio Web:   www.ibiblio.org/apollo.
-Histórico de modificaciones:   2009-05-06 RSB  Transcrito a partir de imágenes de las páginas 
+Histórico de modificaciones:   2009-05-06 RSB  Transcrito a partir de imágenes de las páginas
 
 Este código fuente se ha transcrito o adaptado de imágenes digitalizadas
 de una copia en papel presente en el museo del MIT. Los empleados del museo
@@ -94,12 +109,6 @@ APROBADO:   RALPH R. RAGAN          FECHA:   28 MAR 69
     LABORATORIO DE INSTRUMENTACIÓN
 ```
 
-[EN]:README.md
-[ZH_CN]:README.zh_cn.md
-[ZH_TW]:README.zh_tw.md
-[PT_BR]:README.pt_br.md
-[KO_KR]:README.ko_kr.md
-[ES]:README.es.md
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/

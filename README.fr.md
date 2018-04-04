@@ -1,7 +1,22 @@
 # Apollo-11
 [![NASA][1]][2]
 
-*Disponible en : [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES], [한국어][KO_KR], [Français][FR]*
+:crossed_flags:
+[English][EN],
+[Español][ES],
+Français,
+[Português][PT_BR],
+[正體中文][ZH_TW],
+[简体中文][ZH_CN],
+[한국어][KO_KR]
+
+[EN]:README.md
+[ES]:README.es.md
+[FR]:README.fr.md
+[PT_BR]:README.pt_br.md
+[ZH_TW]:README.zh_tw.md
+[ZH_CN]:README.zh_cn.md
+[KO_KR]:README.ko_kr.md
 
 Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099). Numérisé par les gens du [Virtual AGC][3] et du [MIT Museum][4]. Le but est d'être un repo pour le code source original d'Apollo 11. En tant que tel, les PR sont les bienvenus pour tous les problèmes identifiés entre les transcriptions dans ce référentiel et les scans source originaux pour [Luminary 099][5] et [Comanche 055][6], ainsi que pour tous les fichiers que j'ai pu manquer.
 
@@ -18,7 +33,7 @@ Nom du fichier:  CONTRACT_AND_APPROVALS.agc
 Objet: Partie du code source de Colossus 2A, AKA Comanche 055.
 		Partie du code source pour le module de commande (CM)
 		Ordinateur embarqué de navigation (AGC), pour Apollo 11.
-		
+
 Assembleur: yaYUL
 Contact:   Ron Burkey <info@sandroid.org>.
 Site web:   www.ibiblio.org/apollo.
@@ -38,7 +53,7 @@ Notations sur le document papier lues, en partie :
 Assembleur  révision 055 du programme AGC Comanche de la NASA.
 2021113-051.  10:28 APR. 1, 1969
 
-Page 1   
+Page 1
 
 #************************************************************************
 #                                                                       *
@@ -51,7 +66,7 @@ Page 1
 #   CE PROGRAMME EST DESTINÉ À ÊTRE UTILISÉ EN CM COMME INDIQUÉ         *
 #   DANS LE RAPPORT R-577.  CE PROGRAMME A ÉTÉ PRÉPARÉ DANS LE CADRE    *
 #   DU DSRDSR PROJET 55-23870, PARRAINÉ PAR L'ENGIN SPATIAL HABITÉ      *
-#   CENTRE NATIONAL DE L' AÉRONAUTIQUE ET DE L''ADMINISTRSTION SPATIALE *                      
+#   CENTRE NATIONAL DE L' AÉRONAUTIQUE ET DE L''ADMINISTRSTION SPATIALE *
 #   PAR LE BIAIS DU CONTRAT NAS 9-4065 AVEC LE LABORATOIRE              *
 #   D'INSTRUMENTATION,NSTITUT DU MASSACHUSETTS TECHNOLOGIE,             *
 #   CAMBRIDGE, MASSE.                                                   *
@@ -87,13 +102,6 @@ APPROUVÉ:   RALPH R. RAGAN          DATE:   28 MAR 69
     LABORATOIRE D'INSTRUMENTATION
 ```
 
-[EN]:README.md
-[ZH_CN]:README.zh_cn.md
-[ZH_TW]:README.zh_tw.md
-[PT_BR]:README.pt_br.md
-[KO_KR]:README.ko_kr.md
-[ES]:README.es.md
-[FR]:README.fr.md
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/

@@ -1,8 +1,23 @@
 # 阿波罗11号
 [![NASA][1]][2]
 
-*Available in: [English](README.md), [简体中文](README.zh_cn.md), [正體中文](README.zh_tw.md), [Português](README.pt_br.md), [Español](README.es.md), [한국어](README.ko_kr.md)*
- 
+:crossed_flags:
+[English][EN],
+[Español][ES],
+[Français][FR],
+[Português][PT_BR],
+[正體中文][ZH_TW],
+简体中文,
+[한국어][KO_KR]
+
+[EN]:README.md
+[ES]:README.es.md
+[FR]:README.fr.md
+[PT_BR]:README.pt_br.md
+[ZH_TW]:README.zh_tw.md
+[ZH_CN]:README.zh_cn.md
+[KO_KR]:README.ko_kr.md
+
 阿波罗11号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。由[虚拟 AGC](http://www.ibiblio.org/apollo/) 和 [MIT 科学博物馆](http://web.mit.edu/museum/) 的伙计们完成电子化。本仓库的目的是存储阿波罗11号原始代码。当然，倘若在本仓库或原始代码扫描件[Luminary 099](http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/) 及 [Comancheion 055](http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/) 发现问题，或者任何我可能漏掉的文件，欢迎提交PRs。
 
 ## 编译
