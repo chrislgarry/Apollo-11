@@ -9,7 +9,7 @@ Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module d
 Merci de lire [CONTRIBUTING.md][7] avant d' ouvrir un pull request
 
 ## Compilation
-Si vous êtes interessé par la compilation su code source original visitez [Virtual AGC][8].
+Si vous êtes interessé par la compilation du code source original visitez [Virtual AGC][8].
 
 ## Attribution
 ```plain
