@@ -1,7 +1,7 @@
 # Apollo-11
 [![NASA][1]][2]
 
-*Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES], [한국어][KO_KR]*
+*Available in: [English][EN], [简体中文][ZH_CN], [正體中文][ZH_TW], [Português][PT_BR], [Español][ES], [한국어][KO_KR], [Français][FR]*
  
 Original Apollo 11 guidance computer (AGC) source code for Command
 Module (Comanche055) and Lunar Module (Luminary099). Digitized by
@@ -100,6 +100,7 @@ APPROVED:   RALPH R. RAGAN          DATE:   28 MAR 69
 [PT_BR]:README.pt_br.md
 [KO_KR]:README.ko_kr.md
 [ES]:README.es.md
+[FR]:README.fr.md
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
