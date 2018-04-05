@@ -35,80 +35,45 @@ Se você estiver interessado em compilar o código-fonte original, faça o
 check-out [Virtual AGC][8].
 
 ## Atribuição
+
+| | |
+- | -
+Direitos Autorais | Domínio público.
+Comanche055       | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099       | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Assembler         | yaYUL
+Contact           | Ron Burkey <info@sandroid.org>
+Website           | www.ibiblio.org/apollo
+Digitalização     | Este código fonte foi transcrito ou adaptado de outra forma a partir de imagens de uma cópia impressa do Museu do MIT. A digitalização foi realizada por Paul Fjeld, e organizado por Deborah Douglas do Museu. Muitos agradecimentos a ambos.
+
+### Contract and Approvals
+*Derivado de [CONTRACT_AND_APPROVALS.agc]*
+
 ```plain
-Direitos Autorais:  Domínio público.
-Nome do arquivo:  CONTRACT_AND_APPROVALS.agc
-Propósito:   Parte do código-fonte para Colossus 2A, também conhecido como Comanche 055.
-        É parte do código fonte para o módulo de comando (CM)
-        Computador de Orientação da Apollo (AGC), para a Apollo 11.
-Assembler: yaYUL
-Contato:   Ron Burkey <info@sandroid.org>.
-Website:   www.ibiblio.org/apollo.
-Histórico de modificações:   2009-05-06 RSB  Transcrito a partir de imagens de página.
+ESTE PROGRAMA AGC SERÁ TAMBÉM REFERIDO COMO: COLOSSUS 2A
 
-Este código fonte foi transcrito ou adaptado de outra forma a partir de
-imagens de uma cópia impressa do Museu do MIT.  A digitalização foi
-realizada por Paul Fjeld, e organizado por Deborah Douglas do Museu.
-Muitos agradecimentos a ambos.  As imagens (com redução adequada no tamanho
-e consequente redução na qualidade da imagem) estão disponíveis on-line
-www.ibiblio.org/apollo.  Se por alguma razão você achar que as imagens
-são ilegíveis, entre em contato comigo em info@sandroid.org para obter
-acesso à (mais) imagens de alta qualidade que Paul realmente criou.
-
-Notações sobre o documento impresso dizia, em parte:
-
-Assemble revisão 055 do programa AGC Comanche pela NASA
-2021113-051.  10:28 ABR. 1, 1969
-
-Página 1
-
-#************************************************************************
-#                                                                       *
-#       ESTE PROGRAMA AGC SERÁ TAMBÉM REFERIDO COMO:                    *
-#                                                                       *
-#                                                                       *
-#               COLOSSUS 2A                                             *
-#                                                                       *
-#                                                                       *
-#   ESTE PROGRAMA ESTÁ PRETENDIDO PARA USO NO CM COMO ESPECIFICADO      *
-#   NO RELATÓRIO R-577.  ESTE PROGRAMA FOI PREPARADO SOB DSR            *
-#   PROJETO 55-23870, PATROCINADO PELO MANNED SPACECRAFT                *
-#   CENTRO DE AERONÁUTICA NACIONAL E ADMINISTRAÇÃO ESPACIAL             *
-#   ATRAVÉS DO CONTRATO NAS 9-4065 COM O LABORATÓRIO DE INSTRUMENTAÇÃO  *
-#   INSTITUTO DE TECNOLOGIA DE MASSACHUSETTS, CAMBRIDGE, MASS.          *
-#                                                                       *
-#************************************************************************
-
-
-SUBMETIDO:  MARGARET H. HAMILTON        DATA:   28 MAR 69
-    M.H.HAMILTON, LÍDER DE PROGRAMAÇÃO COLOSSUS
-    APOLLO ORIENTAÇÃO E NAVEGAÇÃO
-
-APROVADO:   DANIEL J. LICKLY        DATA:   28 MAR 69
-    D.J.LICKLY, DIRETOR, MISSÃO DESENVOLVIMENTO DO PROGRAMA
-    PROGRAMA DE ORIENTAÇÃO E NAVEGAÇÃO DA APOLLO
-
-APROVADO:   FRED H. MARTIN          DATA:   28 MAR 69
-    FRED H. MARTIN, GERENTE DE PROJETOS COLOSSUS
-    PROGRAMA DE ORIENTAÇÃO E NAVEGAÇÃO DA APOLLO
-
-APROVADO:   NORMAN E. SEARS         DATA:   28 MAR 69
-    N.E. SEARS, DIRETOR, MISSÃO DE DESENVOLVIMENTO
-    PROGRAMA DE ORIENTAÇÃO E NAVEGAÇÃO DA APOLLO
-
-APROVADO:   RICHARD H. BATTIN       DATA:   28 MAR 69
-    R.H. BATTIN, DIRETOR, MISSÃO DE DESENVOLVIMENTO
-    PROGRAMA DE ORIENTAÇÃO E NAVEGAÇÃO DA APOLLO
-
-APROVADO:   DAVID G. HOAG           DATA:   28 MAR 69
-    D.G. HOAG, DIRETOR
-    PROGRAMA DE ORIENTAÇÃO E NAVEGAÇÃO DA APOLLO
-
-APROVADO:   RALPH R. RAGAN          DATA:   28 MAR 69
-    R.R. RAGAN, VICE DIRETOR
-    LABORATÓRIO DE INSTRUMENTAÇÃO
+ESTE PROGRAMA ESTÁ PRETENDIDO PARA USO NO CM COMO ESPECIFICADO
+NO RELATÓRIO R-577.  ESTE PROGRAMA FOI PREPARADO SOB DSR
+PROJETO 55-23870, PATROCINADO PELO MANNED SPACECRAFT
+CENTRO DE AERONÁUTICA NACIONAL E ADMINISTRAÇÃO ESPACIAL
+ATRAVÉS DO CONTRATO NAS 9-4065 COM O LABORATÓRIO DE INSTRUMENTAÇÃO
+INSTITUTO DE TECNOLOGIA DE MASSACHUSETTS, CAMBRIDGE, MASS.
 ```
 
+Enviado por           | Role | Data
+--------------------- | ---- | ----
+Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+
+Aprovado por       | Role | Data
+------------------ | ---- | ----
+Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/

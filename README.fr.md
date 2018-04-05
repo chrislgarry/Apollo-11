@@ -27,81 +27,47 @@ Merci de lire [CONTRIBUTING.md][7] avant d' ouvrir un pull request
 Si vous êtes interessé par la compilation du code source original visitez [Virtual AGC][8].
 
 ## Attribution
+
+| | |
+- | -
+Copyright      | Domaine publique
+Comanche055    | Partie du code source de Colossus 2A, le module de commande (CM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    | Partie du code source de Luminary 1A, le module de lunaire (LM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Assembler      | yaYUL
+Contact        | Ron Burkey <info@sandroid.org>
+Website        | www.ibiblio.org/apollo
+Digitalization | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Grand merci aux deux.
+
+### Contract and Approvals
+*Dérivé de [CONTRACT_AND_APPROVALS.agc]*
+
 ```plain
-Copyright: Domaine publique.
-Nom du fichier:  CONTRACT_AND_APPROVALS.agc
-Objet: Partie du code source de Colossus 2A, AKA Comanche 055.
-		Partie du code source pour le module de commande (CM)
-		Ordinateur embarqué de navigation (AGC), pour Apollo 11.
+CE PROGRAMME DE L'AGC SERA ÉGALEMENT DÉSIGNÉ SOUS LE NOM DE:
+    COLOSSUS 2A
 
-Assembleur: yaYUL
-Contact:   Ron Burkey <info@sandroid.org>.
-Site web:   www.ibiblio.org/apollo.
-Historique des modifications:   2009-05-06 RSB  Transcriptions à partir d'images de pages.
-
-Ce code source a été transcrit ou autrement adapté à partir de données numérisées.
-des images d'une copie papier du Musée du MIT.  La numérisation a été effectuée.
-par Paul Fjeld, et organisé par Deborah Douglas du Musée.  Grand merci aux deux.
-Les images (avec une réduction appropriée de la taille de stockage et de l'espace de stockage.
-de la qualité de l'image) sont disponibles en ligne à l'adresse suivante
-www.ibiblio.org/apollo.  Si, pour une raison quelconque, vous constatez que les images sont
-illisible, contactez-moi à l'adresse info@sandroid.org pour obtenir l'accès à
-(beaucoup) d'images de meilleure qualité que Paul a réellement créées.
-
-Notations sur le document papier lues, en partie :
-
-Assembleur  révision 055 du programme AGC Comanche de la NASA.
-2021113-051.  10:28 APR. 1, 1969
-
-Page 1
-
-#************************************************************************
-#                                                                       *
-#     CE PROGRAMME DE L'AGC SERA ÉGALEMENT DÉSIGNÉ SOUS LE NOM DE:      *
-#                                                                       *
-#                                                                       *
-#               COLOSSUS 2A                                             *
-#                                                                       *
-#                                                                       *
-#   CE PROGRAMME EST DESTINÉ À ÊTRE UTILISÉ EN CM COMME INDIQUÉ         *
-#   DANS LE RAPPORT R-577.  CE PROGRAMME A ÉTÉ PRÉPARÉ DANS LE CADRE    *
-#   DU DSRDSR PROJET 55-23870, PARRAINÉ PAR L'ENGIN SPATIAL HABITÉ      *
-#   CENTRE NATIONAL DE L' AÉRONAUTIQUE ET DE L''ADMINISTRSTION SPATIALE *
-#   PAR LE BIAIS DU CONTRAT NAS 9-4065 AVEC LE LABORATOIRE              *
-#   D'INSTRUMENTATION,NSTITUT DU MASSACHUSETTS TECHNOLOGIE,             *
-#   CAMBRIDGE, MASSE.                                                   *
-#************************************************************************
-
-
-SOUMIS:  MARGARET H. HAMILTON        DATE:   28 MAR 69
-    M.H.HAMILTON, COLOSSUS PROGRAMMING LEADER
-    APOLLO GUIDE ET NAVIGATION
-
-APPROUVÉ:   DANIEL J. LICKLY        DATE:   28 MAR 69
-    D.J.LICKLY, DIRECTOR, MISSION PROGRAM DEVELOPMENT
-    APOLLO GUIDANCE AND NAVIGATION PROGRAM
-
-APPROUVÉ:   FRED H. MARTIN          DATE:   28 MAR 69
-    FRED H. MARTIN, COLOSSUS PROJECT MANAGER
-    APOLLO GUIDE ET PROGRAMME DE NAVIGATION
-
-APPROUVÉ:   NORMAN E. SEARS         DATE:   28 MAR 69
-    N.E. SEARS, DIRECTOR, MISSION DEVELOPMENT
-    APOLLO GUIDE ET PROGRAMME DE NAVIGATION
-
-APPROUVÉ:   RICHARD H. BATTIN       DATE:   28 MAR 69
-    R.H. BATTIN, DIRECTOR, MISSION DEVELOPMENT
-    APOLLO GUIDE ET PROGRAMME DE NAVIGATION
-
-APPROUVÉ:   DAVID G. HOAG           DATE:   28 MAR 69
-    D.G. HOAG, DIRECTOR
-    APOLLO GUIDE ET PROGRAMME DE NAVIGATION
-
-APPROUVÉ:   RALPH R. RAGAN          DATE:   28 MAR 69
-    R.R. RAGAN, DEPUTY DIRECTOR
-    LABORATOIRE D'INSTRUMENTATION
+CE PROGRAMME EST DESTINÉ À ÊTRE UTILISÉ EN CM COMME INDIQUÉ
+DANS LE RAPPORT R-577.  CE PROGRAMME A ÉTÉ PRÉPARÉ DANS LE CADRE
+DU DSRDSR PROJET 55-23870, PARRAINÉ PAR L'ENGIN SPATIAL HABITÉ
+CENTRE NATIONAL DE L' AÉRONAUTIQUE ET DE L''ADMINISTRSTION SPATIALE
+PAR LE BIAIS DU CONTRAT NAS 9-4065 AVEC LE LABORATOIRE
+D'INSTRUMENTATION,NSTITUT DU MASSACHUSETTS TECHNOLOGIE,
+CAMBRIDGE, MASSE.
 ```
 
+Soumis par            | Role | Date
+--------------------- | ---- | ----
+Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+
+Approuvé par       | Role | Date
+------------------ | ---- | ----
+Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
