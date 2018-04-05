@@ -28,8 +28,8 @@ Si vous êtes interessé par la compilation du code source original visitez [Vir
 
 ## Attribution
 
-| | |
-- | -
+&nbsp;         | &nbsp;
+-------------- | ------
 Copyright      | Domaine publique
 Comanche055    | Partie du code source de Colossus 2A, le module de commande (CM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | Partie du code source de Luminary 1A, le module de lunaire (LM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`

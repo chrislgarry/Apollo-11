@@ -28,8 +28,9 @@ PR을 열기 전에 [CONTRIBUTING.md][7] 을 읽어보시기 바랍니다.
 만약 컴파일을 원하신다면 [Virtual AGC][8] 을 확인하여 보십시오.
 
 ## 권한
-| | |
-- | -
+
+&nbsp;      | &nbsp;
+----------- | ------
 저작권       | 퍼블릭 도메인
 Comanche055 | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
