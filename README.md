@@ -36,7 +36,7 @@ out [Virtual AGC][8].
 ## Attribution
 
 &nbsp;         | &nbsp;
--------------- | ------
+:------------- | :-----
 Copyright      | Public domain
 Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
@@ -53,11 +53,11 @@ This AGC program shall also be referred to as Colossus 2A.
 This program is intended for use in the CM as specified in report `R-577`. This program was prepared under DSR project `55-23870`, sponsored by the Manned Spacecraft Center of The National Aeronautics and Space Administration through contract `NAS 9-4065` with the Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
 
 Submitted by          | Role | Date
---------------------- | ---- | ----
+:-------------------- | :--- | :---
 Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
 
 Approved by        | Role | Date
------------------- | ---- | ----
+:----------------- | :--- | :---
 Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69

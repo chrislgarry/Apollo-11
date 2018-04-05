@@ -30,7 +30,7 @@ PR을 열기 전에 [CONTRIBUTING.md][7] 을 읽어보시기 바랍니다.
 ## 권한
 
 &nbsp;      | &nbsp;
------------ | ------
+:---------- | :-----
 저작권       | 퍼블릭 도메인
 Comanche055 | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
@@ -47,11 +47,11 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 이 프로그램은 R-577에 명세된 사령선 모듈에 사용됩니다. DSR 프로젝트 55-23870 에 의해 준비되었으며, NASA 유인 우주선 센터가 MIT 기계 연구소 와의 NAS 9-4065 계약에 의해 스폰싱 하였습니다.
 
 제출됨                | Role | 일시
--------------------- | ---- | ---
+:------------------- | :--- | :--
 Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 1969년 3월 28일
 
 승인됨              | Role | 일시
------------------- | ---- | ---
+:----------------- | :--- | :--
 Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 1969년 3월 28일
 Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 1969년 3월 28일
 Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 1969년 3월 28일

@@ -27,7 +27,7 @@
 ## 贡献
 
 &nbsp;      | &nbsp;
------------ | ------
+:---------- | :-----
 版权         | 公共领域。
 Comanche055 | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
@@ -43,12 +43,12 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 
 根据 R-577 报告规定，本程序将用于指令模块。本程序为 DSR 项目 55-23870 铺路，（美国）                国家航空航天局的载人航天中心联合 THE INSTRUMENTATION LABORATORY、麻省理工学院、剑桥及MASS签属 NAS 9-4065 合同，共同资助本项目。
 
-提交者          | Role | 日期
---------------------- | ---- | ----
+提交者                 | Role | 日期
+:-------------------- | :--- | :---
 Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation |  1969年3月28日
 
-核准人        | Role | 日期
------------------- | ---- | ----
+核准人              | Role | 日期
+:----------------- | :--- | :---
 Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 1969年3月28日
 Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program |  1969年3月28日
 Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 1969年3月28日

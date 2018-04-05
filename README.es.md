@@ -37,7 +37,7 @@ Si está interesado en compilar el código fuente original, eche un vistazo a
 ## Attribuciones
 
 &nbsp;            | &nbsp;
------------------ | ------
+:---------------- | :-----
 Derechos de autor | Dominio público
 Comanche055       | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099       | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
@@ -63,11 +63,11 @@ DE MASSACHUSSETS, CAMBRIDGE, MASS.
 ```
 
 Enviado por           | Role | Fecha
---------------------- | ---- | -----
+:-------------------- | :--- | :----
 Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
 
 Apronado por       | Role | Fecha
------------------- | ---- | -----
+:----------------- | :--- | :----
 Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
