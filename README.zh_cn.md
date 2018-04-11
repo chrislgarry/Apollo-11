@@ -39,22 +39,22 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 ### Contract and Approvals
 *Derived from [CONTRACT_AND_APPROVALS.agc]*
 
-本 AGC 程序亦可称为: COLOSSUS 2A
+本 AGC 程序亦可称为: Colossus 2A
 
-根据 R-577 报告规定，本程序将用于指令模块。本程序为 DSR 项目 55-23870 铺路，（美国）                国家航空航天局的载人航天中心联合 THE INSTRUMENTATION LABORATORY、麻省理工学院、剑桥及MASS签属 NAS 9-4065 合同，共同资助本项目。
+根据 R-577 报告规定，本程序将用于指令模块。本程序为 DSR 项目 55-23870 铺路，（美国）                国家航空航天局的载人航天中心联合 The Instrumentation Laboratory、麻省理工学院、剑桥及MASS签属 NAS 9-4065 合同，共同资助本项目。
 
 提交者                 | Role | 日期
 :-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation |  1969年3月28日
+Margaret H. Hamilton  | Colossus 程序设计负责人<br>阿波罗制导 |  1969年3月28日
 
 核准人              | Role | 日期
 :----------------- | :--- | :---
-Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 1969年3月28日
-Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program |  1969年3月28日
-Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 1969年3月28日
-Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 1969年3月28日
-David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 1969年3月28日
-Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 1969年3月28日
+Daniel J. Lickly   | 负责人、任务程序开发<br>阿波罗制导程序 | 1969年3月28日
+Fred H. Martin     | Colossus 项目经理<br>阿波罗制导程序 |  1969年3月28日
+Norman E. Sears    | 负责人、任务开发<br>阿波罗制导程序 | 1969年3月28日
+Richard H. Battin  | 负责人、任务开发<br>阿波罗制导程序 | 1969年3月28日
+David G. Hoag      | 负责人<br>阿波罗制导程序 | 1969年3月28日
+Ralph R. Ragan     | 副负责人<br>Instrumentation Laboratory | 1969年3月28日
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

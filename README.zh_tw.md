@@ -45,16 +45,16 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 
 提交者                 | Role | 日期
 :-------------------- | :--- | :--
-Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+Margaret H. Hamilton  | Colossus 編程負責人<br>阿波羅導引導航系統 | 28 Mar 69
 
 核准人              | Role | 日期
 :----------------- | :--- | :--
-Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 1969年 3月 28日
-Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 1969年 3月 28日
-Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 1969年 3月 28日
-Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 1969年 3月 28日
-David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 1969年 3月 28日
-Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 1969年 3月 28日
+Daniel J. Lickly   | 負責人, 任務程式開發<br>阿波羅導引導航程式 | 1969年 3月 28日
+Fred H. Martin     | Colossus 專案經理<br>阿波羅導引導航程式 | 1969年 3月 28日
+Norman E. Sears    | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969年 3月 28日
+Richard H. Battin  | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969年 3月 28日
+David G. Hoag      | 負責人<br>阿波羅導引導航程式 | 1969年 3月 28日
+Ralph R. Ragan     | 副負責人<br>Instrumentation Laboratory | 1969年 3月 28日
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
