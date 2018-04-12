@@ -48,11 +48,11 @@ Histórico de modificaciones:   2009-05-06 RSB  Transcrito a partir de imágenes
 
 Este código fuente se ha transcrito o adaptado de imágenes digitalizadas
 de una copia en papel presente en el museo del MIT. Los empleados del museo
-Paul Fjeld y Deborah Douglas relizaron la digitalización y la gestión de las
+Paul Fjeld y Deborah Douglas realizaron la digitalización y la gestión de las
 imágenes respectivamente. Muchas gracias a ambos. Las imágenes (con la
 consecuente reducción de su tamaño para almacenamiento y de su calidad) están
 disponibles en línea en la dirección www.ibiblio.org/apollo. Si por alguna razón
-considera que algunas imágenes son ilegibles, contacte comigo en info@sandroid.org
+considera que algunas imágenes son ilegibles, contacte conmigo en info@sandroid.org
 para obtener acceso a la imágenes de (más) alta calidad las cuales Paul creó en su
 momento.
 
@@ -65,14 +65,14 @@ Página 1
 
 #************************************************************************
 #                                                                       *
-#       ESTE PROGRMA DEBE TAMBIÉN LLAMARSE:                             *
+#       ESTE PROGRAMA DEBE TAMBIÉN LLAMARSE:                            *
 #                                                                       *
 #                                                                       *
 #               COLOSSUS 2A                                             *
 #                                                                       *
 #                                                                       *
-#   ESTE PROGRMA SE CREÓ PARA UTILIZARSE EN EL CM TAL Y COMO            *
-#   SE ESPECIFICA EN EL INFORME R-577.  ESTE PROGRMA SE PREPARÓ         *
+#   ESTE PROGRAMA SE CREÓ PARA UTILIZARSE EN EL CM TAL Y COMO           *
+#   SE ESPECIFICA EN EL INFORME R-577.  ESTE PROGRAMA SE PREPARÓ        *
 #   EN EL PROYECTO DSR 55-23870, ESPONSORIZADO POR EL CENTRO DE         *
 #   NAVES TRIPULADAS DEL CENTRO NACIONAL DE AERONAÚTICA Y               *
 #   ADMINISTRACIÓN ESPACIAL A TRAVÉS DEL CONTACTO NAS 9-4065            *
