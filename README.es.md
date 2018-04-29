@@ -8,7 +8,8 @@ Español,
 [Português][PT_BR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[한국어][KO_KR],
+[हिंदी][HI]
 
 [EN]:README.md
 [ES]:README.es.md
@@ -17,6 +18,7 @@ Español,
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
+[HI]:README.hi.md
 
 Código fuente original del ordenador de abordo del Apollo 11 (AGC)
 para el módulo de órdenes (Comanche055) y el módulo lunar (Luminary099).
