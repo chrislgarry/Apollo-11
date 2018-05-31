@@ -18,7 +18,7 @@ Português,
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 
-Código fonte do computador orientação (AGC) da Apollo 11 para o Módulo
+Código fonte do Computador de Orientação da Apollo 11 (AGC) para o Módulo
 de Comando (Comanche055) e Módulo Lunar (Luminary099). Digitalizado
 pelo pessoal da [Virtual AGC][3] e [Museu do MIT][4]. O objetivo é ser
 um repositório para o código fonte original da Apollo 11. Como tal, os PRs
@@ -39,39 +39,32 @@ check-out [Virtual AGC][8].
 &nbsp;            | &nbsp;
 :---------------- | :-----
 Direitos Autorais | Domínio público.
-Comanche055       | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099       | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Comanche055       | Parte do código-fonte do Colossus 2A, o Módulo de Comando (CM) do Computador de Orientação Apollo (AGC) para a Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099       | Parte do código-fonte do Luminary 1A, Módulo Lunar (LM) do Computador de Orientação Apollo (AGC) para a Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler         | yaYUL
-Contact           | Ron Burkey <info@sandroid.org>
+Contato           | Ron Burkey <info@sandroid.org>
 Website           | www.ibiblio.org/apollo
 Digitalização     | Este código fonte foi transcrito ou adaptado de outra forma a partir de imagens de uma cópia impressa do Museu do MIT. A digitalização foi realizada por Paul Fjeld, e organizado por Deborah Douglas do Museu. Muitos agradecimentos a ambos.
 
 ### Contract and Approvals
 *Derivado de [CONTRACT_AND_APPROVALS.agc]*
 
-```plain
-ESTE PROGRAMA AGC SERÁ TAMBÉM REFERIDO COMO: COLOSSUS 2A
+Este programa AGC também deve ser referido como Colossus 2A.
 
-ESTE PROGRAMA ESTÁ PRETENDIDO PARA USO NO CM COMO ESPECIFICADO
-NO RELATÓRIO R-577.  ESTE PROGRAMA FOI PREPARADO SOB DSR
-PROJETO 55-23870, PATROCINADO PELO MANNED SPACECRAFT
-CENTRO DE AERONÁUTICA NACIONAL E ADMINISTRAÇÃO ESPACIAL
-ATRAVÉS DO CONTRATO NAS 9-4065 COM O LABORATÓRIO DE INSTRUMENTAÇÃO
-INSTITUTO DE TECNOLOGIA DE MASSACHUSETTS, CAMBRIDGE, MASS.
-```
+Este programa é destinado ao uso no CM, conforme especificado no relatório `R-577`. Este programa foi preparado sob o projeto DSR `55-23870`, patrocinado pelo Centro de Naves Espaciais Tripuladas da Administração Nacional da Aeronáutica e do Espaço através do contrato `NAS 9-4065` com o Laboratório de Instrumentação, Instituto de Tecnologia de Massachusetts, Cambridge, Mass.
 
-Enviado por           | Role | Data
+Enviado por           | Função | Data
 :-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+Margaret H. Hamilton  | Líder de Programação Colossus<br>Orientação e Navegação da Apollo | 28 Mar 69
 
-Aprovado por       | Role | Data
+Aprovado por       | Função | Data
 :----------------- | :--- | :---
-Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+Daniel J. Lickly   | Diretor, Programa Desenvolvimento da Missão<br>Programa de Orientação e Navegação da Apollo | 28 Mar 69
+Fred H. Martin     | Gestor de Projeto Colossus<br>Programa de Orientação e Navegação da Apollo | 28 Mar 69
+Norman E. Sears    | Diretor, Desenvolvimento da Missão<br>Programa de Orientação e Navegação da Apollo | 28 Mar 69
+Richard H. Battin  | Diretor, Desenvolvimento da Missão<br>Programa de Orientação e Navegação da Apollo | 28 Mar 69
+David G. Hoag      | Diretor<br>Programa de Orientação e Navegação da Apollo | 28 Mar 69
+Ralph R. Ragan     | Vice Diretor<br>Laboratório de Instrumentação | 28 Mar 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
