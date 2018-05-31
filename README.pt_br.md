@@ -49,16 +49,9 @@ Digitalização     | Este código fonte foi transcrito ou adaptado de outra for
 ### Contract and Approvals
 *Derivado de [CONTRACT_AND_APPROVALS.agc]*
 
-```plain
-ESTE PROGRAMA AGC SERÁ TAMBÉM REFERIDO COMO: COLOSSUS 2A
+Este programa AGC também deve ser referido como Colossus 2A.
 
-ESTE PROGRAMA ESTÁ PRETENDIDO PARA USO NO CM COMO ESPECIFICADO
-NO RELATÓRIO R-577.  ESTE PROGRAMA FOI PREPARADO SOB DSR
-PROJETO 55-23870, PATROCINADO PELO MANNED SPACECRAFT
-CENTRO DE AERONÁUTICA NACIONAL E ADMINISTRAÇÃO ESPACIAL
-ATRAVÉS DO CONTRATO NAS 9-4065 COM O LABORATÓRIO DE INSTRUMENTAÇÃO
-INSTITUTO DE TECNOLOGIA DE MASSACHUSETTS, CAMBRIDGE, MASS.
-```
+Este programa é destinado ao uso no CM, conforme especificado no relatório `R-577`. Este programa foi preparado sob o projeto DSR `55-23870`, patrocinado pelo Centro de Naves Espaciais Tripuladas da Administração Nacional da Aeronáutica e do Espaço através do contrato `NAS 9-4065` com o Laboratório de Instrumentação, Instituto de Tecnologia de Massachusetts, Cambridge, Mass.
 
 Enviado por           | Função | Data
 :-------------------- | :--- | :---
