@@ -1,5 +1,11 @@
 # Contributing
-*Available in : [English][EN_US], [한국어][KO_KR]*
+
+:crossed_flags:
+English,
+[한국어][KO_KR]
+
+[EN]:CONTRIBUTING.md
+[KO_KR]:CONTRIBUTING.ko_kr.md
 
 ## Useful Extensions
 
@@ -36,7 +42,7 @@ or 2 blank lines in a row.
   in column 8. A 2 there forced a double space (single blank line)
   and a 3 forced a triple space (double blank line). Values 4-8 were
   defined but never used. Read more about it in [#159][7]
-  
+
 For example the following:
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -61,10 +67,6 @@ Before you make a PR, please make sure your changes are consistent with the foll
 
 * [AGC printouts for Comanche][8]
 * [AGC printouts for Luminary][9]
-
-
-[EN_US]:CONTRIBUTING.md
-[KO_KR]:CONTRIBUTING.ko_kr.md
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
