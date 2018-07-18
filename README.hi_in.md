@@ -39,8 +39,9 @@
 &nbsp;         | &nbsp;
 :------------- | :-----
 कॉपीराइट      | पब्लिक डोमेन
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Comanche055    | कोलोसस 2(Colossus 2) ए के लिए स्रोत कोड का हिस्सा, अपोलो 11(Apollo 11) के लिए कमांड मॉड्यूल (सीएम) अपोलो गाइडेंस कंप्यूटर (एजीसी)<br>`नासा द्वारा एजीसी कार्यक्रम कॉमचेस के समेकित संशोधन 055`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    |  ल्यूमिनरी 1 ए के स्रोत कोड का हिस्सा , चंद्र मॉड्यूल (एलएम) अपोलो गाइडेंस कंप्यूटर (एजीसी) अपोलो 11 के लिये
+<br>`नासा द्वारा एजीसी(AGC) कार्यक्रम LYM99 के समेकित संशोधन 001`<br>`2021112-061. 16:27 JUL. 14, 1969`
 कोडांतरक     | yaYUL
 संपर्क करें        | Ron Burkey <info@sandroid.org>
 वेबसाइट        | www.ibiblio.org/apollo
