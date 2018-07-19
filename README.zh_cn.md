@@ -56,7 +56,7 @@ Richard H. Battin  | 负责人、任务开发<br>阿波罗制导程序 | 1969年
 David G. Hoag      | 负责人<br>阿波罗制导程序 | 1969年3月28日
 Ralph R. Ragan     | 副负责人<br>Instrumentation Laboratory | 1969年3月28日
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/

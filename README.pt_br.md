@@ -66,7 +66,7 @@ Richard H. Battin  | Diretor, Desenvolvimento da Missão<br>Programa de Orienta�
 David G. Hoag      | Diretor<br>Programa de Orientação e Navegação da Apollo | 28 Mar 69
 Ralph R. Ragan     | Vice Diretor<br>Laboratório de Instrumentação | 28 Mar 69
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
