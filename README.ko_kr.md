@@ -59,7 +59,7 @@ Richard H. Battin  | 감독, 임무 개발<br>아폴로 유도 및 항법 프로
 David G. Hoag      | 감독<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
 Ralph R. Ragan     | 부감독<br>기계 연구소 | 1969년 3월 28일
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
