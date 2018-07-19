@@ -8,7 +8,8 @@
 Português,
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[한국어][KO_KR],
+[हिंदी][HI]
 
 [EN]:README.md
 [ES]:README.es.md
@@ -17,6 +18,7 @@ Português,
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
+[HI]:README.hi.md
 
 Código fonte do Computador de Orientação da Apollo 11 (AGC) para o Módulo
 de Comando (Comanche055) e Módulo Lunar (Luminary099). Digitalizado
