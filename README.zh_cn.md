@@ -7,8 +7,10 @@
 [Français][FR],
 [Português][PT_BR],
 [正體中文][ZH_TW],
-简体中文,
-[한국어][KO_KR]
+**简体中文**,
+[한국어][KO_KR],
+[हिंदी][HI_IN]
+
 
 [EN]:README.md
 [ES]:README.es.md
@@ -17,6 +19,7 @@
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
+[HI_IN]:README.hi_in.md
 
 阿波罗11号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。由[虚拟 AGC][3] 和 [MIT 科学博物馆][4] 的伙计们完成电子化。本仓库的目的是存储阿波罗11号原始代码。当然，倘若在本仓库或原始代码扫描件[Luminary 099][5] 及 [Comanche 055][6] 发现问题，或者任何我可能漏掉的文件，欢迎提交PRs。
 
