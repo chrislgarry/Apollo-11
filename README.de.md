@@ -42,15 +42,15 @@ wirf am besten einen Blick auf das [Virtual AGC][8] Projekt.
 
 ## Attribution
 
-&nbsp;         | &nbsp;
-:------------- | :-----
-Copyright      | Gemeingut
-Comanche055    | Teil des Quellcodes für Colossus 2A, den Apollo Navigationscomputer (AGC) des Kommandomoduls (CM) für Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Teil des Quellcodes für Luminary 1A, den Apollo Navigationscomputer (AGC) der Mondlandefähre (LM) für Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalization | Der vorliegende Quellcode wurde von digitalisierten Bildern einer physischen Kopie des MIT Museums transkribiert oder anderweitig adaptiert. Die Digitalisierung wurde furchgeführt von Paul Fjeld nach Vorbereitung von Deborah Douglas vom MIT Museum. Vielen Dank an beide.
+&nbsp;          | &nbsp;
+:-------------- | :-----
+Copyright       | Gemeingut
+Comanche055     | Teil des Quellcodes für Colossus 2A, den Apollo Navigationscomputer (AGC) des Kommandomoduls (CM) für Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099     | Teil des Quellcodes für Luminary 1A, den Apollo Navigationscomputer (AGC) der Mondlandefähre (LM) für Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Assembler       | yaYUL
+Kontakt         | Ron Burkey <info@sandroid.org>
+Webseite        | www.ibiblio.org/apollo
+Digitalisierung | Der vorliegende Quellcode wurde von digitalisierten Bildern einer physischen Kopie des MIT Museums transkribiert oder anderweitig adaptiert. Die Digitalisierung wurde furchgeführt von Paul Fjeld nach Vorbereitung von Deborah Douglas vom MIT Museum. Vielen Dank an beide.
 
 ### Vertrag und Genehmigungen
 *Abgeleitet aus [CONTRACT_AND_APPROVALS.agc]*
