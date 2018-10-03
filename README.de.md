@@ -50,7 +50,7 @@ Luminary099     | Teil des Quellcodes für Luminary 1A, den Apollo Navigationsco
 Assembler       | yaYUL
 Kontakt         | Ron Burkey <info@sandroid.org>
 Webseite        | www.ibiblio.org/apollo
-Digitalisierung | Der vorliegende Quellcode wurde von digitalisierten Bildern einer physischen Kopie des MIT Museums transkribiert oder anderweitig adaptiert. Die Digitalisierung wurde furchgeführt von Paul Fjeld nach Vorbereitung von Deborah Douglas vom MIT Museum. Vielen Dank an beide.
+Digitalisierung | Der vorliegende Quellcode wurde von digitalisierten Bildern einer physischen Kopie des MIT Museums transkribiert oder anderweitig adaptiert. Die Digitalisierung wurde durchgeführt von Paul Fjeld nach Vorbereitung von Deborah Douglas vom MIT Museum. Vielen Dank an beide.
 
 ### Vertrag und Genehmigungen
 *Abgeleitet aus [CONTRACT_AND_APPROVALS.agc]*
