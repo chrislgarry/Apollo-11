@@ -2,6 +2,7 @@
 [![NASA][1]][2]
 
 :crossed_flags:
+[Deutsch][DE],
 [English][EN],
 [Español][ES],
 **Français**,
@@ -12,6 +13,7 @@
 [हिंदी][HI_IN]
 
 
+[DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [FR]:README.fr.md
