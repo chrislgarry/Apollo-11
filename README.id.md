@@ -2,7 +2,7 @@
 [![NASA][1]][2]
 
 :crossed_flags:
-**Bahasa Indonesia**
+**Bahasa Indonesia**,
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
