@@ -1,4 +1,4 @@
-# Apollo-11
+# Apolo 11
 [![NASA][1]][2]
 
 :crossed_flags:
@@ -48,12 +48,12 @@ Contacto          | Ron Burkey <info@sandroid.org>
 Sitio Web         | www.ibiblio.org/apollo
 Digitalización    | Este código fuente ha sido transcrito o adaptado desde imágenes digitalizadas de una copia en papel presente en el museo del MIT. Los empleados del museo Paul Fjeld y Deborah Douglas realizaron la digitalización y la gestión de las imágenes, respectivamente. Muchas gracias a ambos.
 
-### Contract and Approvals
+### Contratos y aprobaciones
 *Derivado de [CONTRACT_AND_APPROVALS.agc]*
 
 Este programa debe también llamarse Colossus 2A.
 
-Este programa se creó para utilizarse en el CM tal y como se especifica en el informe `R-577`. Este programa se preparó en el proyecto `55-23870`, patrocinado por el Centro de Naves Tripuladas del Centro Nacional de Aeronáutica y Administración Espacial a través del contrato `NAS 9-4065` del Laboratorio de Instrumentación del Instituto de Tecnología de Massachussets, Cambridge, Mass.
+Este programa fue creado para ser usado en el CM tal y como se especifica en el informe `R-577`. Este programa se preparó en el proyecto `55-23870`, patrocinado por el Centro de Naves Tripuladas del Centro Nacional de Aeronáutica y Administración Espacial a través del contrato `NAS 9-4065` del Laboratorio de Instrumentación del Instituto de Tecnología de Massachussets, Cambridge, Mass.
 
 Enviado por           | Rol | Fecha
 :-------------------- | :--- | :----
