@@ -12,7 +12,8 @@
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR],
-[हिंदी][HI_IN]
+[हिंदी][HI_IN],
+[Русский][RU]
 
 
 [ID]:README.id.md
@@ -26,6 +27,7 @@
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
+[RU]:README.ru.md
 
 Original Apollo 11 guidance computer (AGC) source code for Command
 Module (Comanche055) and Lunar Module (Luminary099). Digitized by
