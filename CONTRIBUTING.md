@@ -31,7 +31,7 @@ you're using the correct formatting automatically.
 - Trim trailing whitespace
 
 ## What do I check?
-Any discrepencies between the scans and the source code in this repository, including:
+Any discrepancies between the scans and the source code in this repository, including:
 
 ### Comments
 - Comments in the transcribed code should match the scans exactly
