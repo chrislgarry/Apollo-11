@@ -7,7 +7,7 @@ English,
 [EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 
-The source code in this repository was digitized manually from paper printouts, so typos and other discrepencies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
+The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
 
 * [AGC printouts for Comanche][8]
 * [AGC printouts for Luminary][9]
