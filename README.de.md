@@ -31,7 +31,7 @@
 
 Dieses Repository beinhaltet den originalen Quellcode des Apollo 11
 Navigationscomputers (kurz AGC) für das Kommandomodul (Comanche055)
-und das Mondlandefähre (Luminary099). Digitalisiert wurde der Code
+und die Mondlandefähre (Luminary099). Digitalisiert wurde der Code
 durch das [Virtual AGC][3] Projekt und das [MIT Museum][4]. Ziel
 dieses Projektes ist es, den originalen Apollo 11 Source Code an einem
 zentralen Ort zu sammeln. Daher sind PRs, die Diskrepanzen zwischen
