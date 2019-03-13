@@ -7,6 +7,11 @@ English,
 [EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 
+The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
+
+* [AGC printouts for Comanche][8]
+* [AGC printouts for Luminary][9]
+
 ## Useful Extensions
 
 GitHub has syntax support for the AGC assembly language built-in.
@@ -26,6 +31,8 @@ you're using the correct formatting automatically.
 - Trim trailing whitespace
 
 ## What do I check?
+Any discrepancies between the scans and the source code in this repository, including:
+
 ### Comments
 - Comments in the transcribed code should match the scans exactly
   - This could involve creating a deliberate typo or removing/adding
@@ -63,10 +70,7 @@ R0820
 
 ## Note
 
-Before you make a PR, please make sure your changes are consistent with the following original AGC printouts!
-
-* [AGC printouts for Comanche][8]
-* [AGC printouts for Luminary][9]
+Before you make a PR, please make sure your changes are consistent with the scans!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/

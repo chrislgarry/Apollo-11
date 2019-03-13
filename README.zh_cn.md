@@ -2,21 +2,32 @@
 [![NASA][1]][2]
 
 :crossed_flags:
+[Bahasa Indonesia][ID],
+[Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Italiano][IT],
 [Português][PT_BR],
 [正體中文][ZH_TW],
-简体中文,
-[한국어][KO_KR]
+**简体中文**,
+[한국어][KO_KR],
+[हिंदी][HI_IN],
+[Русский][RU]
 
+
+[ID]:README.id.md
+[DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
+[IT]:README.it.md
 [FR]:README.fr.md
 [PT_BR]:README.pt_br.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
+[HI_IN]:README.hi_in.md
+[RU]:README.ru.md
 
 阿波罗11号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。由[虚拟 AGC][3] 和 [MIT 科学博物馆][4] 的伙计们完成电子化。本仓库的目的是存储阿波罗11号原始代码。当然，倘若在本仓库或原始代码扫描件[Luminary 099][5] 及 [Comanche 055][6] 发现问题，或者任何我可能漏掉的文件，欢迎提交PRs。
 
@@ -56,7 +67,7 @@ Richard H. Battin  | 负责人、任务开发<br>阿波罗制导程序 | 1969年
 David G. Hoag      | 负责人<br>阿波罗制导程序 | 1969年3月28日
 Ralph R. Ragan     | 副负责人<br>Instrumentation Laboratory | 1969年3月28日
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/

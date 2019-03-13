@@ -2,21 +2,32 @@
 [![NASA][1]][2]
 
 :crossed_flags:
+[Bahasa Indonesia][ID],
+[Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
-Português,
+[Italiano][IT],
+**Português**,
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[한국어][KO_KR],
+[हिंदी][HI_IN],
+[Русский][RU]
 
+
+[ID]:README.id.md
+[DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
+[IT]:README.it.md
 [FR]:README.fr.md
 [PT_BR]:README.pt_br.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
+[HI_IN]:README.hi_in.md
+[RU]:README.ru.md
 
 Código fonte do Computador de Orientação da Apollo 11 (AGC) para o Módulo
 de Comando (Comanche055) e Módulo Lunar (Luminary099). Digitalizado
@@ -66,7 +77,7 @@ Richard H. Battin  | Diretor, Desenvolvimento da Missão<br>Programa de Orienta�
 David G. Hoag      | Diretor<br>Programa de Orientação e Navegação da Apollo | 28 Mar 69
 Ralph R. Ragan     | Vice Diretor<br>Laboratório de Instrumentação | 28 Mar 69
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/

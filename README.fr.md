@@ -2,21 +2,31 @@
 [![NASA][1]][2]
 
 :crossed_flags:
+[Bahasa Indonesia][ID],
+[Deutsch][DE],
 [English][EN],
 [Español][ES],
-Français,
+**Français**,
+[Italiano][IT],
 [Português][PT_BR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[한국어][KO_KR],
+[हिंदी][HI_IN],
+[Русский][RU]
 
+[ID]:README.id.md
+[DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
+[IT]:README.it.md
 [FR]:README.fr.md
 [PT_BR]:README.pt_br.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
+[HI_IN]:README.hi_in.md
+[RU]:README.ru.md
 
 Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099). Numérisé par les gens du [Virtual AGC][3] et du [MIT Museum][4]. Le but est d'être un repo pour le code source original d'Apollo 11. En tant que tel, les PR sont les bienvenus pour tous les problèmes identifiés entre les transcriptions dans ce référentiel et les scans source originaux pour [Luminary 099][5] et [Comanche 055][6], ainsi que pour tous les fichiers que j'ai pu manquer.
 
@@ -67,7 +77,7 @@ Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Naviga
 David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/chrislgarry-sourcecode-index/Comanche055/CONTRACT_AND_APPROVALS.agc
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
