@@ -42,15 +42,15 @@
 KEPPREP		LXA,2	SETPD
 			PBODY
 			0
-		DLOAD*	SQRT		# SQRT(MU) (+18 OR +15)		0D	PL 2D
+		DLOAD*	SQRT		# SQRT(MU) (+18 OR +15) 0D		PL 2D
 			MUEARTH,2
 		PDVL	UNIT		#					PL 8D
 			RCV
-		PDDL	NORM		# NORM R (+29 OR +27 - N1)	2D	PL 4D
+		PDDL	NORM		# NORM R (+29 OR +27 - N1) 2D		PL 4D
 			36D
 			X1
 		PDVL
-		DOT	PDDL		# F*SQRT(MU) (+7 OR +5) 	4D	PL 6D
+		DOT	PDDL		# F*SQRT(MU)(+7 OR +5) 4D	PL 6D
 			VCV
 			TAU.		# (+28)
 		DSU	NORM
@@ -59,25 +59,25 @@ KEPPREP		LXA,2	SETPD
 		SR1
 		DDV	PDDL
 			2D
-		DMP	PUSH		# FS (+6 +N1-N2) 		6D	PL 8D
+		DMP	PUSH		# FS(+6 +N1-N2) 6D		PL 8D
 			4D
-		DSQ	PDDL		# (FS)SQ (+12 +2(N1-N2))	8D	PL 10D
+		DSQ	PDDL		# (FS)SQ(+12 +2(N1-N2)) 8D	PL 10D
 			4D
-		DSQ	PDDL*		# SSQ/MU (-2 OR +2(N1-N2))	10D	PL 12D
+		DSQ	PDDL*		# SSQ/MU(-2OR +2(N1-N2)) 10D		PL 12D
 			MUEARTH,2
 		SR3	SR4
-		PDVL	VSQ		# PREALIGN MU (+43 OR +37) 	12D	PL 14D
+		PDVL	VSQ		# PREALIGN MU (+43 OR +37) 12D	PL 14D
 			VCV
-		DMP	BDSU		#					PL 12D
+		DMP	BDSU		#				PL 12D
 			36D
-		DDV	DMP		#					PL 10D
-			2D		# -(1/R-ALPHA) (+12 +3N1-2N2)
+		DDV	DMP		#				PL 10D
+			2D		# -(1/R-ALPHA)(+12 +3N1-2N2)
 		DMP	SL*
 			DP2/3
-			0 	-3,1	# 10L(1/R-ALPHA) (+13 +2(N1-N2))
-		XSU,1	DAD		# 2(FS)SQ - ETCETERA			PL 8D
+			0 	-3,1	# 10L(1/R-ALPHA)(+13 +2(N1-N2))
+		XSU,1	DAD		# 2(FS)SQ - ETCETERA	PL 8D
 			S1		# X1 = N2-N1
-		SL*	DSU		# -FS+2(FS)SQ ETC (+6 +N1-N2)		PL 6D
+		SL*	DSU		# -FS+2(FS)SQ ETC (+6 +N1-N2)	PL 6D
 			8D,1
 		DMP	DMP
 			0D
@@ -85,8 +85,8 @@ KEPPREP		LXA,2	SETPD
 		SL*	SL*
 # Page 1335
 			8D,1
-			0,1		# S(-FS(1-2FS)-1/6...) (+17 OR +16)
-		DAD	PDDL		#					PL 6D
+			0,1		# S(-FS(1-2FS)-1/6...)(+17 OR +16)
+		DAD	PDDL		#				PL 6D
 			XKEP
 		DMP	SL*		# S(+17 OR +16)
 			0D
