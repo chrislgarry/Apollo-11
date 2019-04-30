@@ -1,5 +1,16 @@
 # Contributing
-*Available in : [English][EN_US], [한국어][KO_KR]*
+
+:crossed_flags:
+English,
+[한국어][KO_KR]
+
+[EN]:CONTRIBUTING.md
+[KO_KR]:CONTRIBUTING.ko_kr.md
+
+The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
+
+* [AGC printouts for Comanche][8]
+* [AGC printouts for Luminary][9]
 
 ## Useful Extensions
 
@@ -20,6 +31,8 @@ you're using the correct formatting automatically.
 - Trim trailing whitespace
 
 ## What do I check?
+Any discrepancies between the scans and the source code in this repository, including:
+
 ### Comments
 - Comments in the transcribed code should match the scans exactly
   - This could involve creating a deliberate typo or removing/adding
@@ -36,7 +49,7 @@ or 2 blank lines in a row.
   in column 8. A 2 there forced a double space (single blank line)
   and a 3 forced a triple space (double blank line). Values 4-8 were
   defined but never used. Read more about it in [#159][7]
-  
+
 For example the following:
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -55,16 +68,26 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
+### Spaces
+- Spaces between two characters in the string should respect the following convention (see the discussion in [#316][10]):
+  - Single space for new words.
+  - Double space for new sentences.
+  - Triple space for indentations.
+  
+For example the following:
+```plain
+	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
+	GARPLY, WALDO.
+```
+Should become:
+```plain
+	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
+	   GARPLY, WALDO.
+```
+
 ## Note
 
-Before you make a PR, please make sure your changes are consistent with the following original AGC printouts!
-
-* [AGC printouts for Comanche][8]
-* [AGC printouts for Luminary][9]
-
-
-[EN_US]:CONTRIBUTING.md
-[KO_KR]:CONTRIBUTING.ko_kr.md
+Before you make a PR, please make sure your changes are consistent with the scans!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
@@ -76,3 +99,4 @@ Before you make a PR, please make sure your changes are consistent with the foll
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
+[10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741

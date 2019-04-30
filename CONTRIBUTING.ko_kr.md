@@ -1,9 +1,15 @@
 # 기여하기
-*Available in: [English][EN_US], [한국어][KO_KR]*
+
+:crossed_flags:
+[English][EN],
+한국어
+
+[EN]:CONTRIBUTING.md
+[KO_KR]:CONTRIBUTING.ko_kr.md
 
 ## 유용한 확장기능들
 GitHub은 내장 에디터에서 AGC문법을 지원합니다.
-그러나 불행하게도 대개 사용되는 에디터들은 그렇지 않습니다. 
+그러나 불행하게도 대개 사용되는 에디터들은 그렇지 않습니다.
 하지만 확장 기능이 지원되는 에디터들이 있습니다.
 
 - [Atom][5]
@@ -28,9 +34,9 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다.
   - 만약 3개 이상의 개행이 있는경우 초과분을 제거하십시오.
     - 1열에 `R0000`를 포함하는 경우 빈 줄로 치지 않습니다.
   - 소스 이미지는 8열의 인쇄되지 않은 숫자로 생성되었습니다.
-  두 부분에 두 개의 공백과(빈 줄 한 개), 세 부분에 3개의 공백이(빈 줄 두 개) 강제됩니다. 
+  두 부분에 두 개의 공백과(빈 줄 한 개), 세 부분에 3개의 공백이(빈 줄 두 개) 강제됩니다.
   4-8의 값들은 정의되었지만 사용되지 않습니다. 자세한 내용은 [#159][7]를 참고하십시오.
-  
+
 예를 들어 이 코드는:
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -57,5 +63,3 @@ R0820
 [5]:https://github.com/Alhadis/language-agc
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
-[EN_US]:CONTRIBUTING.md
-[KO_KR]:CONTRIBUTING.ko_kr.md
