@@ -32,7 +32,7 @@
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
 
-Codi font original del Mòdul de Comandament (Comanche055) i del Mòdul Lunar (Comanche055) de l'ordinador de navegació de l'Apollo 11 (AGC, per les seves sigles en anglès). Digitalitzat per la gent de [Virtual AGC][3] i [MIT Museum][4]. L'objectiu és esdevenir un repositori del codi font original de l'Apollo 11. D'aquesta manera, els *pull requests* són benvinguts per qualsevol problema que s'identifiqui entre les transcripcions d'aquests repositori i les còpies originals del codi font de [Luminary 099][5] i
+Codi font original del Mòdul de Comandament (Comanche055) i del Mòdul Lunar (Comanche055) de l'ordinador de navegació de l'Apollo 11 (AGC, per les seves sigles en anglès). Digitalitzat per la gent de [Virtual AGC][3] i [MIT Museum][4]. L'objectiu és esdevenir un repositori del codi font original de l'Apollo 11. Per això els *pull requests* són benvinguts davant de qualsevol problema que s'identifiqui entre les transcripcions d'aquests repositori i les còpies originals del codi font de [Luminary 099][5] i
 [Comanche 055][6], així com qualsevol fitxer que m'hagi pogut deixar.
 
 ## Col·laboració
@@ -52,7 +52,7 @@ Luminary099    | Part del codi font del Luminary 1A, el Mòdul Lunar (LM, per le
 Assemblador    | yaYUL
 Contacte       | Ron Burkey <info@sandroid.org>
 Web            | www.ibiblio.org/apollo
-Digitalització | Aquest codi font s'ha transcrit o adaptat d'alguna altra manera d'imatges digitalitzades d'una còpia física del MIT Museum. La digitalització la va fer Paul Fjeld, i la va revisar Deborah Douglas, de l'equip del museu. Moltes gràcies als dos.
+Digitalització | Aquest codi font s'ha transcrit o adaptat d'alguna altra manera d'imatges digitalitzades d'una còpia física del MIT Museum. La digitalització la va fer Paul Fjeld, i la va revisar Deborah Douglas, de l'equip del museu. Moltes gràcies a tots dos.
 
 ### Contracte i validacions
 *Copiat de [CONTRACT_AND_APPROVALS.agc]*
@@ -67,7 +67,7 @@ Margaret H. Hamilton  | Cap de programació del Colossus<br>Teledirecció i nave
 
 Aprovat per        | Posició | Data
 :----------------- | :--- | :---
-Daniel J. Lickly   | Director del desenvolupament del Director, Desenvupament del programa de la missió<br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69
+Daniel J. Lickly   | Director del desenvolupament programa de la missió<br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69
 Fred H. Martin     | Gestor del projecte Colossus <br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69
 Norman E. Sears    | Director de desenvolupament de la missió<br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69
 Richard H. Battin  | Director de desenvolupament de la missió<br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69
