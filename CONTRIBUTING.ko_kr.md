@@ -1,9 +1,11 @@
 # 기여하기
 
 :crossed_flags:
+[العربية][AR],
 [English][EN],
 한국어
 
+[AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 

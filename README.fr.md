@@ -2,6 +2,7 @@
 [![NASA][1]][2]
 
 :crossed_flags:
+[العربية][AR],
 [Bahasa Indonesia][ID],
 [Deutsch][DE],
 [English][EN],
@@ -15,6 +16,7 @@
 [हिंदी][HI_IN],
 [Русский][RU]
 
+[AR]:README.ar.md
 [ID]:README.id.md
 [DE]:README.de.md
 [EN]:README.md
