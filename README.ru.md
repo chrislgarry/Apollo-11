@@ -10,13 +10,14 @@
 [Français][FR],
 [Italiano][IT],
 [Português][PT_BR],
+**Русский**
+[العربية][AR],
+[हिंदी][HI_IN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR],
-[हिंदी][HI_IN],
-**Русский**
+[한국어][KO_KR]
 
-
+[AR]:README.ar.md
 [ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md

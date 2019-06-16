@@ -2,9 +2,11 @@
 
 :crossed_flags:
 English,
+[العربية][AR],
 [한국어][KO_KR]
 
 [EN]:CONTRIBUTING.md
+[AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 
 The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
