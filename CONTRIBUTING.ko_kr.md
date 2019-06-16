@@ -1,12 +1,12 @@
 # 기여하기
 
 :crossed_flags:
-[العربية][AR],
 [English][EN],
+[العربية][AR],
 한국어
 
-[AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
+[AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 
 ## 유용한 확장기능들
