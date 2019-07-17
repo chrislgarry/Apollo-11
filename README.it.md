@@ -35,7 +35,7 @@
 Codice sorgente dell'Apollo 11 Guidance Computer (AGC) utilizzato
 dal Command Module (Comanche055) e dal Lunar Module (Luminary099).
 Digitalizzato dagli autori del [Virtual AGC][3] e dal [MIT Museum][4].
-L'obbiettivo è quello di avere una repository contente il codice
+L'obbiettivo è quello di avere una repository contenente il codice
 usato dalla missione Apollo 11. Di conseguenza, le PRs volte a
 corregere qualsiasi problema, identificato confrontando le
 trascrizioni in questa repository e le scansioni originali del
