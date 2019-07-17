@@ -60,12 +60,12 @@ Contato           | Ron Burkey <info@sandroid.org>
 Website           | www.ibiblio.org/apollo
 Digitalização     | Este código fonte foi transcrito ou adaptado de outra forma a partir de imagens de uma cópia impressa do Museu do MIT. A digitalização foi realizada por Paul Fjeld, e organizado por Deborah Douglas do Museu. Muitos agradecimentos a ambos.
 
-### Contract and Approvals
+### Contrato e Aprovação
 *Derivado de [CONTRACT_AND_APPROVALS.agc]*
 
 Este programa AGC também deve ser referido como Colossus 2A.
 
-Este programa é destinado ao uso no CM, conforme especificado no relatório `R-577`. Este programa foi preparado sob o projeto DSR `55-23870`, patrocinado pelo Centro de Naves Espaciais Tripuladas da Administração Nacional da Aeronáutica e do Espaço através do contrato `NAS 9-4065` com o Laboratório de Instrumentação, Instituto de Tecnologia de Massachusetts, Cambridge, Mass.
+Este programa é destinado ao uso no CM, conforme especificado no relatório `R-577`. Este programa foi preparado sob o projeto DSR `55-23870`, patrocinado pelo Centro de Naves Espaciais Tripuladas da Administração Nacional da Aeronáutica e do Espaço - NASA - através do contrato `NAS 9-4065` com o Laboratório de Instrumentação, Instituto de Tecnologia de Massachusetts - MIT, Cambridge, Mass.
 
 Enviado por           | Função | Data
 :-------------------- | :--- | :---
