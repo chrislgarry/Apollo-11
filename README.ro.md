@@ -34,6 +34,7 @@
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[RO]:README.ro.md
 
 Codul sursă original al computerului de orientare Apollo 11 (AGC) pentru modulul de comandă (Comanche055) și modulul lunar (Luminary099). Digitalizat de persoanele de la [Virtual AGC][3] și [MIT Museum][4]. Scopul este de a avea un repo pentru codul sursă original Apollo 11. Prin urmare, PR-urile sunt bine venite pentru orice problemă identificată între transcrierile din acest repository și scanările originale pentru [Luminary 099][5] și [Comanche 055][6], precum și pentru alte fișiere pe care aș fi putut să le uit.
 
