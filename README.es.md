@@ -15,7 +15,7 @@
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[မြန်မာ][MM]
 
 [AR]:README.ar.md
 [ID]:README.id.md
@@ -25,12 +25,14 @@
 [ES]:README.es.md
 [IT]:README.it.md
 [FR]:README.fr.md
+[JA]:README.ja.md
 [PT_BR]:README.pt_br.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[MM]:README.mm.md
 
 Código fuente original del ordenador guía del Apolo 11 (AGC) para el módulo de comando (Comanche055) y el módulo lunar (Luminary099). Digitalizado por los chicos de [Virtual AGC][3] y [el museo del MIT][4]. El objetivo es ser un repositorio del código fuente original del Apolo 11. De este modo, serán bienvenidos los PRs relacionados con las transcripciones en este repositorio y los escaneos del código fuente original para el [Luminary 099][5] y el [Comanche 055][6], así como cualquier archivo que haya olvidado.
 

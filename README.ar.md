@@ -17,7 +17,7 @@
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[မြန်မာ][MM]
 
 [AR]:README.ar.md
 [ID]:README.id.md
@@ -27,12 +27,14 @@
 [ES]:README.es.md
 [IT]:README.it.md
 [FR]:README.fr.md
+[JA]:README.ja.md
 [PT_BR]:README.pt_br.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[MM]:README.mm.md
 
 الكود المصدري الأصلي لحاسوب الارشاد لأبولو 11 (AGC) للمركبة القيادية (Comanche055) والمركبة القمرية (Luminary099). تم ترقيمه من قبل [AGC الافتراضية][3] و[متحف MIT][4]. الهدف أن تكون مستودع للكود المصدري الأصلي لأبولو 11 (AGC). لهذا فإن طلبات السحب مرحب بها لأي اختلاف يتم رصده بين النسخ في هذا المستودع والمسح الأصلي ل[Luminary 099][5] و[Comanche 055][6]، أو أي ملف قد فاتني.
 
