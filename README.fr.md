@@ -35,22 +35,22 @@
 Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099). Numérisé par les gens du [Virtual AGC][3] et du [MIT Museum][4]. Le but est d'être un repo pour le code source original d'Apollo 11. En tant que tel, les PR sont les bienvenus pour tous les problèmes identifiés entre les transcriptions dans ce référentiel et les scans source originaux pour [Luminary 099][5] et [Comanche 055][6], ainsi que pour tous les fichiers que j'ai pu manquer.
 
 ## Contribuer
-Merci de lire [CONTRIBUTING.md][7] avant d' ouvrir un pull request
+Merci de lire [CONTRIBUTING.md][7] avant d'ouvrir un pull request
 
 ## Compilation
-Si vous êtes interessé par la compilation du code source original visitez [Virtual AGC][8].
+Si vous êtes intéressés par la compilation du code source original visitez [Virtual AGC][8].
 
 ## Attribution
 
 &nbsp;         | &nbsp;
 :------------- | :-----
-Copyright      | Domaine publique
+Copyright      | Domaine public
 Comanche055    | Partie du code source de Colossus 2A, le module de commande (CM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | Partie du code source de Luminary 1A, le module de lunaire (LM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
+Assembleur      | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalization | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Grand merci aux deux.
+Site Web        | www.ibiblio.org/apollo
+Numérisation | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Grand merci à eux deux.
 
 ### Contract and Approvals
 *Dérivé de [CONTRACT_AND_APPROVALS.agc]*
