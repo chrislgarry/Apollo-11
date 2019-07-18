@@ -5,13 +5,13 @@
 [Bahasa Indonesia][ID],
 [Català][CA],
 [Deutsch][DE],
-**Türkçe**,
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
 [Português][PT_BR],
 [Русский][RU],
+**Türkçe**,
 [العربية][AR],
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
@@ -60,7 +60,7 @@ Luminary099    | Ay Modülünün (LM), Apollo 11 için Apollo Kontrol Bilgisayar
 Assembler      | yaYUL
 İletişim        | Ron Burkey <info@sandroid.org>
 Websitesi        | www.ibiblio.org/apollo
-Digital Ortama Aktarma | Bu kaynak kod MIT Müzesi'nden bir basılı kopyanın dijital ortama aktarılmış görüntülerinden kopyalanmış veya başka şekilde uyarlanmıştır. Dijital ortama aktarma Paul Fjeld tarafından yapıldı ve müze çalışanı Deborah Douglas tarafından düzenlendi. Her ikisine de çok teşekkürler.
+Dijital Ortama Aktarma | Bu kaynak kod MIT Müzesi'nden bir basılı kopyanın dijital ortama aktarılmış görüntülerinden kopyalanmış veya başka şekilde uyarlanmıştır. Dijital ortama aktarma Paul Fjeld tarafından yapıldı ve müze çalışanı Deborah Douglas tarafından düzenlendi. Her ikisine de çok teşekkürler.
 
 ## Sözleşme ve Onaylar
 
