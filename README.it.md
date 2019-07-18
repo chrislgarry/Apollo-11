@@ -11,6 +11,7 @@
 **Italiano**,
 [Português][PT_BR],
 [Русский][RU],
+[Türkçe][TR],
 [العربية][AR],
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
@@ -31,6 +32,7 @@
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[TR]:README.tr.md
 
 Codice sorgente dell'Apollo 11 Guidance Computer (AGC) utilizzato
 dal Command Module (Comanche055) e dal Lunar Module (Luminary099).
