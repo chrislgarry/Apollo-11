@@ -35,10 +35,10 @@
 Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099). Numérisé par les gens du [Virtual AGC][3] et du [MIT Museum][4]. Le but est d'être un repo pour le code source original d'Apollo 11. En tant que tel, les PR sont les bienvenus pour tous les problèmes identifiés entre les transcriptions dans ce référentiel et les scans source originaux pour [Luminary 099][5] et [Comanche 055][6], ainsi que pour tous les fichiers que j'ai pu manquer.
 
 ## Contribuer
-Merci de lire [CONTRIBUTING.md][7] avant d' ouvrir un pull request
+Merci de lire [CONTRIBUTING.md][7] avant d'ouvrir un pull request
 
 ## Compilation
-Si vous êtes interessé par la compilation du code source original visitez [Virtual AGC][8].
+Si vous êtes interessé par la compilation du code source original, visitez [Virtual AGC][8].
 
 ## Attribution
 
