@@ -38,48 +38,48 @@ Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module d
 Merci de lire [CONTRIBUTING.md][7] avant d'ouvrir un pull request
 
 ## Compilation
-Si vous êtes interessé par la compilation du code source original, visitez [Virtual AGC][8].
+Si vous êtes intéressé par la compilation du code source original, visitez [Virtual AGC][8].
 
 ## Attribution
 
 &nbsp;         | &nbsp;
 :------------- | :-----
-Copyright      | Domaine publique
+Copyright      | Domaine public
 Comanche055    | Partie du code source de Colossus 2A, le module de commande (CM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | Partie du code source de Luminary 1A, le module de lunaire (LM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler      | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalization | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Grand merci aux deux.
+Site internet  | www.ibiblio.org/apollo
+Numérisation   | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Un grand merci à eux deux.
 
-### Contract and Approvals
+### Contrat et Approbations
 *Dérivé de [CONTRACT_AND_APPROVALS.agc]*
 
 ```plain
-CE PROGRAMME DE L'AGC SERA ÉGALEMENT DÉSIGNÉ SOUS LE NOM DE:
+CE PROGRAMME DE L'AGC SERA ÉGALEMENT DÉSIGNÉ SOUS LE NOM DE :
     COLOSSUS 2A
 
 CE PROGRAMME EST DESTINÉ À ÊTRE UTILISÉ EN CM COMME INDIQUÉ
 DANS LE RAPPORT R-577.  CE PROGRAMME A ÉTÉ PRÉPARÉ DANS LE CADRE
 DU DSRDSR PROJET 55-23870, PARRAINÉ PAR L'ENGIN SPATIAL HABITÉ
-CENTRE NATIONAL DE L' AÉRONAUTIQUE ET DE L''ADMINISTRSTION SPATIALE
+CENTRE NATIONAL DE L'AÉRONAUTIQUE ET DE L'ADMINISTRATION SPATIALE
 PAR LE BIAIS DU CONTRAT NAS 9-4065 AVEC LE LABORATOIRE
-D'INSTRUMENTATION,NSTITUT DU MASSACHUSETTS TECHNOLOGIE,
-CAMBRIDGE, MASSE.
+D'INSTRUMENTATION, INSTITUT DE TECHNOLOGIE DU MASSACHUSETTS,
+CAMBRIDGE, MASS.
 ```
 
-Soumis par            | Role | Date
+Soumis par            | Rôle | Date
 :-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+Margaret H. Hamilton  | Chef de la programmation Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
 
-Approuvé par       | Role | Date
+Approuvé par       | Rôle | Date
 :----------------- | :--- | :---
-Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+Daniel J. Lickly   | Directeur, Développement des programmes de mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Fred H. Martin     | Chef de projet Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Norman E. Sears    | Directeur, Développement de la mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Richard H. Battin  | Directeur, Développement de la mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+David G. Hoag      | Directeur<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Ralph R. Ragan     | Directeur adjoint<br>Laboratoire d'instrumentation | 28 Mar 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
