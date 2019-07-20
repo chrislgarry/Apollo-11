@@ -15,7 +15,8 @@
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-**한국어**
+**한국어**,
+[日本][JA]
 
 [AR]:README.ar.md
 [ID]:README.id.md
@@ -25,6 +26,7 @@
 [ES]:README.es.md
 [IT]:README.it.md
 [FR]:README.fr.md
+[JA]:README.ja.md
 [PT_BR]:README.pt_br.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
