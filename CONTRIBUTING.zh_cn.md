@@ -3,8 +3,7 @@
 :crossed_flags:
 [English][EN],
 [العربية][AR],
-[한국어][KO_KR]
-
+[한국어][KO_KR],
 中文
 
 [EN]:CONTRIBUTING.md
