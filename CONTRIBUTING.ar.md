@@ -4,12 +4,14 @@
 
 :crossed_flags:
 [English][EN]،
+[中文][ZH_CN]،
 العربية،
 [한국어][KO_KR]
 
 [EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[ZH_CN]:CONTRIBUTING.zh_cn.md
 
 تم ترقيم الكود المصدري في هذا المستودع يدويًا من مطبوعات ورقية، لذلك تم إدخال أخطاء مطبعية وما شابه بطريق الخطأ. يجب تعديل الكود ليكون متوافقًا مع المطبوعات الممسوحة:
 
