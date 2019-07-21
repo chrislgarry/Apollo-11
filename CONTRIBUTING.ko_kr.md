@@ -3,11 +3,13 @@
 :crossed_flags:
 [English][EN],
 [العربية][AR],
+[中文][ZH_CN],
 한국어
 
 [EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[ZH_CN]:CONTRIBUTING.zh_cn.md
 
 ## 유용한 확장기능들
 GitHub은 내장 에디터에서 AGC문법을 지원합니다.
