@@ -1,39 +1,30 @@
+Komuta Modülü (Comanche055) ve Ay Modülü (Armatür099) için orijinal Apollo 11 rehberlik bilgisayarı (AGC) kaynak kodu. [Virtual AGC] [3] ve [MIT Museum] [4] 'daki kişiler tarafından dijitalleştirildi. Amaç, orijinal Apollo 11 kaynak kodu için bir repo olmaktır. Bu nedenle, PR'lar, bu depodaki transkripsiyonlar ve [Luminary 099] [5] ve [Comanche 055] [6] için orijinal kaynak taramaları ile tespit edebileceğim sorunlar ve ayrıca kaçırmış olabileceğim tüm dosyalar için memnuniyetle karşılanmaktadır.
+## Katkı
+Bir çekme isteği açmadan önce lütfen [CONTRIBUTING.md] [7] bölümünü okuyun.
 
-Original Apollo 11 guidance computer (AGC) source code for Command
-Module (Comanche055) and Lunar Module (Luminary099). Digitized by
-the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be
-a repo for the original Apollo 11 source code. As such, PRs are
-welcome for any issues identified between the transcriptions in this
-repository and the original source scans for [Luminary 099][5] and
-[Comanche 055][6], as well as any files I may have missed.
+## Derleme
+Orijinal kaynak kodun derlenmesiyle ilgileniyorsanız, kontrol edin.
+[Sanal AGC] [8] üzerinden.
 
-## Contributing
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+## Atıf
 
-## Compiling
-If you are interested in compiling the original source code, check
-out [Virtual AGC][8].
+& Nbsp; | & Nbsp;
+: ------------- | : -----
+Telif Hakkı | Genel alan
+Comanche055 | Colossus 2A kaynak kodunun bir parçası, Komuta Modülünün (CM) Apollo 11 için Apollo Rehberlik Bilgisayarı (AGC) <br> <br> <br> NASA tarafından yayınlanan AGC programı Comanche'nin 055 revizyonunun bir araya getirilmesi <br> <br> 2021113-051. 10:28 Nisan. 1, 1969
+Armatür099 | Armatür 1A'nın kaynak kodunun bir parçası olan Ay Modülü'nün (LM) Apollo 11 için Apollo Rehberlik Bilgisayarı (AGC) <br> <br> `NASA tarafından yayınlanan AGC programı LYM99'un 001 revizyonu <br> <br> 2021112-061. 16:27 TEMMUZ. 14, 1969
+Birleştirici | yaYUL
+İletişim | Ron Burkey <info@sandroid.org>
+Web sitesi | www.ibiblio.org/apollo
+Dijitalleşme | Bu kaynak kod MIT Müzesi'nden bir basılı kopya dijitalleştirilmiş görüntülerinden kopyalanmış veya başka şekilde uyarlanmıştır. Dijitalleştirme Paul Fjeld tarafından yapıldı ve müze Deborah Douglas tarafından yapıldı. İkisine de çok teşekkürler.
 
-## Attribution
+### Sözleşme ve Onaylar
+* [CONTRACT_AND_APPROVALS.agc] öğesinden türetildi *
 
-&nbsp;         | &nbsp;
-:------------- | :-----
-Copyright      | Public domain
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalization | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+Bu AGC programı ayrıca Colossus 2A olarak da adlandırılır.
 
-### Contract and Approvals
-*Derived from [CONTRACT_AND_APPROVALS.agc]*
-
-This AGC program shall also be referred to as Colossus 2A.
-
-This program is intended for use in the CM as specified in report `R-577`. This program was prepared under DSR project `55-23870`, sponsored by the Manned Spacecraft Center of The National Aeronautics and Space Administration through contract `NAS 9-4065` with the Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
-
-Submitted by          | Role | Date
+Bu program, CM'de R-577 raporunda belirtilen şekilde kullanılmak üzere tasarlanmıştır. Bu program DSR projesi “55-23870”, Ulusal Havacılık ve Uzay İdaresi İnsan Uzay Aracı Merkezi tarafından düzenlenen ve NAS 94065 sayılı Massachusetts Teknoloji Enstitüsü, Cambridge, Mass Enstrümantasyon Laboratuvarı ile sözleşmeli sponsor olarak hazırlanmıştır.
+Gönderen        | Rol | Tarih
 :-------------------- | :--- | :---
 Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
 
@@ -46,7 +37,7 @@ Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Naviga
 David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
 
-[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
+https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://rawcdn.githack.com/aleen42/badges/c9246f74/src/nasa.svg
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
