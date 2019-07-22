@@ -1,10 +1,9 @@
-Komuta Modülü (Comanche055) ve Ay Modülü (Armatür099) için orijinal Apollo 11 rehberlik bilgisayarı (AGC) kaynak kodu. [Virtual AGC] [3] ve [MIT Museum] [4] 'daki kişiler tarafından dijitalleştirildi. Amaç, orijinal Apollo 11 kaynak kodu için bir repo olmaktır. Bu nedenle, PR'lar, bu depodaki transkripsiyonlar ve [Luminary 099] [5] ve [Comanche 055] [6] için orijinal kaynak taramaları ile tespit edebileceğim sorunlar ve ayrıca kaçırmış olabileceğim tüm dosyalar için memnuniyetle karşılanmaktadır.
+Komuta Modülü (Comanche055) ve Ay Modülü (Armatür099) için orijinal Apollo 11 rehberlik bilgisayarı (AGC) kaynak kodu. [Virtual AGC] [3] ve [MIT Museum] [4] 'daki kişiler tarafından dijitalleştirildi. Amaç, orijinal Apollo 11 kaynak kodu için bir repositorydir. Bu nedenle, çekme isteği PR'lar, bu depodaki transkripsiyonlar ve [Luminary 099] [5] ve [Comanche 055] [6] için orijinal kaynak taramaları ile tespit edebileceğim sorunları ve ayrıca kaçırmış olabileceğim için tüm dosyalar için memnuniyetle karşılanmaktadır.
 ## Katkı
-Bir çekme isteği açmadan önce lütfen [CONTRIBUTING.md] [7] bölümünü okuyun.
+Bir çekme isteği açmadan önce lütfen [CONTRIBUTING.md] [7] dosyasını okuyun.
 
 ## Derleme
-Orijinal kaynak kodun derlenmesiyle ilgileniyorsanız, kontrol edin.
-[Sanal AGC] [8] üzerinden.
+Orijinal kaynak kodun derlenmesiyle ilgileniyorsanız, [Sanal AGC] [8] üzerinden kontrol edin.
 
 ## Atıf
 
@@ -28,7 +27,7 @@ Gönderen        | Rol | Tarih
 :-------------------- | :--- | :---
 Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
 
-Approved by        | Role | Date
+Onaylayan      | Rol | Tarih
 :----------------- | :--- | :---
 Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
