@@ -48,7 +48,7 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 汇编程序     | yaYUL
 联系人       | Ron Burkey <info@sandroid.org>
 网站         | www.ibiblio.org/apollo
-數字化       | 该源代码从MIT 科学博物馆的印刷本电子化图片抄录、改编而来。电子化工作由 Paul Fjeld 完成，并由该馆的 Deborah Douglas 进一步整理。由衷地感激两位。
+数字化       | 该源代码从MIT 科学博物馆的印刷本电子化图片抄录、改编而来。电子化工作由 Paul Fjeld 完成，并由该馆的 Deborah Douglas 进一步整理。由衷地感激两位。
 
 ### Contract and Approvals
 *Derived from [CONTRACT_AND_APPROVALS.agc]*
