@@ -91,6 +91,16 @@ Should become:
 
 Before you make a PR, please make sure your changes are consistent with the scans!
 
+## Issues
+- Humor is allowed;
+- On-topic is welcomed;
+- [Acceptable use][11] is mandatory.
+
+## Languages
+Contributing in any language is equally welcomed. If you use an other language
+than your collaborators', please pay more effort in writing clearly, for the
+convenience of translating.
+
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
@@ -102,3 +112,4 @@ Before you make a PR, please make sure your changes are consistent with the scan
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
+[11]:https://help.github.com/en/articles/github-acceptable-use-policies#acceptable-use-policies
