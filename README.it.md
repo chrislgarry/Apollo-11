@@ -58,7 +58,7 @@ Luminary099      | Parte del codice sorgente del Luminary 1A, il modulo lunare (
 Assembler        | yaYUL
 Contatti         | Ron Burkey <info@sandroid.org>
 Website          | www.ibiblio.org/apollo
-Digitalizzazione | Questo codice sorgente è stato trascritto utilizzando le copie cartace del codice sorgente presenti al MIT Museum. La digitalizzazione è stata svolta da Paul Fjeld ed organizzata da Deborah Douglas del MIT Museum. Grazie mille ad entrambi.
+Digitalizzazione | Questo codice sorgente è stato trascritto utilizzando le copie cartacee del codice sorgente presenti al MIT Museum. La digitalizzazione è stata svolta da Paul Fjeld ed organizzata da Deborah Douglas del MIT Museum. Grazie mille ad entrambi.
 
 ### Contratto e Approvazioni
 *Derivato da [CONTRACT_AND_APPROVALS.agc]*
