@@ -5,11 +5,13 @@
 :crossed_flags:
 [English][EN]،
 العربية،
-[한국어][KO_KR]
+[한국어][KO_KR],
+[正體中文][ZH_TW]
 
 [EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[ZH_TW]:CONTRIBUTING.zh_tw.md
 
 تم ترقيم الكود المصدري في هذا المستودع يدويًا من مطبوعات ورقية، لذلك تم إدخال أخطاء مطبعية وما شابه بطريق الخطأ. يجب تعديل الكود ليكون متوافقًا مع المطبوعات الممسوحة:
 
@@ -67,7 +69,7 @@ R0820
   - فراغ واحد للكلمات الجديدة.
   - فراغان للجمل الجديدة.
   - ثلاث فراغات للمسافات البادئة.
-  
+
 مثلاً، ما يلي:
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
