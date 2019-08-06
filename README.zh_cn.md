@@ -43,8 +43,8 @@
 &nbsp;      | &nbsp;
 :---------- | :-----
 版权         | 公共领域。
-Comanche055 | 阿波罗11号制导计算机(AGC)中的指令模块(CM), Colossus 2A的部分源代码<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099 | 阿波罗11号制导计算机(AGC)中的登月模块(LM), Luminary 1A的部分源代码<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Comanche055 | 阿波罗11号制导计算机（AGC）中的指令模块（CM）, Colossus 2A的部分源代码<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099 | 阿波罗11号制导计算机（AGC）中的登月模块（LM）, Luminary 1A的部分源代码<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 汇编程序     | yaYUL
 联系人       | Ron Burkey <info@sandroid.org>
 网站         | www.ibiblio.org/apollo
