@@ -5,7 +5,7 @@
 [Bahasa Indonesia][ID],
 [Català][CA],
 [Deutsch][DE],
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
@@ -18,6 +18,8 @@
 [한국어][KO_KR],
 [日本][JA]
 [မြန်မာ][MM]
+
+**日本**
 
 [AR]:README.ar.md
 [ID]:README.id.md
