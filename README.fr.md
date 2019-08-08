@@ -38,7 +38,7 @@ Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module d
 Merci de lire [CONTRIBUTING.md][7] avant d'ouvrir un pull request
 
 ## Compilation
-Si vous êtes intéressé par la compilation du code source original, visitez [Virtual AGC][8].
+Si vous êtes intéressés par la compilation du code source original visitez [Virtual AGC][8].
 
 ## Attribution
 
@@ -47,7 +47,7 @@ Si vous êtes intéressé par la compilation du code source original, visitez [V
 Copyright      | Domaine public
 Comanche055    | Partie du code source de Colossus 2A, le module de commande (CM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | Partie du code source de Luminary 1A, le module de lunaire (LM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
+Assembleur      | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
 Site internet  | www.ibiblio.org/apollo
 Numérisation   | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Un grand merci à eux deux.
