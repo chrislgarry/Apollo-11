@@ -1,11 +1,12 @@
-# Apollo-11
+# অ্যাপোলো ১১ 
 [![NASA][1]][2]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
+**বাংলা**,
 [Català][CA],
 [Deutsch][DE],
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
@@ -13,13 +14,13 @@
 [Русский][RU],
 [العربية][AR],
 [हिंदी][HI_IN],
-[বাংলা][BD_BN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR],
 [日本][JA]
 
 [AR]:README.ar.md
+[BD_BN]:README.bd_bn.md
 [ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
@@ -33,30 +34,24 @@
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
-[BD_BN]:README.bd_bn.md
 [RU]:README.ru.md
 
-Original Apollo 11 guidance computer (AGC) source code for Command
-Module (Comanche055) and Lunar Module (Luminary099). Digitized by
-the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be
-a repo for the original Apollo 11 source code. As such, PRs are
-welcome for any issues identified between the transcriptions in this
-repository and the original source scans for [Luminary 099][5] and
-[Comanche 055][6], as well as any files I may have missed.
 
-## Contributing
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+অ্যাপোলো ১১ গাইডেন্স কম্পিউটারের মূল ম্যানুয়াল (AGC), অ্যাপোলো ১১ কমান্ড মডিউল (Comanche055) এবং লুনার মডিউল (Luminary099)। এটি [Virtual AGC][3] এবং [MIT Museum][4] সদস্যদের দ্বারা সূচিত করা হয়েছে। আমাদের মূল লক্ষ্য অ্যাপোলো ১১ এর মূল কোডটি সংকলন করা। আপনি যদি এই বিরোধের প্রতিলিপি এবং [Luminary 099][5] এবং [Comanche 055][6] এর মধ্যে কোনও বৈষম্য উন্মোচন করেছেন, সেক্ষেত্রে আপনার সহযোগিতা PR হিসাবে প্রশংসিত।
 
-## Compiling
-If you are interested in compiling the original source code, check
-out [Virtual AGC][8].
+## অবদান
+একটি pull request [CONTRIBUTING.md][7] খোলার আগে দয়া করে পড়ুন।
 
-## Attribution
+## সংগ্রহ
+যদি আপনি এই নিয়মগুলি পরিচালনা করেন তবে তা [Virtual AGC][8] দেখুন।
+
+## আরোপণ
 
 &nbsp;         | &nbsp;
 :------------- | :-----
-Copyright      | Public domain
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+কপিরাইট      | পাবলিক ডোমেইন 
+Comanche055    | Colossus 2A, কমান্ড মডিউলটির (CM) উত্স কোডের একটি অংশ, অ্যাপোলো ১১ গাইডেন্স কম্পিউটার (AGC)<br>`
+নাসা 055 দ্বারা AGC প্রোগ্রাম কোমঞ্চের একীভূত সংশোধনী`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler      | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
