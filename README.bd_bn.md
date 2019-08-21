@@ -40,7 +40,7 @@
 অ্যাপোলো ১১ গাইডেন্স কম্পিউটারের মূল ম্যানুয়াল (AGC), অ্যাপোলো ১১ কমান্ড মডিউল (Comanche055) এবং লুনার মডিউল (Luminary099)। এটি [Virtual AGC][3] এবং [MIT Museum][4] সদস্যদের দ্বারা সূচিত করা হয়েছে। আমাদের মূল লক্ষ্য অ্যাপোলো ১১ এর মূল কোডটি সংকলন করা। আপনি যদি এই বিরোধের প্রতিলিপি এবং [Luminary 099][5] এবং [Comanche 055][6] এর মধ্যে কোনও বৈষম্য উন্মোচন করেছেন, সেক্ষেত্রে আপনার সহযোগিতা PR হিসাবে প্রশংসিত।
 
 ## অবদান
-একটি pull request [CONTRIBUTING.md][7] খোলার আগে দয়া করে পড়ুন।
+একটি পুল রিকুয়েস্ট খোলার আগে দয়া করে পড়ুন [CONTRIBUTING.md][7]।
 
 ## সংগ্রহ
 যদি আপনি এই নিয়মগুলি পরিচালনা করেন তবে তা [Virtual AGC][8] দেখুন।
@@ -50,13 +50,12 @@
 &nbsp;         | &nbsp;
 :------------- | :-----
 কপিরাইট      | পাবলিক ডোমেইন 
-Comanche055    | Colossus 2A, কমান্ড মডিউলটির (CM) উত্স কোডের একটি অংশ, অ্যাপোলো ১১ গাইডেন্স কম্পিউটার (AGC)<br>`
-নাসা 055 দ্বারা AGC প্রোগ্রাম কোমঞ্চের একীভূত সংশোধনী`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalization | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+Comanche055    | Colossus 2A, কমান্ড মডিউলটির (CM) উত্স কোডের একটি অংশ, অ্যাপোলো ১১ গাইডেন্স কম্পিউটার (AGC)<br>`নাসা 055 দ্বারা AGC প্রোগ্রাম কোমঞ্চের একীভূত সংশোধনী`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    | লুমিনারি ১ এ, অ্যাপোলো ১১-এর চন্দ্র অংশ (LM) জন্য ফ্লোটেশন ডিভাইস (AGC) কোডের অংশ `নাসার দ্বারা এজিসি (AGC)প্রোগ্রাম LYM99 এর একীভূত সংশোধনী ০০১`<br>`2021112-061. 16:27 JUL. 14, 1969`
+অ্যাসেম্বলার      | yaYUL
+যোগাযোগ        | Ron Burkey <info@sandroid.org>
+ওয়েবসাইট        | www.ibiblio.org/apollo
+ডিজিটালাইজেশন  | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
 
 ### Contract and Approvals
 *Derived from [CONTRACT_AND_APPROVALS.agc]*

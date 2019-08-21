@@ -3,6 +3,7 @@
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
+[বাংলা][BD_BN],
 [Català][CA],
 [Deutsch][DE],
 **English**,
@@ -13,7 +14,6 @@
 [Русский][RU],
 [العربية][AR],
 [हिंदी][HI_IN],
-[বাংলা][BD_BN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR],
