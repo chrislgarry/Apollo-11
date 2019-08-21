@@ -3,6 +3,7 @@
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
+[বাংলা][BD_BN],
 [Català][CA],
 [Deutsch][DE],
 [English][EN],
@@ -19,6 +20,7 @@
 **日本**
 
 [AR]:README.ar.md
+[BD_BN]:README.bd_bn.md
 [ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md

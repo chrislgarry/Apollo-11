@@ -20,6 +20,7 @@
 [日本][JA]
 
 [AR]:README.ar.md
+[BD_BN]:README.bd_bn.md
 [ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
@@ -33,7 +34,6 @@
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
-[BD_BN]:README.bd_bn.md
 [RU]:README.ru.md
 
 Original Apollo 11 guidance computer (AGC) source code for Command
