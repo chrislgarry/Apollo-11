@@ -11,6 +11,7 @@
 [Italiano][IT],
 [Português][PT_BR],
 [Русский][RU],
+[Română][RO],
 [العربية][AR],
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
@@ -31,6 +32,7 @@
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[RO]:README.ro.md
 
 Kode sumber orisinil Komputer Pemandu Apollo 11 (AGC) untuk Modul Komando
 (Comanche055) dan Modul Bulan (Luminary099). Didigitalkan oleh [Virtual AGC][3]

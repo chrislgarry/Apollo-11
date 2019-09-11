@@ -11,6 +11,7 @@
 [Italiano][IT],
 [Português][PT_BR],
 [Русский][RU],
+[Română][RO],
 [العربية][AR],
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
@@ -33,6 +34,7 @@
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[RO]:README.ro.md
 
 司令船・機械船(Comanche055)および月着陸船(Luminary099)用のオリジナルのアポロ11号誘導コンピュータ(AGC)のソースコード。
 [Virtual AGC][3] と [MIT Museum][4] によってデジタル化された。
