@@ -45,7 +45,7 @@ repository and the original source scans for [Luminary 099][5] and
 [Comanche 055][6], as well as any files I may have missed.
 
 ## Contributing
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+Please read CONTRIBUTING.md][7] before opening a pull request.
 
 ## Compiling
 If you are interested in compiling the original source code, check
