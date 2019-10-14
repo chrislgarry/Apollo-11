@@ -13,6 +13,7 @@
 [Italiano][IT],
 [Português][PT_BR],
 [Русский][RU],
+[Türkçe][TR],
 [Română][RO],
 **العربية**,
 [हिंदी][HI_IN],
@@ -29,6 +30,7 @@
 [IT]:README.it.md
 [FR]:README.fr.md
 [PT_BR]:README.pt_br.md
+[TR]:README.tr.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
