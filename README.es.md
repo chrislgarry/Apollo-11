@@ -9,6 +9,7 @@
 **Español**,
 [Français][FR],
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
 [Русский][RU],
 [Türkçe][TR],
@@ -26,6 +27,7 @@
 [EN]:README.md
 [ES]:README.es.md
 [IT]:README.it.md
+[PL]:README.pl.md
 [FR]:README.fr.md
 [PT_BR]:README.pt_br.md
 [TR]:README.tr.md
