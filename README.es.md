@@ -9,8 +9,11 @@
 **Español**,
 [Français][FR],
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
 [Русский][RU],
+[Türkçe][TR],
+[Română][RO],
 [العربية][AR],
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
@@ -24,18 +27,21 @@
 [EN]:README.md
 [ES]:README.es.md
 [IT]:README.it.md
+[PL]:README.pl.md
 [FR]:README.fr.md
 [PT_BR]:README.pt_br.md
+[TR]:README.tr.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[RO]:README.ro.md
 
-Código fuente original del ordenador guía del Apolo 11 (AGC) para el módulo de comando (Comanche055) y el módulo lunar (Luminary099). Digitalizado por los chicos de [Virtual AGC][3] y [el museo del MIT][4]. El objetivo es ser un repositorio del código fuente original del Apolo 11. De este modo, serán bienvenidos los PRs relacionados con las transcripciones en este repositorio y los escaneos del código fuente original para el [Luminary 099][5] y el [Comanche 055][6], así como cualquier archivo que haya olvidado.
+Código fuente original del ordenador guía del Apolo 11 (AGC) para el módulo de comando (Comanche055) y del módulo lunar (Luminary099). Digitalizado por los chicos de [Virtual AGC][3] y [el museo del MIT][4]. El objetivo es ser un repositorio del código fuente original del Apolo 11. De este modo, serán bienvenidos los PRs relacionados con las transcripciones en este repositorio y los escaneos del código fuente original para el [Luminary 099][5] y el [Comanche 055][6], así como cualquier archivo que se me haya olvidado.
 
 ## Cómo contribuir
-Por favor, lea [CONTRIBUTING.md][7] antes de abrir una pull request.
+Por favor, lea [CONTRIBUTING.md][7] antes de abrir un pull request.
 
 ## Compilar
 Si está interesado en compilar el código fuente original, eche un vistazo a
@@ -47,7 +53,7 @@ Si está interesado en compilar el código fuente original, eche un vistazo a
 :---------------- | :-----
 Derechos de autor | Dominio público
 Comanche055       | Parte del código fuente del Colossus 2A, el ordenador guía Apolo (AGC) del Módulo de Comando (CM) para el Apolo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099       | Parte del código fuente de Luminary 1A, el ordenador guía Apolo (AGC) del Módulo Lunar (LM) para el Apolo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099       | Parte del código fuente del Luminary 1A, el ordenador guía Apolo (AGC) del Módulo Lunar (LM) para el Apolo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Ensamblador       | yaYUL
 Contacto          | Ron Burkey <info@sandroid.org>
 Sitio Web         | www.ibiblio.org/apollo
