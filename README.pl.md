@@ -58,7 +58,7 @@ Digitalizacja 		| Ten kod źródłowy został przepisany lub w inny sposób przy
 ### Umowy i zatwierdzenia
 *Pochodzące z [CONTRACT_AND_APPROVALS.agc]*
 
-Ten program AGC bedzię równien określany jako Colossus 2A
+Ten program AGC będzie również określany jako Colossus 2A
 
 Ten program jest przeznaczony do użycia w CM, jak zostało opisane w raporcie `R-577`. Ten program został przygotowany w projekcie DSR `55-23870` i zasponsorowany przez Manned Spacecraft Center of The National Aeronautics and Space Administration za pośrednictwem kontraktu `NAS 9-4065` z Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
 
