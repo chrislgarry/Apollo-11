@@ -7,10 +7,10 @@
 한국어,
 [Türkçe][TR]
 
-[EN]:CONTRIBUTING.md
-[PT_BR]:CONTRIBUTING.pt_br.md
 [AR]:CONTRIBUTING.ar.md
+[EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 
 ## 유용한 확장기능들

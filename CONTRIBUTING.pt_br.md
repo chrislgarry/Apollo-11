@@ -6,10 +6,11 @@ Português,
 [العربية][AR],
 [한국어][KO_KR]
 
-[EN]:CONTRIBUTING.md
-[PT_BR]:CONTRIBUTING.pt_br.md
 [AR]:CONTRIBUTING.ar.md
+[EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[PT_BR]:CONTRIBUTING.pt_br.md
+[TR]:CONTRIBUTING.tr.md
 
 O código-fonte neste repositório foi digitado manualmente a partir de impressões em papel, logo alguns erros de digitação e discrepâncias foram introduzidos acidentalmente. O código deve ser modificado para se tornar consistente com as seguintes digitalizações:
 
@@ -43,7 +44,7 @@ Quaisquer discrepâncias entre as digitalizações e o código-fonte neste repos
 - Quebras de linha *sem* `R0000` na coluna 1 devem conter apenas uma ou duas linhas em branco em sequência.
   - Se existem mais de duas quebras de linha em branco, remova as quebras de linha extras.
     - Linhas com `R0000` na coluna 1 não contam para este propósito.
-  - As imagens fonte foram criadas por meio de um dígito não-impresso na coluna 8. Um 2 forçava um espaço duplo (linha em branco única) e um 3 forçava um espaço triplo (linha em branco dupla). Os valores de 4 até 8 foram definidos porém nunca usados. Leia mais sobre em [#159][7] 
+  - As imagens fonte foram criadas por meio de um dígito não-impresso na coluna 8. Um 2 forçava um espaço duplo (linha em branco única) e um 3 forçava um espaço triplo (linha em branco dupla). Os valores de 4 até 8 foram definidos porém nunca usados. Leia mais sobre em [#159][7]
 
 Por exemplo, o seguinte código:
 ```plain
@@ -69,7 +70,7 @@ R0820
   - Espaço duplo para novas sentenças.
   - Espaço triplo para indentações.
 
-Por exemplo, o seguinte código:  
+Por exemplo, o seguinte código:
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.

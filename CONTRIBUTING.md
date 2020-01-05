@@ -7,10 +7,10 @@ English,
 [한국어][KO_KR],
 [Türkçe][TR]
 
-[EN]:CONTRIBUTING.md
-[PT_BR]:CONTRIBUTING.pt_br.md
 [AR]:CONTRIBUTING.ar.md
+[EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 
 The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
@@ -79,7 +79,7 @@ R0820
   - Single space for new words.
   - Double space for new sentences.
   - Triple space for indentations.
-  
+
 For example the following:
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,

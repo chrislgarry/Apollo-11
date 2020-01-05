@@ -20,21 +20,25 @@
 [日本][JA]
 
 [AR]:README.ar.md
-[ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
-[IT]:README.it.md
+[FA]:README.fa.md
 [FR]:README.fr.md
-[JA]:README.ja.md
-[PT_BR]:README.pt_br.md
-[TR]:README.tr.md
-[ZH_TW]:README.zh_tw.md
-[ZH_CN]:README.zh_cn.md
-[KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
+[ID]:README.id.md
+[IT]:README.it.md
+[JA]:README.ja.md
+[KO_KR]:README.ko_kr.md
+[PL]:README.pl.md
+[PT_BR]:README.pt_br.md
+[RO]:README.ro.md
 [RU]:README.ru.md
+[TR]:README.tr.md
+[VI]:README.vi.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından dijitalleştirilmiştir. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak PR'lere açığız.
 
@@ -61,8 +65,8 @@ Dijitalleştirme | Bu kaynak kodu MIT Müzesi'ndeki basılı kopyaların fotoğr
 
 Bu AGC programı Colossus 2A olarak da bilinir.
 
-Rapor `R-577`'de belirtildiği gibi, bu program CM için kullanım amacıyla hazırlanmıştır. 
-Bu program DSR `55-23870` projesi altında, Ulusal Havacılık ve Uzay İdaresi Uzay Aracı Merkezi'nin sponsorluğunda, Cambridge Mass Massachusetts Teknoloji Enstitüsü Enstrümantasyon Laboratuvarı ile yapılan `NAS 9-4065` anlaşması ile hazırlanmıştır. 
+Rapor `R-577`'de belirtildiği gibi, bu program CM için kullanım amacıyla hazırlanmıştır.
+Bu program DSR `55-23870` projesi altında, Ulusal Havacılık ve Uzay İdaresi Uzay Aracı Merkezi'nin sponsorluğunda, Cambridge Mass Massachusetts Teknoloji Enstitüsü Enstrümantasyon Laboratuvarı ile yapılan `NAS 9-4065` anlaşması ile hazırlanmıştır.
 
 Gönderen          | Mevkisi | Tarih
 :-------------------- | :--- | :---
