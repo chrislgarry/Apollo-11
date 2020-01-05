@@ -3,14 +3,14 @@
 :crossed_flags:
 [English][EN],
 [Português][PT_BR],
+[Türkçe][TR],
 [العربية][AR],
-한국어,
-[Türkçe][TR]
+**한국어**
 
-[EN]:CONTRIBUTING.md
-[PT_BR]:CONTRIBUTING.pt_br.md
 [AR]:CONTRIBUTING.ar.md
+[EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 
 ## 유용한 확장기능들

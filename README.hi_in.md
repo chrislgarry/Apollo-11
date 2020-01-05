@@ -11,34 +11,38 @@
 [Italiano][IT],
 [Polski][PL],
 [Português][PT_BR],
-[Русский][RU],
-[Türkçe][TR],
 [Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
+[Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 **हिंदी**,
+[日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
-[FA]:README.fa.md
-[ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
-[IT]:README.it.md
-[PL]:README.pl.md
+[FA]:README.fa.md
 [FR]:README.fr.md
-[PT_BR]:README.pt_br.md
-[TR]:README.tr.md
-[ZH_TW]:README.zh_tw.md
-[ZH_CN]:README.zh_cn.md
-[KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
-[RU]:README.ru.md
+[ID]:README.id.md
+[IT]:README.it.md
+[JA]:README.ja.md
+[KO_KR]:README.ko_kr.md
+[PL]:README.pl.md
+[PT_BR]:README.pt_br.md
 [RO]:README.ro.md
+[RU]:README.ru.md
+[TR]:README.tr.md
+[VI]:README.vi.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 
 अपोलो ११ मार्गदर्शन कम्प्यूटर (Apollo 11 Guidance computer, AGC) कमांड मॉड्यूल (Comanche055) तथा चंद्र मॉड्यूल (Luminary099) का मूल नियम संग्रह। इसे [Virtual AGC][3] एवं [MIT Museum][4] के सदस्यों द्वारा अंक्रिकित किया गया है। हमारा मुख्य उद्देश्य अपोलो ११ के मूल नियम संग्रह को संकलित करना है। यदि आपने इस संघ्रह के प्रतिलेखन एवं [Luminary 099][5] और [Comanche 055][6] के बीच में किसी भी फर्क का अनावरण किया है, उस दशा में आपका सहयोग PR के रूप में बहुत ही अभिवादित है।

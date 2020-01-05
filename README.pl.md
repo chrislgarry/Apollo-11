@@ -9,31 +9,40 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
-**Polski**
+**Polski**,
 [Português][PT_BR],
+[Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
 [Русский][RU],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
+[日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR],
-[日本][JA]
+[한국어][KO_KR]
 
 [AR]:README.ar.md
-[ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
-[IT]:README.it.md
+[FA]:README.fa.md
 [FR]:README.fr.md
-[JA]:README.ja.md
-[PT_BR]:README.pt_br.md
-[ZH_TW]:README.zh_tw.md
-[ZH_CN]:README.zh_cn.md
-[KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
+[ID]:README.id.md
+[IT]:README.it.md
+[JA]:README.ja.md
+[KO_KR]:README.ko_kr.md
+[PL]:README.pl.md
+[PT_BR]:README.pt_br.md
+[RO]:README.ro.md
 [RU]:README.ru.md
+[TR]:README.tr.md
+[VI]:README.vi.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 Oryginalny kod źródłowy komputera pokładowego w programie Apollo 11 (AGC) dla modułu dowodzenia (Comanche055) i modułu księżycowego (Luminary099). Zdigitalizowany przez ludzi z [Virtual AGC][3] i [MIT Museum][4]. Celem jest bycie repozytorium dla oryginalnego kodu źródłowego Apollo 11. Z tego powodu, PRy są mile widziane dla każdego przekłamania między transkrypcją w tym repozytorium a oryginalnymi skanami dla [Luminary 099][5] i [Comanche 055][6], jak również dla każdego pliku który mogłem przegapić.
 
