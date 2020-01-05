@@ -20,7 +20,8 @@
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR],
-[日本][JA]
+[日本][JA],
+[Tiếng Việt][VI]
 
 [AR]:README.ar.md
 [FA]:README.fa.md
@@ -40,6 +41,7 @@
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[VI]:README.vi.md
 [RO]:README.ro.md
 
 Original Apollo 11 guidance computer (AGC) source code for Command
