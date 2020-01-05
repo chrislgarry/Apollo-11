@@ -4,4 +4,6 @@ Status%3A%20Review%20Needed:
 Type%3A%20Proof:
   - Comanche055/**/*
   - Luminary099/**/*
-  
+Type%3A%20Meta:
+  - README.*  
+  - CONTRIBUTING.*
