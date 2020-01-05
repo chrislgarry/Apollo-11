@@ -12,12 +12,17 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
+[Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
 [Русский][RU],
+[العربية][AR],
 **فارسی**,
 [हिंदी][HI_IN],
+[日本][JA],
 [正體中文][ZH_TW],
-[العربية][AR],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 

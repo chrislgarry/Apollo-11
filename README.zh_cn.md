@@ -11,13 +11,14 @@
 [Italiano][IT],
 [Polski][PL],
 [Português][PT_BR],
-[Русский][RU],
-[Türkçe][TR],
 [Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
+[Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-
 [हिंदी][HI_IN],
+[日本][JA],
 [正體中文][ZH_TW],
 **简体中文**,
 [한국어][KO_KR]

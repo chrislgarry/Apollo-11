@@ -9,15 +9,19 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
-[Русский][RU],
+[Română][RO],
+[Tiếng Việt][VI],
 **Türkçe**,
+[Русский][RU],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
+[日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR],
-[日本][JA]
+[한국어][KO_KR]
 
 [AR]:README.ar.md
 [CA]:README.ca.md
