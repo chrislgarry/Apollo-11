@@ -21,16 +21,18 @@ The source code in this repository was digitized manually from paper printouts, 
 ## Useful Extensions
 
 GitHub has syntax support for the AGC assembly language built-in. Unfortunately your code editor will not, however there are AGC language extensions that provides syntax highlighting for the following editors:
-- [Atom][Atom] (supports auto formatting)
+- [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
 - [Kate][Kate]
 - [ProgrammersNotepad][ProgrammersNotepad]
-- [Sublime Text 3][Sublime Text] (supports auto formatting)
+- [Sublime Text 3][Sublime Text]†
 - [TextPad][TextPad]
 - [Vim][Vim]
-- [Visual Studio Code][VisualStudioCode] (supports auto formatting)
+- [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
+
+† Supports automatic formatting
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
