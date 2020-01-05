@@ -18,16 +18,18 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다.
 그러나 불행하게도 대개 사용되는 에디터들은 그렇지 않습니다.
 하지만 확장 기능이 지원되는 에디터들이 있습니다.
 
-- [Atom][Atom] (supports auto formatting)
+- [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
 - [Kate][Kate]
 - [ProgrammersNotepad][ProgrammersNotepad]
-- [Sublime Text 3][Sublime Text] (supports auto formatting)
+- [Sublime Text 3][Sublime Text]†
 - [TextPad][TextPad]
 - [Vim][Vim]
-- [Visual Studio Code][VisualStudioCode] (supports auto formatting)
+- [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
+
+† Supports automatic formatting
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
