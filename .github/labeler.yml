@@ -1,9 +1,9 @@
-Status%3A%20Review%20Needed:
+"Status: Review Needed":
   - Comanche055/**/*
   - Luminary099/**/*
-Type%3A%20Proof:
+"Type: Proof":
   - Comanche055/**/*
   - Luminary099/**/*
-Type%3A%20Meta:
-  - README.*  
+"Type: Meta":
+  - README.*
   - CONTRIBUTING.*
