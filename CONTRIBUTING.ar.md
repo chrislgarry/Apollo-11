@@ -23,16 +23,18 @@
 ## ملحقات مفيدة
 
 يحتوي GitHub على دعم للغة تجميع AGC المضمنة. للاسف، لن يدعمه محرر الكود الخاص بك، ولكن هناك ملحقات توفر دعم للغة AGC من المحررين التاليين:
-- [Atom][Atom] (supports auto formatting)
+- [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
 - [Kate][Kate]
 - [ProgrammersNotepad][ProgrammersNotepad]
-- [Sublime Text 3][Sublime Text] (supports auto formatting)
+- [Sublime Text 3][Sublime Text]†
 - [TextPad][TextPad]
 - [Vim][Vim]
-- [Visual Studio Code][VisualStudioCode] (supports auto formatting)
+- [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
+
+† Supports automatic formatting
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
