@@ -22,16 +22,18 @@ O código-fonte neste repositório foi digitado manualmente a partir de impress�
 
 Github possui suporte de sintaxe nativo para a linguagem assembly AGC.
 Infelizmente, seu editor de texto não o terá. Portanto, existem extensões para a linguagem AGC que providenciam destaque de sintaxe para os seguintes editores:
-- [Atom][Atom] (supports auto formatting)
+- [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
 - [Kate][Kate]
 - [ProgrammersNotepad][ProgrammersNotepad]
-- [Sublime Text 3][Sublime Text] (supports auto formatting)
+- [Sublime Text 3][Sublime Text]†
 - [TextPad][TextPad]
 - [Vim][Vim]
-- [Visual Studio Code][VisualStudioCode] (supports auto formatting)
+- [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
+
+† Supports automatic formatting
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
