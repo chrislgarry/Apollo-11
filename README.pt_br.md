@@ -54,7 +54,7 @@ neste repositório e as verificações do código fonte original para
 eu possa ter perdido.
 
 ## Contribuindo
-Leia [CONTRIBUTING.md][7] antes de abrir um pull request.
+Leia [CONTRIBUTING.pt_br.md][7] antes de abrir um pull request.
 
 ## Compilando
 Se você estiver interessado em compilar o código-fonte original, faça o
@@ -99,5 +99,5 @@ Ralph R. Ragan     | Vice Diretor<br>Laboratório de Instrumentação | 28 Mar 6
 [4]:http://web.mit.edu/museum/
 [5]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
+[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.pt_br.md
 [8]:https://github.com/rburkey2005/virtualagc

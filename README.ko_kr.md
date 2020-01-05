@@ -48,7 +48,7 @@
 이 레포지토리는 아폴로 11호의 원본 소스코드를 완벽하게 재현하여 보관하는 것을 목표로 합니다. 따라서 원본과 본 디지털본 간에 발견된 모든 이슈, 또한 빠뜨렸을 듯한 파일들에 대해 PR을 환영합니다.
 
 ## 기여하기
-PR을 열기 전에 [CONTRIBUTING.md][7] 을 읽어보시기 바랍니다.
+PR을 열기 전에 [CONTRIBUTING.ko_kr.md][7] 을 읽어보시기 바랍니다.
 
 ## 컴파일
 만약 컴파일을 원하신다면 [Virtual AGC][8] 을 확인하여 보십시오.
@@ -92,5 +92,5 @@ Ralph R. Ragan     | 부감독<br>기계 연구소 | 1969년 3월 28일
 [4]:http://web.mit.edu/museum/
 [5]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
+[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.ko_kr.md
 [8]:https://github.com/rburkey2005/virtualagc

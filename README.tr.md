@@ -47,7 +47,7 @@
 Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından dijitalleştirilmiştir. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak PR'lere açığız.
 
 ## Katkıda Bulunma
-Lütfen pull request açmadan [CONTRIBUTING.md][7] dosyasını okuyun.
+Lütfen pull request açmadan [CONTRIBUTING.pt_br.md][7] dosyasını okuyun.
 
 ## Derleme
 Eğer orijinal kaynak kodu derlemek isterseniz, [Virtual AGC][8] projesine bakabilirsiniz.
@@ -92,5 +92,5 @@ Ralph R. Ragan     | Direktör Yardımcısı<br>Enstrümantasyon Laboratuvarı |
 [4]:http://web.mit.edu/museum/
 [5]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
+[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.tr.md
 [8]:https://github.com/rburkey2005/virtualagc
