@@ -20,16 +20,18 @@ Bu repodaki kaynak kodu kağıt çıktılarından elle dijitalleştirilmiştir. 
 ## Yararlı Eklentiler
 
 Github, AGC assembly dili için sentaks desteği sağlıyor ama sizin kodu düzenlemek için kullandığınız editör sağlamayacaktır. Aşağıdaki editörler AGC dili sentaks vurgulaması için eklentiler sunmaktadır:
-- [Atom][Atom] (supports auto formatting)
+- [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
 - [Kate][Kate]
 - [ProgrammersNotepad][ProgrammersNotepad]
-- [Sublime Text 3][Sublime Text] (supports auto formatting)
+- [Sublime Text 3][Sublime Text]†
 - [TextPad][TextPad]
 - [Vim][Vim]
-- [Visual Studio Code][VisualStudioCode] (supports auto formatting)
+- [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
+
+† Otomatik biçimlendirmeyi destekler
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
