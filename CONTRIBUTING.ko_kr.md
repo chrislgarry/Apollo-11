@@ -3,9 +3,9 @@
 :crossed_flags:
 [English][EN],
 [Português][PT_BR],
+[Türkçe][TR],
 [العربية][AR],
-한국어,
-[Türkçe][TR]
+**한국어**
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md

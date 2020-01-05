@@ -3,11 +3,11 @@
 # المساهمة
 
 :crossed_flags:
-[English][EN]،
+[English][EN],
 [Português][PT_BR],
-العربية،
-[한국어][KO_KR],
-[Türkçe][TR]
+[Türkçe][TR],
+**العربية**,
+[한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md

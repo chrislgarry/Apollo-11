@@ -2,9 +2,10 @@
 
 :crossed_flags:
 [English][EN],
+[Português][PT_BR],
+**Türkçe**,
 [العربية][AR],
-[한국어][KO_KR],
-Türkçe
+[한국어][KO_KR]
 
 [EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md
@@ -67,7 +68,7 @@ R0820
   - Yeni kelimeler arası tek boşluk.
   - Yeni cümleler arası iki boşluk.
   - Yeni girintiler için üç boşluk.
-  
+
 Örneğin bu:
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
