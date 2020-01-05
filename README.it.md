@@ -9,36 +9,44 @@
 [Español][ES],
 [Français][FR],
 **Italiano**,
+[Polski][PL],
 [Português][PT_BR],
 [Русский][RU],
+[Türkçe][TR],
+[Română][RO],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[FA]:README.fa.md
 [ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [IT]:README.it.md
+[PL]:README.pl.md
 [FR]:README.fr.md
 [PT_BR]:README.pt_br.md
+[TR]:README.tr.md
 [ZH_TW]:README.zh_tw.md
 [ZH_CN]:README.zh_cn.md
 [KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
 [RU]:README.ru.md
+[RO]:README.ro.md
 
 Codice sorgente dell'Apollo 11 Guidance Computer (AGC) utilizzato
 dal Command Module (Comanche055) e dal Lunar Module (Luminary099).
 Digitalizzato dagli autori del [Virtual AGC][3] e dal [MIT Museum][4].
-L'obbiettivo è quello di avere una repository contenente il codice
+L'obbiettivo è quello di avere un repository contenente il codice
 usato dalla missione Apollo 11. Di conseguenza, le PRs volte a
-corregere qualsiasi problema, identificato confrontando le
-trascrizioni in questa repository e le scansioni originali del
+correggere qualsiasi problema, identificato confrontando le
+trascrizioni in questo repository e le scansioni originali del
 codice del [Luminary 099][5] e del [Comanche 055][6], sono benvenute.
 
 ## Contribuire
@@ -58,7 +66,7 @@ Luminary099      | Parte del codice sorgente del Luminary 1A, il modulo lunare (
 Assembler        | yaYUL
 Contatti         | Ron Burkey <info@sandroid.org>
 Website          | www.ibiblio.org/apollo
-Digitalizzazione | Questo codice sorgente è stato trascritto utilizzando le copie cartace del codice sorgente presenti al MIT Museum. La digitalizzazione è stata svolta da Paul Fjeld ed organizzata da Deborah Douglas del MIT Museum. Grazie mille ad entrambi.
+Digitalizzazione | Questo codice sorgente è stato trascritto utilizzando le copie cartacee del codice sorgente presenti al MIT Museum. La digitalizzazione è stata svolta da Paul Fjeld ed organizzata da Deborah Douglas del MIT Museum. Grazie mille ad entrambi.
 
 ### Contratto e Approvazioni
 *Derivato da [CONTRACT_AND_APPROVALS.agc]*
