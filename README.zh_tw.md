@@ -15,12 +15,14 @@
 [Türkçe][TR],
 [Română][RO],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
 **正體中文**,
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[FA]:README.fa.md
 [ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md

@@ -15,6 +15,7 @@
 [Türkçe][TR],
 [Română][RO],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
@@ -22,6 +23,7 @@
 [日本][JA]
 
 [AR]:README.ar.md
+[FA]:README.fa.md
 [ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
