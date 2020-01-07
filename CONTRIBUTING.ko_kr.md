@@ -6,6 +6,7 @@
 [Türkçe][TR],
 [العربية][AR],
 [正體中文][ZH_TW],
+[简体中文][ZH_CN],
 **한국어**
 
 [AR]:CONTRIBUTING.ar.md
@@ -13,6 +14,7 @@
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
+[ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
 ## 유용한 확장기능들
