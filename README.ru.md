@@ -9,30 +9,42 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
-**Русский**
+[Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
+**Русский**,
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
+[日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
-[ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
-[IT]:README.it.md
+[FA]:README.fa.md
 [FR]:README.fr.md
-[PT_BR]:README.pt_br.md
-[ZH_TW]:README.zh_tw.md
-[ZH_CN]:README.zh_cn.md
-[KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
+[ID]:README.id.md
+[IT]:README.it.md
+[JA]:README.ja.md
+[KO_KR]:README.ko_kr.md
+[PL]:README.pl.md
+[PT_BR]:README.pt_br.md
+[RO]:README.ro.md
 [RU]:README.ru.md
+[TR]:README.tr.md
+[VI]:README.vi.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
-Оригинальный исходный код бортового управляющего компьютера Аполлон 11 (AGC) для коммандного модуля (Comanche055) и лунного модуля (Luminary099).
+Оригинальный исходный код бортового управляющего компьютера Аполлон 11 (AGC) для командного модуля (Comanche055) и лунного модуля (Luminary099).
 Оцифровано людьми из [Virtual AGC][3] и [MIT Museum][4]. Цель - это создание репозитория с оригинальным исходным кодом миссии Аполлон 11.
 Таким образом приветствуются pull requests (PRs) с исправлениями для любых найденных ошибок в файлах этого репозитория и оригинальных сканах исходного кода для [Luminary 099][5] и [Comanche 055][6], так же как и для любых файлов, которые я мог пропустить.
 
@@ -69,7 +81,7 @@ Margaret H. Hamilton  | Ведущий программист Colossus<br>Упр
 :----------------- | :--- | :---
 Daniel J. Lickly   | Директор, Разработка программы миссии<br>Программа управления и навигации Аполлона | 28 Март 69
 Fred H. Martin     | Проектный менеджер Colossus<br>Программа управления и навигации Аполлона | 28 Март 69
-Norman E. Sears    | Директор, Разработка миссии<br>Программа управления и навигации Аполлонаm | 28 Март 69
+Norman E. Sears    | Директор, Разработка миссии<br>Программа управления и навигации Аполлона | 28 Март 69
 Richard H. Battin  | Директор, Разработка миссии<br>Программа управления и навигации Аполлона | 28 Март 69
 David G. Hoag      | Директор<br>Программа управления и навигации Аполлона | 28 Март 69
 Ralph R. Ragan     | Заместитель директора<br>Лаборатория приборостроения| 28 Март 69

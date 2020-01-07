@@ -3,14 +3,18 @@
 # المساهمة
 
 :crossed_flags:
-[English][EN]،
-العربية،
-[한국어][KO_KR],
-[正體中文][ZH_TW]
+[English][EN],
+[Português][PT_BR],
+[Türkçe][TR],
+**العربية**,
+[正體中文][ZH_TW],
+[한국어][KO_KR]
 
-[EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md
+[EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[PT_BR]:CONTRIBUTING.pt_br.md
+[TR]:CONTRIBUTING.tr.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
 تم ترقيم الكود المصدري في هذا المستودع يدويًا من مطبوعات ورقية، لذلك تم إدخال أخطاء مطبعية وما شابه بطريق الخطأ. يجب تعديل الكود ليكون متوافقًا مع المطبوعات الممسوحة:

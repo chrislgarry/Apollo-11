@@ -2,13 +2,17 @@
 
 :crossed_flags:
 [English][EN],
+[Português][PT_BR],
+[Türkçe][TR],
 [العربية][AR],
-한국어,
-[正體中文][ZH_TW]
+[正體中文][ZH_TW],
+**한국어**
 
-[EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md
+[EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[PT_BR]:CONTRIBUTING.pt_br.md
+[TR]:CONTRIBUTING.tr.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
 ## 유용한 확장기능들
