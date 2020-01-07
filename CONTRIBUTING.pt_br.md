@@ -5,6 +5,8 @@
 **Português**,
 [Türkçe][TR],
 [العربية][AR],
+[正體中文][ZH_TW],
+[简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
@@ -12,6 +14,8 @@
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
+[ZH_CN]:CONTRIBUTING.zh_cn.md
+[ZH_TW]:CONTRIBUTING.zh_tw.md
 
 O código-fonte neste repositório foi digitado manualmente a partir de impressões em papel, logo alguns erros de digitação e discrepâncias foram introduzidos acidentalmente. O código deve ser modificado para se tornar consistente com as seguintes digitalizações:
 
