@@ -2,13 +2,17 @@
 
 :crossed_flags:
 [English][EN],
+[Português][PT_BR],
+[Türkçe][TR],
 [العربية][AR],
-[한국어][KO_KR],
-正體中文
+**正體中文**,
+[한국어][KO_KR]
 
-[EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md
+[EN]:CONTRIBUTING.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[PT_BR]:CONTRIBUTING.pt_br.md
+[TR]:CONTRIBUTING.tr.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
 這個倉庫的原始碼，是透過列印出的紙本輸出，予以手動數位化。所以可能會不小心出現錯字和其他出入。程式碼應當修正到與紙本掃描的輸出一致：
