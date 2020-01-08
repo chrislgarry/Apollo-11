@@ -3,12 +3,12 @@
 # المساهمة
 
 :crossed_flags:
-[English][EN],
-[Português][PT_BR],
-[Türkçe][TR],
-**العربية**,
-[正體中文][ZH_TW],
-[简体中文][ZH_CN],
+[English][EN]،
+[Português][PT_BR]،
+[Türkçe][TR]،
+**العربية**،
+[正體中文][ZH_TW]،
+[简体中文][ZH_CN]،
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md

@@ -4,25 +4,25 @@
 [![NASA][1]][2]
 
 :crossed_flags:
-[Bahasa Indonesia][ID],
-[Català][CA],
-[Deutsch][DE],
-[English][EN],
-[Español][ES],
-[Français][FR],
-[Italiano][IT],
-[Polski][PL],
-[Português][PT_BR],
-[Română][RO],
-[Tiếng Việt][VI],
-[Türkçe][TR],
-[Русский][RU],
-**العربية**,
-[فارسی][FA],
-[हिंदी][HI_IN],
-[日本][JA],
-[正體中文][ZH_TW],
-[简体中文][ZH_CN],
+[Bahasa Indonesia][ID]،
+[Català][CA]،
+[Deutsch][DE]،
+[English][EN]،
+[Español][ES]،
+[Français][FR]،
+[Italiano][IT]،
+[Polski][PL]،
+[Português][PT_BR]،
+[Română][RO]،
+[Tiếng Việt][VI]،
+[Türkçe][TR]،
+[Русский][RU]،
+**العربية**،
+[فارسی][FA]،
+[हिंदी][HI_IN]،
+[日本][JA]،
+[正體中文][ZH_TW]،
+[简体中文][ZH_CN]،
 [한국어][KO_KR]
 
 [AR]:README.ar.md
