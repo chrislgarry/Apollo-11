@@ -3,16 +3,15 @@
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
-[বাংলা][BD_BN],
 [Català][CA],
 [Deutsch][DE],
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
 [Polski][PL],
 [Português][PT_BR],
-[Română][RO],
+**Română**,
 [Tiếng Việt][VI],
 [Türkçe][TR],
 [Русский][RU],
@@ -45,45 +44,36 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Original Apollo 11 guidance computer (AGC) source code for Command
-Module (Comanche055) and Lunar Module (Luminary099). Digitized by
-the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be
-a repo for the original Apollo 11 source code. As such, PRs are
-welcome for any issues identified between the transcriptions in this
-repository and the original source scans for [Luminary 099][5] and
-[Comanche 055][6], as well as any files I may have missed.
+Codul sursă original al computerului de orientare Apollo 11 (AGC) pentru modulul de comandă (Comanche055) și modulul lunar (Luminary099). Digitalizat de persoanele de la [Virtual AGC][3] și [MIT Museum][4]. Scopul este de a avea un repo pentru codul sursă original Apollo 11. Prin urmare, PR-urile sunt bine venite pentru orice problemă identificată între transcrierile din acest repository și scanările originale pentru [Luminary 099][5] și [Comanche 055][6], precum și pentru alte fișiere pe care aș fi putut să le uit.
 
-## Contributing
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+## Contribuire
+Citiți [CONTRIBUTING.md][7] înainte de a deschide un pull request.
 
-## Compiling
-If you are interested in compiling the original source code, check
-out [Virtual AGC][8].
+## Compilare
+Dacă sunteți interesat de compilarea codului sursă original vizitați [Virtual AGC][8].
 
-## Attribution
-
+## Credite
 &nbsp;         | &nbsp;
 :------------- | :-----
-Copyright      | Public domain
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Copyright      | Domeniu public
+Comanche055    | Parte din codul sursă pentru Colossus 2A, modulul de comanda (CM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    | Parte din codul sursă pentru Luminary 1A, modulul lunar (LM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler      | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
 Website        | www.ibiblio.org/apollo
-Digitalization | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+Digitalizare   | Acest cod sursă a fost transcris sau adaptat altfel din imagini digitalizate ale unei hârtii tipărite de la MIT Museum. Digitizarea a fost realizată de Paul Fjeld și a fost organizată de către Deborah Douglas de la MIT Museum. Multe mulțumiri amândurora.
+### Contract și Aprobări
+*Derivat din [CONTRACT_AND_APPROVALS.agc]*
 
-### Contract and Approvals
-*Derived from [CONTRACT_AND_APPROVALS.agc]*
+Acest program AGC va fi denumit, de asemenea, Colossus 2A.
 
-This AGC program shall also be referred to as Colossus 2A.
+Acest program este destinat utilizării în CM (modulul de comandă) așa cum este specificat în raportul `R-577`. Acest program a fost dezvoltat ca parte a proiectului DSR `55-23870`, sponsorizat de Manned Spacecraft Center of The National Aeronautics and Space Administration prin contractul `NAS 9-4065` semnat de Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
 
-This program is intended for use in the CM as specified in report `R-577`. This program was prepared under DSR project `55-23870`, sponsored by the Manned Spacecraft Center of The National Aeronautics and Space Administration through contract `NAS 9-4065` with the Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
-
-Submitted by          | Role | Date
+Trimis de             | Rol | Data
 :-------------------- | :--- | :---
 Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
 
-Approved by        | Role | Date
+Aprobat de         | Rol | Data
 :----------------- | :--- | :---
 Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
