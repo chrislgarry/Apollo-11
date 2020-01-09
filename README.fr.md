@@ -23,6 +23,7 @@
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
+[မြန်မာ][MM]
 
 [AR]:README.ar.md
 [CA]:README.ca.md
