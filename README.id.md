@@ -3,6 +3,7 @@
 
 :crossed_flags:
 **Bahasa Indonesia**,
+[বাংলা][BD_BN],
 [Català][CA],
 [Deutsch][DE],
 [English][EN],
