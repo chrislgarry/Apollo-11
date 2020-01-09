@@ -10,34 +10,45 @@
 [Español][ES],
 **Français**,
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
+[Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
 [Русский][RU],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
+[日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
-[BD_BN]:README.bd_bn.md
-[ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
-[IT]:README.it.md
+[FA]:README.fa.md
 [FR]:README.fr.md
-[PT_BR]:README.pt_br.md
-[ZH_TW]:README.zh_tw.md
-[ZH_CN]:README.zh_cn.md
-[KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
+[ID]:README.id.md
+[IT]:README.it.md
+[JA]:README.ja.md
+[KO_KR]:README.ko_kr.md
+[PL]:README.pl.md
+[PT_BR]:README.pt_br.md
+[RO]:README.ro.md
 [RU]:README.ru.md
+[TR]:README.tr.md
+[VI]:README.vi.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
-Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099). Numérisé par les gens du [Virtual AGC][3] et du [MIT Museum][4]. Le but est d'être un repo pour le code source original d'Apollo 11. En tant que tel, les PR sont les bienvenus pour tous les problèmes identifiés entre les transcriptions dans ce référentiel et les scans source originaux pour [Luminary 099][5] et [Comanche 055][6], ainsi que pour tous les fichiers que j'ai pu manquer.
+Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099). Numérisé par les gens du [Virtual AGC][3] et du [MIT Museum][4]. Le but est d'être un repo pour le code source original d'Apollo 11. En tant que tel, les PR sont les bienvenues pour tous les problèmes identifiés entre les transcriptions dans ce référentiel et les scans source originaux pour [Luminary 099][5] et [Comanche 055][6], ainsi que pour tous les fichiers que j'ai pu manquer.
 
 ## Contribuer
-Merci de lire [CONTRIBUTING.md][7] avant d'ouvrir un pull request
+Merci de lire [CONTRIBUTING.md][7] avant d'ouvrir une pull request.
 
 ## Compilation
 Si vous êtes intéressés par la compilation du code source original visitez [Virtual AGC][8].
