@@ -9,32 +9,44 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
+[Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
 [Русский][RU],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
+[বাংলা][BD_BN],
+**မြန်မာ**,
+[日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR],
-[日本][JA],
-**မြန်မာ**
+[한국어][KO_KR]
 
 [AR]:README.ar.md
-[ID]:README.id.md
+[BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
-[IT]:README.it.md
+[FA]:README.fa.md
 [FR]:README.fr.md
-[JA]:README.ja.md
-[PT_BR]:README.pt_br.md
-[ZH_TW]:README.zh_tw.md
-[ZH_CN]:README.zh_cn.md
-[KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
-[RU]:README.ru.md
+[ID]:README.id.md
+[IT]:README.it.md
+[JA]:README.ja.md
+[KO_KR]:README.ko_kr.md
 [MM]:README.mm.md
+[PL]:README.pl.md
+[PT_BR]:README.pt_br.md
+[RO]:README.ro.md
+[RU]:README.ru.md
+[TR]:README.tr.md
+[VI]:README.vi.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 
 မူရင်း Apollo 11​​ ထိန်းချုပ်မှု ကွန်ပျူတာ (AGC) တွင်ပါဝင်သော ကွပ်ကဲမှုအစိတ်အပိုင်း (Comanche055) နဲ့ လပေါ်တွင်ဆင်းသက်သည့် အစိတ်အပိုင်း (Luminary099) တို့ရဲ့ ကုဒ်။ [Virtual AGC][3] နှင့် [MIT Museum][4] အကူအညီဖြင့် ဒီဂျစ်တယ်ပုံစံသို့ ပြောင်းထားခြင်းဖြစ်သည်။​ မူရင်း Apollo 11 ကုဒ်များ သိမ်းစည်းထားသော ရီပိုတစ်ခုဖြစ်လာစေရန်ရည်ရွယ်သည်။ ဒါကြောင့် [Luminary 099][5] နဲ့ [Comanche 055][6] တို့ရဲ့ အရင်းအမြစ်စာတမ်းများနဲ့ ဒီရီပိုကြား ကွဲလွဲချက်များတွေ့ရင် Pull Request (PR) တွေဖွင့်ပေးဖို့ ကြိုဆိုပါတယ်။ ကျွန်တော် ကျန်ခဲ့တဲ့ ဖိုင်လ်လေးတွေရှိရင်လည်း ပြောပေးကြပါဉီး။
@@ -43,7 +55,7 @@
 Pull Request မဖွင့်ခင် [CONTRIBUTING.md][7] ကိုတော့ဖတ်ပေးနော်။
 
 ## Compiling
-မူလကုဒ်ကို ကွန်ပိုင်းချင်တယ်ဆိုရင်တော့ [Virtual AGC][8] မှာစမ်းကြည့်လို့ရတယ်နော် 
+မူလကုဒ်ကို ကွန်ပိုင်းချင်တယ်ဆိုရင်တော့ [Virtual AGC][8] မှာစမ်းကြည့်လို့ရတယ်နော်
 
 ## မှီညှမ်းခြင်း
 
@@ -65,7 +77,7 @@ Assembler      | yaYUL
 
 ဤ AGC ပရိုဂရမ် ကို Colossus 2A ဟူ၍ ခေါ်ဝေါ်မည်။
 
-ဤပရိုဂရမ် ကို CM တွင် `R-577` တင်ပြချက်အတိုင်း အသုံးပြုရန် ရည်ရွယ်ထားသည်။ Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass တို့နှင့်ချုပ်ခဲ့သော စာချုပ်  `NAS 9-4065` အရ Manned Spacecraft Center of The National Aeronautics and Space Administration ၏ ထောက်ပံ့မှုဖြင့် DSR ပရောဂျက် `55-23870` လက်အောက်တွင် ဤပရိုဂရမ်ကို  ပြင်ဆင်ခဲ့ခြင်းဖြစ်သည်။ 
+ဤပရိုဂရမ် ကို CM တွင် `R-577` တင်ပြချက်အတိုင်း အသုံးပြုရန် ရည်ရွယ်ထားသည်။ Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass တို့နှင့်ချုပ်ခဲ့သော စာချုပ်  `NAS 9-4065` အရ Manned Spacecraft Center of The National Aeronautics and Space Administration ၏ ထောက်ပံ့မှုဖြင့် DSR ပရောဂျက် `55-23870` လက်အောက်တွင် ဤပရိုဂရမ်ကို  ပြင်ဆင်ခဲ့ခြင်းဖြစ်သည်။
 
 တင်ပြခဲ့သူ          | ရာထူး | ရက်စွဲ
 :-------------------- | :--- | :---

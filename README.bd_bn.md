@@ -1,40 +1,52 @@
-# অ্যাপোলো ১১ 
+# অ্যাপোলো ১১
 [![NASA][1]][2]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
-**বাংলা**,
 [Català][CA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Polski][PL],
 [Português][PT_BR],
+[Română][RO],
+[Tiếng Việt][VI],
+[Türkçe][TR],
 [Русский][RU],
 [العربية][AR],
+[فارسی][FA],
 [हिंदी][HI_IN],
+**বাংলা**,
+[မြန်မာ][MM],
+[日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR],
-[日本][JA]
+[한국어][KO_KR]
 
 [AR]:README.ar.md
 [BD_BN]:README.bd_bn.md
-[ID]:README.id.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
-[IT]:README.it.md
+[FA]:README.fa.md
 [FR]:README.fr.md
-[JA]:README.ja.md
-[PT_BR]:README.pt_br.md
-[ZH_TW]:README.zh_tw.md
-[ZH_CN]:README.zh_cn.md
-[KO_KR]:README.ko_kr.md
 [HI_IN]:README.hi_in.md
+[ID]:README.id.md
+[IT]:README.it.md
+[JA]:README.ja.md
+[KO_KR]:README.ko_kr.md
+[MM]:README.mm.md
+[PL]:README.pl.md
+[PT_BR]:README.pt_br.md
+[RO]:README.ro.md
 [RU]:README.ru.md
+[TR]:README.tr.md
+[VI]:README.vi.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 
 অ্যাপোলো ১১ গাইডেন্স কম্পিউটারের মূল ম্যানুয়াল (AGC), অ্যাপোলো ১১ কমান্ড মডিউল (Comanche055) এবং লুনার মডিউল (Luminary099)। এটি [Virtual AGC][3] এবং [MIT Museum][4] সদস্যদের দ্বারা সূচিত করা হয়েছে। আমাদের মূল লক্ষ্য অ্যাপোলো ১১ এর মূল কোডটি সংকলন করা। আপনি যদি এই বিরোধের প্রতিলিপি এবং [Luminary 099][5] এবং [Comanche 055][6] এর মধ্যে কোনও বৈষম্য উন্মোচন করেছেন, সেক্ষেত্রে আপনার সহযোগিতা PR হিসাবে প্রশংসিত হবে।
@@ -49,7 +61,7 @@
 
 &nbsp;         | &nbsp;
 :------------- | :-----
-কপিরাইট      | পাবলিক ডোমেইন 
+কপিরাইট      | পাবলিক ডোমেইন
 Comanche055    | Colossus 2A, কমান্ড মডিউলটির (CM) উত্স কোডের একটি অংশ, অ্যাপোলো ১১ গাইডেন্স কম্পিউটার (AGC)<br>`নাসা 055 দ্বারা AGC প্রোগ্রাম কোমঞ্চের একীভূত সংশোধনী`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | লুমিনারি ১ এ, অ্যাপোলো ১১-এর চন্দ্র অংশ (LM) জন্য ফ্লোটেশন ডিভাইস (AGC) কোডের অংশ `নাসার দ্বারা এজিসি (AGC)প্রোগ্রাম LYM99 এর একীভূত সংশোধনী ০০১`<br>`2021112-061. 16:27 JUL. 14, 1969`
 অ্যাসেম্বলার      | yaYUL

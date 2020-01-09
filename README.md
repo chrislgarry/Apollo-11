@@ -3,7 +3,6 @@
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
-[বাংলা][BD_BN],
 [Català][CA],
 [Deutsch][DE],
 **English**,
@@ -19,12 +18,15 @@
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[বাংলা][BD_BN],
+[မြန်မာ][MM],
 [日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
@@ -36,6 +38,7 @@
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[MM]:README.mm.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
