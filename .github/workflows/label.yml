@@ -1,7 +1,7 @@
 name: Pull Request Labeler
 on:
   schedule:
-    - cron: '/5 * * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   labeler:
     runs-on: ubuntu-latest
