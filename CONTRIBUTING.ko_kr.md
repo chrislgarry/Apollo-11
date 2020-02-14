@@ -29,7 +29,7 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다.
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Supports automatic formatting
+† 자동 포매팅 지원
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
