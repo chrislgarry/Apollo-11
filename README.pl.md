@@ -23,7 +23,8 @@
 [日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR]
+[한국어][KO_KR],
+[Nederlands][NL]
 
 [AR]:README.ar.md
 [BD_BN]:README.bd_bn.md
@@ -47,6 +48,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 Oryginalny kod źródłowy komputera pokładowego w programie Apollo 11 (AGC) dla modułu dowodzenia (Comanche055) i modułu księżycowego (Luminary099). Zdigitalizowany przez ludzi z [Virtual AGC][3] i [MIT Museum][4]. Celem jest bycie repozytorium dla oryginalnego kodu źródłowego Apollo 11. Z tego powodu, PRy są mile widziane dla każdego przekłamania między transkrypcją w tym repozytorium a oryginalnymi skanami dla [Luminary 099][5] i [Comanche 055][6], jak również dla każdego pliku który mogłem przegapić.
 
