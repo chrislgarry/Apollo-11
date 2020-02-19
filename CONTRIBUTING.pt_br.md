@@ -26,9 +26,29 @@ O código-fonte neste repositório foi digitado manualmente a partir de impress�
 
 Github possui suporte de sintaxe nativo para a linguagem assembly AGC.
 Infelizmente, seu editor de texto não o terá. Portanto, existem extensões para a linguagem AGC que providenciam destaque de sintaxe para os seguintes editores:
-- [Atom][5]
-- [Sublime Text 3][4]
-- [Visual Studio Code][3]
+- [Atom][Atom]†
+- [CodeBlocks][CodeBlocks]
+- [Eclipse][Eclipse]
+- [Kate][Kate]
+- [ProgrammersNotepad][ProgrammersNotepad]
+- [Sublime Text 3][Sublime Text]†
+- [TextPad][TextPad]
+- [Vim][Vim]
+- [Visual Studio Code][VisualStudioCode]†
+- [jEdit][jEdit]
+
+† Suporta formatação automática
+
+[Atom]:https://github.com/Alhadis/language-agc
+[CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
+[Eclipse]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Eclipse
+[Kate]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Kate
+[ProgrammersNotepad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/ProgrammersNotepad
+[Sublime Text]:https://github.com/jimlawton/AGC-Assembly
+[TextPad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/TextPad
+[Vim]:https://github.com/wsdjeg/vim-assembly
+[VisualStudioCode]:https://github.com/wopian/agc-assembly
+[jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Formatando
 **Nota:** Github e as três extensões listadas acima garantirão que você estará usando a formatação correta automaticamente.
@@ -93,9 +113,6 @@ Antes de realizar um PR, por favor, certifique-se que suas mudanças estejam con
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[3]:https://github.com/wopian/agc-assembly
-[4]:https://github.com/jimlawton/AGC-Assembly
-[5]:https://github.com/Alhadis/language-agc
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
