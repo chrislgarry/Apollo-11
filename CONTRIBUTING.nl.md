@@ -1,4 +1,4 @@
-# Contributing
+# Bijdragen
 
 :crossed_flags:
 [English][EN],
