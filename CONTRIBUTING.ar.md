@@ -10,6 +10,7 @@
 [正體中文][ZH_TW]،
 [简体中文][ZH_CN]،
 [한국어][KO_KR]
+[Nederlands][NL]
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
@@ -18,6 +19,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[NL]:CONTRIBUTING.nl.md
 
 تم ترقيم الكود المصدري في هذا المستودع يدويًا من مطبوعات ورقية، لذلك تم إدخال أخطاء مطبعية وما شابه بطريق الخطأ. يجب تعديل الكود ليكون متوافقًا مع المطبوعات الممسوحة:
 
