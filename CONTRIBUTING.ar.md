@@ -4,7 +4,7 @@
 
 :crossed_flags:
 [English][EN]،
-[Nederlands][NL],
+[Nederlands][NL]،
 [Português][PT_BR]،
 [Türkçe][TR]،
 **العربية**،
