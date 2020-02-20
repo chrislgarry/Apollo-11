@@ -7,7 +7,7 @@
 [Türkçe][TR],
 [العربية][AR],
 **正體中文**,
-[한국어][KO_KR],
+[한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
