@@ -50,7 +50,7 @@
 [ZH_TW]:README.zh_tw.md
 [NL]:README.nl.md
 
-Originele broncode voor de Apollo 11 begeleidingscomputer (AGC). Broncode voor de besturingsmodule (Comanche055) en maanmodule (Luminary099). Gedigitalizeerd door [Virtual GC][3] en het [MIT Museum][4]. Het doel is om een repository te zijn van de oorspronkelijke Apollo 11 broncode en dus zijn PRs welkom voor elk probleem in de overgenomen broncode van [Luminary 099][5] en [Comanche 055][6] en elk bestand dat ik vergeten ben.
+Originele broncode voor de Apollo 11 besturingscomputer (AGC). Broncode voor de besturingsmodule (Comanche055) en maanmodule (Luminary099). Gedigitalizeerd door [Virtual GC][3] en het [MIT Museum][4]. Het doel is om een repository te zijn van de oorspronkelijke Apollo 11 broncode en dus zijn PRs welkom voor elk probleem in de overgenomen broncode van [Luminary 099][5] en [Comanche 055][6] en elk bestand dat ik vergeten ben.
 
 ## Bijdragen
 Lees alsjeblieft [CONTRIBUTING.nl.md][7] voordat je een pull request opent.
@@ -63,8 +63,8 @@ Als je geinteresseerd bent in het compileren van de originele broncode bekijk da
 &nbsp;         | &nbsp;
 :------------- | :-----
 Copyright      | Publiek domein
-Comanche055    | Onderdeel van de broncode voor Colossus 2A, de Apollo begeleidingscomputer (AGC) van de besturingsmodule (CM) voor Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Onderdeel van de broncode voor Luminary 1A, de Apollo begeleidingscomputer (AGC) van de maanmodule (LM) voor Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Comanche055    | Onderdeel van de broncode voor Colossus 2A, de Apollo besturingscomputer (AGC) van de besturingsmodule (CM) voor Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    | Onderdeel van de broncode voor Luminary 1A, de Apollo besturingscomputer (AGC) van de maanmodule (LM) voor Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Samensteller   | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
 Website        | www.ibiblio.org/apollo
