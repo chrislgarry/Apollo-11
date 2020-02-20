@@ -2,13 +2,13 @@
 
 :crossed_flags:
 [English][EN],
+**Nederlands**,
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR],
-**Nederlands**
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md

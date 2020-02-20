@@ -2,10 +2,10 @@
 
 :crossed_flags:
 [English][EN],
+[Nederlands][NL],
 [العربية][AR],
 [한국어][KO_KR],
-中文,
-[Nederlands][NL]
+中文
 
 [EN]:CONTRIBUTING.md
 [AR]:CONTRIBUTING.ar.md

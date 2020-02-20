@@ -9,6 +9,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -24,7 +25,6 @@
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 **한국어**
-[Nederlands][NL]
 
 [AR]:README.ar.md
 [BD_BN]:README.bd_bn.md
