@@ -3,6 +3,7 @@
 # المساهمة
 
 :crossed_flags:
+[Español][ES],
 [English][EN]،
 [Português][PT_BR]،
 [Türkçe][TR]،

@@ -2,6 +2,7 @@
 
 :crossed_flags:
 [English][EN],
+[Español][ES],
 **Português**,
 [Türkçe][TR],
 [العربية][AR],
