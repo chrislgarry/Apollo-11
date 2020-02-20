@@ -12,7 +12,7 @@
 [Español][ES]،
 [Français][FR]،
 [Italiano][IT]،
-[Nederlands][NL],
+[Nederlands][NL]،
 [Polski][PL]،
 [Português][PT_BR]،
 [Română][RO]،
