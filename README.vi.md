@@ -1,5 +1,6 @@
 # Apollo-11
 [![NASA][1]][2]
+[![SWH]][SWH_URL]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -18,12 +19,15 @@
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[বাংলা][BD_BN],
+[မြန်မာ][MM],
 [日本][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [DE]:README.de.md
 [EN]:README.md
@@ -35,6 +39,7 @@
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[MM]:README.mm.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -100,3 +105,5 @@ Ralph R. Ragan     | Phó Giám đốc<br>Phòng thí nghiệm thiết bị | 28
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
+[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/

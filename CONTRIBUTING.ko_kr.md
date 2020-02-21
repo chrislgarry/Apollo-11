@@ -6,6 +6,7 @@
 [Türkçe][TR],
 [العربية][AR],
 [正體中文][ZH_TW],
+[简体中文][ZH_CN],
 **한국어**
 
 [AR]:CONTRIBUTING.ar.md
@@ -13,6 +14,7 @@
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
+[ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
 ## 유용한 확장기능들
@@ -20,9 +22,29 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다.
 그러나 불행하게도 대개 사용되는 에디터들은 그렇지 않습니다.
 하지만 확장 기능이 지원되는 에디터들이 있습니다.
 
-- [Atom][5]
-- [Sublime Text 3][4]
-- [Visual Studio Code][3]
+- [Atom][Atom]†
+- [CodeBlocks][CodeBlocks]
+- [Eclipse][Eclipse]
+- [Kate][Kate]
+- [ProgrammersNotepad][ProgrammersNotepad]
+- [Sublime Text 3][Sublime Text]†
+- [TextPad][TextPad]
+- [Vim][Vim]
+- [Visual Studio Code][VisualStudioCode]†
+- [jEdit][jEdit]
+
+† 자동 포매팅 지원
+
+[Atom]:https://github.com/Alhadis/language-agc
+[CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
+[Eclipse]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Eclipse
+[Kate]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Kate
+[ProgrammersNotepad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/ProgrammersNotepad
+[Sublime Text]:https://github.com/jimlawton/AGC-Assembly
+[TextPad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/TextPad
+[Vim]:https://github.com/wsdjeg/vim-assembly
+[VisualStudioCode]:https://github.com/wopian/agc-assembly
+[jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## 포매팅
 **참고:** Github 내장 에디터와 위의 세 확장기능들은 이 문단에서 정의하는 포매팅을 자동으로 수행해줍니다.
@@ -66,8 +88,5 @@ R0820
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[3]:https://github.com/wopian/agc-assembly
-[4]:https://github.com/jimlawton/AGC-Assembly
-[5]:https://github.com/Alhadis/language-agc
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
