@@ -22,7 +22,7 @@
 
 ## 實用套件
 
-GitHub 內建 AGC 組語語法支援，但你的編輯器並沒有。不過，某些編輯器有提供 AGC 語法突顯的語言套件：
+GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不過，某些編輯器有提供 AGC 語法突顯的語言套件：
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -34,7 +34,7 @@ GitHub 內建 AGC 組語語法支援，但你的編輯器並沒有。不過，�
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Supports automatic formatting
+† 支援自動格式化
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
