@@ -80,16 +80,16 @@ Dit programma is bedoeld voor gebruik in de CM zoals vastgesteld in rapport `R-5
 
 Ingediend door        | Rol  | Datum
 :-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 maart. 1969
 
 Goedgekeurd door   | Rol  | Datum
 :----------------- | :--- | :---
-Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 maart. 1969
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://rawcdn.githack.com/aleen42/badges/c9246f74/src/nasa.svg
