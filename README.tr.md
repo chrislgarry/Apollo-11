@@ -48,7 +48,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak çeki istemlerine açığız.
+Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
 
 ## Katkıda Bulunma
 Lütfen pull request açmadan [CONTRIBUTING.tr.md][7] dosyasını okuyun.
@@ -66,9 +66,9 @@ Luminary099    | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) ola
 Derleyici      | yaYUL
 İletişim        | Ron Burkey <info@sandroid.org>
 Internet Sitesi        | www.ibiblio.org/apollo
-Dijitalleştirme | Bu kaynak kodu MIT Müzesi'ndeki basılı kopyaların fotoğraflarından uyarlanmış veya aktarılmıştır. Dijitalleştirme Müze çalışanı Deborah Douglas tarafından ayarlanmış, Paul Fjeld tarafından yapılmıştır. İkisine de çok teşekkürler.
+Sayısallaştırma | Bu kaynak kodu MIT Müzesi'ndeki basılı kopyaların fotoğraflarından uyarlanmış veya aktarılmıştır. Sayısallaştırma Müze çalışanı Deborah Douglas tarafından ayarlanmış, Paul Fjeld tarafından yapılmıştır. İkisine de çok teşekkürler.
 
-### İletişim ve Onaylama
+### İletişim ve Onaylar
 *[CONTRACT_AND_APPROVALS.agc]'den alınmıştır.*
 
 Bu AGC programı Colossus 2A olarak da bilinir.
