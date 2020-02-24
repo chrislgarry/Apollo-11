@@ -84,12 +84,12 @@ Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navig
 
 Goedgekeurd door   | Rol  | Datum
 :----------------- | :--- | :---
-Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 maart. 1969
+Daniel J. Lickly   | Directeur, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Fred H. Martin     | Colossus projectmanager<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Norman E. Sears    | Directeur, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Richard H. Battin  | Directeur, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+David G. Hoag      | Directeur<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Ralph R. Ragan     | Adjunct-directeur<br>Instrumentation Laboratory | 28 maart. 1969
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://rawcdn.githack.com/aleen42/badges/c9246f74/src/nasa.svg
