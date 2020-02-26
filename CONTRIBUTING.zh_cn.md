@@ -2,12 +2,14 @@
 
 :crossed_flags:
 [English][EN],
+[Español][ES],
 [Nederlands][NL],
 [العربية][AR],
 [한국어][KO_KR],
 中文
 
 [EN]:CONTRIBUTING.md
+[ES]:CONTRIBUTING.es.md
 [AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
