@@ -10,6 +10,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -48,6 +49,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 Mã nguồn của máy tính hướng dẫn Apollo 11 (AGC) thông qua Command
 Module (Comanche055) và Lunar Module (Luminary099). Được số hóa

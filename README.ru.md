@@ -10,6 +10,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -48,6 +49,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 Оригинальный исходный код бортового управляющего компьютера Аполлон 11 (AGC) для командного модуля (Comanche055) и лунного модуля (Luminary099).
 Оцифровано людьми из [Virtual AGC][3] и [MIT Museum][4]. Цель - это создание репозитория с оригинальным исходным кодом миссии Аполлон 11.
