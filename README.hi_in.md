@@ -1,5 +1,6 @@
 # अपोलो -11
 [![NASA][1]][2]
+[![SWH]][SWH_URL]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -9,6 +10,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -47,6 +49,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 
 अपोलो ११ मार्गदर्शन कम्प्यूटर (Apollo 11 Guidance computer, AGC) कमांड मॉड्यूल (Comanche055) तथा चंद्र मॉड्यूल (Luminary099) का मूल नियम संग्रह। इसे [Virtual AGC][3] एवं [MIT Museum][4] के सदस्यों द्वारा अंक्रिकित किया गया है। हमारा मुख्य उद्देश्य अपोलो ११ के मूल नियम संग्रह को संकलित करना है। यदि आपने इस संघ्रह के प्रतिलेखन एवं [Luminary 099][5] और [Comanche 055][6] के बीच में किसी भी फर्क का अनावरण किया है, उस दशा में आपका सहयोग PR के रूप में बहुत ही अभिवादित है।
@@ -98,3 +101,5 @@ Ralph R. Ragan     | उप निदेशक<br>इंस्ट्रुमे
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
+[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/

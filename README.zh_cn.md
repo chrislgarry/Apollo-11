@@ -1,5 +1,6 @@
 # 阿波罗11号
 [![NASA][1]][2]
+[![SWH]][SWH_URL]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -9,6 +10,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -47,6 +49,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 阿波罗11号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。由[虚拟 AGC][3] 和 [MIT 科学博物馆][4] 的伙计们完成电子化。本仓库存在的目的是存储阿波罗11号原始代码。当然，倘若在本仓库或原始代码扫描件[Luminary 099][5] 及 [Comanche 055][6] 发现问题，或者任何我可能漏掉的文件，欢迎提交PRs。
 
@@ -95,3 +98,5 @@ Ralph R. Ragan     | 副负责人<br>Instrumentation Laboratory | 1969年3月28�
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
+[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/

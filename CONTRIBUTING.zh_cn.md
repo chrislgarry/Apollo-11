@@ -3,6 +3,7 @@
 :crossed_flags:
 [English][EN],
 [Español][ES],
+[Nederlands][NL],
 [العربية][AR],
 [한국어][KO_KR],
 中文
@@ -12,6 +13,7 @@
 [AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
+[NL]:CONTRIBUTING.nl.md
 
 本仓库中的源代码来自对纸质打印输出文件的手动数字化，所以会不小心引入一些拼写错误和其他差异。这些代码应该被修正以使其与原纸质打印输出文件内容保持一致：
 
@@ -21,11 +23,30 @@
 ## 有用的扩展
 
 GitHub内建会支持AGC汇编语言语法。不幸的是，你的代码编辑器不会，但有些
-AGC的语言扩展插件可以为下列的编辑器提供语法高亮显示支持
+AGC的语言扩展插件可以为下列的编辑器提供语法高亮显示支持：
+- [Atom][Atom]†
+- [CodeBlocks][CodeBlocks]
+- [Eclipse][Eclipse]
+- [Kate][Kate]
+- [ProgrammersNotepad][ProgrammersNotepad]
+- [Sublime Text 3][Sublime Text]†
+- [TextPad][TextPad]
+- [Vim][Vim]
+- [Visual Studio Code][VisualStudioCode]†
+- [jEdit][jEdit]
 
-- [Atom][5]
-- [Sublime Text 3][4]
-- [Visual Studio Code][3]
+† Supports automatic formatting
+
+[Atom]:https://github.com/Alhadis/language-agc
+[CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
+[Eclipse]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Eclipse
+[Kate]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Kate
+[ProgrammersNotepad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/ProgrammersNotepad
+[Sublime Text]:https://github.com/jimlawton/AGC-Assembly
+[TextPad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/TextPad
+[Vim]:https://github.com/wsdjeg/vim-assembly
+[VisualStudioCode]:https://github.com/wopian/agc-assembly
+[jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## 格式化
 **注意**：GitHub和上面列出的3个扩展插件会确保您自动使用正确的格式。
@@ -46,9 +67,9 @@ AGC的语言扩展插件可以为下列的编辑器提供语法高亮显示支�
 - 第1列中带**__out__* `R0000` 的换行符应该只包含一个或2个连续空行。
 
   - 如果有超过2个空行换行，请删除额外的空白行换行。
-  
+
   - 第1列中带`R0000`的行不计入此。
-    
+
   - 在原始图片中，这些是由一个未打印的数字分8列创建. A 2 处强制两个空格（单个空白行），A 3 强制三个空格（双空行）。值4-8是被定义但从未使用过。可在[#159][7]查看更多
 
 例如以下内容:
@@ -74,7 +95,7 @@ R0820
   - 新单词另起一个空格.
   - 新句另起两个空格.
   - 缩进占三个空格.
-  
+
 
 例如以下内容:
 ```plain

@@ -3,6 +3,7 @@
 :crossed_flags:
 [English][EN],
 [Español][ES],
+[Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
@@ -16,6 +17,7 @@
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[NL]:CONTRIBUTING.nl.md
 
 這個倉庫的原始碼，是透過列印出的紙本輸出，予以手動數位化。所以可能會不小心出現錯字和其他出入。程式碼應當修正到與紙本掃描的輸出一致：
 
@@ -24,10 +26,30 @@
 
 ## 實用套件
 
-GitHub 內建 AGC 組語語法支援，但你的編輯器並沒有。不過，某些編輯器有提供 AGC 語法突顯的語言套件：
-- [Atom][5]
-- [Sublime Text 3][4]
-- [Visual Studio Code][3]
+GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不過，某些編輯器有提供 AGC 語法突顯的語言套件：
+- [Atom][Atom]†
+- [CodeBlocks][CodeBlocks]
+- [Eclipse][Eclipse]
+- [Kate][Kate]
+- [ProgrammersNotepad][ProgrammersNotepad]
+- [Sublime Text 3][Sublime Text]†
+- [TextPad][TextPad]
+- [Vim][Vim]
+- [Visual Studio Code][VisualStudioCode]†
+- [jEdit][jEdit]
+
+† 支援自動格式化
+
+[Atom]:https://github.com/Alhadis/language-agc
+[CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
+[Eclipse]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Eclipse
+[Kate]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Kate
+[ProgrammersNotepad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/ProgrammersNotepad
+[Sublime Text]:https://github.com/jimlawton/AGC-Assembly
+[TextPad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/TextPad
+[Vim]:https://github.com/wsdjeg/vim-assembly
+[VisualStudioCode]:https://github.com/wopian/agc-assembly
+[jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## 格式化
 **注意：**GitHub 與上面列出的套件，會自動確保您使用正確的格式。

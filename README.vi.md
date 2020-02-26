@@ -1,5 +1,6 @@
 # Apollo-11
 [![NASA][1]][2]
+[![SWH]][SWH_URL]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -9,6 +10,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -47,6 +49,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 Mã nguồn của máy tính hướng dẫn Apollo 11 (AGC) thông qua Command
 Module (Comanche055) và Lunar Module (Luminary099). Được số hóa
@@ -104,3 +107,5 @@ Ralph R. Ragan     | Phó Giám đốc<br>Phòng thí nghiệm thiết bị | 28
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
+[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/

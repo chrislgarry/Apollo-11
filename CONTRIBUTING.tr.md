@@ -3,6 +3,7 @@
 :crossed_flags:
 [English][EN],
 [Español][ES],
+[Nederlands][NL],
 [Português][PT_BR],
 **Türkçe**,
 [العربية][AR],
@@ -17,6 +18,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[NL]:CONTRIBUTING.nl.md
 
 Bu repodaki kaynak kodu kağıt çıktılarından elle dijitalleştirilmiştir. Yani yazım hataları ve diğer tutarsızlıklar yanlışlıkla yapılmıştır. Kod, aşağıdaki taratılmış çıktılar ile tutarlı olması için düzenlenmelidir:
 

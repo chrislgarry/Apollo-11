@@ -1,5 +1,6 @@
 # アポロ11号
 [![NASA][1]][2]
+[![SWH]][SWH_URL]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -9,6 +10,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -47,6 +49,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 司令船・機械船(Comanche055)および月着陸船(Luminary099)用のオリジナルのアポロ11号誘導コンピュータ(AGC)のソースコード。
 [Virtual AGC][3] と [MIT Museum][4] によってデジタル化された。
@@ -100,3 +103,5 @@ Ralph R. Ragan     | 副ディレクター<br>機械研究所 | 1969年3月28日
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
+[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/

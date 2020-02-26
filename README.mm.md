@@ -1,5 +1,6 @@
 # Apollo-11
 [![NASA][1]][2]
+[![SWH]][SWH_URL]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -9,6 +10,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -47,6 +49,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 
 မူရင်း Apollo 11​​ ထိန်းချုပ်မှု ကွန်ပျူတာ (AGC) တွင်ပါဝင်သော ကွပ်ကဲမှုအစိတ်အပိုင်း (Comanche055) နဲ့ လပေါ်တွင်ဆင်းသက်သည့် အစိတ်အပိုင်း (Luminary099) တို့ရဲ့ ကုဒ်။ [Virtual AGC][3] နှင့် [MIT Museum][4] အကူအညီဖြင့် ဒီဂျစ်တယ်ပုံစံသို့ ပြောင်းထားခြင်းဖြစ်သည်။​ မူရင်း Apollo 11 ကုဒ်များ သိမ်းစည်းထားသော ရီပိုတစ်ခုဖြစ်လာစေရန်ရည်ရွယ်သည်။ ဒါကြောင့် [Luminary 099][5] နဲ့ [Comanche 055][6] တို့ရဲ့ အရင်းအမြစ်စာတမ်းများနဲ့ ဒီရီပိုကြား ကွဲလွဲချက်များတွေ့ရင် Pull Request (PR) တွေဖွင့်ပေးဖို့ ကြိုဆိုပါတယ်။ ကျွန်တော် ကျန်ခဲ့တဲ့ ဖိုင်လ်လေးတွေရှိရင်လည်း ပြောပေးကြပါဉီး။
@@ -101,3 +104,5 @@ Ralph R. Ragan     | ဒုတိယညွှန်ကြားရေးမှ�
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
+[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
