@@ -4,6 +4,8 @@
 
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID]،
@@ -105,5 +107,9 @@ Luminary099    | بخشی از سورس کد Luminary 1A، سیستم هدایت
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
 
 </div>

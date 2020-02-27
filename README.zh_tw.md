@@ -1,6 +1,8 @@
 # 阿波羅 11 號
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -100,3 +102,7 @@ Ralph R. Ragan     | 副負責人<br>(美國)實驗儀器公司 | 1969 年 3 月
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2

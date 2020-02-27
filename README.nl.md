@@ -1,6 +1,8 @@
 # Apollo-11
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -71,7 +73,7 @@ Contact        | Ron Burkey <info@sandroid.org>
 Website        | www.ibiblio.org/apollo
 Digitalizering | Deze broncode is overgeschreven of anderszins overgenomen van gedigitalizeerde afbeeldingen van een boek van het MIT Museum. Deze digitalizering is uitgevoerd door Paul Fjeld en geregeld door Deborah Douglas van het voorgenoemde museum. Hartelijk dank aan beiden.
 
-### Contract en Goedkeuring 
+### Contract en Goedkeuring
 *Afgeleid van [CONTRACT_AND_APPROVALS.agc]*
 
 Dit AGC programma zal worden benoemd als Colossus 2A.
@@ -102,3 +104,7 @@ Ralph R. Ragan     | Adjunct-directeur<br>Instrumentation Laboratory | 28 maart.
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
