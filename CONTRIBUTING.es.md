@@ -3,6 +3,7 @@
 :crossed_flags:
 [English][EN],
 **Español**,
+[Francais][FR],
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
@@ -12,6 +13,7 @@
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
+[FR]:CONTRIBUTING.fr.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
