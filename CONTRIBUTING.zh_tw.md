@@ -9,6 +9,7 @@
 [Türkçe][TR],
 [العربية][AR],
 **正體中文**,
+[简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
@@ -16,10 +17,11 @@
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
+[ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[NL]:CONTRIBUTING.nl.md
 
 這個倉庫的原始碼，是透過列印出的紙本輸出，予以手動數位化。所以可能會不小心出現錯字和其他出入。程式碼應當修正到與紙本掃描的輸出一致：
 

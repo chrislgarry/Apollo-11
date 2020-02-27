@@ -17,11 +17,11 @@
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[NL]:CONTRIBUTING.nl.md
 
 ## 유용한 확장기능들
 GitHub은 내장 에디터에서 AGC문법을 지원합니다.

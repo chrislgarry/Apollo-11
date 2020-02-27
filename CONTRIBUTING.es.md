@@ -4,6 +4,7 @@
 [English][EN],
 **Español**,
 [Francais][FR],
+[Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
@@ -13,8 +14,10 @@
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
+[ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md

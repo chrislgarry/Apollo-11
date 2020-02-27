@@ -2,6 +2,7 @@
 
 :crossed_flags:
 **English**,
+[Español][ES],
 [Francais][FR],
 [Nederlands][NL],
 [Português][PT_BR],
@@ -13,13 +14,14 @@
 
 [AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
+[ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[NL]:CONTRIBUTING.nl.md
 
 The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
 

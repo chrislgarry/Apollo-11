@@ -5,17 +5,23 @@
 [Español][ES],
 [Francais][FR],
 [Nederlands][NL],
+[Português][PT_BR],
+[Türkçe][TR],
 [العربية][AR],
-[한국어][KO_KR],
-中文
+[正體中文][ZH_TW],
+**简体中文**,
+[한국어][KO_KR]
 
+[AR]:CONTRIBUTING.ar.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
-[AR]:CONTRIBUTING.ar.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
-[ZH_CN]:CONTRIBUTING.zh_cn.md
 [NL]:CONTRIBUTING.nl.md
+[PT_BR]:CONTRIBUTING.pt_br.md
+[TR]:CONTRIBUTING.tr.md
+[ZH_CN]:CONTRIBUTING.zh_cn.md
+[ZH_TW]:CONTRIBUTING.zh_tw.md
 
 本仓库中的源代码来自对纸质打印输出文件的手动数字化，所以会不小心引入一些拼写错误和其他差异。这些代码应该被修正以使其与原纸质打印输出文件内容保持一致：
 
