@@ -3,7 +3,7 @@
 :crossed_flags:
 **English**,
 [Español][ES],
-[Francais][FR],
+[Français][FR],
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
