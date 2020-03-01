@@ -71,10 +71,10 @@ Cualquier discrepancia entre los escaneos y el código fuente en este repositori
 
 ### Saltos de línea
 - Salto de línea *with* `R0000` en la columna 1 debe coincidir exactamente con los escaneos.
-- Salto de línea *with**__out__* `R0000` en la columna 1 debe contener solo 1 o 2 líneas en blanco en una fila.
+- Salto de línea *with**__out__* `R0000` en la columna 1 debe contener solo 1 ó 2 líneas en blanco en una fila.
   - Si hay más de 2 saltos de línea en blanco, elimine los saltos de línea adicionales.
     - Líneas con `R0000` en la columna 1 no cuentan para esto.
-  - En las imágenes de origen, estas fueron creadas por un dígito sin imprimir en la columna 8. A 2 forzó un doble espacio (línea en blanco simple) y un 3 forzó un espacio triple (línea en blanco doble). Los valores 4-8 se definieron pero nunca se usaron. Lea más sobre esto en [#159][7]
+  - En las imágenes de origen, éstas fueron creadas por un dígito sin imprimir en la columna 8. A 2 forzó un doble espacio (línea en blanco simple) y un 3 forzó un espacio triple (línea en blanco doble). Los valores 4-8 se definieron pero nunca se usaron. Lea más sobre esto en [#159][7]
 
 Por ejemplo lo siguiente:
 ```plain
