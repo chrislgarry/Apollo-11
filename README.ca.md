@@ -1,6 +1,8 @@
 # Apollo-11
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -10,6 +12,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -48,6 +51,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 Codi font original del Mòdul de Comandament (Comanche055) i del Mòdul Lunar (Comanche055) de l'ordinador de navegació de l'Apollo 11 (AGC, per les seves sigles en anglès). Digitalitzat per la gent de [Virtual AGC][3] i [MIT Museum][4]. L'objectiu és esdevenir un repositori del codi font original de l'Apollo 11. Per això els *pull requests* són benvinguts davant de qualsevol problema que s'identifiqui entre les transcripcions d'aquests repositori i les còpies originals del codi font de [Luminary 099][5] i
 [Comanche 055][6], així com qualsevol fitxer que m'hagi pogut deixar.
@@ -102,3 +106,7 @@ Ralph R. Ragan     | Director adjunt<br>Laboratori d'Instrumentació | 28 Mar 69
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2

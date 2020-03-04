@@ -1,9 +1,9 @@
-# Contributing
+# Contribuer
 
 :crossed_flags:
-**English**,
+[English][EN],
 [Español][ES],
-[Français][FR],
+**Français**,
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
@@ -23,14 +23,14 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
+Le code source de ce dépôt a été numérisé manuellement à partir d’imprimés papier, de sorte que les fautes de frappe et autres anomalies ont été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées:
 
-* [AGC printouts for Comanche][8]
-* [AGC printouts for Luminary][9]
+* [Impressions AGC pour Comanche][8]
+* [Impressions AGC pour Luminary][9]
 
-## Useful Extensions
+## Extensions utiles
 
-GitHub has syntax support for the AGC assembly language built-in. Unfortunately your code editor will not, however there are AGC language extensions that provides syntax highlighting for the following editors:
+Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants:
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -42,7 +42,7 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Supports automatic formatting
+† Prend en charge le formatage automatique
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -55,28 +55,28 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Formatting
-**Note:** GitHub and extensions marked above will ensure you're using the correct formatting automatically.
+## Mise en page
+**Note:** GitHub et les extensions marquées ci-dessus vous assureront d'utiliser automatiquement le bon formatage.
 
-- Use tab indentation
-- Use tab width of 8
-- Trim trailing whitespace
+- Indenter avec tabulation
+- Les tabulations ont une taille de 8
+- Pas d'espace à la fin des ligne
 
-## What do I check?
-Any discrepancies between the scans and the source code in this repository, including:
+## Comment vérifier ?
+Tout écart entre les scans et le code source dans ce référentiel, y compris :
 
-### Comments
-- Comments in the transcribed code should match the scans exactly
-  - This could involve creating a deliberate typo or removing/adding an entire comment.
+### Commentaires
+- Les commentaires dans le code transcrit doivent correspondre exactement aux scans
+  - Cela peut impliquer de créer délibérément une erreur de frappe  ou de supprimer/ajouter un commentaire entier.
 
-### Line breaks
-- Line breaks *with* `R0000` in column 1 should match the scans exactly.
-- Line breaks *with**__out__* `R0000` in column 1 should contain only 1 or 2 blank lines in a row.
-  - If there are more than 2 blank lines breaks, strip the extra line breaks.
-    - Lines with `R0000` in column 1 do not count towards this.
-  - In the source images, these were created by an unprinted digit in column 8. A 2 there forced a double space (single blank line) and a 3 forced a triple space (double blank line). Values 4-8 were defined but never used. Read more about it in [#159][7]
+### Sauts de ligne
+- Les lignes *avec* `R0000` dans la colonne 1 doivent correspondre exactement aux scans.
+- Les sauts de ligne *sans* `R0000` dans la colonne 1 ne doivent contenir que 1 ou 2 lignes vides d'affilée.
+  - Si il y a plus de 2 lignes vides, supprimer les sauts de ligne supplémentaires.
+    - Ne pas prendre en compte les lignes avecc `R0000` dans la cononne 1.
+  - Dans les images sources, il y a digits non imprimés dans la colonne 8. Un 2 force un double espace (une seul ligne vide) et un 3 force une triple espace (double ligne vide). Les valeurs 4-8 ont été définies mais n’ont jamais été utilisées. Pour en savoir plus [#159][7]
 
-For example the following:
+Par exemple, ce qui suit:
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -85,7 +85,7 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
-Should become:
+Doit devenir:
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -94,18 +94,18 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### Spaces
-- Spaces between two characters in the string should respect the following convention (see the discussion in [#316][10]):
-  - Single space for new words.
-  - Double space for new sentences.
-  - Triple space for indentations.
+### Espaces
+- Les espaces entre deux caractères doivent respecter la convention suivante (voir la discussion [#316][10]):
+  - Un seul espace pour un nouveau mot.
+  - Deux espaces pour une nouvelle phrase.
+  - Trois espaces pour l'indentations.
 
-For example the following:
+Par exemple, ce qui suit:
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
-Should become:
+Doit devenir:
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.
@@ -113,7 +113,7 @@ Should become:
 
 ## Note
 
-Before you make a PR, please make sure your changes are consistent with the scans!
+Avant de faire une PR, assurez-vous que vos modifications sont cohérentes avec les scans!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/

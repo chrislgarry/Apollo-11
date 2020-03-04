@@ -1,6 +1,8 @@
 # Apollo-11
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -10,6 +12,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 **Polski**,
 [Português][PT_BR],
 [Română][RO],
@@ -48,6 +51,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 Oryginalny kod źródłowy komputera pokładowego w programie Apollo 11 (AGC) dla modułu dowodzenia (Comanche055) i modułu księżycowego (Luminary099). Zdigitalizowany przez ludzi z [Virtual AGC][3] i [MIT Museum][4]. Celem jest bycie repozytorium dla oryginalnego kodu źródłowego Apollo 11. Z tego powodu, PRy są mile widziane dla każdego przekłamania między transkrypcją w tym repozytorium a oryginalnymi skanami dla [Luminary 099][5] i [Comanche 055][6], jak również dla każdego pliku który mogłem przegapić.
 
@@ -100,3 +104,7 @@ Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2

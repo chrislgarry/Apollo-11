@@ -1,6 +1,8 @@
 # Apollo-11
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -10,6 +12,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -48,6 +51,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
 
@@ -101,3 +105,7 @@ Ralph R. Ragan     | Direktör Yardımcısı<br>Enstrümantasyon Laboratuvarı |
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2

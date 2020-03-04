@@ -1,10 +1,10 @@
-# Contributing
+# Bijdragen
 
 :crossed_flags:
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
-[Nederlands][NL],
+**Nederlands**,
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
@@ -17,20 +17,20 @@
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
-[NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[NL]:CONTRIBUTING.nl.md
 
-The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
+De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken. Typfouten en andere discrepanties kunnen per ongeluk zijn toegevoegd. De code zal worden aangepast om gelijk te worden gemaakt aan de gescande papieren:
 
-* [AGC printouts for Comanche][8]
-* [AGC printouts for Luminary][9]
+* [AGC prints voor Comanche][8]
+* [AGC prints voor Luminary][9]
 
-## Useful Extensions
+## Handige extensies
 
-GitHub has syntax support for the AGC assembly language built-in. Unfortunately your code editor will not, however there are AGC language extensions that provides syntax highlighting for the following editors:
+Github heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas heeft jouw editor dit niet, gelukkig zijn er AGC extensies die de volgende editors kunnen voorzien van syntax ondersteuning:
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -42,7 +42,7 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Supports automatic formatting
+† Ondersteunt automatische opmaak
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -55,28 +55,28 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Formatting
-**Note:** GitHub and extensions marked above will ensure you're using the correct formatting automatically.
+## Opmaak
+**Let op:** GitHub en de extensies in de lijst hierboven zorgen ervoor dat je automatisch de correcte opmaak gebruikt.
 
-- Use tab indentation
-- Use tab width of 8
-- Trim trailing whitespace
+- Gebruik tab indentatie
+- Gebruik een tab width van 8
+- Haal trailing whitespace weg
 
-## What do I check?
-Any discrepancies between the scans and the source code in this repository, including:
+## Wat controleer ik?
+Elk verschil tussen de scans en de broncode in deze repository inclusief:
 
-### Comments
-- Comments in the transcribed code should match the scans exactly
-  - This could involve creating a deliberate typo or removing/adding an entire comment.
+### Commentaren
+- Commentaren in de overgeschreven code moeten exact hetzelfde zijn als in de scans
+  - Soms betekent dit dat je expres een typfout moet overnemen of een commentaar volledig moet weghalen.
 
-### Line breaks
-- Line breaks *with* `R0000` in column 1 should match the scans exactly.
-- Line breaks *with**__out__* `R0000` in column 1 should contain only 1 or 2 blank lines in a row.
-  - If there are more than 2 blank lines breaks, strip the extra line breaks.
-    - Lines with `R0000` in column 1 do not count towards this.
-  - In the source images, these were created by an unprinted digit in column 8. A 2 there forced a double space (single blank line) and a 3 forced a triple space (double blank line). Values 4-8 were defined but never used. Read more about it in [#159][7]
+### Regeleindes
+- Regeleinden *met* `R0000` in kolom 1 moeten exact overeen komen met de scans.
+- Regeleinden *zonder* `R0000` in kolom 1 moeten slechts 1 of 2 lege regels in een rij bevatten.
+  - Als er meer dan twee lege regels zijn, haal de extra witregels dan weg.
+    - Regels met `R0000` in kolom 1 tellen hierbij niet mee.
+  - In de bron scans zijn deze aangemaakt door een niet uitgeprint getal in kolom 8. Een 2 in deze kolom veroorzaakte een dubbele spatie (enkele witregel) en een 3 in deze kolom veroorzaakte een driedubbele spatie (dubbele witregel). De waarden 4-8 waren wel gedefinieerd maar nooit gebruikt. Lees hier meer over in [#159][7]
 
-For example the following:
+Bijvoorbeeld het volgende:
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -85,7 +85,7 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
-Should become:
+Zou dit moeten worden:
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -94,26 +94,26 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### Spaces
-- Spaces between two characters in the string should respect the following convention (see the discussion in [#316][10]):
-  - Single space for new words.
-  - Double space for new sentences.
-  - Triple space for indentations.
+### Spaties
+- Spaties tussen twee karakters in de string moeten de volgende conventie gebruiken (bekijk de discussie in [#316][10]):
+  - Enkele spatie voor een nieuw woord.
+  - Dubbele spatie voor een nieuwe zin.
+  - Driedubbele spatie voor inspringen.
 
-For example the following:
+Bijvoorbeeld het volgende:
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
-Should become:
+Zou dit moeten worden:
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.
 ```
 
-## Note
+## Let op
 
-Before you make a PR, please make sure your changes are consistent with the scans!
+Voordat je een PR maakt zorg er alsjeblieft voor dat je wijzigingen consistent zijn met de scans!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/

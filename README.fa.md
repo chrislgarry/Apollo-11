@@ -4,6 +4,8 @@
 
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID]،
@@ -13,6 +15,7 @@
 [Español][ES]،
 [Français][FR]،
 [Italiano][IT]،
+[Nederlands][NL]،
 [Polski][PL]،
 [Português][PT_BR]،
 [Română][RO]،
@@ -51,6 +54,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 سورس کد اصلی سیستم هدایت آپولو ۱۱ (AGC) برای سفینه فرمان (Comanche055) و سفینه ماه‌نشین (Luminary099). دیجیتال شده توسط جمعی از در [مجازی AGC][3] و [MIT موزه][4]. مقصود این است که یک مخزن برای سورس کد اصلی آپولو ۱۱ باشد. همین‌طور، از پول‌ریکوئست‌ها برای هر تفاوتی بین نسخه‌ی موجود در این مخزن با اسکن‌ فایل‌های اصلی برای [Luminary 099][5] و [Comanche 055][6] و همچنین هر فایل دیگری که از دست من در رفته باشد،‌ استقبال می‌شود.
 
@@ -103,5 +107,9 @@ Luminary099    | بخشی از سورس کد Luminary 1A، سیستم هدایت
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
 
 </div>

@@ -1,6 +1,8 @@
 # অ্যাপোলো ১১
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
 :crossed_flags:
 [Bahasa Indonesia][ID],
@@ -10,6 +12,7 @@
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Nederlands][NL],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -48,6 +51,7 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 
 অ্যাপোলো ১১ গাইডেন্স কম্পিউটারের মূল ম্যানুয়াল (AGC), অ্যাপোলো ১১ কমান্ড মডিউল (Comanche055) এবং লুনার মডিউল (Luminary099)। এটি [Virtual AGC][3] এবং [MIT Museum][4] সদস্যদের দ্বারা সূচিত করা হয়েছে। আমাদের মূল লক্ষ্য অ্যাপোলো ১১ এর মূল কোডটি সংকলন করা। আপনি যদি এই বিরোধের প্রতিলিপি এবং [Luminary 099][5] এবং [Comanche 055][6] এর মধ্যে কোনও বৈষম্য উন্মোচন করেছেন, সেক্ষেত্রে আপনার সহযোগিতা PR হিসাবে প্রশংসিত হবে।
@@ -101,3 +105,7 @@ Ralph R. Ragan     | সহকারী পরিচালক<br>ইনস্ট
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
