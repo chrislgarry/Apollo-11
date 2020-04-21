@@ -7,6 +7,7 @@
 [Nederlands][NL],
 [Português][PT_BR],
 **Türkçe**,
+[Deutsch][DE],
 [العربية][AR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
@@ -22,6 +23,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[DE]:CONTRIBUTING.de.md
 
 Bu repodaki kaynak kodu kağıt çıktılarından elle dijitalleştirilmiştir. Yani yazım hataları ve diğer tutarsızlıklar yanlışlıkla yapılmıştır. Kod, aşağıdaki taratılmış çıktılar ile tutarlı olması için düzenlenmelidir:
 
