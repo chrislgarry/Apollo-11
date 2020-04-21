@@ -7,6 +7,7 @@
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Deutsch][DE],
 [العربية][AR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
@@ -22,6 +23,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[DE]:CONTRIBUTING.de.md
 
 El código fuente en este repositorio se digitalizó manualmente a partir de impresiones en papel, por lo que los errores tipográficos y otras discrepancias se han introducido accidentalmente. El código se modificará para que sea coherente con las impresiones escaneadas:
 
