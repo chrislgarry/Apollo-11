@@ -7,6 +7,7 @@
 **Nederlands**,
 [Português][PT_BR],
 [Türkçe][TR],
+[Deutsch][DE],
 [العربية][AR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
@@ -22,6 +23,7 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 [NL]:CONTRIBUTING.nl.md
+[DE]:CONTRIBUTING.de.md
 
 De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken. Typfouten en andere discrepanties kunnen per ongeluk zijn toegevoegd. De code zal worden aangepast om gelijk te worden gemaakt aan de gescande papieren:
 
