@@ -7,6 +7,7 @@
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Deutsch][DE],
 [العربية][AR],
 **正體中文**,
 [简体中文][ZH_CN],
@@ -22,6 +23,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[DE]:CONTRIBUTING.de.md
 
 這個倉庫的原始碼，是透過列印出的紙本輸出，予以手動數位化。所以可能會不小心出現錯字和其他出入。程式碼應當修正到與紙本掃描的輸出一致：
 
