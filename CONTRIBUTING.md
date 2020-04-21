@@ -7,6 +7,7 @@
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Deutsch][DE],
 [العربية][AR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
@@ -22,6 +23,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[DE]:CONTRIBUTING.de.md
 
 The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
 
