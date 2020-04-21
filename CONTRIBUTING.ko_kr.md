@@ -7,6 +7,7 @@
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Deutsch][DE],
 [العربية][AR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
@@ -22,6 +23,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
+[DE]:CONTRIBUTING.de.md
 
 ## 유용한 확장기능들
 GitHub은 내장 에디터에서 AGC문법을 지원합니다.
