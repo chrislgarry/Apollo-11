@@ -29,4 +29,7 @@ Der Quellcode in diesem repository wurde manuell digitalisiert, also sind jeglic
 * [AGC printouts for Comanche][8]
 * [AGC printouts for Luminary][9]
 
+## Nützliche Erweiterungen
+
+
 
