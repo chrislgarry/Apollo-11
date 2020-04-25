@@ -57,6 +57,6 @@ GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Formatierung  
-
+**Anmerkung:** Die oben erwähnten GitHub erweiterungen werden automatisch sicherstellen dass sie die Korrekte Formatierung einhalten. 
 
 
