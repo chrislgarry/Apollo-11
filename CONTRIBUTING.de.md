@@ -24,6 +24,9 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Der Quellcode in diesem repository wurde manuell digitalisiert, also sind jegliche schriftliche Fehler und ungereimtheiten aus versehen hinzugefügt worden. Der Code soll Modifiziert werden so dass er mit den Vorlagen übereinstimmt.   
+Der Quellcode in diesem repository wurde manuell digitalisiert, also sind jegliche schriftliche Fehler und ungereimtheiten aus versehen hinzugefügt worden. Der Code soll Modifiziert werden so dass er mit den Vorlagen übereinstimmt. 
+
+* [AGC printouts for Comanche][8]
+* [AGC printouts for Luminary][9]
 
 
