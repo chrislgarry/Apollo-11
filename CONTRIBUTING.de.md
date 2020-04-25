@@ -66,4 +66,8 @@ GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für
 ## Was überprüfe ich ?
 Jegliche ungereimtheiten zwischen den scans und den Code in die repository, einschließlich:
 
+### Kommentare 
+- Kommentare in dem Abgeschriebenen Code müssen denen in den scans gleichen
+  - Das könnte extra einen sprachlichen Fehler oder das entfernen/hinzufügen eines ganzen Komentares bedeuten  
+
 
