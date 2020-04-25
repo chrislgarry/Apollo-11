@@ -45,5 +45,16 @@ GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für
 
 † Unterstützen Automatisches Formatieren  
 
+[Atom]:https://github.com/Alhadis/language-agc
+[CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
+[Eclipse]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Eclipse
+[Kate]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Kate
+[ProgrammersNotepad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/ProgrammersNotepad
+[Sublime Text]:https://github.com/jimlawton/AGC-Assembly
+[TextPad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/TextPad
+[Vim]:https://github.com/wsdjeg/vim-assembly
+[VisualStudioCode]:https://github.com/wopian/agc-assembly
+[jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
+
 
 
