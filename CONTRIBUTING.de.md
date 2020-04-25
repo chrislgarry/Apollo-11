@@ -64,5 +64,6 @@ GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für
 - entferne nachlaufende leerstellen 
 
 ## Was überprüfe ich ?
+Jegliche ungereimtheiten zwischen den scans und den Code in die repository, einschließlich:
 
 
