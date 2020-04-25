@@ -43,5 +43,7 @@ GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
+† Unterstützen Automatisches Formatieren  
+
 
 
