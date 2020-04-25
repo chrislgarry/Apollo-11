@@ -59,4 +59,8 @@ GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für
 ## Formatierung  
 **Anmerkung:** Die oben erwähnten GitHub erweiterungen werden automatisch sicherstellen dass sie die Korrekte Formatierung einhalten. 
 
+- benutze tab indentation
+- benutze tab width von 8
+- entferne nachlaufende leerstellen 
+
 
