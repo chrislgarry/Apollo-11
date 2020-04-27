@@ -68,6 +68,13 @@ Jegliche ungereimtheiten zwischen den scans und den Code in die repository, eins
 
 ### Kommentare 
 - Kommentare in dem Abgeschriebenen Code müssen denen in den scans gleichen
-  - Das könnte extra einen sprachlichen Fehler oder das entfernen/hinzufügen eines ganzen Komentares bedeuten  
+  - Das könnte extra einen sprachlichen Fehler oder das entfernen/hinzufügen eines ganzen Komentares bedeuten 
+  
+### Zeilenumbruch
+- Zeilenumbruch *mit* `R0000` in Spalte 1 sollte genau mit den scans übereinstimmen 
+- Zeilenumbruch *mit**__out__* `R0000` in Spalte 1 sollte nur 1 bis zwei Leerzeilen nacheinander haben
+  - Wenn dort mher als 2 leere Zeilenumbrüche sind sollen diese entfernt werden
+    - Zeilen mit `R0000` in Spalte 1 zählen nicht dazu 
+  - In den Quell Bildern, Diese wurdne verursacht durch eine nicht gedruckte stelle in in Spalte 8. A 2 dort hat eine doppelte Leerstelle (einezilne Leerzeile) und A 3 hat eine dreifache Leerstelle (doppelte Leerzeile). Werte 4-8 wurdne definiert aber nie benutzt. Mehr hier zu in [#159][7] 
 
 
