@@ -63,7 +63,7 @@ GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für
 - benutze tab width von 8
 - entferne nachlaufende leerstellen 
 
-## Was überprüfe ich ?
+## Was sol ich überprüfen  ?
 Jegliche ungereimtheiten zwischen den scans und den Code in die repository, einschließlich:
 
 ### Kommentare 
