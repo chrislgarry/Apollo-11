@@ -76,5 +76,36 @@ Jegliche ungereimtheiten zwischen den scans und den Code in die repository, eins
   - Wenn dort mher als 2 leere Zeilenumbrüche sind sollen diese entfernt werden
     - Zeilen mit `R0000` in Spalte 1 zählen nicht dazu 
   - In den Quell Bildern, Diese wurdne verursacht durch eine nicht gedruckte stelle in in Spalte 8. A 2 dort hat eine doppelte Leerstelle (einezilne Leerzeile) und A 3 hat eine dreifache Leerstelle (doppelte Leerzeile). Werte 4-8 wurdne definiert aber nie benutzt. Mehr hier zu in [#159][7] 
+  
+zum Beispiel das Folgende:
+```plain
+R0819   SUBROUTINE TO SKIP...
+R0820
+
+
+
+ 0821   LAMPTEST  CS  IMODES33
+```
+sollte werden:
+```plain
+R0819   SUBROUTINE TO SKIP...
+R0820
+
+
+ 0820   LAMPTEST  CS  IMODES33
+```
+
+## Hinweis
+
+Bevor sie eine PR starten, bitte überprüfen sie ob die veränderungen mit den Scans über einstimmen!
+
+[0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
+[1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
+[2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[6]:https://github.com/wopian/agc-assembly#user-settings
+[7]:https://github.com/chrislgarry/Apollo-11/issues/159
+[8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
+[10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
 
 
