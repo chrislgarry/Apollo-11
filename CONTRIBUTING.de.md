@@ -31,7 +31,7 @@ Der Quellcode in diesem repository wurde manuell digitalisiert, also sind jeglic
 
 ## Nützliche Erweiterungen
 
-GitHub hat eine Integrierte unterstützung für AGC assembly. Dasselbe gilt für ihren Code Editor nicht, dennoch gibt es AGC erweiterungen die syntax highlighting für die folgenden Editors zur verfügung stellen:
+GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für ihren Code Editor nicht, dennoch gibt es AGC Erweiterungen die Syntax highlighting für die folgenden Editors zur Verfügung stellen: 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
