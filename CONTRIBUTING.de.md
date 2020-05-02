@@ -57,7 +57,7 @@ GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Formatierung  
-**Anmerkung:** Die oben erwähnten GitHub erweiterungen werden automatisch sicherstellen dass sie die Korrekte Formatierung einhalten. 
+**Anmerkung:** Die oben erwähnten GitHub Erweiterungen werden automatisch sicherstellen dass sie die Korrekte Formatierung einhalten.
 
 - benutze tab indentation
 - benutze tab width von 8
