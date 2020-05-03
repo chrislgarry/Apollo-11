@@ -1,13 +1,13 @@
 # Contribuindo
 
 :crossed_flags:
+[Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Nederlands][NL],
 **Português**,
 [Türkçe][TR],
-[Deutsch][DE],
 [العربية][AR],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
