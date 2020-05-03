@@ -14,6 +14,7 @@
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
@@ -23,7 +24,6 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[DE]:CONTRIBUTING.de.md
 
 本仓库中的源代码来自对纸质打印输出文件的手动数字化，所以会不小心引入一些拼写错误和其他差异。这些代码应该被修正以使其与原纸质打印输出文件内容保持一致：
 
