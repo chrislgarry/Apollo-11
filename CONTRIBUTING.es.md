@@ -14,6 +14,7 @@
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
@@ -23,7 +24,7 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[DE]:CONTRIBUTING.de.md
+
 
 El código fuente en este repositorio se digitalizó manualmente a partir de impresiones en papel, por lo que los errores tipográficos y otras discrepancias se han introducido accidentalmente. El código se modificará para que sea coherente con las impresiones escaneadas:
 
