@@ -14,6 +14,7 @@
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
@@ -23,7 +24,6 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 [NL]:CONTRIBUTING.nl.md
-[DE]:CONTRIBUTING.de.md
 
 De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken. Typfouten en andere discrepanties kunnen per ongeluk zijn toegevoegd. De code zal worden aangepast om gelijk te worden gemaakt aan de gescande papieren:
 
