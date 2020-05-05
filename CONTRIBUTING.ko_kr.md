@@ -1,6 +1,7 @@
 # 기여하기
 
 :crossed_flags:
+[Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
@@ -13,6 +14,7 @@
 **한국어**
 
 [AR]:CONTRIBUTING.ar.md
+[DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md

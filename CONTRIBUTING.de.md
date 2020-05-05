@@ -1,7 +1,7 @@
-# 貢獻
+# Contributing
 
 :crossed_flags:
-[Deutsch][DE],
+**Deutsch**,
 [English][EN],
 [Español][ES],
 [Français][FR],
@@ -9,7 +9,7 @@
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
-**正體中文**,
+[正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
@@ -25,14 +25,14 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-這個倉庫的原始碼，是透過列印出的紙本輸出，予以手動數位化。所以可能會不小心出現錯字和其他出入。程式碼應當修正到與紙本掃描的輸出一致：
+Der Quellcode in diesem repository wurde manuell digitalisiert, also sind jegliche schriftliche Fehler und Ungereimtheiten aus versehen hinzugefügt worden. Der Code soll Modifiziert werden so dass er mit den Vorlagen übereinstimmt. 
 
 * [AGC printouts for Comanche][8]
 * [AGC printouts for Luminary][9]
 
-## 實用套件
+## Nützliche Erweiterungen
 
-GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不過，某些編輯器有提供 AGC 語法突顯的語言套件：
+GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für ihren Code Editor nicht, dennoch gibt es AGC Erweiterungen die Syntax highlighting für die folgenden Editors zur Verfügung stellen: 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -44,7 +44,7 @@ GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不�
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† 支援自動格式化
+† Unterstützen Automatisches Formatieren  
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -57,28 +57,28 @@ GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不�
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## 格式化
-**注意：**GitHub 與上面列出的套件，會自動確保您使用正確的格式。
+## Formatierung  
+**Anmerkung:** GitHub und die oben erwähnten Erweiterungen werden automatisch sicherstellen dass sie die Korrekte Formatierung einhalten.
 
-- 用 tab 縮排
-- tab 寬度為 8
-- 去除底部空白
+- benutze tab indentation
+- benutze tab width von 8
+- entferne nachlaufende leerstellen 
 
-## 如何檢查？
-掃描與倉庫原始碼的差異會包括：
+## Was sol ich überprüfen  ?
+Jegliche Ungereimtheiten zwischen den scans und den Code in die repository, einschließlich: 
 
-### 註解
-- 抄寫的註解要和掃描一模一樣。
-  - 這包括刻意的拼寫錯誤、或是刪除/增加整個註解。
-
-### 換行
-- 在第一列（column 1）*有著* `R0000` 的換行，要和掃描一模一樣。
-- 在第一列*沒有* `R0000` 的換行，在一行（row）只能留有一到兩個空白行。
-  - 如果空白行超過兩個，請刪去額外的空白行。
-    - 如果在第一列有 `R0000` 的話，就不要這麼做。
-  - 在原始圖片中，這些都是由第八列（column 8）的未列印數字所產生。2 強制用兩個（也就是單一空白行）、3 強制用三個（也就是雙空行）、4-8 有定義，但從未使用過。請參閱 [#159][7] 的詳細訊息。
-
-例如以下程式：
+### Kommentare 
+- Kommentare in dem Abgeschriebenen Code müssen denen in den scans gleichen
+  - Das könnte extra einen sprachlichen Fehler oder das entfernen/hinzufügen eines ganzen Kommentars bedeuten 
+  
+### Zeilenumbruch
+- Zeilenumbruch *mit* `R0000` in Spalte 1 sollte genau mit den scans übereinstimmen 
+- Zeilenumbruch *mit**__out__* `R0000` in Spalte 1 sollte nur 1 bis zwei Leerzeilen nacheinander haben
+  - Wenn dort mher als 2 leere Zeilenumbrüche sind sollen diese entfernt werden
+    - Zeilen mit `R0000` in Spalte 1 zählen nicht dazu 
+  - In den Quell Bildern, Diese wurden verursacht durch eine nicht gedruckte stelle in in Spalte 8. A 2 dort hat eine doppelte Leerstelle (einezilne Leerzeile) und A 3 hat eine dreifache Leerstelle (doppelte Leerzeile). Werte 4-8 wurden definiert aber nie benutzt. Mehr hier zu in [#159][7] 
+  
+zum Beispiel das Folgende:
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -87,7 +87,7 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
-要改寫成：
+sollte werden:
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -96,35 +96,17 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### 空白
-- 在字元內，兩個單字之間的空白必須遵照以下慣例（請參閱 [#316][10] 的討論）：
-  - 單字間空一格。
-  - 句子間空兩格。
-  - 縮排間空三格。
+## Hinweis
 
-例如以下程式：
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-要改寫成：
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
-```
-
-## 注意
-
-在發 PR 前，請確保您的修改與掃描輸出一模一樣！
+Bevor sie eine PR starten, bitte überprüfen sie ob die Veränderungen mit den Scans über einstimmen!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[3]:https://github.com/wopian/agc-assembly
-[4]:https://github.com/jimlawton/AGC-Assembly
-[5]:https://github.com/Alhadis/language-agc
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
+
+
