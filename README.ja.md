@@ -74,10 +74,10 @@ Luminary099    | アポロ11号用の月着陸船用のアポロ11号誘導コ�
 アセンブラ      | yaYUL
 コンタクト        | Ron Burkey <info@sandroid.org>
 ウェブサイト        | www.ibiblio.org/apollo
-デジタル化 | このソースコードは、MIT Museumからハードコピーをデジタル化、移したものです。 デジタル化は Paul Fjeld によって行われ, Deborah Douglas がまとめました。
+デジタル化 | このソースコードは、MIT Museumからハードコピーをデジタル化、移したものです。 デジタル化は Paul Fjeld によって行われ、 Deborah Douglas がまとめました。
 
 ### 契約と承認
-* [CONTRACT_AND_APPROVALS.agc] から派生*
+*[CONTRACT_AND_APPROVALS.agc] から派生*
 
 本アポロ誘導コンピュータプログラムは、コロッサス 2Aから参照されます。
 
@@ -89,10 +89,10 @@ Margaret H. Hamilton  | コロッサス プログラミングリーダー<br>ア
 
 Approved by        | Role | Date
 :----------------- | :--- | :---
-Daniel J. Lickly   | ディレクター, ミッションプログラムの開発<br>アポロ誘導と航法プログラム | 1969年3月28日
+Daniel J. Lickly   | ディレクター、ミッションプログラムの開発<br>アポロ誘導と航法プログラム | 1969年3月28日
 Fred H. Martin     | コロッサス プロジェクトマネージャー<br>アポロ誘導と航法プログラム | 1969年3月28日
-Norman E. Sears    | ディレクター, ミッションプログラムの開発<br>アポロ誘導と航法プログラム | 1969年3月28日
-Richard H. Battin  | ディレクター, ミッションプログラムの開発<br>アポロ誘導と航法プログラム | 1969年3月28日
+Norman E. Sears    | ディレクター、ミッションプログラムの開発<br>アポロ誘導と航法プログラム | 1969年3月28日
+Richard H. Battin  | ディレクター、ミッションプログラムの開発<br>アポロ誘導と航法プログラム | 1969年3月28日
 David G. Hoag      | ディレクター<br>アポロ誘導と航法プログラム | 1969年3月28日
 Ralph R. Ragan     | 副ディレクター<br>機械研究所 | 1969年3月28日
 
