@@ -27,12 +27,13 @@
 
 El código fuente en este repositorio se digitalizó manualmente a partir de impresiones en papel, por lo que los errores tipográficos y otras discrepancias se han introducido accidentalmente. El código se modificará para que sea coherente con las impresiones escaneadas:
 
-* [AGC impresiones para Comanche][8]
-* [AGC impresiones para Luminary][9]
+- [AGC impresiones para Comanche][8]
+- [AGC impresiones para Luminary][9]
 
 ## Extensiones Útiles
 
 GitHub tiene soporte de sintaxis para el lenguaje ensamblador AGC incorporado. Lamentablemente, su editor de código no lo hará, sin embargo, hay extensiones de lenguaje AGC que proporcionan resaltado de sintaxis para los siguientes editores:
+
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -58,6 +59,7 @@ GitHub tiene soporte de sintaxis para el lenguaje ensamblador AGC incorporado. L
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Formateo
+
 **Nota:** GitHub y las extensiones marcadas anteriormente asegurarán que esté utilizando el formato correcto automáticamente.
 
 - Usar sangría de tabulación
@@ -65,13 +67,16 @@ GitHub tiene soporte de sintaxis para el lenguaje ensamblador AGC incorporado. L
 - Recortar espacios en blanco al final
 
 ## ¿Qué verifico?
+
 Cualquier discrepancia entre los escaneos y el código fuente en este repositorio, incluyendo:
 
 ### Comentarios
+
 - Los comentarios en el código transcrito deben coincidir exactamente con los escaneos
   - Esto podría implicar crear un error tipográfico deliberado o eliminar / agregar un comentario completo.
 
 ### Saltos de línea
+
 - Salto de línea *with* `R0000` en la columna 1 debe coincidir exactamente con los escaneos.
 - Salto de línea *with**__out__* `R0000` en la columna 1 debe contener solo 1 ó 2 líneas en blanco en una fila.
   - Si hay más de 2 saltos de línea en blanco, elimine los saltos de línea adicionales.
@@ -79,6 +84,7 @@ Cualquier discrepancia entre los escaneos y el código fuente en este repositori
   - En las imágenes de origen, éstas fueron creadas por un dígito sin imprimir en la columna 8. A 2 forzó un doble espacio (línea en blanco simple) y un 3 forzó un espacio triple (línea en blanco doble). Los valores 4-8 se definieron pero nunca se usaron. Lea más sobre esto en [#159][7]
 
 Por ejemplo lo siguiente:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -87,7 +93,9 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
+
 Debe convertirse:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -97,17 +105,21 @@ R0820
 ```
 
 ### Espacios
+
 - Los espacios entre dos caracteres en la cadena deben respetar la siguiente convención (vea la discusión en [#316][10]):
   - Espacio único para nuevas palabras.
   - Doble espacio para nuevas oraciones.
   - Triple espacio para hendiduras.
 
 Por ejemplo lo siguiente:
+
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
+
 Debe convertirse:
+
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.

@@ -1,4 +1,5 @@
 # 阿波羅 11 號
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -57,7 +58,7 @@
 
 ## 編譯
 
-若您對編譯原始程式碼有興趣，請見 [Virtual AGC](https://github.com/rburkey2005/virtualagc) 。
+若您對編譯原始程式碼有興趣，請見 [Virtual AGC](https://github.com/rburkey2005/virtualagc)。
 
 ## 資訊和專案屬性
 
@@ -72,24 +73,25 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 數位化       | 這份原始程式碼整理自 MIT Museum 的數位化影像複印本。數位化由 Paul Fjeld 完成，並經過 MIT Museum 的 Deborah Douglas 整理，在此衷心感激兩位。
 
 ### 合約和表揚（Contract and Approvals）
+
 *源自 [CONTRACT_AND_APPROVALS.agc]*
 
 該 AGC 程式也可被稱作: COLOSSUS 2A
 
 如同 R-577 報告指出，該程式主要用於阿波羅駕駛艙。此外，該程式是由 DSR 計劃 55-23870 籌劃，並由(美國)國家航空暨太空總署旗下的載人太空船中心經由合約 NAS 9-4065 資助。該合約是由(美國)實驗儀器公司、麻省理工學院、劍橋大學以及 MASS 共同簽定。
 
-提交者                 | Role | 日期
-:-------------------- | :--- | :--
-Margaret H. Hamilton  | Colossus 程式設計負責人<br>阿波羅導引導航系統 | 1969 年 3 月 28 日
+提交者                | Role | 日期
+:------------------- | :--- | :--
+Margaret H. Hamilton | Colossus 程式設計負責人<br>阿波羅導引導航系統 | 1969 年 3 月 28 日
 
-核准人              | Role | 日期
-:----------------- | :--- | :--
-Daniel J. Lickly   | 負責人, 任務程式開發<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
-Fred H. Martin     | Colossus 專案經理<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
-Norman E. Sears    | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
-Richard H. Battin  | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969 年 3月 28 日
-David G. Hoag      | 負責人<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
-Ralph R. Ragan     | 副負責人<br>(美國)實驗儀器公司 | 1969 年 3 月 2 8日
+核准人             | Role | 日期
+:---------------- | :--- | :--
+Daniel J. Lickly  | 負責人, 任務程式開發<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
+Fred H. Martin    | Colossus 專案經理<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
+Norman E. Sears   | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
+Richard H. Battin | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969 年 3月 28 日
+David G. Hoag     | 負責人<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
+Ralph R. Ragan    | 副負責人<br>(美國)實驗儀器公司 | 1969 年 3 月 2 8日
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

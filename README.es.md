@@ -1,4 +1,5 @@
 # Apolo 11
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -56,11 +57,12 @@
 Código fuente original del ordenador guía del Apolo 11 (AGC) para el módulo de comando (Comanche055) y del módulo lunar (Luminary099). Digitalizado por los chicos de [Virtual AGC][3] y [el museo del MIT][4]. El objetivo es ser un repositorio del código fuente original del Apolo 11. De este modo, serán bienvenidos los PRs relacionados con las transcripciones en este repositorio y los escaneos del código fuente original para el [Luminary 099][5] y el [Comanche 055][6], así como cualquier archivo que se me haya olvidado.
 
 ## Cómo contribuir
+
 Por favor, lea [CONTRIBUTING.es.md][7] antes de abrir un pull request.
 
 ## Compilar
-Si está interesado en compilar el código fuente original, eche un vistazo a
-[Virtual AGC][8].
+
+Si está interesado en compilar el código fuente original, eche un vistazo a [Virtual AGC][8].
 
 ## Atribuciones
 
@@ -75,24 +77,25 @@ Sitio Web         | www.ibiblio.org/apollo
 Digitalización    | Este código fuente ha sido transcrito o adaptado desde imágenes digitalizadas de una copia en papel presente en el museo del MIT. Los empleados del museo Paul Fjeld y Deborah Douglas realizaron la digitalización y la gestión de las imágenes, respectivamente. Muchas gracias a ambos.
 
 ### Contratos y aprobaciones
+
 *Derivado de [CONTRACT_AND_APPROVALS.agc]*
 
 Este programa debe también llamarse Colossus 2A.
 
 Este programa fue creado para ser usado en el CM tal y como se especifica en el informe `R-577`. Este programa se preparó en el proyecto `55-23870`, patrocinado por el Centro de Naves Tripuladas del Centro Nacional de Aeronáutica y Administración Espacial a través del contrato `NAS 9-4065` del Laboratorio de Instrumentación del Instituto de Tecnología de Massachussets, Cambridge, Mass.
 
-Enviado por           | Rol | Fecha
-:-------------------- | :--- | :----
-Margaret H. Hamilton  | Líder de programación de Colossus <br> Apollo Guidance and Navigation | 28 mar 69
+Enviado por          | Rol | Fecha
+:------------------- | :-- | :----
+Margaret H. Hamilton | Líder de programación de Colossus <br> Apollo Guidance and Navigation | 28 mar 69
 
-Aprobado por       | Rol | Fecha
-:----------------- | :--- | :----
-Daniel J. Lickly | Director, Desarrollo del programa de misión <br> Programa de orientación y navegación Apollo | 28 mar 69
-Fred H. Martin | Colossus Project Manager <br> Programa de orientación y navegación Apollo | 28 mar 69
-Norman E. Sears | Director de Desarrollo de Misión <br> Programa de Orientación y Navegación Apollo | 28 mar 69
+Aprobado por      | Rol | Fecha
+:---------------- | :-- | :----
+Daniel J. Lickly  | Director, Desarrollo del programa de misión <br> Programa de orientación y navegación Apollo | 28 mar 69
+Fred H. Martin    | Colossus Project Manager <br> Programa de orientación y navegación Apollo | 28 mar 69
+Norman E. Sears   | Director de Desarrollo de Misión <br> Programa de Orientación y Navegación Apollo | 28 mar 69
 Richard H. Battin | Director de Desarrollo de Misión <br> Programa de Orientación y Navegación Apollo | 28 mar 69
-David G. Hoag | Director del Programa de Orientación y Navegación Apollo | 28 mar 69
-Ralph R. Ragan | Subdirector del Laboratorio de Instrumentación | 28 mar 69
+David G. Hoag     | Director del Programa de Orientación y Navegación Apollo | 28 mar 69
+Ralph R. Ragan    | Subdirector del Laboratorio de Instrumentación | 28 mar 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

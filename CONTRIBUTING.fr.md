@@ -27,12 +27,13 @@
 
 Le code source de ce dépôt a été numérisé manuellement à partir d’imprimés papier, de sorte que les fautes de frappe et autres anomalies ont été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées:
 
-* [Impressions AGC pour Comanche][8]
-* [Impressions AGC pour Luminary][9]
+- [Impressions AGC pour Comanche][8]
+- [Impressions AGC pour Luminary][9]
 
 ## Extensions utiles
 
 Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants:
+
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -58,6 +59,7 @@ Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Mal
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Mise en page
+
 **Note:** GitHub et les extensions marquées ci-dessus vous assureront d'utiliser automatiquement le bon formatage.
 
 - Indenter avec tabulation
@@ -65,13 +67,16 @@ Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Mal
 - Pas d'espace à la fin des ligne
 
 ## Comment vérifier ?
+
 Tout écart entre les scans et le code source dans ce référentiel, y compris :
 
 ### Commentaires
+
 - Les commentaires dans le code transcrit doivent correspondre exactement aux scans
   - Cela peut impliquer de créer délibérément une erreur de frappe  ou de supprimer/ajouter un commentaire entier.
 
 ### Sauts de ligne
+
 - Les lignes *avec* `R0000` dans la colonne 1 doivent correspondre exactement aux scans.
 - Les sauts de ligne *sans* `R0000` dans la colonne 1 ne doivent contenir que 1 ou 2 lignes vides d'affilée.
   - Si il y a plus de 2 lignes vides, supprimer les sauts de ligne supplémentaires.
@@ -79,6 +84,7 @@ Tout écart entre les scans et le code source dans ce référentiel, y compris :
   - Dans les images sources, il y a digits non imprimés dans la colonne 8. Un 2 force un double espace (une seul ligne vide) et un 3 force une triple espace (double ligne vide). Les valeurs 4-8 ont été définies mais n’ont jamais été utilisées. Pour en savoir plus [#159][7]
 
 Par exemple, ce qui suit:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -87,7 +93,9 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
+
 Doit devenir:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -97,17 +105,21 @@ R0820
 ```
 
 ### Espaces
+
 - Les espaces entre deux caractères doivent respecter la convention suivante (voir la discussion [#316][10]):
   - Un seul espace pour un nouveau mot.
   - Deux espaces pour une nouvelle phrase.
   - Trois espaces pour l'indentations.
 
 Par exemple, ce qui suit:
+
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
+
 Doit devenir:
+
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.

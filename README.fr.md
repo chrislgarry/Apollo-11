@@ -1,4 +1,5 @@
 # Apollo-11
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -56,24 +57,27 @@
 Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099). Numérisé par les gens du [Virtual AGC][3] et du [MIT Museum][4]. Le but est d'être un repo pour le code source original d'Apollo 11. En tant que tel, les PR sont les bienvenues pour tous les problèmes identifiés entre les transcriptions dans ce référentiel et les scans source originaux pour [Luminary 099][5] et [Comanche 055][6], ainsi que pour tous les fichiers que j'ai pu manquer.
 
 ## Contribuer
+
 Merci de lire [CONTRIBUTING.fr.md][7] avant d'ouvrir une pull request.
 
 ## Compilation
+
 Si vous êtes intéressés par la compilation du code source original visitez [Virtual AGC][8].
 
 ## Attribution
 
-&nbsp;         | &nbsp;
-:------------- | :-----
-Copyright      | Domaine public
-Comanche055    | Partie du code source de Colossus 2A, le module de commande (CM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Partie du code source de Luminary 1A, le module de lunaire (LM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembleur      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Site internet  | www.ibiblio.org/apollo
-Numérisation   | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Un grand merci à eux deux.
+&nbsp;        | &nbsp;
+:------------ | :-----
+Copyright     | Domaine public
+Comanche055   | Partie du code source de Colossus 2A, le module de commande (CM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099   | Partie du code source de Luminary 1A, le module de lunaire (LM) Ordinateur embarqué de navigation (AGC), pour Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Assembleur    | yaYUL
+Contact       | Ron Burkey <info@sandroid.org>
+Site internet | www.ibiblio.org/apollo
+Numérisation  | Ce code source a été transcrit ou autrement adapté à partir de données numérisées des images d'une copie papier du Musée du MIT. La numérisation a été effectuée par Paul Fjeld, et organisé par Deborah Douglas du Musée. Un grand merci à eux deux.
 
 ### Contrat et Approbations
+
 *Dérivé de [CONTRACT_AND_APPROVALS.agc]*
 
 ```plain
@@ -89,18 +93,18 @@ D'INSTRUMENTATION, INSTITUT DE TECHNOLOGIE DU MASSACHUSETTS,
 CAMBRIDGE, MASS.
 ```
 
-Soumis par            | Rôle | Date
-:-------------------- | :--- | :---
-Margaret H. Hamilton  | Chef de la programmation Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Soumis par           | Rôle | Date
+:------------------- | :--- | :---
+Margaret H. Hamilton | Chef de la programmation Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
 
-Approuvé par       | Rôle | Date
-:----------------- | :--- | :---
-Daniel J. Lickly   | Directeur, Développement des programmes de mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
-Fred H. Martin     | Chef de projet Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
-Norman E. Sears    | Directeur, Développement de la mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
-Richard H. Battin  | Directeur, Développement de la mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
-David G. Hoag      | Directeur<br>Programme de guidage et de navigation Apollo | 28 Mar 69
-Ralph R. Ragan     | Directeur adjoint<br>Laboratoire d'instrumentation | 28 Mar 69
+Approuvé par      | Rôle | Date
+:---------------- | :--- | :---
+Daniel J. Lickly  | Directeur, Développement des programmes de mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Fred H. Martin    | Chef de projet Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Norman E. Sears   | Directeur, Développement de la mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Richard H. Battin | Directeur, Développement de la mission<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+David G. Hoag     | Directeur<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Ralph R. Ragan    | Directeur adjoint<br>Laboratoire d'instrumentation | 28 Mar 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

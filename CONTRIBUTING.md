@@ -27,12 +27,13 @@
 
 The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
 
-* [AGC printouts for Comanche][8]
-* [AGC printouts for Luminary][9]
+- [AGC printouts for Comanche][8]
+- [AGC printouts for Luminary][9]
 
 ## Useful Extensions
 
 GitHub has syntax support for the AGC assembly language built-in. Unfortunately your code editor will not, however there are AGC language extensions that provides syntax highlighting for the following editors:
+
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -58,6 +59,7 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Formatting
+
 **Note:** GitHub and extensions marked above will ensure you're using the correct formatting automatically.
 
 - Use tab indentation
@@ -65,13 +67,16 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 - Trim trailing whitespace
 
 ## What do I check?
+
 Any discrepancies between the scans and the source code in this repository, including:
 
 ### Comments
+
 - Comments in the transcribed code should match the scans exactly
   - This could involve creating a deliberate typo or removing/adding an entire comment.
 
 ### Line breaks
+
 - Line breaks *with* `R0000` in column 1 should match the scans exactly.
 - Line breaks *with**__out__* `R0000` in column 1 should contain only 1 or 2 blank lines in a row.
   - If there are more than 2 blank lines breaks, strip the extra line breaks.
@@ -79,6 +84,7 @@ Any discrepancies between the scans and the source code in this repository, incl
   - In the source images, these were created by an unprinted digit in column 8. A 2 there forced a double space (single blank line) and a 3 forced a triple space (double blank line). Values 4-8 were defined but never used. Read more about it in [#159][7]
 
 For example the following:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -87,7 +93,9 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
+
 Should become:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -97,17 +105,21 @@ R0820
 ```
 
 ### Spaces
+
 - Spaces between two characters in the string should respect the following convention (see the discussion in [#316][10]):
   - Single space for new words.
   - Double space for new sentences.
   - Triple space for indentations.
 
 For example the following:
+
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
+
 Should become:
+
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.

@@ -27,12 +27,13 @@
 
 De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken. Typfouten en andere discrepanties kunnen per ongeluk zijn toegevoegd. De code zal worden aangepast om gelijk te worden gemaakt aan de gescande papieren:
 
-* [AGC prints voor Comanche][8]
-* [AGC prints voor Luminary][9]
+- [AGC prints voor Comanche][8]
+- [AGC prints voor Luminary][9]
 
 ## Handige extensies
 
 Github heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas heeft jouw editor dit niet, gelukkig zijn er AGC extensies die de volgende editors kunnen voorzien van syntax ondersteuning:
+
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -58,6 +59,7 @@ Github heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas he
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Opmaak
+
 **Let op:** GitHub en de extensies in de lijst hierboven zorgen ervoor dat je automatisch de correcte opmaak gebruikt.
 
 - Gebruik tab indentatie
@@ -65,13 +67,16 @@ Github heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas he
 - Haal trailing whitespace weg
 
 ## Wat controleer ik?
+
 Elk verschil tussen de scans en de broncode in deze repository inclusief:
 
 ### Commentaren
+
 - Commentaren in de overgeschreven code moeten exact hetzelfde zijn als in de scans
   - Soms betekent dit dat je expres een typfout moet overnemen of een commentaar volledig moet weghalen.
 
 ### Regeleindes
+
 - Regeleinden *met* `R0000` in kolom 1 moeten exact overeen komen met de scans.
 - Regeleinden *zonder* `R0000` in kolom 1 moeten slechts 1 of 2 lege regels in een rij bevatten.
   - Als er meer dan twee lege regels zijn, haal de extra witregels dan weg.
@@ -79,6 +84,7 @@ Elk verschil tussen de scans en de broncode in deze repository inclusief:
   - In de bron scans zijn deze aangemaakt door een niet uitgeprint getal in kolom 8. Een 2 in deze kolom veroorzaakte een dubbele spatie (enkele witregel) en een 3 in deze kolom veroorzaakte een driedubbele spatie (dubbele witregel). De waarden 4-8 waren wel gedefinieerd maar nooit gebruikt. Lees hier meer over in [#159][7]
 
 Bijvoorbeeld het volgende:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -87,7 +93,9 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
+
 Zou dit moeten worden:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -97,17 +105,21 @@ R0820
 ```
 
 ### Spaties
+
 - Spaties tussen twee karakters in de string moeten de volgende conventie gebruiken (bekijk de discussie in [#316][10]):
   - Enkele spatie voor een nieuw woord.
   - Dubbele spatie voor een nieuwe zin.
   - Driedubbele spatie voor inspringen.
 
 Bijvoorbeeld het volgende:
+
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
+
 Zou dit moeten worden:
+
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.

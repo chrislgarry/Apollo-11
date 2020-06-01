@@ -1,4 +1,5 @@
 # Apollo-11
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -56,9 +57,11 @@
 Originele broncode voor de Apollo 11 besturingscomputer (AGC). Broncode voor de besturingsmodule (Comanche055) en maanmodule (Luminary099). Gedigitalizeerd door [Virtual GC][3] en het [MIT Museum][4]. Het doel is om een repository te zijn van de oorspronkelijke Apollo 11 broncode en dus zijn PRs welkom voor elk probleem in de overgenomen broncode van [Luminary 099][5] en [Comanche 055][6] en elk bestand dat ik vergeten ben.
 
 ## Bijdragen
+
 Lees alsjeblieft [CONTRIBUTING.nl.md][7] voordat je een pull request opent.
 
 ## Compileren
+
 Als je geinteresseerd bent in het compileren van de originele broncode bekijk dan [Virtual AGC][8].
 
 ## Toebedeling
@@ -74,24 +77,25 @@ Website        | www.ibiblio.org/apollo
 Digitalizering | Deze broncode is overgeschreven of anderszins overgenomen van gedigitalizeerde afbeeldingen van een boek van het MIT Museum. Deze digitalizering is uitgevoerd door Paul Fjeld en geregeld door Deborah Douglas van het voorgenoemde museum. Hartelijk dank aan beiden.
 
 ### Contract en Goedkeuring
+
 *Afgeleid van [CONTRACT_AND_APPROVALS.agc]*
 
 Dit AGC programma zal worden benoemd als Colossus 2A.
 
 Dit programma is bedoeld voor gebruik in de CM zoals vastgesteld in rapport `R-577`. Dit programma is voorbereid onder DSR project `55-23870`, gesponsord door het Manned Spacecraft Center van de National Aeronautics and Space Administration via contract `NAS 9-4065` met het Instrumentation Laboratory, Massachusetts Instute of Technology, Cambridge, Mass.
 
-Ingediend door        | Rol  | Datum
-:-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 maart. 1969
+Ingediend door       | Rol | Datum
+:------------------- | :-- | :----
+Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 maart. 1969
 
-Goedgekeurd door   | Rol  | Datum
-:----------------- | :--- | :---
-Daniel J. Lickly   | Directeur, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Fred H. Martin     | Colossus projectmanager<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Norman E. Sears    | Directeur, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Richard H. Battin  | Directeur, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-David G. Hoag      | Directeur<br>Apollo Guidance and Navigation Program | 28 maart. 1969
-Ralph R. Ragan     | Adjunct-directeur<br>Instrumentation Laboratory | 28 maart. 1969
+Goedgekeurd door  | Rol | Datum
+:---------------- | :-- | :----
+Daniel J. Lickly  | Directeur, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Fred H. Martin    | Colossus projectmanager<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Norman E. Sears   | Directeur, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Richard H. Battin | Directeur, Mission Development<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+David G. Hoag     | Directeur<br>Apollo Guidance and Navigation Program | 28 maart. 1969
+Ralph R. Ragan    | Adjunct-directeur<br>Instrumentation Laboratory | 28 maart. 1969
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://rawcdn.githack.com/aleen42/badges/c9246f74/src/nasa.svg

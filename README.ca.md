@@ -1,4 +1,5 @@
 # Apollo-11
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -53,13 +54,14 @@
 [ZH_TW]:README.zh_tw.md
 [NL]:README.nl.md
 
-Codi font original del Mòdul de Comandament (Comanche055) i del Mòdul Lunar (Comanche055) de l'ordinador de navegació de l'Apollo 11 (AGC, per les seves sigles en anglès). Digitalitzat per la gent de [Virtual AGC][3] i [MIT Museum][4]. L'objectiu és esdevenir un repositori del codi font original de l'Apollo 11. Per això els *pull requests* són benvinguts davant de qualsevol problema que s'identifiqui entre les transcripcions d'aquests repositori i les còpies originals del codi font de [Luminary 099][5] i
-[Comanche 055][6], així com qualsevol fitxer que m'hagi pogut deixar.
+Codi font original del Mòdul de Comandament (Comanche055) i del Mòdul Lunar (Comanche055) de l'ordinador de navegació de l'Apollo 11 (AGC, per les seves sigles en anglès). Digitalitzat per la gent de [Virtual AGC][3] i [MIT Museum][4]. L'objectiu és esdevenir un repositori del codi font original de l'Apollo 11. Per això els *pull requests* són benvinguts davant de qualsevol problema que s'identifiqui entre les transcripcions d'aquests repositori i les còpies originals del codi font de [Luminary 099][5] i [Comanche 055][6], així com qualsevol fitxer que m'hagi pogut deixar.
 
 ## Col·laboració
+
 Si us plau llegiu [CONTRIBUTING.md][7] abans d'obrir un *pull request*.
 
 ## Compilació
+
 Si esteu interessat en compilar el codi font original, vegeu [Virtual AGC][8].
 
 ## Autoria
@@ -76,18 +78,19 @@ Web            | www.ibiblio.org/apollo
 Digitalització | Aquest codi font s'ha transcrit o adaptat d'alguna altra manera d'imatges digitalitzades d'una còpia física del MIT Museum. La digitalització la va fer Paul Fjeld, i la va revisar Deborah Douglas, de l'equip del museu. Moltes gràcies a tots dos.
 
 ### Contracte i validacions
+
 *Copiat de [CONTRACT_AND_APPROVALS.agc]*
 
 Aquest programa de l'AGC també es pot anomenar Colossus 2A.
 
 Aquest programa està pensat per fer-se servir al CM tal com s'especifica a l'informe `R-577`. Aquest programa es va preparar en el marc del projecte `55-23870` de DSR, patrocinat per Manned Spacecraft Center of The National Aeronautics i l'Administració Aeroespacial a través del contracte `NAS 9-4065` del Laboratori d'Instrumentació del Massachusetts Institute of Technology, Cambridge, Massachusetts.
 
-Enviat per          | Posició | Data
-:-------------------- | :--- | :---
-Margaret H. Hamilton  | Cap de programació del Colossus<br>Teledirecció i navegació d'Apollo | 28 Mar 69
+Enviat per           | Posició | Data
+:------------------- | :------ | :---
+Margaret H. Hamilton | Cap de programació del Colossus<br>Teledirecció i navegació d'Apollo | 28 Mar 69
 
 Aprovat per        | Posició | Data
-:----------------- | :--- | :---
+:----------------- | :------ | :---
 Daniel J. Lickly   | Director del desenvolupament programa de la missió<br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69
 Fred H. Martin     | Gestor del projecte Colossus <br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69
 Norman E. Sears    | Director de desenvolupament de la missió<br>Programa de teledirecció i navegació d'Apollo | 28 Mar 69

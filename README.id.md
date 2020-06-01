@@ -1,4 +1,5 @@
 # Apollo-11
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -53,21 +54,15 @@
 [ZH_TW]:README.zh_tw.md
 [NL]:README.nl.md
 
-Kode sumber orisinil Komputer Pemandu Apollo 11 (AGC) untuk Modul Komando
-(Comanche055) dan Modul Bulan (Luminary099). Didigitalkan oleh [Virtual AGC][3]
-dan [MIT Museum][4]. Tujuan dari repo ini adalah untuk menjadi repo kode sumber
-Apollo 11 yang orisinil. Dengan demikian, siapapun dipersilakan untuk
-mengirimkan Pull Request untuk issue atau perbedaan apapun yang ditemukan antara
-transkripsi di repositori ini dengan kode sumber orisinil hasil scan untuk
-[Luminary 099][5] dan [Comanche 055][6], juga file apapun yang mungkin lupa
-saya masukkan.
+Kode sumber orisinil Komputer Pemandu Apollo 11 (AGC) untuk Modul Komando (Comanche055) dan Modul Bulan (Luminary099). Didigitalkan oleh [Virtual AGC][3] dan [MIT Museum][4]. Tujuan dari repo ini adalah untuk menjadi repo kode sumber Apollo 11 yang orisinil. Dengan demikian, siapapun dipersilakan untuk mengirimkan Pull Request untuk issue atau perbedaan apapun yang ditemukan antara transkripsi di repositori ini dengan kode sumber orisinil hasil scan untuk [Luminary 099][5] dan [Comanche 055][6], juga file apapun yang mungkin lupa saya masukkan.
 
 ## Berkontribusi
+
 Silakan membaca [CONTRIBUTING.md][7] sebelum mengirimkan pull request.
 
 ## Kompilasi
-Jika anda tertarik untuk mengkompilasi kode sumber orisinil ini,
-silakan mengecek [Virtual AGC][8]
+
+Jika anda tertarik untuk mengkompilasi kode sumber orisinil ini, silakan mengecek [Virtual AGC][8]
 
 ## Atribusi
 
@@ -82,27 +77,25 @@ Website        | www.ibiblio.org/apollo
 Digitalization | Kode sumber ini telah ditranskripsikan atau diadaptasi dari gambar digital sebuah hardcopy dari Museum MIT. Digitalisasi dilakukan oleh Paul Fjeld, dan diatur oleh Deborah Douglas dari Museum. Terima kasih banyak untuk keduanya.
 
 ### Kontrak dan Persetujuan
+
 *Berasal dari [CONTRACT_AND_APPROVALS.agc]*
 
 Program AGC ini juga harus disebut sebagai Colossus 2A.
 
-Program ini dimaksudkan untuk digunakan di dalam Modul Komando (CM) sebagaimana ditentukan
-dalam laporan `R-577`. Program ini disiapkan dibawah proyek DSR `55-23870`, disponsori oleh
-Pusat Pesawat Ruang Angkasa Berawak Badan Penerbangan dan Antariksa (NASA) melalui kontrak
-`NAS 9-4065` dengan Laboratorium Instrumentasi, Institut Teknologi Massachusetts (MIT), Cambridge, Mass.
+Program ini dimaksudkan untuk digunakan di dalam Modul Komando (CM) sebagaimana ditentukan dalam laporan `R-577`. Program ini disiapkan dibawah proyek DSR `55-23870`, disponsori oleh Pusat Pesawat Ruang Angkasa Berawak Badan Penerbangan dan Antariksa (NASA) melalui kontrak `NAS 9-4065` dengan Laboratorium Instrumentasi, Institut Teknologi Massachusetts (MIT), Cambridge, Mass.
 
-Diajukan oleh         | Peran | Tanggal
-:-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Maret 1969
+Diajukan oleh        | Peran | Tanggal
+:------------------- | :---- | :------
+Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Maret 1969
 
-Disetujui oleh     | Peran | Tanggal
-:----------------- | :---  | :---
-Daniel J. Lickly   | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Maret 1969
-Fred H. Martin     | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Maret 1969
-Norman E. Sears    | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Maret 1969
-Richard H. Battin  | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Maret 1969
-David G. Hoag      | Director<br>Apollo Guidance and Navigation Program | 28 Maret 1969
-Ralph R. Ragan     | Deputy Director<br>Instrumentation Laboratory | 28 Maret 1969
+Disetujui oleh    | Peran | Tanggal
+:---------------- | :---- | :------
+Daniel J. Lickly  | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Maret 1969
+Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Maret 1969
+Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Maret 1969
+Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Maret 1969
+David G. Hoag     | Director<br>Apollo Guidance and Navigation Program | 28 Maret 1969
+Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Maret 1969
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

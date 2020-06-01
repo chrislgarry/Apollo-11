@@ -1,4 +1,5 @@
 # 阿波罗11号
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -72,24 +73,25 @@ Luminary099 | 阿波罗11号制导计算机（AGC）中的登月模块（LM）, 
 数字化       | 该源代码从MIT 科学博物馆的印刷本电子化图片抄录、改编而来。电子化工作由 Paul Fjeld 完成，并由该馆的 Deborah Douglas 进一步整理。由衷地感激两位。
 
 ### 协议与许可
+
 *派生于 [CONTRACT_AND_APPROVALS.agc]*
 
 本 AGC 程序亦可称为: Colossus 2A
 
 根据第 R-577 报告，本程序被用于指令模块。本程序是在 DSR 项目 55-23870 下编写的。该项目由（美国）国家航空航天局载人航天中心与位于马萨诸塞州剑桥的麻省理工学院 The Instrumentation Laboratory 实验室签属的第 NAS 9-4065 号合同进行资助。
 
-提交者                 | Role | 日期
-:-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus 程序设计负责人<br>阿波罗制导 |  1969年3月28日
+提交者                | Role | 日期
+:------------------- | :--- | :--
+Margaret H. Hamilton | Colossus 程序设计负责人<br>阿波罗制导 |  1969年3月28日
 
-核准人              | Role | 日期
-:----------------- | :--- | :---
-Daniel J. Lickly   | 负责人、任务程序开发<br>阿波罗制导程序 | 1969年3月28日
-Fred H. Martin     | Colossus 项目经理<br>阿波罗制导程序 |  1969年3月28日
-Norman E. Sears    | 负责人、任务开发<br>阿波罗制导程序 | 1969年3月28日
-Richard H. Battin  | 负责人、任务开发<br>阿波罗制导程序 | 1969年3月28日
-David G. Hoag      | 负责人<br>阿波罗制导程序 | 1969年3月28日
-Ralph R. Ragan     | 副负责人<br>Instrumentation Laboratory | 1969年3月28日
+核准人             | Role | 日期
+:---------------- | :--- | :--
+Daniel J. Lickly  | 负责人、任务程序开发<br>阿波罗制导程序 | 1969年3月28日
+Fred H. Martin    | Colossus 项目经理<br>阿波罗制导程序 |  1969年3月28日
+Norman E. Sears   | 负责人、任务开发<br>阿波罗制导程序 | 1969年3月28日
+Richard H. Battin | 负责人、任务开发<br>阿波罗制导程序 | 1969年3月28日
+David G. Hoag     | 负责人<br>阿波罗制导程序 | 1969年3月28日
+Ralph R. Ragan    | 副负责人<br>Instrumentation Laboratory | 1969年3月28日
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

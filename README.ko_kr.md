@@ -1,4 +1,5 @@
 # Apollo-11
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -53,13 +54,14 @@
 [ZH_TW]:README.zh_tw.md
 [NL]:README.nl.md
 
-사령선 모듈 (Comanche055) 및 달 착륙선 모듈 (Luminary099)을 위한 아폴로 11호 유도 컴퓨터(AGC)의 소스코드입니다. [Virtual AGC][3] 및 [MIT Museum][4]에 의해 디지털화 되었습니다.
-이 레포지토리는 아폴로 11호의 원본 소스코드를 완벽하게 재현하여 보관하는 것을 목표로 합니다. 따라서 원본과 본 디지털본 간에 발견된 모든 이슈, 또한 빠뜨렸을 듯한 파일들에 대해 PR을 환영합니다.
+사령선 모듈 (Comanche055) 및 달 착륙선 모듈 (Luminary099)을 위한 아폴로 11호 유도 컴퓨터(AGC)의 소스코드입니다. [Virtual AGC][3] 및 [MIT Museum][4]에 의해 디지털화 되었습니다. 이 레포지토리는 아폴로 11호의 원본 소스코드를 완벽하게 재현하여 보관하는 것을 목표로 합니다. 따라서 원본과 본 디지털본 간에 발견된 모든 이슈, 또한 빠뜨렸을 듯한 파일들에 대해 PR을 환영합니다.
 
 ## 기여하기
+
 PR을 열기 전에 [CONTRIBUTING.ko_kr.md][7] 을 읽어보시기 바랍니다.
 
 ## 컴파일
+
 만약 컴파일을 원하신다면 [Virtual AGC][8] 을 확인하여 보십시오.
 
 ## 권한
@@ -75,6 +77,7 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 디지털화     | 이 소스코드는 MIT Museum에서 하드카피본을 디지털화, 옮긴 것 입니다. 디지털화는 Paul Fjeld에 의해 이루어졌으며, Deborah Douglas가 정리하였습니다. 두 분께 깊은 감사를 표합니다.
 
 ### Contract and Approvals
+
 *[CONTRACT_AND_APPROVALS.agc] 에서 파생 됨*
 
 본 아폴로 유도 컴퓨터 프로그램은 다음에 의해 참조됩니다 : 콜로서스 2A
@@ -85,14 +88,14 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 :------------------- | :--- | :--
 Margaret H. Hamilton | 콜로서스 프로그래밍 리더<br>아폴로 유도 및 항해 | 1969년 3월 28일
 
-승인됨              | Role | 일시
-:----------------- | :--- | :--
-Daniel J. Lickly   | 감독, 임무 프로그램 개발<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
-Fred H. Martin     | 콜로서스 프로젝트 매니저<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
-Norman E. Sears    | 감독, 임무 개발<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
-Richard H. Battin  | 감독, 임무 개발<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
-David G. Hoag      | 감독<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
-Ralph R. Ragan     | 부감독<br>기계 연구소 | 1969년 3월 28일
+승인됨             | Role | 일시
+:---------------- | :--- | :--
+Daniel J. Lickly  | 감독, 임무 프로그램 개발<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
+Fred H. Martin    | 콜로서스 프로젝트 매니저<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
+Norman E. Sears   | 감독, 임무 개발<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
+Richard H. Battin | 감독, 임무 개발<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
+David G. Hoag     | 감독<br>아폴로 유도 및 항법 프로그램 | 1969년 3월 28일
+Ralph R. Ragan    | 부감독<br>기계 연구소 | 1969년 3월 28일
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg

@@ -1,4 +1,5 @@
 # Apollo-11
+
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
 [![Comanche]][ComancheMilestone]
@@ -56,43 +57,45 @@
 Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
 
 ## Katkıda Bulunma
+
 Lütfen pull request açmadan [CONTRIBUTING.tr.md][7] dosyasını okuyun.
 
 ## Derleme
+
 Eğer orijinal kaynak kodu derlemek isterseniz, [Virtual AGC][8] projesine bakabilirsiniz.
 
 ## Nitelikler
 
-&nbsp;         | &nbsp;
-:------------- | :-----
-Lisans      | Kamu malı - ABD hükümeti çalışması
-Comanche055    | Apollo Yönlendirme Bilgisayarı (AGC)'nin Yönetim Modülü (CM) olan Colossus 2A'nın kaynak kodunun bir parçası.<br>`AGC programı Comanche'nin NASA tarafından yapılan 055 sayılı birleştirme revizyonu`<br>`2021113-051. 10:28 NİS. 1, 1969`
-Luminary099    | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) olan Luminary 1A'in kaynak kodunun bir parçası.<br>`AGC Programı LYM99'un NASA tarafından yapılan 001 sayılı birleştirme revizyonu`<br>`2021112-061. 16:27 TEM. 14, 1969`
-Derleyici      | yaYUL
+&nbsp;          | &nbsp;
+:-------------- | :-----
+Lisans          | Kamu malı - ABD hükümeti çalışması
+Comanche055     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Yönetim Modülü (CM) olan Colossus 2A'nın kaynak kodunun bir parçası.<br>`AGC programı Comanche'nin NASA tarafından yapılan 055 sayılı birleştirme revizyonu`<br>`2021113-051. 10:28 NİS. 1, 1969`
+Luminary099     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) olan Luminary 1A'in kaynak kodunun bir parçası.<br>`AGC Programı LYM99'un NASA tarafından yapılan 001 sayılı birleştirme revizyonu`<br>`2021112-061. 16:27 TEM. 14, 1969`
+Derleyici       | yaYUL
 İletişim        | Ron Burkey <info@sandroid.org>
-Internet Sitesi        | www.ibiblio.org/apollo
+Internet Sitesi | www.ibiblio.org/apollo
 Sayısallaştırma | Bu kaynak kodu MIT Müzesi'ndeki basılı kopyaların fotoğraflarından uyarlanmış veya aktarılmıştır. Sayısallaştırma Müze çalışanı Deborah Douglas tarafından ayarlanmış, Paul Fjeld tarafından yapılmıştır. İkisine de çok teşekkürler.
 
 ### İletişim ve Onaylar
+
 *[CONTRACT_AND_APPROVALS.agc]'den alınmıştır.*
 
 Bu AGC programı Colossus 2A olarak da bilinir.
 
-Rapor `R-577`'de belirtildiği gibi, bu program CM için kullanım amacıyla hazırlanmıştır.
-Bu program DSR `55-23870` projesi altında, Ulusal Havacılık ve Uzay İdaresi Uzay Aracı Merkezi'nin sponsorluğunda, Cambridge Mass Massachusetts Teknoloji Enstitüsü Enstrümantasyon Laboratuvarı ile yapılan `NAS 9-4065` anlaşması ile hazırlanmıştır.
+Rapor `R-577`'de belirtildiği gibi, bu program CM için kullanım amacıyla hazırlanmıştır. Bu program DSR `55-23870` projesi altında, Ulusal Havacılık ve Uzay İdaresi Uzay Aracı Merkezi'nin sponsorluğunda, Cambridge Mass Massachusetts Teknoloji Enstitüsü Enstrümantasyon Laboratuvarı ile yapılan `NAS 9-4065` anlaşması ile hazırlanmıştır.
 
-Gönderen          | Mevkisi | Tarih
-:-------------------- | :--- | :---
-Margaret H. Hamilton  | Colossus Programı Lideri<br>Apollo Yönlendirme ve Navigasyon | 28 Mar 69
+Gönderen             | Mevkisi | Tarih
+:------------------- | :------ | :----
+Margaret H. Hamilton | Colossus Programı Lideri<br>Apollo Yönlendirme ve Navigasyon | 28 Mar 69
 
-Onaylayan        | Mevkisi | Tarih
-:----------------- | :--- | :---
-Daniel J. Lickly   | Direktör, Görev Programı Geliştirme<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
-Fred H. Martin     | Colossus Proje Yöneticisi<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
-Norman E. Sears    | Direktör, Görev Geliştirme<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
-Richard H. Battin  | Direktör, Görev Geliştirme<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
-David G. Hoag      | Direktör<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
-Ralph R. Ragan     | Direktör Yardımcısı<br>Enstrümantasyon Laboratuvarı | 28 Mart 1969
+Onaylayan         | Mevkisi | Tarih
+:---------------- | :------ | :----
+Daniel J. Lickly  | Direktör, Görev Programı Geliştirme<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
+Fred H. Martin    | Colossus Proje Yöneticisi<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
+Norman E. Sears   | Direktör, Görev Geliştirme<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
+Richard H. Battin | Direktör, Görev Geliştirme<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
+David G. Hoag     | Direktör<br>Apollo Yönlendirme ve Navigasyon Programı | 28 Mart 1969
+Ralph R. Ragan    | Direktör Yardımcısı<br>Enstrümantasyon Laboratuvarı | 28 Mart 1969
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://rawcdn.githack.com/aleen42/badges/c9246f74/src/nasa.svg
