@@ -2,7 +2,7 @@
 
 # المساهمة
 
-:crossed_flags:
+🎌
 [Deutsch][DE],
 [English][EN]،
 [Español][ES]،

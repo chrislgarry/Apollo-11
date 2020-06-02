@@ -1,6 +1,6 @@
 # Bijdragen
 
-:crossed_flags:
+🎌
 [Deutsch][DE],
 [English][EN],
 [Español][ES],

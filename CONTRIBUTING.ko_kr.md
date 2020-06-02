@@ -1,6 +1,6 @@
 # 기여하기
 
-:crossed_flags:
+🎌
 [Deutsch][DE],
 [English][EN],
 [Español][ES],

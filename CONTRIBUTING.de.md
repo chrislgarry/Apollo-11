@@ -1,6 +1,6 @@
 # Contributing
 
-:crossed_flags:
+🎌
 **Deutsch**,
 [English][EN],
 [Español][ES],

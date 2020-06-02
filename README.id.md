@@ -5,7 +5,7 @@
 [![Comanche]][ComancheMilestone]
 [![Luminary]][LuminaryMilestone]
 
-:crossed_flags:
+🎌
 **Bahasa Indonesia**,
 [Català][CA],
 [Deutsch][DE],
