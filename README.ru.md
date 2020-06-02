@@ -98,7 +98,7 @@ David G. Hoag     | Директор<br>Программа управления 
 Ralph R. Ragan    | Заместитель директора<br>Лаборатория приборостроения| 28 Март 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
-[1]:https://cdn.rawgit.com/aleen42/badges/c9246f74/src/nasa.svg
+[1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
 [4]:http://web.mit.edu/museum/
@@ -106,9 +106,9 @@ Ralph R. Ragan    | Заместитель директора<br>Лаборат�
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
-[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH]:https://flat.badgen.net/badge/Software%20Heritage/Archive/0B3D91
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
-[Comanche]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[Comanche]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/1
 [ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
-[Luminary]:https://badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[Luminary]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/2
 [LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
