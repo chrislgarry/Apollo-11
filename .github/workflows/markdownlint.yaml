@@ -6,5 +6,5 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@master
-    - name: Run mdl (with rules)
+    - name: Run mdl
       uses: actionshub/markdownlint@master
