@@ -7,4 +7,4 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: Run mdl (with rules)
-      uses: wopian/markdownlint@master
+      uses: actionshub/markdownlint@master
