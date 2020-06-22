@@ -27,13 +27,13 @@
 
 本仓库中的源代码来自对纸质打印输出文件的手动数字化，所以会不小心引入一些拼写错误和其他差异。这些代码应该被修正以使其与原纸质打印输出文件内容保持一致：
 
-- [阿波罗11号制导计算机（AGC）中指令模块打印输出][8]
-- [阿波罗11号制导计算机（AGC）中登月模块打印输出][9]
+- [阿波罗 11 号制导计算机（AGC）中指令模块打印输出][8]
+- [阿波罗 11 号制导计算机（AGC）中登月模块打印输出][9]
 
 ## 有用的扩展
 
-GitHub 内建支持 AGC 汇编语言语法。不幸的是，你的代码编辑器不会，但有些
-AGC 的语言扩展插件可以为下列的编辑器提供语法高亮显示支持：
+GitHub 内建支持 AGC 汇编语言语法。不幸的是，你的代码编辑器并不支持，但有些
+AGC 语言的扩展插件可以为下列的编辑器提供语法高亮显示支持：
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -46,7 +46,7 @@ AGC 的语言扩展插件可以为下列的编辑器提供语法高亮显示支�
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† 支持自动格式化
+† 符号表示支持自动格式化
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
