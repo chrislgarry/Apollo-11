@@ -58,7 +58,7 @@
 
 ## 贡献
 
-在提交 pull request 之前，请先阅读 [CONTRIBUTING.md][7]。
+在提交 pull request 之前，请先阅读 [CONTRIBUTING.zh_cn.md][7]。
 
 ## 编译
 
