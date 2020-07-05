@@ -1,0 +1,6 @@
+"Type: Proof":
+  - "**/!(*MAIN).agc"
+"Type: Meta":
+  - "**/MAIN.agc"
+  - "**/*.md"
+  - "*.md"
