@@ -69,7 +69,7 @@
 &nbsp;          | &nbsp;
 :-------------- | :-----
 Авторское право | Общественное достояние
-Comanche055     | Часть исходного кода для Colossus 2A, коммандного модуля (CM) бортового управляющего компьютера Аполлон (AGC) для миссии Аполлон 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 Апрель. 1, 1969`
+Comanche055     | Часть исходного кода для Colossus 2A, командного модуля (CM) бортового управляющего компьютера Аполлон (AGC) для миссии Аполлон 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 Апрель. 1, 1969`
 Luminary099     | Часть исходного кода для Luminary 1A, лунного модуля (LM) бортового управляющего компьютера Аполлон (AGC) для миссии Аполлон 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 Июль. 14, 1969`
 Ассемблер       | yaYUL
 Контакты        | Ron Burkey <info@sandroid.org>
