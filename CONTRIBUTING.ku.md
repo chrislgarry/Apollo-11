@@ -62,7 +62,7 @@ GitHub ji bo sazkirina zimanê AGC-ê desteka syntax heye. Mixabin redaktorê ko
 
 ## Formasyon
 
-** Nîşe: ** GitHub û pêvekên ku li jor hatine nîşankirin wê tekez bikin ku hûn bi awak otomatîk pêvekirina rast bikar tînin.
+**Nîşe:** GitHub û pêvekên ku li jor hatine nîşankirin wê tekez bikin ku hûn bi awak otomatîk pêvekirina rast bikar tînin.
 
 - Dirêjahiya tab bikar bînin
 - Dirêjahiya tab ya 8 bikar bînin
