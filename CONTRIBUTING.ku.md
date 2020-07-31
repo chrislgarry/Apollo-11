@@ -2,10 +2,10 @@
 
 🎌
 [Deutsch][DE],
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
-[Kurdî][KU],
+**Kurdî**,
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
