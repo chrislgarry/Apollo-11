@@ -31,7 +31,6 @@
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
-
 [AR]:README.ar.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
