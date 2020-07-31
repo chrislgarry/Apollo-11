@@ -9,7 +9,7 @@
 [Bahasa Indonesia][ID],
 [Català][CA],
 [Deutsch][DE],
-**English**,
+**Kurdî**,
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
