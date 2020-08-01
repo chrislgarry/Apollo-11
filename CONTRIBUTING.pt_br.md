@@ -5,6 +5,7 @@
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Kurdi][KU],
 [Nederlands][NL],
 **Português**,
 [Türkçe][TR],
@@ -19,6 +20,7 @@
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[KU]:CONTRIBUTING.ku.md
 [NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md

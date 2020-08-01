@@ -15,6 +15,7 @@
 [Español][ES]،
 [Français][FR]،
 [Italiano][IT]،
+[Kurdi][KU],
 [Nederlands][NL]،
 [Polski][PL]،
 [Português][PT_BR]،
@@ -45,6 +46,7 @@
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
 [MM]:README.mm.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
