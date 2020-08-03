@@ -70,6 +70,10 @@
       input {
         cursor: pointer;
       }
+      span {
+        margin-left: 1rem;
+        vertical-align: middle;
+      }
     </style>
   </head>
   <body onLoad="showPage()">
@@ -88,6 +92,10 @@
         value="1"
       />
       <input type="button" onClick="showNext()" value="Next Page" />
+      <span>
+        Images hosted by
+        <a href="https://www.ibiblio.org/apollo">Ibiblio</a> and the Virtual AGC project
+      </span>
     </form>
     <img
       name="image"
