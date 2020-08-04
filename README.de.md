@@ -72,7 +72,7 @@ Wenn du den originalen Quellcode gern selbst kompilieren möchtest, wirf am best
 :-------------- | :-----
 Copyright       | Gemeingut
 Comanche055     | Teil des Quellcodes für Colossus 2A, den Apollo Navigationscomputer (AGC) des Kommandomoduls (CM) für Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099     | Teil des Quellcodes für Luminary 1A, den Apollo Navigationscomputer (AGC) der Mondlandefähre (LM) für Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099     | Teil des Quellcodes für Luminary 1A, den Apollo Navigationscomputer (AGC) der Mondlandefähre (LM) für Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler       | yaYUL
 Kontakt         | Ron Burkey <info@sandroid.org>
 Webseite        | www.ibiblio.org/apollo

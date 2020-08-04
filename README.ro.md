@@ -72,7 +72,7 @@ Dacă sunteți interesat de compilarea codului sursă original vizitați [Virtua
 :----------- | :-----
 Copyright    | Domeniu public
 Comanche055  | Parte din codul sursă pentru Colossus 2A, modulul de comanda (CM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099  | Parte din codul sursă pentru Luminary 1A, modulul lunar (LM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099  | Parte din codul sursă pentru Luminary 1A, modulul lunar (LM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler    | yaYUL
 Contact      | Ron Burkey <info@sandroid.org>
 Website      | www.ibiblio.org/apollo

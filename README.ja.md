@@ -72,7 +72,7 @@
 :---------- | :-----
 著作権       | パブリックドメイン
 Comanche055 | アポロ11号用の司令船・機械船用のアポロ11号誘導コンピュータ、Colossus 2Aのソースコードの一部<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099 | アポロ11号用の月着陸船用のアポロ11号誘導コンピュータ、Luminary 1Aのソースコードの一部<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099 | アポロ11号用の月着陸船用のアポロ11号誘導コンピュータ、Luminary 1Aのソースコードの一部<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 アセンブラ    | yaYUL
 コンタクト    | Ron Burkey <info@sandroid.org>
 ウェブサイト  | www.ibiblio.org/apollo

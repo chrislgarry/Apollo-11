@@ -72,7 +72,7 @@ Ger hûn eleqedarbin ji bo berhevkirina koda xwerû ya orîjînal, lêkolîn li 
 :------------- | :-----
 Mafê mafdariyê      | Qada giştî
 Comanche055    | Beşek ji koda xwerû ji bo Colossus 2A, Kompûterê rêvebirinê (AGC) yê Wesaîta Rêvebirinê (CM) ya Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Beşek ji koda xwerû ji bo Luminary 1A, Kompûterê rêvebirinê (AGC) yê Wesaîta Hêvê (LM) ya Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099    | Beşek ji koda xwerû ji bo Luminary 1A, Kompûterê rêvebirinê (AGC) yê Wesaîta Hêvê (LM) ya Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Asêmbler      | yaYUL
 Têkelî        | Ron Burkey <info@sandroid.org>
 Malper        | www.ibiblio.org/apollo
