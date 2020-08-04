@@ -74,7 +74,7 @@
 -----------: | -----:
 حق نشر      | مالکیت عمومی
 Comanche055  | بخشی از سورس کد Colossus 2A، سیستم هدایت (AGC) سفینه فرمان (CM) آپولو ۱۱<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099  | بخشی از سورس کد Luminary 1A، سیستم هدایت سفینه ماه‌نشین (LM) آپولو ۱۱<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099  | بخشی از سورس کد Luminary 1A، سیستم هدایت سفینه ماه‌نشین (LM) آپولو ۱۱<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 اسمبلر       | yaYUL
 تماس        |     رون برکی <info@sandroid.org>
 وبسایت       | www.ibiblio.org/apollo

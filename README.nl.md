@@ -72,7 +72,7 @@ Als je geinteresseerd bent in het compileren van de originele broncode bekijk da
 :------------- | :-----
 Copyright      | Publiek domein
 Comanche055    | Onderdeel van de broncode voor Colossus 2A, de Apollo besturingscomputer (AGC) van de besturingsmodule (CM) voor Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Onderdeel van de broncode voor Luminary 1A, de Apollo besturingscomputer (AGC) van de maanmodule (LM) voor Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099    | Onderdeel van de broncode voor Luminary 1A, de Apollo besturingscomputer (AGC) van de maanmodule (LM) voor Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Samensteller   | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
 Website        | www.ibiblio.org/apollo

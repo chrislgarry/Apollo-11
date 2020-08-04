@@ -72,7 +72,7 @@ Eğer orijinal kaynak kodu derlemek isterseniz, [Virtual AGC][8] projesine bakab
 :-------------- | :-----
 Lisans          | Kamu malı - ABD hükümeti çalışması
 Comanche055     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Yönetim Modülü (CM) olan Colossus 2A'nın kaynak kodunun bir parçası.<br>`AGC programı Comanche'nin NASA tarafından yapılan 055 sayılı birleştirme revizyonu`<br>`2021113-051. 10:28 NİS. 1, 1969`
-Luminary099     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) olan Luminary 1A'in kaynak kodunun bir parçası.<br>`AGC Programı LYM99'un NASA tarafından yapılan 001 sayılı birleştirme revizyonu`<br>`2021112-061. 16:27 TEM. 14, 1969`
+Luminary099     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) olan Luminary 1A'in kaynak kodunun bir parçası.<br>`AGC Programı LMY99'un NASA tarafından yapılan 001 sayılı birleştirme revizyonu`<br>`2021112-061. 16:27 TEM. 14, 1969`
 Derleyici       | yaYUL
 İletişim        | Ron Burkey <info@sandroid.org>
 Internet Sitesi | www.ibiblio.org/apollo

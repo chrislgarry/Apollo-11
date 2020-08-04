@@ -72,8 +72,8 @@ Si esteu interessat en compilar el codi font original, vegeu [Virtual AGC][8].
 :------------- | :-----
 Copyright      | Domini públic
 Comanche055    | Part del codi font del Colossus 2A, l'Ordinador de Navegació Apollo (AGC, per les seves sigles en anglès) del Mòdul de Comandament (CM, per les seves sigles en anglès) de l'Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Luminary099    | Part del codi font del Luminary 1A, el Mòdul Lunar (LM, per les seves sigles en anlès) de l'Ordinador de Navegació Apollo (AGC, per les seves sigles en anglès) de l'Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099    | Part del codi font del Luminary 1A, el Mòdul Lunar (LM, per les seves sigles en anlès) de l'Ordinador de Navegació Apollo (AGC, per les seves sigles en anglès) de l'Apollo 11.<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assemblador    | yaYUL
 Contacte       | Ron Burkey <info@sandroid.org>
 Web            | www.ibiblio.org/apollo

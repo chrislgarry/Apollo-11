@@ -72,7 +72,7 @@ Nếu bạn quan tâm đến việc biên dịch mã nguồn, hãy kiểm tra [V
 :---------- | :-----
 Bản quyền   | Công cộng
 Comanche055 | Một phần của mã nguồn cho Colossus 2A, Command Module's (CM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 055 của AGC chương trình Comanche bởi NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099 | Một phần của mã nguồn cho Luminary 1A, Lunar Module's (LM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 001 của AGC chương trình LYM99 bởi NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099 | Một phần của mã nguồn cho Luminary 1A, Lunar Module's (LM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 001 của AGC chương trình LMY99 bởi NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler   | yaYUL
 Liên hệ     | Ron Burkey <info@sandroid.org>
 Website     | www.ibiblio.org/apollo

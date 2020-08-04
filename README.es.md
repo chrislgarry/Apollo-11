@@ -72,7 +72,7 @@ Si está interesado en compilar el código fuente original, eche un vistazo a [V
 :---------------- | :-----
 Derechos de autor | Dominio público
 Comanche055       | Parte del código fuente del Colossus 2A, el ordenador guía Apolo (AGC) del Módulo de Comando (CM) para el Apolo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099       | Parte del código fuente del Luminary 1A, el ordenador guía Apolo (AGC) del Módulo Lunar (LM) para el Apolo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099       | Parte del código fuente del Luminary 1A, el ordenador guía Apolo (AGC) del Módulo Lunar (LM) para el Apolo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Ensamblador       | yaYUL
 Contacto          | Ron Burkey <info@sandroid.org>
 Sitio Web         | www.ibiblio.org/apollo

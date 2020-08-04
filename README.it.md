@@ -72,7 +72,7 @@ Se sei interessato a compilare il codice sorgente originale dai un'occhiata a [V
 :--------------- | :-----
 Copyright        | Dominio Pubblico
 Comanche055      | Parte del codice sorgente del Colossus 2A, il modulo di comando (CM) dell'Apollo Guidance Computer (AGC) dell'Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099      | Parte del codice sorgente del Luminary 1A, il modulo lunare (LM) dell'Apollo Guidance Computer (AGC) dell'Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099      | Parte del codice sorgente del Luminary 1A, il modulo lunare (LM) dell'Apollo Guidance Computer (AGC) dell'Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler        | yaYUL
 Contatti         | Ron Burkey <info@sandroid.org>
 Website          | www.ibiblio.org/apollo
