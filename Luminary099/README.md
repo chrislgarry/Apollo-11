@@ -9,8 +9,8 @@ The contents of the "Luminary099" files, in general, are transcribed from a digi
 Notations on this document read, in part:
 ```
 ASSEMBLE REVISION 001 OF AGC PROGRAM LMY99 BY NASA 2021112-061
-16:27 JULY 14,1969 
-[Note that this is the date the hardcopy was made, 
+16:27 JULY 14,1969
+[Note that this is the date the hardcopy was made,
 not the date of the program revision or the assembly.]
 ...
 THIS LGC PROGRAM IS INTENDED FOR USE IN THE LM DURING THE MANNED
@@ -20,7 +20,7 @@ LUNAR LANDING MISSION OR ANY SUBSET THEREOF.
 
 For organizational purposes RSB split the huge monolithic source code into smaller, more manageable chunks--i.e., into individual source files.  Those files are rejoined within `MAIN.agc` file as "includes".  It just makes it a little easier to work with.  The code chunks correspond to natural divisions into sub-programs.  In fact, these divisions are more-or-less specified by the source code itself.  Refer to the "TABLE OF SUBROUTINE LOG SECTIONS" at the very beginning of the file `ASSEMBLY_AND_OPERATION_INFORMATION.agc`.
 
-It may be reasonably asked why tens of thousands of lines of source are joined by means of inclusion, rather than simply assembling the source files individually and then linking them to form the executable. The answer is that the original development team had no linker.  The builds were monolithic just like this. 
+It may be reasonably asked why tens of thousands of lines of source are joined by means of inclusion, rather than simply assembling the source files individually and then linking them to form the executable. The answer is that the original development team had no linker.  The builds were monolithic just like this.
 
 There was a big emphasis on reusability of the code in the original project, apparently, but this reusability took the form of inserting your deck of punch-cards at the appropriate position in somebody else's deck of punch-cards. (Actually, I believe a tape-library method was used to avoid having to continually reload the card decks, but that doesn't change the basic principle.) So, indeed, the method of file-inclusion is a very fair representation of the methods used in the original development ... with the improvement, of course, that you no longer have to worry about dropping the card deck.  On the other hand, I wasn't there at the time, so I may have no idea what I'm talking about.
 
@@ -129,3 +129,94 @@ What follows is simply a bunch of file-includes for the individual code chunks. 
 | Source File          | Page Number   |
 | :------------------- | :------------ |
 | GAP-generated tables | 89, 1511-1743 |
+
+[MAIN.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/MAIN.agc
+[ASSEMBLY_AND_OPERATION_INFORMATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/ASSEMBLY_AND_OPERATION_INFORMATION.agc
+[TAGS_FOR_RELATIVE_SETLOC.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/TAGS_FOR_RELATIVE_SETLOC.agc
+[CONTROLLED_CONSTANTS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/CONTROLLED_CONSTANTS.agc
+[INPUT_OUTPUT_CHANNEL_BIT_DESCRIPTIONS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/INPUT_OUTPUT_CHANNEL_BIT_DESCRIPTIONS.agc
+[FLAGWORD_ASSIGNMENTS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/FLAGWORD_ASSIGNMENTS.agc
+[ERASABLE_ASSIGNMENTS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/ERASABLE_ASSIGNMENTS.agc
+[INTERRUPT_LEAD_INS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/INTERRUPT_LEAD_INS.agc
+[T4RUPT_PROGRAM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/T4RUPT_PROGRAM.agc
+[RCS_FAILURE_MONITOR.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/RCS_FAILURE_MONITOR.agc
+[DOWNLINK_LISTS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/DOWNLINK_LISTS.agc
+[AGS_INITIALIZATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/AGS_INITIALIZATION.agc
+[FRESH_START_AND_RESTART.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/FRESH_START_AND_RESTART.agc
+[RESTART_TABLES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/RESTART_TABLES.agc
+[AOTMARK.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/AOTMARK.agc
+[EXTENDED_VERBS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/EXTENDED_VERBS.agc
+[PINBALL_NOUN_TABLES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/PINBALL_NOUN_TABLES.agc
+[LEM_GEOMETRY.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LEM_GEOMETRY.agc
+[IMU_COMPENSATION_PACKAGE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/IMU_COMPENSATION_PACKAGE.agc
+[R63.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/R63.agc
+[ATTITUDE_MANEUVER_ROUTINE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/ATTITUDE_MANEUVER_ROUTINE.agc
+[GIMBAL_LOCK_AVOIDANCE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/GIMBAL_LOCK_AVOIDANCE.agc
+[KALCMANU_STEERING.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/KALCMANU_STEERING.agc
+[SYSTEM_TEST_STANDARD_LEAD_INS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/SYSTEM_TEST_STANDARD_LEAD_INS.agc
+[IMU_PERFORMANCE_TEST_2.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/IMU_PERFORMANCE_TEST_2.agc
+[IMU_PERFORMANCE_TESTS_4.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/IMU_PERFORMANCE_TESTS_4.agc
+[PINBALL_GAME_BUTTONS_AND_LIGHTS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/PINBALL_GAME_BUTTONS_AND_LIGHTS.agc
+[R60_62.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/R60_62.agc
+[S-BAND_ANTENNA_FOR_LM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/S-BAND_ANTENNA_FOR_LM.agc
+[RADAR_LEADIN_ROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/RADAR_LEADIN_ROUTINES.agc
+[P20-P25.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P20-P25.agc
+[P30_P37.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P30_P37.agc
+[P32-P35_P72-P75.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P32-P35_P72-P75.agc
+[LAMBERT_AIMPOINT_GUIDANCE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LAMBERT_AIMPOINT_GUIDANCE.agc
+[GROUND_TRACKING_DETERMINATION_PROGRAM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/GROUND_TRACKING_DETERMINATION_PROGRAM.agc
+[P34-35_P74-75.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P34-35_P74-75.agc
+[R31.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/R31.agc
+[P76.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P76.agc
+[R30.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/R30.agc
+[STABLE_ORBIT.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/STABLE_ORBIT.agc
+[BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc
+[P40-P47.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P40-P47.agc
+[THE_LUNAR_LANDING.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/THE_LUNAR_LANDING.agc
+[THROTTLE_CONTROL_ROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/THROTTLE_CONTROL_ROUTINES.agc
+[LUNAR_LANDING_GUIDANCE_EQUATIONS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc
+[P70-P71.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P70-P71.agc
+[P12.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P12.agc
+[ASCENT_GUIDANCE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/ASCENT_GUIDANCE.agc
+[SERVICER.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/SERVICER.agc
+[LANDING_ANALOG_DISPLAYS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LANDING_ANALOG_DISPLAYS.agc
+[FINDCDUW--GUIDAP_INTERFACE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/FINDCDUW--GUIDAP_INTERFACE.agc
+[P51-P53.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P51-P53.agc
+[LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.agc
+[DOWN_TELEMETRY_PROGRAM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/DOWN_TELEMETRY_PROGRAM.agc
+[INTER-BANK_COMMUNICATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/INTER-BANK_COMMUNICATION.agc
+[INTERPRETER.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/INTERPRETER.agc
+[FIXED_FIXED_CONSTANT_POOL.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/FIXED_FIXED_CONSTANT_POOL.agc
+[INTERPRETIVE_CONSTANT.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/INTERPRETIVE_CONSTANT.agc
+[SINGLE_PRECISION_SUBROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/SINGLE_PRECISION_SUBROUTINES.agc
+[EXECUTIVE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/EXECUTIVE.agc
+[WAITLIST.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/WAITLIST.agc
+[LATITUDE_LONGITUDE_SUBROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LATITUDE_LONGITUDE_SUBROUTINES.agc
+[PLANETARY_INERTIAL_ORIENTATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/PLANETARY_INERTIAL_ORIENTATION.agc
+[MEASUREMENT_INCORPORATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/MEASUREMENT_INCORPORATION.agc
+[CONIC_SUBROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/CONIC_SUBROUTINES.agc
+[INTEGRATION_INITIALIZATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/INTEGRATION_INITIALIZATION.agc
+[ORBITAL_INTEGRATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/ORBITAL_INTEGRATION.agc
+[INFLIGHT_ALIGNMENT_ROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/INFLIGHT_ALIGNMENT_ROUTINES.agc
+[POWERED_FLIGHT_SUBROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/POWERED_FLIGHT_SUBROUTINES.agc
+[TIME_OF_FREE_FALL.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/TIME_OF_FREE_FALL.agc
+[AGC_BLOCK_TWO_SELF_CHECK.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/AGC_BLOCK_TWO_SELF_CHECK.agc
+[PHASE_TABLE_MAINTENANCE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/PHASE_TABLE_MAINTENANCE.agc
+[RESTARTS_ROUTINE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/RESTARTS_ROUTINE.agc
+[IMU_MODE_SWITCHING_ROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/IMU_MODE_SWITCHING_ROUTINES.agc
+[KEYRUPT_UPRUPT.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/KEYRUPT_UPRUPT.agc
+[DISPLAY_INTERFACE_ROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/DISPLAY_INTERFACE_ROUTINES.agc
+[SERVICE_ROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/SERVICE_ROUTINES.agc
+[ALARM_AND_ABORT.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/ALARM_AND_ABORT.agc
+[UPDATE_PROGRAM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/UPDATE_PROGRAM.agc
+[RTB_OP_CODES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/RTB_OP_CODES.agc
+[T6-RUPT_PROGRAMS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/T6-RUPT_PROGRAMS.agc
+[DAP_INTERFACE_SUBROUTINES.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/DAP_INTERFACE_SUBROUTINES.agc
+[DAPIDLER_PROGRAM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/DAPIDLER_PROGRAM.agc
+[P-AXIS_RCS_AUTOPILOT.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P-AXIS_RCS_AUTOPILOT.agc
+[Q_R-AXIS_RCS_AUTOPILOT.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/Q_R-AXIS_RCS_AUTOPILOT.agc
+[TJET_LAW.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/TJET_LAW.agc
+[KALMAN_FILTER.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/KALMAN_FILTER.agc
+[TRIM_GIMBAL_CNTROL_SYSTEM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/TRIM_GIMBAL_CNTROL_SYSTEM.agc
+[AOSTASK_AND_AOSJOB.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/AOSTASK_AND_AOSJOB.agc
+[SPS_BACK-UP_RCS_CONTROL.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/SPS_BACK-UP_RCS_CONTROL.agc
