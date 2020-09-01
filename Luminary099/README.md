@@ -7,6 +7,7 @@ The images (with suitable reduction in storage size and consequent reduction in 
 The contents of the "Luminary099" files, in general, are transcribed from a digital images created from a hardcopy of the program residing at the MIT Museum.  Many thanks to Debbie Douglas of the Museum, and to Paul Fjeld (who made the images).
 
 Notations on this document read, in part:
+
 ```
 ASSEMBLE REVISION 001 OF AGC PROGRAM LMY99 BY NASA 2021112-061
 16:27 JULY 14,1969
