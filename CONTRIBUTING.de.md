@@ -29,14 +29,14 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Der Quellcode in diesem repository wurde manuell digitalisiert, also sind jegliche schriftliche Fehler und Ungereimtheiten aus versehen hinzugefügt worden. Der Code soll Modifiziert werden so dass er mit den Vorlagen übereinstimmt.
+Der Quellcode in diesem Repository wurde manuell digitalisiert, also sind jegliche schriftlichen Fehler und Ungereimtheiten aus Versehen hinzugefügt worden. Der Code soll so modifiziert werden, dass er mit den Vorlagen übereinstimmt.
 
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
 ## Nützliche Erweiterungen
 
-GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für ihren Code Editor nicht, dennoch gibt es AGC Erweiterungen die Syntax highlighting für die folgenden Editors zur Verfügung stellen:
+GitHub hat eine integrierte Unterstützung für AGC assembly. Das gilt leider nicht für deinen Editor. Für die folgenden Editoren gibt es aber AGC-Erweiterungen, die Syntaxhighlighting hinzufügen:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -49,7 +49,7 @@ GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Unterstützen Automatisches Formatieren
+† unterstützt auch automatisches Formatieren
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -64,30 +64,30 @@ GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für
 
 ## Formatierung
 
-**Anmerkung:** GitHub und die oben erwähnten Erweiterungen werden automatisch sicherstellen dass sie die Korrekte Formatierung einhalten.
+**Anmerkung:** GitHub und die oben erwähnten Erweiterungen werden automatisch sicherstellen, dass du die korrekte Formatierung einhältst.
 
 - benutze tab indentation
 - benutze tab width von 8
-- entferne nachlaufende leerstellen
+- entferne Leerzeichen am Ende einer Zeile
 
-## Was sol ich überprüfen  ?
+## Was soll ich überprüfen?
 
-Jegliche Ungereimtheiten zwischen den scans und den Code in die repository, einschließlich:
+Alle Ungereimtheiten zwischen den Scans und dem Code in diesem Repository, einschließlich:
 
 ### Kommentare
 
-- Kommentare in dem Abgeschriebenen Code müssen denen in den scans gleichen
-  - Das könnte extra einen sprachlichen Fehler oder das entfernen/hinzufügen eines ganzen Kommentars bedeuten
+- Kommentare in dem abgeschriebenen Code müssen denen in den Scans gleichen
+  - Das kann bedeuten, dass man einen Rechtschreibfehler übernehmen oder einen ganzen Kommentar entfernen/hinzufügen muss
 
 ### Zeilenumbruch
 
-- Zeilenumbruch *mit* `R0000` in Spalte 1 sollte genau mit den scans übereinstimmen
-- Zeilenumbruch *mit**__out__* `R0000` in Spalte 1 sollte nur 1 bis zwei Leerzeilen nacheinander haben
-  - Wenn dort mher als 2 leere Zeilenumbrüche sind sollen diese entfernt werden
+- Zeilenumbrüche *mit* `R0000` in Spalte 1 sollte genau mit den Scans übereinstimmen
+- Zeilenumbrüche *__ohne__* `R0000` in Spalte 1 sollten nur ein bis zwei Leerzeilen nacheinander haben
+  - Wenn es dort mehr als zwei Leerzeilen gibt, sollten die zusätzlichen Leerzeilen entfernt werden.
     - Zeilen mit `R0000` in Spalte 1 zählen nicht dazu
-  - In den Quell Bildern, Diese wurden verursacht durch eine nicht gedruckte stelle in in Spalte 8. A 2 dort hat eine doppelte Leerstelle (einezilne Leerzeile) und A 3 hat eine dreifache Leerstelle (doppelte Leerzeile). Werte 4-8 wurden definiert aber nie benutzt. Mehr hier zu in [#159][7]
+  - In den Originalbildern wurden die verursacht durch eine nicht gedruckte Zahl in in Spalte 8. Eine 2 dort hat eine doppelte Leerstelle (einzelne Leerzeile) und eine 3 hat eine dreifache Leerstelle (doppelte Leerzeile). Die Werte 4-8 wurden definiert, aber nie benutzt. Mehr dazu hier: [#159][7]
 
-zum Beispiel das Folgende:
+Beispiel:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -98,7 +98,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-sollte werden:
+wird zu:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -110,7 +110,7 @@ R0820
 
 ## Hinweis
 
-Bevor sie eine PR starten, bitte überprüfen sie ob die Veränderungen mit den Scans über einstimmen!
+Bevor du einen PR startest, überprüfe bitte, ob die Änderungen mit den Scans übereinstimmen!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
@@ -120,5 +120,3 @@ Bevor sie eine PR starten, bitte überprüfen sie ob die Veränderungen mit den 
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
-
-
