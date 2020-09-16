@@ -85,7 +85,7 @@ Alle Ungereimtheiten zwischen den Scans und dem Code in diesem Repository, einsc
 - Zeilenumbrüche *__ohne__* `R0000` in Spalte 1 sollten nur ein bis zwei Leerzeilen nacheinander haben
   - Wenn es dort mehr als zwei Leerzeilen gibt, sollten die zusätzlichen Leerzeilen entfernt werden.
     - Zeilen mit `R0000` in Spalte 1 zählen nicht dazu
-  - In den Originalbildern wurden die verursacht durch eine nicht gedruckte Zahl in in Spalte 8. Eine 2 dort hat eine doppelte Leerstelle (einzelne Leerzeile) und eine 3 hat eine dreifache Leerstelle (doppelte Leerzeile). Die Werte 4-8 wurden definiert, aber nie benutzt. Mehr dazu hier: [#159][7]
+  - In den Originalbildern wurden die durch eine nicht gedruckte Ziffer in Spalte 8 verursacht. Eine 2 dort hat ein doppeltes Leerzeichen (einzelne Leerzeile) und eine 3 hat ein dreifaches Leerzeichen (doppelte Leerzeile). Die Werte 4-8 wurden definiert, aber nie benutzt. Mehr dazu hier: [#159][7]
 
 Beispiel:
 
