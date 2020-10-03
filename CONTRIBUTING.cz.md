@@ -77,6 +77,7 @@ GitHub podporuje syntaxi AGC assembly jazyka. Váš editor pravděpodobně podpo
 Jakékoliv rozdíly mezi skeny a zdrojovým kódem v tomto repozitáři, včetně:
 
 ### Komentářů
+
 - Komentáře v přepsaném kódu by měly přesně odpovídat skenům
   - Toto může zahrnovat doslovné kopírování překlepů či přidávání/odebírání celých komentářů
 
@@ -85,7 +86,7 @@ Jakékoliv rozdíly mezi skeny a zdrojovým kódem v tomto repozitáři, včetn�
 - Zalomení řádků *obsahujících* `R0000` ve sloupci 1 by měly přesně odpovídat skenům.
 - Zalomení řádků *__bez__* `R0000` ve sloupci 1 by měly obsahovat jen 1 až 2 prázdné řádky v řadě
   - Pokud obsahují více než dva prázdné řádky, přebytečné odstraňte.
-	- Řádky obsahující `R0000` v prvním sloupci se do tohoto nepočítají.
+    - Řádky obsahující `R0000` v prvním sloupci se do tohoto nepočítají.
   - Vznikly díky nevytištěnému číslu ve sloupci 8 zdrojových dokumentů. Číslo 2 způsobilo vypsání dvojité mezery (jeden prázdný řádek) a číslo 3 trojité mezery (dva prázdné řádky). Hodnoty 4-8 byly definovány, ale nebyly použity. Více v [#159][7]
 
 Napříkald následující kód:
