@@ -8,9 +8,9 @@
 🎌
 [Bahasa Indonesia][ID],
 [Català][CA],
-[Čeština][CZ]
+**Čeština**,
 [Deutsch][DE],
-**English**,
+[English][EN]
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
