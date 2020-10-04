@@ -1,6 +1,7 @@
 # Contributing
 
 🎌
+[Čeština][CZ],
 **Deutsch**,
 [English][EN],
 [Español][ES],
@@ -16,6 +17,7 @@
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[CZ]:CONTRIBUTING.cz.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
