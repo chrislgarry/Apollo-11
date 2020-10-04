@@ -10,12 +10,13 @@
 🎌
 [Bahasa Indonesia][ID]،
 [Català][CA]،
+[Čeština][CZ]،
 [Deutsch][DE]،
 [English][EN]،
 [Español][ES]،
 [Français][FR]،
 [Italiano][IT]،
-[Kurdi][KU],
+[Kurdi][KU]،
 [Nederlands][NL]،
 [Polski][PL]،
 [Português][PT_BR]،

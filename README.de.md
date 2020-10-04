@@ -8,6 +8,7 @@
 🎌
 [Bahasa Indonesia][ID],
 [Català][CA],
+[Čeština][CZ],
 **Deutsch**,
 [English][EN],
 [Español][ES],

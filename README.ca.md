@@ -7,6 +7,7 @@
 
 🎌
 [Bahasa Indonesia][ID],
+[Čeština][CZ],
 **Català**,
 [Deutsch][DE],
 [English][EN],
