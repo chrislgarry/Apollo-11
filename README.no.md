@@ -86,7 +86,7 @@ Digitalisering | Denne kilde koden er tydet og adoptert fra de digitaliserte bil
 
 Dette AGC programmet skal også refereres til som Colossus 2A.
 
-Dette programmet brukes i «CM» som spesifisert i rapport `R-577`. Dette programmet var også laget under DST prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjon laboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass» 
+Dette programmet brukes i «CM» som spesifisert i rapport `R-577`. Dette programmet var også laget under DST prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjon laboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
 
 Innsendt av          | Rolle | Dato
 :------------------- | :---- | :---

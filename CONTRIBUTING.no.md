@@ -83,12 +83,11 @@ Eventuelle avvik ifra de innskannede bildene og kilde koden i dette «repository
 
 ### Linje Skift
 
--	Linje skift *med* `R0000` i kolonne 1 skal stemme helt med originalen.
--	Linje skift *uten* `R0000` i kolonne 1 skal bare ha en eller to blanke linjer etter seg.
-  -	Om det er flere enn to blanke linjer skal de fjernes
-    -	Linjer med `R0000` i kolonne 1 regnes ikke i slike tilfeller
-  -	I originalen ble disse skapt av et uskrevet tegn i kolonne 8. Sto det 2 der var der et dobbelt mellomrom ( enkel blank linje ) og om det var 3 så ble det et trippel mellomrom ( to dobble linjer ). Verdiene ifra 4 til 8 var definert, men er ikke i bruk. Les mer om dette i [#159][7]
-
+- Linje skift *med* `R0000` i kolonne 1 skal stemme helt med originalen.
+- Linje skift *uten* `R0000` i kolonne 1 skal bare ha en eller to blanke linjer etter seg.
+  - Om det er flere enn to blanke linjer skal de fjernes
+    - Linjer med `R0000` i kolonne 1 regnes ikke i slike tilfeller
+  - I originalen ble disse skapt av et uskrevet tegn i kolonne 8. Sto det 2 der var der et dobbelt mellomrom ( enkel blank linje ) og om det var 3 så ble det et trippel mellomrom ( to dobble linjer ). Verdiene ifra 4 til 8 var definert, men er ikke i bruk. Les mer om dette i [#159][7]
 
 For eksempel skal følgende kode:
 
@@ -113,10 +112,10 @@ R0820
 
 ### Mellomrom
 
--	Mellomrom imellom to karakterer i teksten skal respektere følgende regler ( se diskusjon i #316 )
-  -	Enkelt mellomrom for nye ord
-  -	Dobbelt mellomrom for nye linjer
-  -	Trippel mellomrom for innrykk
+- Mellomrom imellom to karakterer i teksten skal respektere følgende regler ( se diskusjon i #316 )
+  - Enkelt mellomrom for nye ord
+  - Dobbelt mellomrom for nye linjer
+  - Trippel mellomrom for innrykk
 
 For eksempel skal følgende kode:
 
