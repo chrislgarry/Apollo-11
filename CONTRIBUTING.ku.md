@@ -9,6 +9,7 @@
 **Kurdî**,
 [Nederlands][NL],
 [Português][PT_BR],
+[Polski][PL],
 [Türkçe][TR],
 [العربية][AR],
 [日本語][JA],
@@ -27,6 +28,7 @@
 [KU]:CONTRIBUTING.ku.md
 [NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
+[PL]:CONTRIBUTING.pl.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
