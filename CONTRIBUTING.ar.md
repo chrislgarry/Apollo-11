@@ -13,6 +13,7 @@
 [Português][PT_BR]،
 [Türkçe][TR]،
 **العربية**،
+[Ελληνικά][GR],
 [日本語][JA]،
 [正體中文][ZH_TW]،
 [简体中文][ZH_CN]،
@@ -24,6 +25,7 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
