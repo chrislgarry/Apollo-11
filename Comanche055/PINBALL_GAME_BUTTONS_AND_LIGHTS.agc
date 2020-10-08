@@ -11,7 +11,7 @@
 #				of the same name, using Comanche055 page
 #				images.  Finished through page 329.
 #		2009-05-09 RSB	Finished first draft.
-#		2009-05-20 RSB	Corrected a CHKPOOH to CHKP00H.
+#		2009-05-20 RSB	Corrected a CHKPOOH to CHKPOOH.
 #
 # This source code has been transcribed or otherwise adapted from digitized
 # images of a hardcopy from the MIT Museum.  The digitization was performed
@@ -3605,7 +3605,7 @@ PINTEST		EQUALS	LST2FAN
 		COUNT	41/PIN
 
 VBTSTLTS	TC	BANKCALL
-		CADR	CHKP00H
+		CADR	CHKPOOH
 
 		INHINT
 		CS	BIT1		# SET BIT 1 OF IMODES33 SO IMUMON WON'T

@@ -10,7 +10,7 @@
 # Mod history:  2009-05-12 RSB	Adapted from Colossus249 file of the same
 #				name, and Comanche 055 page images.
 #		2009-05-20 RSB	Corrections: SETI/PDT -> SET1/PDT,
-#				GOTOPOOH -> GOTOP00H, R33EXIT -> R53EXIT,
+#				GOTOPOOH -> GOTOPOOH, R33EXIT -> R53EXIT,
 #				V853 -> VB53, R56A -> R56A1 (some places
 #				only), added missing R56A1 label, added a
 #				missing CAF in COARSTYP, corrected a SETLOC
