@@ -80,15 +80,15 @@ Betkokius neatitikimus tarp skenuočių ir šaltinio kodo šioje saugykloje, įs
 ### Komentarai
 
 - Komentarai nurašytame kode turi atitikti skenuočių komentarus tiksliai
-	- Gali prireikti sąmoningai pridėti klaidas ar netgi pašalinti/pridėti visą komentarą.
+  - Gali reikėti sąmoningai pridėti klaidas ar netgi pašalinti/pridėti visą komentarą.
 
 ### Eilučių lūžiai
 
 - Linijų lūžiai su *pločiu* `R0000` pirmame stulpelyje turi tiksliai atitikti skenuotes.
 - Linijų lūžiai su *pločiu**__out__* `R0000` pirmame stulpelyje gali turėti tik vieną arba dvi tuščias eilutes iš eilės.
   - Jeigu yra daugiau negu dvi tuščios linijos, reikia ištrinti papildomas eilutes.
-	- Linijos su `R0000` pirmame stulpelyje nesiskaičiuoja.
-  - Šaltinių nuotraukose, šitie buvo sukurti nespausdintu skaitmeniu aštuntame stulpelyje. A 2 - ten buvo dvigubas tarpas (viena tuščia eilutė) ir a 3 buvo trigubas tarpas (dviguba tuščia eilutė). Reikšmės nuo 4-8 buvo apibrėžtos, bet niekada nenaudotos. Daugiau apie tai [#159][7]
+    - Linijos su `R0000` pirmame stulpelyje nesiskaičiuoja.
+  - Šaltinių nuotraukose, šitie buvo sukurti nespausdintu skaitmeniu aštuntame stulpelyje. A 2 - ten buvo dvigubas tarpas (viena tuščia eilutė) ir a 3 buvo trigubas tarpas   (dviguba tuščia eilutė). Reikšmės nuo 4-8 buvo apibrėžtos, bet niekada nenaudotos. Daugiau apie tai [#159][7]
 
 Pavyzdžiui, šis tekstas:
 
