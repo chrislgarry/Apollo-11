@@ -86,7 +86,7 @@ Düzeltmek için bakmanız gereken bazı temel sorunlar şunlardır:
 
 Bazı yerlerde, orijinal geliştiriciler yorum yazarken yazım hataları yapmış. Bunların bazıları dijitalleştirme sürecinin başlarında yanlışlıkla düzeltildi fakat dijitalleştirme süreci taratılmış çıktılarda olmayan yeni yazım hatalarına da sebep oldu.
 
-Örneğin, dijitalleştirilmiş yorumlar `SPACECRAFT` kelimesini içeriyorsa ama taratılmış çıktılarda `SPAECRAFT` yazıyorsa, dijitalleştirilmiş yorum `SPAECRAFT` (`C` eksik) olarak **düzeltilmelidir**.  
+Örneğin, dijitalleştirilmiş yorumlar `SPACECRAFT` kelimesini içeriyorsa ama taratılmış çıktılarda `SPAECRAFT` yazıyorsa, dijitalleştirilmiş yorum `SPAECRAFT` (`C` eksik) olarak **düzeltilmelidir**.
 
 Aynı şekilde, eğer dijitalleştirmiş yorumlarda bir yazım hatası varsa ama taratılmış çıktılarda doğru yazılmışsa, yazım hatası **düzeltilmelidir**.
 
