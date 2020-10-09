@@ -78,7 +78,7 @@ Any discrepancies between the scans and the source code in this repository.
 
 ### Comments
 
-Comments in the transcribed code **MUST** match the scans **exactly**. 
+Comments in the transcribed code **MUST** match the scans **exactly**.
 
 Common issues you should look out for while proofing include, but not limited to:
 
@@ -86,10 +86,10 @@ Common issues you should look out for while proofing include, but not limited to
 
 In some places, the original developers made typographic errors while writing comments. Some of these were mistakenly corrected during the initial digitisation, however the digitisation has also introduced typographic errors that were not present in the scans.
 
-For example, if the digitised comments contained `SPACECRAFT`, but `SPAECRAFT` was printed in the scans, then the digitisation **MUST** be corrected to `SPAECRAFT` (missing `C`). 
+For example, if the digitised comments contained `SPACECRAFT`, but `SPAECRAFT` was printed in the scans, then the digitisation **MUST** be corrected to `SPAECRAFT` (missing `C`).
 
 Likewise, if a word has a typo in the digitisation but is spelt correctly in the scans then the typo **MUST** be corrected.
-  
+
 #### Spaces
 
 Spaces between two characters in comments **SHOULD** match the scans. In most cases (see the discussion in [#316[10]), this is:
