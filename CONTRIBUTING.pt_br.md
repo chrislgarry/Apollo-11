@@ -88,16 +88,6 @@ Em alguns lugares, os desenvolvedores originais cometeram erros tipográficos ao
 Por exemplo, se os comentários digitalizados contiveram `SPACECRAFT` , mas `SPAECRAFT` foram impressos nas digitalizações, então a digitalização deve ser corrigida para `SPAECRAFT`(faltando o `C`).
 Da mesma forma, se uma palavra tem um erro de digitação, mas é escrita corretamente nas digitalizações, então o erro de digitação deve ser corrigido.
 
-### Espaços
-
-Espaços entre dois caracteres em comentários DEVEM coincidir com as digitalizações. Na maioria dos casos (veja a discussão em [#31610),isto é:
-
--Espaço único para novas palavras.
--Espaço duplo para novas frases.
--Espaço triplo para recuos.
-
-Nem todas as páginas nas digitalizações seguem essa generalização, se os scans tiverem apenas um único espaço em vez de um espaço duplo, use um único espaço.
-
 ### Quebra de linha
 
 - Quebras de linha *com* `R0000` na coluna 1 devem corresponder exatamente às digitalizações.
