@@ -74,12 +74,42 @@ Github, AGC assembly dili için sentaks desteği sağlıyor ama sizin kodu düze
 
 ## Neyi kontrol edeyim?
 
-Taratılmış çıktılar ve bu repodaki kaynak kodu arasındaki aşağıdakileri kapsayan herhangi bir tutarsızlığı:
+Taratılmış çıktılar ve bu repodaki kaynak kodu arasındaki herhangi bir tutarsızlığı.
 
 ### Yorumlar
 
-- Uyarlanan koddaki yorum satırları, çıktılar ile tamamen eşleşmelidir
-  - Bu bilerek yazım hatası koymayı veya bir yorumun tamamını kaldırıp/eklemeyi içerebilir.
+Uyarlanan koddaki yorum satırları, çıktılar ile **tamamen** **eşleşmelidir**.
+
+Düzeltmek için bakmanız gereken bazı temel sorunlar şunlardır:
+
+#### Yazım Hataları
+
+Bazı yerlerde, orijinal geliştiriciler yorum yazarken yazım hataları yapmış. Bunların bazıları dijitalleştirme sürecinin başlarında yanlışlıkla düzeltildi fakat dijitalleştirme süreci taratılmış çıktılarda olmayan yeni yazım hatalarına da sebep oldu.
+
+Örneğin, dijitalleştirilmiş yorumlar `SPACECRAFT` kelimesini içeriyorsa ama taratılmış çıktılarda `SPAECRAFT` yazıyorsa, dijitalleştirilmiş yorum `SPAECRAFT` (`C` eksik) olarak **düzeltilmelidir**.     
+
+Aynı şekilde, eğer dijitalleştirmiş yorumlarda bir yazım hatası varsa ama taratılmış çıktılarda doğru yazılmışsa, yazım hatası **düzeltilmelidir**.
+
+### Boşluklar
+
+- Bir string'deki iki karakterin arasındaki boşluklar şu kurallara uymalıdır ([#316][10]'daki tartışmayı inceleyin):
+  - Yeni kelimeler arası tek boşluk.
+  - Yeni cümleler arası iki boşluk.
+  - Yeni girintiler için üç boşluk.
+
+Örneğin bu:
+
+```plain
+	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
+	GARPLY, WALDO.
+```
+
+Buna dönüşmeli:
+
+```plain
+	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
+	   GARPLY, WALDO.
+```
 
 ### Satır sonları
 
@@ -108,27 +138,6 @@ R0820
 
 
  0820   LAMPTEST  CS  IMODES33
-```
-
-### Boşluklar
-
-- Bir string'deki iki karakterin arasındaki boşluklar şu kurallara uymalıdır ([#316][10]'daki tartışmayı inceleyin):
-  - Yeni kelimeler arası tek boşluk.
-  - Yeni cümleler arası iki boşluk.
-  - Yeni girintiler için üç boşluk.
-
-Örneğin bu:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Buna dönüşmeli:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
 ```
 
 ## Not
