@@ -80,7 +80,25 @@ Quaisquer discrepâncias entre as digitalizações e o código-fonte neste repos
 ### Comentários
 
 - Comentários no código transcrito devem corresponder exatamente às digitalizações
-  - Isso pode envolver criar um erro de digitação deliberadamente ou remover/adicionar um comentário inteiro.
+- Questões comuns que você deve ficar atento durante a prova incluem, mas não se limitando a:
+
+
+### Erros tipográficos
+Em alguns lugares, os desenvolvedores originais cometeram erros tipográficos ao escrever comentários. Alguns deles foram erroneamente corrigidos durante a digitalização inicial, porém a digitalização também introduziu erros tipográficos que não estavam presentes nas digitalizações.
+
+Por exemplo, se os comentários digitalizados contiveram `SPACECRAFT` , mas `SPAECRAFT` foram impressos nas digitalizações, então a digitalização deve ser corrigida para `SPAECRAFT`(faltando o `C`).
+
+Da mesma forma, se uma palavra tem um erro de digitação, mas é escrita corretamente nas digitalizações, então o erro de digitação deve ser corrigido.
+
+### Espaços
+Espaços entre dois caracteres em comentários DEVEM coincidir com as digitalizações. Na maioria dos casos (veja a discussão em [#31610),isto é:
+
+-Espaço único para novas palavras.
+-Espaço duplo para novas frases.
+-Espaço triplo para recuos.
+
+Nem todas as páginas nas digitalizações seguem essa generalização, se os scans tiverem apenas um único espaço em vez de um espaço duplo, use um único espaço.
+
 
 ### Quebra de linha
 
