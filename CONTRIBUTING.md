@@ -31,7 +31,7 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the scanned printouts:
+The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the following scanned printouts:
 
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
@@ -74,12 +74,31 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 
 ## What do I check?
 
-Any discrepancies between the scans and the source code in this repository, including:
+Any discrepancies between the scans and the source code in this repository.
 
 ### Comments
 
-- Comments in the transcribed code should match the scans exactly
-  - This could involve creating a deliberate typo or removing/adding an entire comment.
+Comments in the transcribed code **MUST** match the scans **exactly**. 
+
+Common issues you should look out for while proofing include, but not limited to:
+
+#### Typographic Errors
+
+In some places, the original developers made typographic errors while writing comments. Some of these were mistakenly corrected during the initial digitisation, however the digitisation has also introduced typographic errors that were not present in the scans.
+
+For example, if the digitised comments contained `SPACECRAFT`, but `SPAECRAFT` was printed in the scans, then the digitisation **MUST** be corrected to `SPAECRAFT` (missing `C`). 
+
+Likewise, if a word has a typo in the digitisation but is spelt correctly in the scans then the typo **MUST** be corrected.
+  
+#### Spaces
+
+Spaces between two characters in comments **SHOULD** match the scans. In most cases (see the discussion in [#316[10]), this is:
+
+- Single space for new words.
+- Double space for new sentences.
+- Triple space for indentations.
+
+Not all pages in the scans follow this generalisation, if the scans only have a single space instead of a double space, use a single space.
 
 ### Line breaks
 
@@ -108,27 +127,6 @@ R0820
 
 
  0820   LAMPTEST  CS  IMODES33
-```
-
-### Spaces
-
-- Spaces between two characters in the string should respect the following convention (see the discussion in [#316][10]):
-  - Single space for new words.
-  - Double space for new sentences.
-  - Triple space for indentations.
-
-For example the following:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Should become:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
 ```
 
 ## Note
