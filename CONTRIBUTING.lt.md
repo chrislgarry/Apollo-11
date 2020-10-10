@@ -97,7 +97,7 @@ Taip pat, jeigu žodis turi klaidą skaitmenizacijoje, bet yra parašytas teisin
   - Vienas tarpas naujiems žodžiams.
   - Dvigubas tarpas naujiems sakiniams.
   - Trigubas tarpas įtraukoms.
-  
+
 Nevisi puslapiai skenuotėse laikosi šių taisykių, jeigu skenuotės turi tik vieną tarpą vietoj dvigubo tarpo, reikia naudoti vieną tarpą.
 
 ### Eilučių lūžiai
