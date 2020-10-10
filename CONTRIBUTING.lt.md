@@ -3,10 +3,10 @@
 🎌
 [Čeština][CZ],
 [Deutsch][DE],
-**Lietuvių**,
 [Español][ES],
 [Français][FR],
 [Kurdi][KU],
+**Lietuvių**,
 [Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
