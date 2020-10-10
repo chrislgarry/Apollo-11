@@ -116,5 +116,3 @@ Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
 [ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
 [Luminary]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/2
 [LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
-
-<!-- translated by Roger Aunebak and Tine Jerndahl -->

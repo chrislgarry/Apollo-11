@@ -31,7 +31,7 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Kilde koden I dette «repository» var digitalisert manuelt ifra papir utskrifter, så om det finnes stavefeil og andre avvik skall koden rettes for og reflektere dette.( skrivefeil og andre avvik kan ha blitt innført ved et uhell, og må rettes opp )
+Kilde koden I dette «repository» var digitalisert manuelt ifra papir utskrifter, om det finnes stavefeil og andre avvik skall koden reflektere dette. Skrivefeil og andre avvik kan ha blitt innført ved et uhell men skal allikevel være identisk med følgende digitalisert papir utskrifter:
 
 - [AGC utskrift for Comanche][8]
 - [AGC utskrift for Luminary][9]
@@ -74,12 +74,42 @@ GitHub har kildekode støtte for «assembly» programmerings språket AGC ( inne
 
 ## Hva må jeg sjekke?
 
-Eventuelle avvik ifra de innskannede bildene og kilde koden i dette «repository», inkludert:
+Eventuelle avvik ifra de innskannede bildene og kilde koden i dette «repository»
 
 ### Kommentarer
 
-- Kommentarer i denne koden skal stemme helt med den digitaliserte originalen.
-  - Dette betyr at stavefeil også skal bevares og kan bety at kommentarer må legges til eller tas bort
+Kommentarer i denne koden **SKAL** stemme **eksakt** med den digitaliserte originalen.
+
+Vanlige feil en bør se etter er blant annet:
+
+#### Typografiske feil
+
+Noen steder skrev original utvikleren feil i kode kommentarene. Noen av disse feilene ble rettet under digitaliseringen, og digitaliseringen har også introdusert nye typografiske feil som ikke kommer ifra papir utskriften.
+
+For eksempel, om de originale dokumentene var feilstavet til ‘SPAECRAFT’ og de digitaliserte dokumentene ble endret til ‘SPACECRAFT’ så **SKAL** dette rettes til og reflektere de originale dokumentene, altså uten ‘C’ i ordet.
+
+På samme måte, om digitaliseringen introduserte stavefeil som ikke var tilstede i de originale dokumentene **SKAL** dette rettes.
+
+#### Mellomrom
+
+- Mellomrom imellom to karakterer i teksten skal respektere følgende regler ( se diskusjon i #316 )
+  - Enkelt mellomrom for nye ord
+  - Dobbelt mellomrom for nye linjer
+  - Trippel mellomrom for innrykk
+
+For eksempel skal følgende kode:
+
+```plain
+	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
+	GARPLY, WALDO.
+```
+
+Se slik ut:
+
+```plain
+	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
+	   GARPLY, WALDO.
+```
 
 ### Linje Skift
 
@@ -110,27 +140,6 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### Mellomrom
-
-- Mellomrom imellom to karakterer i teksten skal respektere følgende regler ( se diskusjon i #316 )
-  - Enkelt mellomrom for nye ord
-  - Dobbelt mellomrom for nye linjer
-  - Trippel mellomrom for innrykk
-
-For eksempel skal følgende kode:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Se slik ut:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
-```
-
 ## Noter
 
 Før en gjør en «Pull Request» bør man være helt sikker på at forandringer er helt lik de digitaliserte bildene!
@@ -143,5 +152,3 @@ Før en gjør en «Pull Request» bør man være helt sikker på at forandringer
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
-
-<!-- translated by Roger Aunebak and Tine Jerndahl -->
