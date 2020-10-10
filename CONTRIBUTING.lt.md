@@ -32,7 +32,7 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Šios saugyklos kodas buvo skaitmenizuotas iš popierinių spausdinių, todėl galima tikėtis klaidų ir kiti neatitikimų. Kodas turi būti pakeistas, kad taptų labiau nuoseklus su skenuotais spausdiniais:
+Šios saugyklos kodas buvo skaitmenizuotas iš popierinių spausdinių, todėl galima tikėtis klaidų ir kiti neatitikimų. Kodas turi būti pakeistas taip, kad labiau atitiktų šiuos skenuotus spausdinius:
 
 - [AGC spausdiniai Comache][8]
 - [AGC spausdiniai Luminary][9]
@@ -75,12 +75,30 @@ GitHub turi integruotą AGC assemblerio kalbos sintakės palaikymą. Dėja, jūs
 
 ## Ką man reikia patikrinti?
 
-Betkokius neatitikimus tarp skenuočių ir šaltinio kodo šioje saugykloje, įskaitant:
+Betkokius neatitikimus tarp skenuočių ir šaltinio kodo šioje saugykloje.
 
 ### Komentarai
 
-- Komentarai nurašytame kode turi atitikti skenuočių komentarus tiksliai
-  - Gali reikėti sąmoningai pridėti klaidas ar netgi pašalinti/pridėti visą komentarą.
+- Komentarai perrašytame kode turi **tiksliai** atitikti skenuočių komentarus.
+
+Dažnai pasikartojančios problemos, į kurias turėtumėte atkreipti dėmesį, taip pat neapsiribojant jomis:
+
+#### Tipografinės klaidos
+
+Kai kuriose vietose, originalūs kūrėjai paliko tipografinių klaidų rašant komentarus. Kai kurie iš jų buvo klaidingai ištaisyti per pradinį skaitmenizavimą, vis dėlto skaitmenizavimas taip pat tai pat pridėjo tipografinių klaidų, kurių nebuvo skenuotėse.
+
+Pavyzdžiui, jeigu skaitmenizuotas komentaras turėjo žodį `SPACECRAFT`, bet `SPAECRAFT` buvo išspausdintas skenuotėse, tai ši skaitmenizacija **turi** būti pataisyta į `SPAECRAFT` (be `C`).
+
+Taip pat, jeigu žodis turi klaidą skaitmenizacijoje, bet yra parašytas teisingai skenuotėse, tai ta klaida **turi** būti pataisyta.
+
+### Tarpai
+
+- Tarpai tarp dviejų rašmenų **turi** atitikti skenuotes. Dažniausiu atvėju (žiūrėti diskusiją [#316][10]), tai yra:
+  - Vienas tarpas naujiems žodžiams.
+  - Dvigubas tarpas naujiems sakiniams.
+  - Trigubas tarpas įtraukoms.
+
+Nevisi puslapiai skenuotėse laikosi šių taisykių, jeigu skenuotės turi tik vieną tarpą vietoj dvigubo tarpo, reikia naudoti vieną tarpą.
 
 ### Eilučių lūžiai
 
@@ -109,27 +127,6 @@ R0820
 
 
  0820   LAMPTEST  CS  IMODES33
-```
-
-### Tarpai
-
-- Tarpai tarp dviejų simbolių eilutėje turi atitikti šią konvenciją (daugiau diskusijoje [#316][10]):
-  - Vienas tarpas naujiems žodžiams.
-  - Dvigubas tarpas naujiems sakiniams.
-  - Trigubas tarpas įtraukoms.
-
-Pavyzdžiui, šis tekstas:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Turėtų patapti:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
 ```
 
 ## Pastabos
