@@ -9,13 +9,13 @@
 [Bahasa Indonesia][ID],
 [Català][CA],
 [Deutsch][DE],
-**Norsk**,
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+**Norsk**,
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
@@ -36,7 +36,6 @@
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [DE]:README.de.md
-[NO]:README.no.md
 [EN]:README.md
 [ES]:README.es.md
 [FA]:README.fa.md
@@ -48,6 +47,7 @@
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
 [MM]:README.mm.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md

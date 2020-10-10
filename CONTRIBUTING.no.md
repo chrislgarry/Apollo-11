@@ -2,12 +2,12 @@
 
 🎌
 [Deutsch][DE],
-**Norsk**,
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Kurdi][KU],
 [Nederlands][NL],
+**Norsk**,
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
@@ -18,7 +18,6 @@
 
 [AR]:CONTRIBUTING.ar.md
 [DE]:CONTRIBUTING.de.md
-[NO]:CONTRIBUTING.no.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
@@ -26,6 +25,7 @@
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
@@ -92,24 +92,13 @@ På samme måte, om digitaliseringen introduserte stavefeil som ikke var tilsted
 
 #### Mellomrom
 
-- Mellomrom imellom to karakterer i teksten skal respektere følgende regler ( se diskusjon i #316 )
+- Mellomrom mellom to karakterer i teksten **BØR** følge de digitaliserte dokumentene. I de fleste tilfeller (se diskusjon i [#316[10]) betyr dette:
+
   - Enkelt mellomrom for nye ord
   - Dobbelt mellomrom for nye linjer
   - Trippel mellomrom for innrykk
 
-For eksempel skal følgende kode:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Se slik ut:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
-```
+Ikke alle sider i de digitaliserte dokumentene følger denne generaliseringen, så om de digitaliserte dokumentene bruker enkelt mellomrom i stedet for dobbelt mellomrom så skal enkelt mellomrom følges.
 
 ### Linje Skift
 
