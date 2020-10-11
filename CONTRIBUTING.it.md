@@ -33,8 +33,6 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the following scanned printouts:
-
 Il codice sorgente in questa repository è stato digitalizzato manualmente da stampe su carta, quindi errori di battitura e altre differenze sono state aggiunte accidentalmente. Il codice dovrebbe essere modificato per essere consistente con le seguenti scannerizzazioni:
 
 - [AGC stampa per Comanche][8]
@@ -82,7 +80,7 @@ Qualsiasi differenza tra le scannerizzazioni e il codice sorgente in questa repo
 
 ### Commenti
 
-Commenti nel codice trascritto **DEVONO** coincidere con quelli delle scannerizzazioni **esattamente**.
+Commenti nel codice trascritto **DEVONO** coincidere **esattamente** con quelli delle scannerizzazioni.
 
 Errori comuni a cui dovresti stare attento mentre verifichi includono, ma non sono limitati a:
 
@@ -96,7 +94,6 @@ Analogamente, se una parola ha un errore di ma è scritta correttamente nelle sc
 
 #### Spazi
 
-Spaces between two characters in comments **SHOULD** match the scans. In most cases (see the discussion in [#316[10]), this is:
 Spazi tra due caratteri nei commenti **DOVREBBERO** corrispondere alle scannerizzazioni. Nella maggior parte dei casi (Si guardi la discussione in [#316[10]), questo comprende:
 
 - Spazio singolo tra parole.
