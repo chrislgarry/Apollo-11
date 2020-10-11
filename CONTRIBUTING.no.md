@@ -92,7 +92,7 @@ På samme måte, om digitaliseringen introduserte stavefeil som ikke var tilsted
 
 #### Mellomrom
 
-- Mellomrom mellom to karakterer i teksten **BØR** følge de digitaliserte dokumentene. I de fleste tilfeller (se diskusjon i [#316[10]) betyr dette:
+Mellomrom mellom to karakterer i teksten **BØR** følge de digitaliserte dokumentene. I de fleste tilfeller (se diskusjon i [#316[10]) betyr dette:
 
   - Enkelt mellomrom for nye ord
   - Dobbelt mellomrom for nye linjer
