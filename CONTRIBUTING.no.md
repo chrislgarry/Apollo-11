@@ -94,9 +94,9 @@ På samme måte, om digitaliseringen introduserte stavefeil som ikke var tilsted
 
 Mellomrom mellom to karakterer i teksten **BØR** følge de digitaliserte dokumentene. I de fleste tilfeller (se diskusjon i [#316[10]) betyr dette:
 
-  - Enkelt mellomrom for nye ord
-  - Dobbelt mellomrom for nye linjer
-  - Trippel mellomrom for innrykk
+- Enkelt mellomrom for nye ord
+- Dobbelt mellomrom for nye linjer
+- Trippel mellomrom for innrykk
 
 Ikke alle sider i de digitaliserte dokumentene følger denne generaliseringen, så om de digitaliserte dokumentene bruker enkelt mellomrom i stedet for dobbelt mellomrom så skal enkelt mellomrom følges.
 
