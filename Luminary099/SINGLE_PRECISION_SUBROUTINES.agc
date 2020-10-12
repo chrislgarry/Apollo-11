@@ -24,7 +24,7 @@
 #
 # Notations on the hardcopy document read, in part:
 #
-#	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
+#	Assemble revision 001 of AGC program LMY99 by NASA 2021112-061
 #	16:27 JULY 14, 1969
 
 # Page 1102
@@ -64,6 +64,6 @@ POLLEY		EXTEND
 		TC	Q
 ARG90		INDEX	A
 		CS	LIMITS
-		TC	Q		# RESULT SCALED AT 1.
+		TC	Q		# RESULT SCALED AT 1
 
 

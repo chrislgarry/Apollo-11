@@ -1,11 +1,6 @@
-"Status: Review Needed":
-  - Comanche055/*.*
-  - Luminary099/*.*
-  - README.*
-  - CONTRIBUTING.*
 "Type: Proof":
-  - Comanche055/*.*
-  - Luminary099/*.*
+  - "**/*.agc"
 "Type: Meta":
-  - README.*
-  - CONTRIBUTING.*
+  - "**/MAIN.agc"
+  - "**/*.md"
+  - "*.md"

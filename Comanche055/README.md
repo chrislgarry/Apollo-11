@@ -20,128 +20,128 @@ What follows is simply a bunch of file-includes for the individual code chunks. 
 
 ### INFORMATION
 
-| Source File                              | Page Number |
-| :--------------------------------------- | :---------- |
-| [CONTRACT_AND_APPROVALS.agc]             | 1           |
-| [ASSEMBLY_AND_OPERATION_INFORMATION.agc] | 2-26        |
-| [TAGS_FOR_RELATIVE_SETLOC.agc]           | 27-35       |
+Source File                              | Page Number
+:--------------------------------------- | :----------
+[CONTRACT_AND_APPROVALS.agc]             | 1
+[ASSEMBLY_AND_OPERATION_INFORMATION.agc] | 2-26
+[TAGS_FOR_RELATIVE_SETLOC.agc]           | 27-35
 
 ### COMERASE
 
-| Source File                | Page Number |
-| :------------------------- | :---------- |
-| [ERASABLE_ASSIGNMENTS.agc] | 37-130      |
+Source File                | Page Number
+:------------------------- | :----------
+[ERASABLE_ASSIGNMENTS.agc] | 37-130
 
 ### COMAID
 
-| Source File                           | Page Number |
-| :------------------------------------ | :---------- |
-| [INTERRUPT_LEAD_INS.agc]              | 131-132     |
-| [T4RUPT_PROGRAM.agc]                  | 133-169     |
-| [DOWNLINK_LISTS.agc]                  | 170-180     |
-| [FRESH_START_AND_RESTART.agc]         | 181-210     |
-| [RESTART_TABLES.agc]                  | 211-221     |
-| [SXTMARK.agc]                         | 222-235     |
-| [EXTENDED_VERBS.agc]                  | 236-267     |
-| [PINBALL_NOUN_TABLES.agc]             | 268-284     |
-| [CSM_GEOMETRY.agc]                    | 285-296     |
-| [IMU_COMPENSATION_PACKAGE.agc]        | 297-306     |
-| [PINBALL_GAME_BUTTONS_AND_LIGHTS.agc] | 307-389     |
-| [R60_62.agc]                          | 390-398     |
-| [ANGLFIND.agc]                        | 399-411     |
-| [GIMBAL_LOCK_AVOIDANCE.agc]           | 412-413     |
-| [KALCMANU_STEERING.agc]               | 414-419     |
-| [SYSTEM_TEST_STANDARD_LEAD_INS.agc]   | 420-422     |
-| [IMU_CALIBRATION_AND_ALIGNMENT.agc]   | 423-455     |
+Source File                           | Page Number
+:------------------------------------ | :----------
+[INTERRUPT_LEAD_INS.agc]              | 131-132
+[T4RUPT_PROGRAM.agc]                  | 133-169
+[DOWNLINK_LISTS.agc]                  | 170-180
+[FRESH_START_AND_RESTART.agc]         | 181-210
+[RESTART_TABLES.agc]                  | 211-221
+[SXTMARK.agc]                         | 222-235
+[EXTENDED_VERBS.agc]                  | 236-267
+[PINBALL_NOUN_TABLES.agc]             | 268-284
+[CSM_GEOMETRY.agc]                    | 285-296
+[IMU_COMPENSATION_PACKAGE.agc]        | 297-306
+[PINBALL_GAME_BUTTONS_AND_LIGHTS.agc] | 307-389
+[R60_62.agc]                          | 390-398
+[ANGLFIND.agc]                        | 399-411
+[GIMBAL_LOCK_AVOIDANCE.agc]           | 412-413
+[KALCMANU_STEERING.agc]               | 414-419
+[SYSTEM_TEST_STANDARD_LEAD_INS.agc]   | 420-422
+[IMU_CALIBRATION_AND_ALIGNMENT.agc]   | 423-455
 
 ### COMEKISS
 
-| Source File                                 | Page Number |
-| :------------------------------------------ | :---------- |
-| [GROUND_TRACKING_DETERMINATION_PROGRAM.agc] | 456-459     |
-| [P34-35_P74-75.agc]                         | 460-504     |
-| [R31.agc]                                   | 505-510     |
-| [P76.agc]                                   | 511-513     |
-| [R30.agc]                                   | 514-524     |
-| [STABLE_ORBIT.agc]                          | 525-532     |
+Source File                                 | Page Number
+:------------------------------------------ | :----------
+[GROUND_TRACKING_DETERMINATION_PROGRAM.agc] | 456-459
+[P34-35_P74-75.agc]                         | 460-504
+[R31.agc]                                   | 505-510
+[P76.agc]                                   | 511-513
+[R30.agc]                                   | 514-524
+[STABLE_ORBIT.agc]                          | 525-532
 
 ### TROUBLE
 
-| Source File                                   | Page Number |
-| :-------------------------------------------- | :---------- |
-| [P11.agc]                                     | 533-550     |
-| [TPI_SEARCH.agc]                              | 551-561     |
-| [P20-P25.agc]                                 | 562-634     |
-| [P30-P37.agc]                                 | 635-648     |
-| [P32-P33_P72-P73.agc]                         | 649-683     |
-| [P40-P47.agc]                                 | 684-736     |
-| [P51-P53.agc]                                 | 737-784     |
-| [LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.agc] | 785-788     |
-| [P61-P67.agc]                                 | 789-818     |
-| [SERVICER207.agc]                             | 819-836     |
-| [ENTRY_LEXICON.agc]                           | 837-843     |
-| [REENTRY_CONTROL.agc]                         | 844-882     |
-| [CM_BODY_ATTITUDE.agc]                        | 883-889     |
-| [P37_P70.agc]                                 | 890-933     |
-| [S-BAND_ANTENNA_FOR_CM.agc]                   | 934-935     |
-| [LUNAR_LANDMARK_SELECTION_FOR_CM.agc]         | 936         |
+Source File                                   | Page Number
+:-------------------------------------------- | :----------
+[P11.agc]                                     | 533-550
+[TPI_SEARCH.agc]                              | 551-561
+[P20-P25.agc]                                 | 562-634
+[P30-P37.agc]                                 | 635-648
+[P32-P33_P72-P73.agc]                         | 649-683
+[P40-P47.agc]                                 | 684-736
+[P51-P53.agc]                                 | 737-784
+[LUNAR_AND_SOLAR_EPHEMERIDES_SUBROUTINES.agc] | 785-788
+[P61-P67.agc]                                 | 789-818
+[SERVICER207.agc]                             | 819-836
+[ENTRY_LEXICON.agc]                           | 837-843
+[REENTRY_CONTROL.agc]                         | 844-882
+[CM_BODY_ATTITUDE.agc]                        | 883-889
+[P37_P70.agc]                                 | 890-933
+[S-BAND_ANTENNA_FOR_CM.agc]                   | 934-935
+[LUNAR_LANDMARK_SELECTION_FOR_CM.agc]         | 936
 
 ### TVCDAPS
 
-| Source File                          | Page Number |
-| :----------------------------------- | :---------- |
-| [TVCINITIALIZE.agc]                  | 937-944     |
-| [TVCEXECUTIVE.agc]                   | 945-950     |
-| [TVCMASSPROP.agc]                    | 951-955     |
-| [TVCRESTARTS.agc]                    | 956-960     |
-| [TVCDAPS.agc]                        | 961-978     |
-| [TVCSTROKETEST.agc]                  | 979-983     |
-| [TVCROLLDAP.agc]                     | 984-998     |
-| [MYSUBS.agc]                         | 999-1001    |
-| [RCS-CSM_DIGITAL_AUTOPILOT.agc]      | 1002-1024   |
-| [AUTOMATIC_MANEUVERS.agc]            | 1025-1036   |
-| [RCS-CSM_DAP_EXECUTIVE_PROGRAMS.agc] | 1037-1038   |
-| [JET_SELECTION_LOGIC.agc]            | 1039-1062   |
-| [CM_ENTRY_DIGITAL_AUTOPILOT.agc]     | 1063-1092   |
+Source File                          | Page Number
+:----------------------------------- | :----------
+[TVCINITIALIZE.agc]                  | 937-944
+[TVCEXECUTIVE.agc]                   | 945-950
+[TVCMASSPROP.agc]                    | 951-955
+[TVCRESTARTS.agc]                    | 956-960
+[TVCDAPS.agc]                        | 961-978
+[TVCSTROKETEST.agc]                  | 979-983
+[TVCROLLDAP.agc]                     | 984-998
+[MYSUBS.agc]                         | 999-1001
+[RCS-CSM_DIGITAL_AUTOPILOT.agc]      | 1002-1024
+[AUTOMATIC_MANEUVERS.agc]            | 1025-1036
+[RCS-CSM_DAP_EXECUTIVE_PROGRAMS.agc] | 1037-1038
+[JET_SELECTION_LOGIC.agc]            | 1039-1062
+[CM_ENTRY_DIGITAL_AUTOPILOT.agc]     | 1063-1092
 
 ### CHIEFTAN
 
-| Source File                          | Page Number |
-| :----------------------------------- | :---------- |
-| [DOWN-TELEMETRY_PROGRAM.agc]         | 1093-1102   |
-| [INTER-BANK_COMMUNICATION.agc]       | 1103-1106   |
-| [INTERPRETER.agc]                    | 1107-1199   |
-| [FIXED_FIXED_CONSTANT_POOL.agc]      | 1200-1204   |
-| [INTERPRETIVE_CONSTANTS.agc]         | 1205-1206   |
-| [SINGLE_PRECISION_SUBROUTINES.agc]   | 1207        |
-| [EXECUTIVE.agc]                      | 1208-1220   |
-| [WAITLIST.agc]                       | 1221-1235   |
-| [LATITUDE_LONGITUDE_SUBROUTINES.agc] | 1236-1242   |
-| [PLANETARY_INERTIAL_ORIENTATION.agc] | 1243-1251   |
-| [MEASUREMENT_INCORPORATION.agc]      | 1252-1261   |
-| [CONIC_SUBROUTINES.agc]              | 1262-1308   |
-| [INTEGRATION_INITIALIZATION.agc]     | 1309-1333   |
-| [ORBITAL_INTEGRATION.agc]            | 1334-1354   |
-| [INFLIGHT_ALIGNMENT_ROUTINES.agc]    | 1355-1364   |
-| [POWERED_FLIGHT_SUBROUTINES.agc]     | 1365-1372   |
-| [TIME_OF_FREE_FALL.agc]              | 1373-1388   |
-| [STAR_TABLES.agc]                    | 1389-1393   |
-| [AGC_BLOCK_TWO_SELF-CHECK.agc]       | 1394-1403   |
-| [PHASE_TABLE_MAINTENANCE.agc]        | 1404-1413   |
-| [RESTARTS_ROUTINE.agc]               | 1414-1419   |
-| [IMU_MODE_SWITCHING_ROUTINES.agc]    | 1420-1448   |
-| [KEYRUPT_UPRUPT.agc]                 | 1449-1451   |
-| [DISPLAY_INTERFACE_ROUTINES.agc]     | 1452-1484   |
-| [SERVICE_ROUTINES.agc]               | 1485-1492   |
-| [ALARM_AND_ABORT.agc]                | 1493-1496   |
-| [UPDATE_PROGRAM.agc]                 | 1497-1507   |
-| [RT8_OP_CODES.agc]                   | 1508-1516   |
+Source File                          | Page Number
+:----------------------------------- | :----------
+[DOWN-TELEMETRY_PROGRAM.agc]         | 1093-1102
+[INTER-BANK_COMMUNICATION.agc]       | 1103-1106
+[INTERPRETER.agc]                    | 1107-1199
+[FIXED_FIXED_CONSTANT_POOL.agc]      | 1200-1204
+[INTERPRETIVE_CONSTANTS.agc]         | 1205-1206
+[SINGLE_PRECISION_SUBROUTINES.agc]   | 1207
+[EXECUTIVE.agc]                      | 1208-1220
+[WAITLIST.agc]                       | 1221-1235
+[LATITUDE_LONGITUDE_SUBROUTINES.agc] | 1236-1242
+[PLANETARY_INERTIAL_ORIENTATION.agc] | 1243-1251
+[MEASUREMENT_INCORPORATION.agc]      | 1252-1261
+[CONIC_SUBROUTINES.agc]              | 1262-1308
+[INTEGRATION_INITIALIZATION.agc]     | 1309-1333
+[ORBITAL_INTEGRATION.agc]            | 1334-1354
+[INFLIGHT_ALIGNMENT_ROUTINES.agc]    | 1355-1364
+[POWERED_FLIGHT_SUBROUTINES.agc]     | 1365-1372
+[TIME_OF_FREE_FALL.agc]              | 1373-1388
+[STAR_TABLES.agc]                    | 1389-1393
+[AGC_BLOCK_TWO_SELF-CHECK.agc]       | 1394-1403
+[PHASE_TABLE_MAINTENANCE.agc]        | 1404-1413
+[RESTARTS_ROUTINE.agc]               | 1414-1419
+[IMU_MODE_SWITCHING_ROUTINES.agc]    | 1420-1448
+[KEYRUPT_UPRUPT.agc]                 | 1449-1451
+[DISPLAY_INTERFACE_ROUTINES.agc]     | 1452-1484
+[SERVICE_ROUTINES.agc]               | 1485-1492
+[ALARM_AND_ABORT.agc]                | 1493-1496
+[UPDATE_PROGRAM.agc]                 | 1497-1507
+[RT8_OP_CODES.agc]                   | 1508-1516
 
 ### MISCELLANEOUS
 
-| Source File          | Page Number |
-| :------------------- | :---------- |
-| GAP-generated tables | 1517-1751   |
+Source File          | Page Number
+:------------------- | :----------
+GAP-generated tables | 1517-1751
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [ASSEMBLY_AND_OPERATION_INFORMATION.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/ASSEMBLY_AND_OPERATION_INFORMATION.agc

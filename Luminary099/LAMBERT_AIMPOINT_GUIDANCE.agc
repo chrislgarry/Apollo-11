@@ -24,7 +24,7 @@
 #
 # Notations on the hardcopy document read, in part:
 #
-#	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
+#	Assemble revision 001 of AGC program LMY99 by NASA 2021112-061
 #	16:27 JULY 14, 1969
 
 # Page 651
@@ -103,7 +103,7 @@
 		COUNT*	$$/P31
 P31		TC	P20FLGON
 		CAF	V06N33		# T16
-		TC	VNP00H
+		TC	VNPOOH
 		TC	INTPRET
 		CLEAR	DLOAD
 			UPDATFLG
@@ -154,9 +154,9 @@ P31		TC	P20FLGON
 		STORE	HAPO
 		EXIT
 		CAF	V06N81		# DELVLVC
-		TC	VNP00H
+		TC	VNPOOH
 		CAF	V06N42		# HAPO, HPER, VGDISP
-		TC	VNP00H
+		TC	VNPOOH
 		TC	INTPRET
 REVN1645	SET	CALL		# TRKMKCNT, TTOGO, +MGA
 			FINALFLG

@@ -1,26 +1,39 @@
 # 기여하기
 
-:crossed_flags:
+🎌
+[Čeština][CZ],
+[Deutsch][DE],
 [English][EN],
+[Español][ES],
+[Français][FR],
+[Kurdi][KU],
+[Nederlands][NL],
 [Português][PT_BR],
 [Türkçe][TR],
 [العربية][AR],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 **한국어**
 
 [AR]:CONTRIBUTING.ar.md
+[CZ]:CONTRIBUTING.cz.md
+[DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
+[ES]:CONTRIBUTING.es.md
+[FR]:CONTRIBUTING.fr.md
+[JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[KU]:CONTRIBUTING.ku.md
+[NL]:CONTRIBUTING.nl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
 ## 유용한 확장기능들
-GitHub은 내장 에디터에서 AGC문법을 지원합니다.
-그러나 불행하게도 대개 사용되는 에디터들은 그렇지 않습니다.
-하지만 확장 기능이 지원되는 에디터들이 있습니다.
+
+GitHub은 내장 에디터에서 AGC문법을 지원합니다. 그러나 불행하게도 대개 사용되는 에디터들은 그렇지 않습니다. 하지만 확장 기능이 지원되는 에디터들이 있습니다.
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -47,6 +60,7 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다.
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## 포매팅
+
 **참고:** Github 내장 에디터와 위의 세 확장기능들은 이 문단에서 정의하는 포매팅을 자동으로 수행해줍니다.
 
 - 탭 들여쓰기를 사용하십시오.
@@ -54,11 +68,14 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다.
 - 뒤에 불필요하게 붙는 공백 문자는 제거하시기 바랍니다.
 
 ## 확인해야 할 것들
+
 ### 주석
+
 - 옮겨진 코드의 주석들은 스캔본과 일치해야 합니다.
   - 의도적인 오타나 전체 주석을 삭제/추가하는 것과 관계가 있을 수 있습니다.
 
 ### 개행
+
 - 1열에서 `R0000`로 개행되는 경우 스캔본과 일치해야 합니다.
 - 1열에서 `R0000`*__없이__*  개행되는 경우 1~2개의 빈 줄이 있어야 합니다.
   - 만약 3개 이상의 개행이 있는경우 초과분을 제거하십시오.
@@ -68,6 +85,7 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다.
   4-8의 값들은 정의되었지만 사용되지 않습니다. 자세한 내용은 [#159][7]를 참고하십시오.
 
 예를 들어 이 코드는:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820
@@ -76,7 +94,9 @@ R0820
 
  0821   LAMPTEST  CS  IMODES33
 ```
+
 이렇게 고쳐야 합니다:
+
 ```plain
 R0819   SUBROUTINE TO SKIP...
 R0820

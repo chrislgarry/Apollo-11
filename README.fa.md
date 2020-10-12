@@ -4,15 +4,20 @@
 
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
+[![Comanche]][ComancheMilestone]
+[![Luminary]][LuminaryMilestone]
 
-:crossed_flags:
+🎌
 [Bahasa Indonesia][ID]،
 [Català][CA]،
+[Čeština][CZ]،
 [Deutsch][DE]،
 [English][EN]،
 [Español][ES]،
 [Français][FR]،
 [Italiano][IT]،
+[Kurdi][KU]،
+[Nederlands][NL]،
 [Polski][PL]،
 [Português][PT_BR]،
 [Română][RO]،
@@ -24,7 +29,7 @@
 [हिंदी][HI_IN]،
 [বাংলা][BD_BN]،
 [မြန်မာ][MM]،
-[日本][JA]،
+[日本語][JA]،
 [正體中文][ZH_TW]،
 [简体中文][ZH_CN]،
 [한국어][KO_KR]
@@ -32,6 +37,7 @@
 [AR]:README.ar.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
+[CZ]:README.cz.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
@@ -42,6 +48,7 @@
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
 [MM]:README.mm.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
@@ -51,28 +58,32 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
+[NL]:README.nl.md
 
 سورس کد اصلی سیستم هدایت آپولو ۱۱ (AGC) برای سفینه فرمان (Comanche055) و سفینه ماه‌نشین (Luminary099). دیجیتال شده توسط جمعی از در [مجازی AGC][3] و [MIT موزه][4]. مقصود این است که یک مخزن برای سورس کد اصلی آپولو ۱۱ باشد. همین‌طور، از پول‌ریکوئست‌ها برای هر تفاوتی بین نسخه‌ی موجود در این مخزن با اسکن‌ فایل‌های اصلی برای [Luminary 099][5] و [Comanche 055][6] و همچنین هر فایل دیگری که از دست من در رفته باشد،‌ استقبال می‌شود.
 
 ## مشارکت
+
 لطفاً [CONTRIBUTING.md][7] را قبل از باز کردن پول‌ریکوئست بخوانید.
 
 ## کامپایل کردن
+
 اگر علاقه‌مند به کامپایل کردن سورس کد هستید، به [AGC مجازی][8] مراجعه کنید.
 
 ## مجوز
 
-&nbsp;         | &nbsp;
--------------: | -----:
+&nbsp;       | &nbsp;
+-----------: | -----:
 حق نشر      | مالکیت عمومی
-Comanche055    | بخشی از سورس کد Colossus 2A، سیستم هدایت (AGC) سفینه فرمان (CM) آپولو ۱۱<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | بخشی از سورس کد Luminary 1A، سیستم هدایت سفینه ماه‌نشین (LM) آپولو ۱۱<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-اسمبلر      | yaYUL
-تماس        | رون برکی <info@sandroid.org>
-وبسایت        | www.ibiblio.org/apollo
+Comanche055  | بخشی از سورس کد Colossus 2A، سیستم هدایت (AGC) سفینه فرمان (CM) آپولو ۱۱<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099  | بخشی از سورس کد Luminary 1A، سیستم هدایت سفینه ماه‌نشین (LM) آپولو ۱۱<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+اسمبلر       | yaYUL
+تماس        |     رون برکی <info@sandroid.org>
+وبسایت       | www.ibiblio.org/apollo
 دیجیتال کردن | این سورس کد رونویسی شده یا از تصاویر دیجیتالی از یک مرجع کاغذی در موزه MIT به دست آمده است. دیجیتالی کردن توسط پول فیلد انجام شده و توسط دبرا داگلاس، از کارکنان موزه، مرتب شده است. با تشکر از هر دو آن‌ها.
 
 ### تاییدیه
+
 *برگرفته از [CONTRACT_AND_APPROVALS.agc]*
 
 برنامه AGC باید Colossus 2A خطاب شود.
@@ -92,8 +103,10 @@ Luminary099    | بخشی از سورس کد Luminary 1A، سیستم هدایت
 دیوید جی. هوگ    | مدیر، برنامه مسیریابی و هدایت آپولو | ۲۸ مارس ۱۹۶۹
 رالف ه. راگان    |قائم مقام ، برنامه مسیریابی و هدایت آپولو | ۲۸ مارس ۱۹۶۹
 
+</div>
+
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
-[1]:https://rawcdn.githack.com/aleen42/badges/c9246f74/src/nasa.svg
+[1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
 [2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
 [3]:http://www.ibiblio.org/apollo/
 [4]:http://web.mit.edu/museum/
@@ -101,7 +114,9 @@ Luminary099    | بخشی از سورس کد Luminary 1A، سیستم هدایت
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
 [8]:https://github.com/rburkey2005/virtualagc
-[SWH]:https://archive.softwareheritage.org/badge/origin/https://github.com/chrislgarry/Apollo-11/
+[SWH]:https://flat.badgen.net/badge/Software%20Heritage/Archive/0B3D91
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
-
-</div>
+[Comanche]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
