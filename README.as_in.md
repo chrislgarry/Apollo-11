@@ -67,6 +67,7 @@
 অনুগ্ৰহ কৰি pull requestৰ আগতে [COMPINING.md][7] পঢ়ক।
 
 ## কম্পাইল
+
 যদি আপুনি মূল উৎস কোড কম্পাইল কৰাত আগ্ৰহী, [Virtual AGC][8] চাওক।
 
 ## Attribution
