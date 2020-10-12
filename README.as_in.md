@@ -63,12 +63,14 @@
 মূল এপোলো 11 গাইডেচন কম্পিউটাৰ (AGC) কমাণ্ড মডিউল (Comanche055) আৰু লুনাৰ মডিউলৰ বাবে উৎস কোড (Luminary099)। [Virtual AGC][3] আৰু [MIT Museum][4] থকা জনসাধাৰণৰ দ্বাৰা ডিজিটাইজ কৰা হৈছে। লক্ষ্য টো হৈছে মূল এপলো 11 উৎস কোডৰ বাবে ৰেপো হোৱা। এনেদৰে, এই ভঁৰালত প্ৰতিলিপি আৰু লুমিনাৰী 099 আৰু কোমানচে 055-ৰ বাবে মূল উৎস মাজত চিনাক্ত কৰা যিকোনো সমস্যাৰ বাবে পি.আৰ. স্বাগতম, লগতে মোৰ থাকি যাব পৰা যিকোনো ফাইল।
 
 ## অৱদান
+
 অনুগ্ৰহ কৰি pull requestৰ আগতে [COMPINING.md][7] পঢ়ক।
 
 ## কম্পাইল
 যদি আপুনি মূল উৎস কোড কম্পাইল কৰাত আগ্ৰহী, [Virtual AGC][8] চাওক।
 
 ## Attribution
+
 &nbsp;         | &nbsp;
 :------------- | :-----
 Copyright      | ৰাজহুৱা ডমেইন
@@ -80,6 +82,7 @@ Website        | www.ibiblio.org/apollo
 Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
 
 ## চুক্তি আৰু অনুমোদন
+
 *Derived from [CONTRACT_AND_APPROVALS.agc]*
 
 This AGC program shall also be referred to as Colossus 2A.
