@@ -98,7 +98,7 @@ Aynı şekilde, eğer dijitalleştirmiş yorumlarda bir yazım hatası varsa ama
   - Yeni cümleler arası iki boşluk.
   - Yeni girintiler için üç boşluk.
 
-Taratılmış çıktılarda bütün sayfalar bu genellemelere uymaz. Eğer çıktılarda iki boşluk yerine bir boşluk varsa, bir boşluk kullanın. 
+Taratılmış çıktılarda bütün sayfalar bu genellemelere uymaz. Eğer çıktılarda iki boşluk yerine bir boşluk varsa, bir boşluk kullanın.
 
 ### Satır sonları
 
@@ -106,7 +106,7 @@ Taratılmış çıktılarda bütün sayfalar bu genellemelere uymaz. Eğer çık
 - Birinci sütunu `R0000` *__olmadan__* biten satır sonları arka arkaya sadece 1 ya da 2 boş satır içermelidir.
   - Eğer 2'den fazla satır sonu varsa ekstra olan satır sonlarını kaldırın.
     - Birinci sütunu `R0000` *ile* biten satırlar bu kural dahilinde değildir.
-  - Kaynak resimlerde bunlar 8. satırındaki basamak bastırılmamış halde oluşturulmuştur. Bir 2 kullanımı iki boşluğu (tek boş satırı) temsil ederken, bir 3 kullanımı üç boşluğu (iki boş satırı) ifade eder. 4 ve 8 tanımlanmıştır fakat hiç kullanılmamıştır. Bunun hakkında daha fazla okumak için: [#159][7].
+  - Kaynak resimlerde bunlar 8. satırındaki basamak bastırılmamış halde oluşturulmuştur. Bir 2 kullanımı iki boşluğu (tek boş satırı) temsil ederken, bir 3 kullanımı üç boşluğu (iki boş satırı) ifade eder. 4 ve 8 tanımlanmıştır fakat hiç kullanılmamıştır. Bunun hakkında daha fazla okumak için: [#159][7]
 
 Örneğin bu:
 
