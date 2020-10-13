@@ -8,7 +8,7 @@
 [Français][FR],
 [Italiano][IT],
 **Kurdî**,
-[Lietuvių][LI],
+[Lietuvių][LT],
 [Nederlands][NL],
 [Norsk][NO],
 [Português][PT_BR],

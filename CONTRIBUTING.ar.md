@@ -10,7 +10,7 @@
 [Français][FR]،
 [Italiano][IT]،
 [Kurdi][KU]،
-[Lietuvių][LI]،
+[Lietuvių][LT]،
 [Nederlands][NL]،
 [Norsk][NO]،
 [Português][PT_BR]،
