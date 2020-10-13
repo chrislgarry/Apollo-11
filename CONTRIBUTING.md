@@ -92,7 +92,7 @@ Likewise, if a word has a typo in the digitisation but is spelt correctly in the
 
 #### Spaces
 
-Spaces between two characters in comments **SHOULD** match the scans. In most cases (see the discussion in [#316[10]), this is:
+Spaces between two characters in comments **SHOULD** match the scans. In most cases (see the discussion in [#316][10]), this is:
 
 - Single space for new words.
 - Double space for new sentences.
