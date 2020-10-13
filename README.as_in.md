@@ -74,34 +74,34 @@
 
 &nbsp;         | &nbsp;
 :------------- | :-----
-Copyright      | ৰাজহুৱা ডমেইন
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+কপিৰাইট       | ৰাজহুৱা ডমেইন
+Comanche055    | কলোচাছ (Colossus) 2A ৰ উৎস কোডৰ অংশ, এপলো 11-ৰ কমাণ্ড মডিউলৰ (CM) এপলো গাইডেচন কম্পিউটাৰ (AGC)<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    | লুমিনাৰী (Luminary) 1A-ৰ বাবে উৎস কোডৰ অংশ, এপোলো 11-ৰ বাবে লুনাৰ মডিউলৰ (LM) এপোলো গাইডেচন কম্পিউটাৰ (AGC)<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
+যোগাযোগ        | Ron Burkey <info@sandroid.org>
+ৱেবছাইট        | www.ibiblio.org/apollo
 Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
 
 ## চুক্তি আৰু অনুমোদন
 
-*Derived from [CONTRACT_AND_APPROVALS.agc]*
+*এই বিভাগটো [CONTRACT_AND_APPROVALS.agc]ৰ পৰা আহৰণ কৰা হৈছে*
 
-This AGC program shall also be referred to as Colossus 2A.
+এই এজিচি প্ৰ'গ্ৰামক কোলচাছ 2এ বুলিও কোৱা হ'ব।
 
-This program is intended for use in the CM as specified in report `R-577`. This program was prepared under DSR project `55-23870`, sponsored by the Manned Spacecraft Center of The National Aeronautics and Space Administration through contract `NAS 9-4065` with the Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
+প্ৰতিবেদন 'R-577'ত নিৰ্ধাৰিত অনুসৰি এই প্ৰ'গ্ৰামটো চি.এম.-ত ব্যৱহাৰ হৈছিল। এই কাৰ্য্যসূচীটো DSR প্ৰকল্প '55-23870'ৰ অধীনত প্ৰস্তুত কৰা হৈছিল, যাৰ পৃষ্ঠপোষকতা কৰিছিল National Aeronautics and Space Administrationৰ Manned Spacecraft Centerএ, Instrumentation Laboratory, Massachusetts Institute of Technologyৰ সৈতে চুক্তি 'NAS 9-4065'ৰ যোগেৰে।
 
-Submitted by         | Role | Date
+দাখিলকাৰী             | ভূমিকা | দিনাংক
 :------------------- | :--- | :---
-Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | ২৮ মাৰ্চ '৬৯
 
-Approved by       | Role | Date
+অনুমোদক          | ভূমিকা | দিনাংক
 :---------------- | :--- | :---
-Daniel J. Lickly  | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag     | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+Daniel J. Lickly  | পৰিচালক, Mission Program Development<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
+Fred H. Martin    | Colossus প্ৰকল্প ব্যৱস্থাপক<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
+Norman E. Sears   | পৰিচালক, Mission Development<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
+Richard H. Battin | পৰিচালক, Mission Development<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
+David G. Hoag     | পৰিচালক<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
+Ralph R. Ragan    | উপ-পৰিচালক<br>Instrumentation Laboratory | ২৮ মাৰ্চ '৬৯
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
