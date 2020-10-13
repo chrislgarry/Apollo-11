@@ -7,8 +7,8 @@
 
 🎌
 [Bahasa Indonesia][ID],
-[Čeština][CZ],
 **Català**,
+[Čeština][CZ],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
@@ -16,11 +16,13 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
@@ -41,13 +43,17 @@
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -56,7 +62,8 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 Codi font original del Mòdul de Comandament (Comanche055) i del Mòdul Lunar (Comanche055) de l'ordinador de navegació de l'Apollo 11 (AGC, per les seves sigles en anglès). Digitalitzat per la gent de [Virtual AGC][3] i [MIT Museum][4]. L'objectiu és esdevenir un repositori del codi font original de l'Apollo 11. Per això els *pull requests* són benvinguts davant de qualsevol problema que s'identifiqui entre les transcripcions d'aquests repositori i les còpies originals del codi font de [Luminary 099][5] i [Comanche 055][6], així com qualsevol fitxer que m'hagi pogut deixar.
 

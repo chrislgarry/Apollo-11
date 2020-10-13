@@ -18,11 +18,13 @@
 [Italiano][IT]،
 [Kurdi][KU]،
 [Nederlands][NL]،
+[Norsk][NO]،
 [Polski][PL]،
 [Português][PT_BR]،
 [Română][RO]،
 [Tiếng Việt][VI]،
 [Türkçe][TR]،
+[Ελληνικά][GR]،
 [Русский][RU]،
 [العربية][AR]،
 **فارسی**،
@@ -43,13 +45,17 @@
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +64,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 سورس کد اصلی سیستم هدایت آپولو ۱۱ (AGC) برای سفینه فرمان (Comanche055) و سفینه ماه‌نشین (Luminary099). دیجیتال شده توسط جمعی از در [مجازی AGC][3] و [MIT موزه][4]. مقصود این است که یک مخزن برای سورس کد اصلی آپولو ۱۱ باشد. همین‌طور، از پول‌ریکوئست‌ها برای هر تفاوتی بین نسخه‌ی موجود در این مخزن با اسکن‌ فایل‌های اصلی برای [Luminary 099][5] و [Comanche 055][6] و همچنین هر فایل دیگری که از دست من در رفته باشد،‌ استقبال می‌شود.
 

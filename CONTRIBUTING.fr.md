@@ -6,10 +6,14 @@
 [English][EN],
 [Español][ES],
 **Français**,
+[Italiano][IT],
 [Kurdi][KU],
+[Lietuvių][LT],
 [Nederlands][NL],
+[Norsk][NO],
 [Português][PT_BR],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
 [正體中文][ZH_TW],
@@ -22,16 +26,20 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Le code source de ce dépôt a été numérisé manuellement à partir d’imprimés papier, de sorte que les fautes de frappe et autres anomalies ont été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées:
+Le code source de ce dépôt a été numérisé manuellement à partir d’imprimés papier, de sorte que les fautes de frappe et autres anomalies ont été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées suivantes:
 
 - [Impressions AGC pour Comanche][8]
 - [Impressions AGC pour Luminary][9]
@@ -74,12 +82,30 @@ Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Mal
 
 ## Comment vérifier ?
 
-Tout écart entre les scans et le code source dans ce référentiel, y compris :
+Tout écart entre les scans et le code source dans ce référentiel.
 
 ### Commentaires
 
-- Les commentaires dans le code transcrit doivent correspondre exactement aux scans
-  - Cela peut impliquer de créer délibérément une erreur de frappe  ou de supprimer/ajouter un commentaire entier.
+- Les commentaires dans le code transcrit **doivent** correspondre **exactement** aux scans.
+  - Les problèmes courants que vous devez rechercher lors de la vérification sont les suivants. Attention la liste n'est pas exhaustive!
+
+#### Erreurs typographiques
+
+A certains endroits, les développeurs originaux ont fait des erreurs typographiques en écrivant des commentaires. Certaines d’entre elles ont été corrigées par erreur lors de la numérisation initiale, mais la numérisation a également introduit des erreurs typographiques qui n’étaient pas présentes dans les scans.
+
+Par exemple, si les commentaires numérisés contiennent `SPACECRAFT`, mais que `SPAECRAFT` a été imprimé dans les scans, la numérisation DOIT être corrigée en `SPAECRAFT` (C manquant).
+
+De même, si un mot a une faute de frappe dans la numérisation mais est correctement orthographié dans les scans, alors la faute de frappe DOIT être corrigée.
+
+#### Espaces
+
+Les espaces entre deux caractères dans les commentaires **DEVRAIENT** correspondre aux scans. Dans la plupart des cas (voir la discussion dans [#316][10]), c'est:
+
+- Espace unique pour les nouveaux mots.
+- Double espace pour les nouvelles phrases.
+- Triple espace pour les indentations.
+
+Toutes les pages des scans ne suivent pas cette généralisation, si les scans n'ont qu'un seul espace au lieu d'un double espace, utiliser un seul espace.
 
 ### Sauts de ligne
 
@@ -108,27 +134,6 @@ R0820
 
 
  0820   LAMPTEST  CS  IMODES33
-```
-
-### Espaces
-
-- Les espaces entre deux caractères doivent respecter la convention suivante (voir la discussion [#316][10]):
-  - Un seul espace pour un nouveau mot.
-  - Deux espaces pour une nouvelle phrase.
-  - Trois espaces pour l'indentations.
-
-Par exemple, ce qui suit:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Doit devenir:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
 ```
 
 ## Note
