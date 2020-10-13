@@ -92,24 +92,13 @@ Aynı şekilde, eğer dijitalleştirmiş yorumlarda bir yazım hatası varsa ama
 
 ### Boşluklar
 
-- Bir string'deki iki karakterin arasındaki boşluklar şu kurallara uymalıdır ([#316][10]'daki tartışmayı inceleyin):
+- Yorumlar arasındaki iki karakterin arasındaki boşluklar taratılmış çıktılar ile **uyuşmalıdır**. Bir çok durumda ([#316][10]'daki tartışmayı inceleyin) boşluklar şu şekildedir:
+
   - Yeni kelimeler arası tek boşluk.
   - Yeni cümleler arası iki boşluk.
   - Yeni girintiler için üç boşluk.
 
-Örneğin bu:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Buna dönüşmeli:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
-```
+Taratılmış çıktılarda bütün sayfalar bu genellemelere uymaz. Eğer çıktılarda iki boşluk yerine bir boşluk varsa, bir boşluk kullanın. 
 
 ### Satır sonları
 
