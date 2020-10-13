@@ -34,33 +34,6 @@
 **简体中文**,
 [한국어][KO_KR]
 
-[Bahasa Indonesia][ID],
-[Català][CA],
-[Čeština][CZ],
-[Deutsch][DE],
-[English][EN],
-[Español][ES],
-[Français][FR],
-[Italiano][IT],
-[Kurdi][KU],
-[Nederlands][NL],
-[Polski][PL],
-[Português][PT_BR],
-[Română][RO],
-[Tiếng Việt][VI],
-[Türkçe][TR],
-[Русский][RU],
-[العربية][AR],
-[فارسی][FA],
-[Ελληνικά][GR],
-[हिंदी][HI_IN],
-[বাংলা][BD_BN],
-[မြန်မာ][MM],
-[日本語][JA],
-[正體中文][ZH_TW],
-**简体中文**,
-[한국어][KO_KR]
-
 [AR]:README.ar.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
