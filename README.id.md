@@ -16,15 +16,16 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-[Ελληνικά][GR],
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +62,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Kode sumber orisinil Komputer Pemandu Apollo 11 (AGC) untuk Modul Komando (Comanche055) dan Modul Bulan (Luminary099). Didigitalkan oleh [Virtual AGC][3] dan [MIT Museum][4]. Tujuan dari repo ini adalah untuk menjadi repo kode sumber Apollo 11 yang orisinil. Dengan demikian, siapapun dipersilakan untuk mengirimkan Pull Request untuk issue atau perbedaan apapun yang ditemukan antara transkripsi di repositori ini dengan kode sumber orisinil hasil scan untuk [Luminary 099][5] dan [Comanche 055][6], juga file apapun yang mungkin lupa saya masukkan.
 

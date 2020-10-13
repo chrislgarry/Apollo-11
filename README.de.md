@@ -16,15 +16,16 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-[Ελληνικά][GR],
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +62,8 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 Dieses Repository beinhaltet den originalen Quellcode des Apollo 11 Navigationscomputers (kurz AGC) für das Kommandomodul (Comanche055) und die Mondlandefähre (Luminary099). Digitalisiert wurde der Code durch das [Virtual AGC][3] Projekt und das [MIT Museum][4]. Ziel dieses Projektes ist es, den originalen Apollo 11 Source Code an einem zentralen Ort zu sammeln. Daher sind PRs, die Diskrepanzen zwischen den Transkripten in diesem Repository und den originalen Scans des Source Codes von [Luminary 099][5] und [Comanche 055][6] beheben, gern gesehen.
 

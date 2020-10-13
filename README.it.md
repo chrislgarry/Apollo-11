@@ -16,15 +16,16 @@
 **Italiano**,
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-[Ελληνικά][GR],
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,13 +62,12 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Codice sorgente dell'Apollo 11 Guidance Computer (AGC) utilizzato dal Command Module (Comanche055) e dal Lunar Module (Luminary099). Digitalizzato dagli autori del [Virtual AGC][3] e dal [MIT Museum][4]. L'obbiettivo è quello di avere un repository contenente il codice usato dalla missione Apollo 11. Di conseguenza, le PRs volte a correggere qualsiasi problema, identificato confrontando le trascrizioni in questo repository e le scansioni originali del codice del [Luminary 099][5] e del [Comanche 055][6], sono benvenute.
 
 ## Contribuire
 
-Leggere [CONTRIBUTING.md][7] prima di aprire una pull request (PR).
+Leggere [CONTRIBUTING.it.md][7] prima di aprire una pull request (PR).
 
 ## Compilare
 
@@ -110,7 +113,7 @@ Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
 [4]:http://web.mit.edu/museum/
 [5]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
+[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.it.md
 [8]:https://github.com/rburkey2005/virtualagc
 [SWH]:https://flat.badgen.net/badge/Software%20Heritage/Archive/0B3D91
 [SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/

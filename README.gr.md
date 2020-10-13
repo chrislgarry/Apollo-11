@@ -16,15 +16,16 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+**Ελληνικά**,
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-**Ελληνικά**,
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +62,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Ο πρωτότυπος πηγαίος κώδικας του υπολογιστή πλοήγησης (guidance computer) του Apollo 11 (AGC) για το Command Module (Comanche055) και το Lunar Module (Luminary099). Ψηφιοποίηση από ανθρώπους στο [Virtual AGC][3] και το [MIT Museum][4]. Ο στόχος είναι αυτό το αποθετήριο να παρέχει όλο τον πηγαίο κώδικα του Apollo 11. Ως εκ τούτου, τα PRs είναι ευπρόσδεκτα για τυχόν ζητήματα που εντοπίζονται μεταξύ των μεταγραφών σε αυτό το αποθετήριο και των αρχικών σαρώσεων προέλευσης για το [Luminary 099][5] και το [Comanche 055][6], καθώς επίσης και για αρχεία που λείπουν.
 

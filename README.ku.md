@@ -16,15 +16,16 @@
 [Italiano][IT],
 **Kurdî**,
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-[Ελληνικά][GR],
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +62,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Koda xwerû ya kompûterê rêbernameya Apollo 11 (AGC) ya orîjînal ji bo Wesayîta Rêvebirinê (Comanche055) û Wesayîta Hêvê (Luminary099). Hat jimarekirin ji aliyê [Virtual AGC][3] û [MIT Museum][4] va. Armanc ew e ku bibe wek depoyekê ji bo koda xwerû ya orîjînal ya Apollo 11. Ji bo wê yekê, daxwazê kişandinê tên pêşwazîkirin ji bo her pirsgirêkekî ku tê nîşankirin di nava vê depoyê de û kopiyên orîjînal yê [Luminary 099][5] û [Comanche 055][6], herweha çi dosya ku min ji bîr kirî.
 

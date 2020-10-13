@@ -16,15 +16,16 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 **Türkçe**,
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-[Ελληνικά][GR],
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +62,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
 

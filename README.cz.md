@@ -10,21 +10,22 @@
 [Català][CA],
 **Čeština**,
 [Deutsch][DE],
-[English][EN]
+[English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-[Ελληνικά][GR],
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +62,12 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 Originální zdrojové kódy navigačního počítače (AGC) Apolla 11 pro Velitelský Modul (Comanche055) a Lunární Modul (Luminary099). Digitalizováno s pomocí [Virtual AGC][3] a [MIT Museum][4]. Cílem repozitáře je udržovat původní zdrojové kódy Apolla 11. Vítáme všechny PR s úpravami problémů identifikovaných mezi přepisy v tomto repozitáři a originálními skeny pro [Luminary 099][5] a [Comanche 055][6], stejně jako soubory které mohly být přehlédnuty.
 

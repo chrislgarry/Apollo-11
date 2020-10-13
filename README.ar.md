@@ -18,15 +18,16 @@
 [Italiano][IT]،
 [Kurdi][KU]،
 [Nederlands][NL]،
+[Norsk][NO]،
 [Polski][PL]،
 [Português][PT_BR]،
 [Română][RO]،
 [Tiếng Việt][VI]،
 [Türkçe][TR]،
+[Ελληνικά][GR]،
 [Русский][RU]،
 **العربية**،
 [فارسی][FA]،
-[Ελληνικά][GR],
 [हिंदी][HI_IN]،
 [বাংলা][BD_BN]،
 [မြန်မာ][MM]،
@@ -51,7 +52,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -60,7 +64,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 الكود المصدري الأصلي لحاسوب الارشاد لأبولو 11 (AGC) للمركبة القيادية (Comanche055) والمركبة القمرية (Luminary099). تم ترقيمه من قبل [AGC الافتراضية][3] و[متحف MIT][4]. الهدف أن تكون مستودع للكود المصدري الأصلي لأبولو 11 (AGC). لهذا فإن طلبات السحب مرحب بها لأي اختلاف يتم رصده بين النسخ في هذا المستودع والمسح الأصلي ل[Luminary 099][5] و[Comanche 055][6]، أو أي ملف قد فاتني.
 
@@ -77,8 +80,8 @@
 &nbsp;         | &nbsp;
 -------------: | -----:
 حقوق النشر      | المجال العام
-Comanche055    | جزء من الكود المصدري لColossus 2A، حاسوب ارشاد أبولو (AGC) للمركبة القيادية (CM) لأبولو 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | جزء من الكود المصدري لLuminary 1A، حاسوب ارشاد أبولو (AGC) للمركبة القمرية (LM) لأبولو 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Comanche055    | جزء من الكود المصدري لColossus 2A، حاسوب ارشاد أبولو (AGC) للمركبة القيادية (CM) لأبولو 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1، 1969`
+Luminary099    | جزء من الكود المصدري لLuminary 1A، حاسوب ارشاد أبولو (AGC) للمركبة القمرية (LM) لأبولو 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14، 1969`
 المُركِب      | yaYUL
 للتواصل        | رون بركي <info@sandroid.org>
 الموقع الالكتروني        | www.ibiblio.org/apollo

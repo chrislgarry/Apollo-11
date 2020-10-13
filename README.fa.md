@@ -18,15 +18,16 @@
 [Italiano][IT]،
 [Kurdi][KU]،
 [Nederlands][NL]،
+[Norsk][NO]،
 [Polski][PL]،
 [Português][PT_BR]،
 [Română][RO]،
 [Tiếng Việt][VI]،
 [Türkçe][TR]،
+[Ελληνικά][GR]،
 [Русский][RU]،
 [العربية][AR]،
 **فارسی**،
-[Ελληνικά][GR],
 [हिंदी][HI_IN]،
 [বাংলা][BD_BN]،
 [မြန်မာ][MM]،
@@ -51,7 +52,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -60,7 +64,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 سورس کد اصلی سیستم هدایت آپولو ۱۱ (AGC) برای سفینه فرمان (Comanche055) و سفینه ماه‌نشین (Luminary099). دیجیتال شده توسط جمعی از در [مجازی AGC][3] و [MIT موزه][4]. مقصود این است که یک مخزن برای سورس کد اصلی آپولو ۱۱ باشد. همین‌طور، از پول‌ریکوئست‌ها برای هر تفاوتی بین نسخه‌ی موجود در این مخزن با اسکن‌ فایل‌های اصلی برای [Luminary 099][5] و [Comanche 055][6] و همچنین هر فایل دیگری که از دست من در رفته باشد،‌ استقبال می‌شود.
 
@@ -77,8 +80,8 @@
 &nbsp;       | &nbsp;
 -----------: | -----:
 حق نشر      | مالکیت عمومی
-Comanche055  | بخشی از سورس کد Colossus 2A، سیستم هدایت (AGC) سفینه فرمان (CM) آپولو ۱۱<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099  | بخشی از سورس کد Luminary 1A، سیستم هدایت سفینه ماه‌نشین (LM) آپولو ۱۱<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Comanche055  | بخشی از سورس کد Colossus 2A، سیستم هدایت (AGC) سفینه فرمان (CM) آپولو ۱۱<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1، 1969`
+Luminary099  | بخشی از سورس کد Luminary 1A، سیستم هدایت سفینه ماه‌نشین (LM) آپولو ۱۱<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14، 1969`
 اسمبلر       | yaYUL
 تماس        |     رون برکی <info@sandroid.org>
 وبسایت       | www.ibiblio.org/apollo

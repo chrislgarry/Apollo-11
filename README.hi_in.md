@@ -16,15 +16,16 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
-[Ελληνικά][GR],
 **हिंदी**,
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -49,7 +50,10 @@
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -58,7 +62,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 अपोलो ११ मार्गदर्शन कम्प्यूटर (Apollo 11 Guidance computer, AGC) कमांड मॉड्यूल (Comanche055) तथा चंद्र मॉड्यूल (Luminary099) का मूल नियम संग्रह। इसे [Virtual AGC][3] एवं [MIT Museum][4] के सदस्यों द्वारा अंक्रिकित किया गया है। हमारा मुख्य उद्देश्य अपोलो ११ के मूल नियम संग्रह को संकलित करना है। यदि आपने इस संघ्रह के प्रतिलेखन एवं [Luminary 099][5] और [Comanche 055][6] के बीच में किसी भी फर्क का अनावरण किया है, उस दशा में आपका सहयोग PR के रूप में बहुत ही अभिवादित है।
 
