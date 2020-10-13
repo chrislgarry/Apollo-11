@@ -24,6 +24,7 @@
 **Русский**,
 [العربية][AR],
 [فارسی][FA],
+[Ελληνικά][GR],
 [हिंदी][HI_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
@@ -41,6 +42,7 @@
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
