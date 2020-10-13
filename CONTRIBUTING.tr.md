@@ -94,9 +94,9 @@ Aynı şekilde, eğer dijitalleştirmiş yorumlarda bir yazım hatası varsa ama
 
 Yorumlar arasındaki iki karakterin arasındaki boşluklar taratılmış çıktılar ile **uyuşmalıdır**. Bir çok durumda ([#316][10]'daki tartışmayı inceleyin) boşluklar şu şekildedir:
 
-  - Yeni kelimeler arası tek boşluk.
-  - Yeni cümleler arası iki boşluk.
-  - Yeni girintiler için üç boşluk.
+- Yeni kelimeler arası tek boşluk.
+- Yeni cümleler arası iki boşluk.
+- Yeni girintiler için üç boşluk.
 
 Taratılmış çıktılarda bütün sayfalar bu genellemelere uymaz. Eğer çıktılarda iki boşluk yerine bir boşluk varsa, bir boşluk kullanın.
 
