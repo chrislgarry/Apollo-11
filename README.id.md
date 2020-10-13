@@ -27,6 +27,7 @@
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
 [日本語][JA],
@@ -35,6 +36,7 @@
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [CZ]:README.cz.md
