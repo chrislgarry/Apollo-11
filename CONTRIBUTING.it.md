@@ -94,7 +94,7 @@ Analogamente, se una parola ha un errore di ma è scritta correttamente nelle sc
 
 #### Spazi
 
-Spazi tra due caratteri nei commenti **DOVREBBERO** corrispondere alle scannerizzazioni. Nella maggior parte dei casi (Si guardi la discussione in [#316[10]), questo comprende:
+Spazi tra due caratteri nei commenti **DOVREBBERO** corrispondere alle scannerizzazioni. Nella maggior parte dei casi (Si guardi la discussione in [#316][10]), questo comprende:
 
 - Spazio singolo tra parole.
 - Doppio spazio tra frasi.
