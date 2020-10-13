@@ -92,7 +92,7 @@ Aynı şekilde, eğer dijitalleştirmiş yorumlarda bir yazım hatası varsa ama
 
 ### Boşluklar
 
-- Yorumlar arasındaki iki karakterin arasındaki boşluklar taratılmış çıktılar ile **uyuşmalıdır**. Bir çok durumda ([#316][10]'daki tartışmayı inceleyin) boşluklar şu şekildedir:
+Yorumlar arasındaki iki karakterin arasındaki boşluklar taratılmış çıktılar ile **uyuşmalıdır**. Bir çok durumda ([#316][10]'daki tartışmayı inceleyin) boşluklar şu şekildedir:
 
   - Yeni kelimeler arası tek boşluk.
   - Yeni cümleler arası iki boşluk.
