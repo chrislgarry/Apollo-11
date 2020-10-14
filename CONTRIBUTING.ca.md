@@ -76,7 +76,7 @@ GitHub té suport de sintaxi pel llenguatge assemblador AGC incorporat. Malaurad
 
 ## Formateig
 
-**Nota:** GitHub i les extensions marcades anteriorment asseguren que s'està utilitzant el format correcte automàticament. 
+**Nota:** GitHub i les extensions marcades anteriorment asseguren que s'està utilitzant el format correcte automàticament.
 
 - Utilitzar la tabulació per la indentació
 - Utilitza una tabulació de 8
@@ -101,7 +101,7 @@ Els problemes més habituals que heu de tindre en compte durant la prova incloue
   - Si hi ha més de 2 salts de línia en blanc, elimina els salts de línia addicionals.
     - Línies amb `R0000` en la columna 1 no conten per això.
   - En les imatges d'origen, aquestes van ser creades per un dígit sense imprimir en la columna 8. A 2 va forçar un doble espai (línia amb blanc simple) i un 3 va forçar un espai triple (línia en blanc doble). Els valors 4-8 es van diferenciar però mai es van utilitzar. Llegeix més sobre  això a [#159][7]
-  
+
 Per exemple el següent:
 
 ```plain
