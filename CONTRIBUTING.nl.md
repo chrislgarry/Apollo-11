@@ -1,6 +1,7 @@
 # Bijdragen
 
 🎌
+[Català][CA]،
 [Čeština][CZ],
 [Deutsch][DE],
 [English][EN],
@@ -21,6 +22,7 @@
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[CA]:CONTRIBUTING.ca.md
 [CZ]:CONTRIBUTING.cz.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
