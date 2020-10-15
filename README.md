@@ -1,4 +1,4 @@
-# Apollo-11
+# Apollo-11 --
 
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
@@ -67,16 +67,16 @@
 
 Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099][5] and [Comanche 055][6], as well as any files I may have missed.
 
-## Contributing
+## Contributing --
 
 Please read [CONTRIBUTING.md][7] before opening a pull request.
 
-## Compiling
+## Compiling --
 
 If you are interested in compiling the original source code, check
 out [Virtual AGC][8].
 
-## Attribution
+## Attribution --
 
 &nbsp;         | &nbsp;
 :------------- | :-----
@@ -88,7 +88,7 @@ Contact        | Ron Burkey <info@sandroid.org>
 Website        | www.ibiblio.org/apollo
 Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
 
-### Contract and Approvals
+### Contract and Approvals --
 
 *Derived from [CONTRACT_AND_APPROVALS.agc]*
 
