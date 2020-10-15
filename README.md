@@ -6,7 +6,7 @@
 [![Luminary]][LuminaryMilestone]
 
 🎌
-[Bahasa Indonesia][ID],
+[Bahasa IndoneSia][ID],
 [Català][CA],
 [Čeština][CZ],
 [Deutsch][DE],
