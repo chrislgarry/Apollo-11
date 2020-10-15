@@ -88,7 +88,7 @@ Setiap perbedaan antara pemindaian dan kode sumber di repositori ini.
 
 ### Komentar
 
-Komentar dalam kode yang ditranskrip ** HARUS ** cocok dengan pindaian ** dengan tepat **.
+Komentar dalam kode yang ditranskrip **HARUS** cocok dengan pindaian **dengan tepat**.
 
 Masalah umum yang harus Anda perhatikan saat pemeriksaan meliputi, tetapi tidak terbatas pada:
 
@@ -96,13 +96,13 @@ Masalah umum yang harus Anda perhatikan saat pemeriksaan meliputi, tetapi tidak 
 
 Di beberapa tempat, pengembang asli membuat kesalahan ketik saat menulis komentar. Beberapa di antaranya dikoreksi secara keliru selama digitalisasi awal, namun digitalisasi juga menyebabkan kesalahan tipografi yang tidak ada dalam pemindaian.
 
-Misalnya, jika komentar digital berisi `SPACECRAFT`, tetapi` SPAECRAFT` dicetak dalam pemindaian, maka digitalisasi ** HARUS ** dikoreksi menjadi `SPAECRAFT` (` C` tidak ada).
+Misalnya, jika komentar digital berisi `SPACECRAFT`, tetapi `SPAECRAFT` dicetak dalam pemindaian, maka digitalisasi **HARUS** dikoreksi menjadi `SPAECRAFT` (`C` tidak ada).
 
-Demikian juga, jika kata memiliki kesalahan ketik dalam digitalisasi tetapi dieja dengan benar dalam pemindaian, kesalahan ketik tersebut ** HARUS ** dikoreksi.
+Demikian juga, jika kata memiliki kesalahan ketik dalam digitalisasi tetapi dieja dengan benar dalam pemindaian, kesalahan ketik tersebut **HARUS** dikoreksi.
 
 #### Spasi
 
-Spasi di antara dua karakter dalam komentar ** HARUS ** cocok dengan pemindaian. Dalam kebanyakan kasus (lihat diskusi di [# 316] [10]), ini adalah:
+Spasi di antara dua karakter dalam komentar **HARUS** cocok dengan pemindaian. Dalam kebanyakan kasus (lihat diskusi di [# 316] [10]), ini adalah:
 
 - Spasi tunggal untuk kata-kata baru.
 - Spasi ganda untuk kalimat baru.
@@ -112,8 +112,8 @@ Tidak semua halaman dalam pemindaian mengikuti generalisasi ini, jika pemindaian
 
 ### Jeda baris
 
-- Jeda baris * dengan * `R0000` di kolom 1 harus sama persis dengan pemindaian.
-- Jeda baris * dengan ** __ out __ * `R0000` di kolom 1 hanya boleh berisi 1 atau 2 baris kosong dalam satu baris.
+- Jeda baris *dengan* `R0000` di kolom 1 harus sama persis dengan pemindaian.
+- Jeda baris *dengan* *__ out __* `R0000` di kolom 1 hanya boleh berisi 1 atau 2 baris kosong dalam satu baris.
   - Jika ada lebih dari 2 baris kosong, hapus baris istirahat ekstra.
     - Garis dengan `R0000` di kolom 1 tidak diperhitungkan.
   - Dalam gambar sumber, ini dibuat oleh digit yang belum dicetak di kolom 8. A 2 di sana memaksa spasi ganda (baris kosong tunggal) dan 3 memaksa spasi tiga (baris kosong ganda). Nilai 4-8 ditentukan tetapi tidak pernah digunakan. Baca selengkapnya tentang itu di [# 159] [7]
