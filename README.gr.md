@@ -91,7 +91,7 @@ Luminary099           | Μέρος του πηγαίου κώδικα για τ�
 
 Προέρχεται από το [CONTRACT_AND_APPROVALS.agc]*
 
-Το πρόγραμμα του AGC αωαφέρεται επίσης και ως Colossus 2A.
+Το πρόγραμμα του AGC αναφέρεται επίσης και ως Colossus 2A.
 
 Αυτό το πρόγραμμα προορίζεται για χρήση στο CM, όπως ορίζεται στην αναφορά R-577. Αυτό το πρόγραμμα προετοιμάστηκε στο πλαίσιο του έργου DSR 55-23870, που χρηματοδοτήθηκε από το Manned Spacecraft Center of the National Aeronautics and Space Administration μέσω της σύμβασης NAS 9-4065 με το Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
 
