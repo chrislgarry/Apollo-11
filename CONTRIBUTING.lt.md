@@ -1,4 +1,4 @@
-# Prisidėti
+# Prisidėjimas
 
 🎌
 [Čeština][CZ],
@@ -39,14 +39,14 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Šios saugyklos kodas buvo skaitmenizuotas iš popierinių spausdinių, todėl galima tikėtis klaidų ir kiti neatitikimų. Kodas turi būti pakeistas taip, kad labiau atitiktų šiuos skenuotus spausdinius:
+Šios saugyklos kodas buvo suskaitmenintas rankiniu būdu iš popierinių spausdinių, todėl galima tikėtis klaidų ir kiti neatitikimų. Kodas turi būti pakeistas taip, kad labiau atitiktų šiuos nuskaitytus spausdinius:
 
 - [AGC spausdiniai Comache][8]
 - [AGC spausdiniai Luminary][9]
 
 ## Naudingi plėtiniai
 
-GitHub turi integruotą AGC assemblerio kalbos sintakės palaikymą. Dėja, jūsų kodo redaktorius nepalaikys, tačiau yra AGC kalbos plėtinių, kurie suteikia sintakės paryškinimą šiems redaktoriams:
+GitHub turi integruotą AGC assemblerio kalbos sintakės palaikymą. Dėja, jūsų kodo redaktorius šios assemblerio kalbos nepalaikys, tačiau yra AGC kalbos plėtinių, kurie suteikia sintakės paryškinimą šiems redaktoriams:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -74,13 +74,13 @@ GitHub turi integruotą AGC assemblerio kalbos sintakės palaikymą. Dėja, jūs
 
 ## Formatavimas
 
-**Pastaba:** GitHub ir plėtiniai nurodyti viršuje, užtikrins, kad jūs naudojate teisingą formatavimą.
+**Pastaba:** GitHub ir plėtiniai nurodyti viršuje automatiškai užtikrins, kad naudotumėte teisingą formatavimą.
 
 - Naudokite skirtuko įtrauką
 - Naudokite skirtuko plotį 8
 - Ištrinkite galinius tarpus
 
-## Ką man reikia patikrinti?
+## Ką aš turiu patikrinti?
 
 Betkokius neatitikimus tarp skenuočių ir šaltinio kodo šioje saugykloje.
 
@@ -88,11 +88,11 @@ Betkokius neatitikimus tarp skenuočių ir šaltinio kodo šioje saugykloje.
 
 - Komentarai perrašytame kode turi **tiksliai** atitikti skenuočių komentarus.
 
-Dažnai pasikartojančios problemos, į kurias turėtumėte atkreipti dėmesį, taip pat neapsiribojant jomis:
+Dažnai pasikartojančios problemos, į kurias turėtumėte atkreipti dėmesį, jomis neapsiribojant:
 
 #### Tipografinės klaidos
 
-Kai kuriose vietose, originalūs kūrėjai paliko tipografinių klaidų rašant komentarus. Kai kurie iš jų buvo klaidingai ištaisyti per pradinį skaitmenizavimą, vis dėlto skaitmenizavimas taip pat tai pat pridėjo tipografinių klaidų, kurių nebuvo skenuotėse.
+Kai kuriose vietose, originalūs kūrėjai paliko tipografinių klaidų rašant komentarus. Kai kurios iš jų buvo klaidingai ištaisytos per pradinį skaitmenizavimą, tačiau skaitmenizavimas taip pat pridėjo tipografinių klaidų, kurių nebuvo skenuotėse.
 
 Pavyzdžiui, jeigu skaitmenizuotas komentaras turėjo žodį `SPACECRAFT`, bet `SPAECRAFT` buvo išspausdintas skenuotėse, tai ši skaitmenizacija **turi** būti pataisyta į `SPAECRAFT` (be `C`).
 
@@ -100,7 +100,7 @@ Taip pat, jeigu žodis turi klaidą skaitmenizacijoje, bet yra parašytas teisin
 
 ### Tarpai
 
-- Tarpai tarp dviejų rašmenų **turi** atitikti skenuotes. Dažniausiu atvėju (žiūrėti diskusiją [#316][10]), tai yra:
+- Tarpai tarp dviejų rašmenų komentaruose **turi** atitikti skenuotes. Dažnu atvėju (žiūrėti diskusiją [#316][10]), tai yra:
   - Vienas tarpas naujiems žodžiams.
   - Dvigubas tarpas naujiems sakiniams.
   - Trigubas tarpas įtraukoms.
@@ -113,7 +113,7 @@ Nevisi puslapiai skenuotėse laikosi šių taisykių, jeigu skenuotės turi tik 
 - Linijų lūžiai su *pločiu**__out__* `R0000` pirmame stulpelyje gali turėti tik vieną arba dvi tuščias eilutes iš eilės.
   - Jeigu yra daugiau negu dvi tuščios linijos, reikia ištrinti papildomas eilutes.
     - Linijos su `R0000` pirmame stulpelyje nesiskaičiuoja.
-  - Šaltinių nuotraukose, šitie buvo sukurti nespausdintu skaitmeniu aštuntame stulpelyje. A 2 - ten buvo dvigubas tarpas (viena tuščia eilutė) ir a 3 buvo trigubas tarpas   (dviguba tuščia eilutė). Reikšmės nuo 4-8 buvo apibrėžtos, bet niekada nenaudotos. Daugiau apie tai [#159][7]
+  - Šaltinių nuotraukose, šios buvo sukurtos nespausdintu skaitmeniu aštuntame stulpelyje. A 2 - ten buvo dvigubas tarpas (viena tuščia eilutė) ir a 3 buvo trigubas tarpas (dviguba tuščia eilutė). Reikšmės nuo 4-8 buvo apibrėžtos, bet niekada nenaudotos. Daugiau apie tai [#159][7]
 
 Pavyzdžiui, šis tekstas:
 
