@@ -92,7 +92,7 @@ Dažnai pasikartojančios problemos, į kurias turėtumėte atkreipti dėmesį, 
 
 #### Tipografinės klaidos
 
-Kai kuriose vietose, originalūs kūrėjai paliko tipografinių klaidų rašant komentarus. Kai kurios iš jų buvo klaidingai ištaisytos per pradinį skaitmenizavimą, tačiau skaitmenizavimas taip pat pridėjo tipografinių klaidų, kurių nebuvo skenuotėse.
+Kai kuriose vietose, rašant komentarus, originalūs kūrėjai paliko tipografinių klaidų. Kai kurios iš jų buvo klaidingai ištaisytos per pradinį skaitmenizavimą, tačiau skaitmenizavimas taip pat pridėjo tipografinių klaidų, kurių nebuvo skenuotėse.
 
 Pavyzdžiui, jeigu skaitmenizuotas komentaras turėjo žodį `SPACECRAFT`, bet `SPAECRAFT` buvo išspausdintas skenuotėse, tai ši skaitmenizacija **turi** būti pataisyta į `SPAECRAFT` (be `C`).
 
