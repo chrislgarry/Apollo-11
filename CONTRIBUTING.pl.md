@@ -6,11 +6,15 @@
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Italiano][IT],
 [Kurdi][KU],
+[Lietuvių][LT],
 [Nederlands][NL],
+[Norsk][NO],
 [Português][PT_BR],
 **Polski**,
 [Türkçe][TR],
+[Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
 [正體中文][ZH_TW],
@@ -23,10 +27,14 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [PL]:CONTRIBUTING.pl.md
 [TR]:CONTRIBUTING.tr.md
@@ -84,7 +92,7 @@ Komentarze w transkrybowanym kodzie **MUSZĄ DOKŁADNIE** odpowiadać skanom.
 
 Typowe problemy, na które należy zwrócić uwagę podczas sprawdzania, obejmują między innymi:
 
-### Literówki
+#### Literówki
 
 W niektórych miejscach pierwotni programiści popełnili błędy typograficzne podczas pisania komentarzy. Niektóre z nich zostały błędnie poprawione podczas wstępnej digitalizacji, jednak digitalizacja wprowadziła również błędy typograficzne, których nie było w skanach.
 
@@ -92,12 +100,13 @@ Na przykład, jeśli zdigitalizowane komentarze zawierały słowo „SPACECRAFT�
 
 Podobnie, jeśli słowo zawiera literówkę w digitalizacji, ale jest poprawnie napisane na skanach, wówczas literówka **MUSI** zostać poprawiona.
   
-### Spacje
+#### Spacje
 
-- Spacje pomiędzy dwoma znakami w danym ciągu powinny być zgodne z następującą konwencją (patrz na [#316][10]):
-  - Pojedyńcza spacja dla nowego słowa.
-  - Podwójna spacja dla nowego zdania.
-  - Potrójna spacja dla akapitu.
+Spacje pomiędzy dwoma znakami w danym ciągu powinny być zgodne z następującą konwencją (patrz na [#316][10]):
+  
+- Pojedyńcza spacja dla nowego słowa.
+- Podwójna spacja dla nowego zdania.
+- Potrójna spacja dla akapitu.
   
 Nie wszystkie strony w skanach są zgodne z tym uogólnieniem, jeśli skany mają tylko jedną spację zamiast podwójnej, użyj jednej spacji.
 
