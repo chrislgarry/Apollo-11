@@ -3,7 +3,7 @@
 🎌
 [Čeština][CZ],
 [Deutsch][DE],
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
@@ -12,6 +12,7 @@
 [Nederlands][NL],
 [Norsk][NO],
 [Português][PT_BR],
+**Polski**,
 [Türkçe][TR],
 [Ελληνικά][GR],
 [العربية][AR],
@@ -35,6 +36,7 @@
 [NL]:CONTRIBUTING.nl.md
 [NO]:CONTRIBUTING.no.md
 [PT_BR]:CONTRIBUTING.pt_br.md
+[PL]:CONTRIBUTING.pl.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
