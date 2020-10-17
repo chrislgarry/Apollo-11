@@ -130,8 +130,6 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-
-
 ## Uwaga
 
 Zanim utworzysz PR, upewnij się, że zmiany są zgodne ze skanami!
