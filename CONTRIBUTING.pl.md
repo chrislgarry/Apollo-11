@@ -76,12 +76,30 @@ GitHub obsługuje składnię wbudowanego języka asemblera AGC. Niestety twój e
 
 ## Co mam sprawdzać?
 
-Wszelkie rozbieżności między skanami a kodem źródłowym tego repozytorium, w tym:
+Wszelkie rozbieżności między skanami a kodem źródłowym tego repozytorium.
 
 ### Komentarze
 
-- Komentarze w transkrybowanym kodzie powinny dokładnie odpowiadać skanom
-  - Obejmuje to korekcje popełnionych błędów lub usunięcie / dodanie całego komentarza.
+Komentarze w transkrybowanym kodzie **MUSZĄ DOKŁADNIE** odpowiadać skanom.
+
+Typowe problemy, na które należy zwrócić uwagę podczas sprawdzania, obejmują między innymi:
+
+### Literówki
+
+W niektórych miejscach pierwotni programiści popełnili błędy typograficzne podczas pisania komentarzy. Niektóre z nich zostały błędnie poprawione podczas wstępnej digitalizacji, jednak digitalizacja wprowadziła również błędy typograficzne, których nie było w skanach.
+
+Na przykład, jeśli zdigitalizowane komentarze zawierały słowo „SPACECRAFT”, ale na skanach odczytano „SPAECRAFT”, wówczas digitalizacja **MUSI** zostać poprawiona na „SPAECRAFT” (brakujące „C”).
+
+Podobnie, jeśli słowo zawiera literówkę w digitalizacji, ale jest poprawnie napisane na skanach, wówczas literówka **MUSI** zostać poprawiona.
+  
+### Spacje
+
+- Spacje pomiędzy dwoma znakami w danym ciągu powinny być zgodne z następującą konwencją (patrz na [#316][10]):
+  - Pojedyńcza spacja dla nowego słowa.
+  - Podwójna spacja dla nowego zdania.
+  - Potrójna spacja dla akapitu.
+  
+Nie wszystkie strony w skanach są zgodne z tym uogólnieniem, jeśli skany mają tylko jedną spację zamiast podwójnej, użyj jednej spacji.
 
 ### Rozdzielanie wierszy
 
@@ -112,26 +130,7 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### Spacje
 
-- Spacje pomiędzy dwoma znakami w danym ciągu powinny być zgodne z następującą konwencją (patrz na [#316][10]):
-  - Pojedyńcza spacja dla nowego słowa.
-  - Podwójna spacja dla nowego zdania.
-  - Potrójna spacja dla akapitu.
-
-Na przykład:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Zostaje zmienione na:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
-```
 
 ## Uwaga
 
