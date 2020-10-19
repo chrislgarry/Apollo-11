@@ -99,12 +99,15 @@ W niektórych miejscach pierwotni programiści popełnili błędy typograficzne 
 Na przykład, jeśli zdigitalizowane komentarze zawierały słowo „SPACECRAFT”, ale na skanach odczytano „SPAECRAFT”, wówczas digitalizacja **MUSI** zostać poprawiona na „SPAECRAFT” (brakujące „C”).
 
 Podobnie, jeśli słowo zawiera literówkę w digitalizacji, ale jest poprawnie napisane na skanach, wówczas literówka **MUSI** zostać poprawiona.
+
 #### Spacje
 
 Spacje pomiędzy dwoma znakami w danym ciągu powinny być zgodne z następującą konwencją (patrz na [#316][10]):
+
 - Pojedyńcza spacja dla nowego słowa.
 - Podwójna spacja dla nowego zdania.
 - Potrójna spacja dla akapitu.
+
 Nie wszystkie strony w skanach są zgodne z tym uogólnieniem, jeśli skany mają tylko jedną spację zamiast podwójnej, użyj jednej spacji.
 
 ### Rozdzielanie wierszy
