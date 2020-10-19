@@ -67,7 +67,7 @@ What follows is simply a bunch of file-includes for the individual code chunks. 
 | [P20-P25.agc]                                 | 492-614     |
 | [P30_P37.agc]                                 | 615-617     |
 | [P32-P35_P72-P75.agc]                         | 618-650     |
-| [LAMBERT_AIMPOINT_GUIDANCE.agc]               | 651-653     |
+| [GENERAL_LAMBERT_AIMPOINT_GUIDANCE.agc]       | 651-653     |
 | [GROUND_TRACKING_DETERMINATION_PROGRAM.agc]   | 654-657     |
 | [P34-35_P74-75.agc]                           | 658-702     |
 | [R31.agc]                                     | 703-708     |
@@ -164,7 +164,7 @@ What follows is simply a bunch of file-includes for the individual code chunks. 
 [P20-P25.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P20-P25.agc
 [P30_P37.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P30_P37.agc
 [P32-P35_P72-P75.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P32-P35_P72-P75.agc
-[LAMBERT_AIMPOINT_GUIDANCE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LAMBERT_AIMPOINT_GUIDANCE.agc
+[GENERAL_LAMBERT_AIMPOINT_GUIDANCE.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/GENERAL_LAMBERT_AIMPOINT_GUIDANCE.agc
 [GROUND_TRACKING_DETERMINATION_PROGRAM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/GROUND_TRACKING_DETERMINATION_PROGRAM.agc
 [P34-35_P74-75.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/P34-35_P74-75.agc
 [R31.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/R31.agc
