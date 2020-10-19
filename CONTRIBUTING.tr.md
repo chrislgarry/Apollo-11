@@ -6,10 +6,15 @@
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Italiano][IT],
 [Kurdi][KU],
+[Lietuvių][LT],
 [Nederlands][NL],
+[Norsk][NO],
+[Polski][PL],
 [Português][PT_BR],
 **Türkçe**,
+[Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
 [正體中文][ZH_TW],
@@ -22,10 +27,15 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
+[PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
@@ -74,12 +84,31 @@ Github, AGC assembly dili için sentaks desteği sağlıyor ama sizin kodu düze
 
 ## Neyi kontrol edeyim?
 
-Taratılmış çıktılar ve bu repodaki kaynak kodu arasındaki aşağıdakileri kapsayan herhangi bir tutarsızlığı:
+Taratılmış çıktılar ve bu repodaki kaynak kodu arasındaki herhangi bir tutarsızlığı.
 
 ### Yorumlar
 
-- Uyarlanan koddaki yorum satırları, çıktılar ile tamamen eşleşmelidir
-  - Bu bilerek yazım hatası koymayı veya bir yorumun tamamını kaldırıp/eklemeyi içerebilir.
+Uyarlanan koddaki yorum satırları, çıktılar ile **tamamen** **eşleşmelidir**.
+
+Düzeltmek için bakmanız gereken bazı temel sorunlar şunlardır:
+
+#### Yazım Hataları
+
+Bazı yerlerde, orijinal geliştiriciler yorum yazarken yazım hataları yapmış. Bunların bazıları dijitalleştirme sürecinin başlarında yanlışlıkla düzeltildi fakat dijitalleştirme süreci taratılmış çıktılarda olmayan yeni yazım hatalarına da sebep oldu.
+
+Örneğin, dijitalleştirilmiş yorumlar `SPACECRAFT` kelimesini içeriyorsa ama taratılmış çıktılarda `SPAECRAFT` yazıyorsa, dijitalleştirilmiş yorum `SPAECRAFT` (`C` eksik) olarak **düzeltilmelidir**.
+
+Aynı şekilde, eğer dijitalleştirmiş yorumlarda bir yazım hatası varsa ama taratılmış çıktılarda doğru yazılmışsa, yazım hatası **düzeltilmelidir**.
+
+### Boşluklar
+
+Yorumlar arasındaki iki karakterin arasındaki boşluklar taratılmış çıktılar ile **uyuşmalıdır**. Bir çok durumda ([#316][10]'daki tartışmayı inceleyin) boşluklar şu şekildedir:
+
+- Yeni kelimeler arası tek boşluk.
+- Yeni cümleler arası iki boşluk.
+- Yeni girintiler için üç boşluk.
+
+Taratılmış çıktılarda bütün sayfalar bu genellemelere uymaz. Eğer çıktılarda iki boşluk yerine bir boşluk varsa, bir boşluk kullanın.
 
 ### Satır sonları
 
@@ -87,7 +116,7 @@ Taratılmış çıktılar ve bu repodaki kaynak kodu arasındaki aşağıdakiler
 - Birinci sütunu `R0000` *__olmadan__* biten satır sonları arka arkaya sadece 1 ya da 2 boş satır içermelidir.
   - Eğer 2'den fazla satır sonu varsa ekstra olan satır sonlarını kaldırın.
     - Birinci sütunu `R0000` *ile* biten satırlar bu kural dahilinde değildir.
-  - Kaynak resimlerde bunlar 8. satırındaki basamak bastırılmamış halde oluşturulmuştur. Bir 2 kullanımı iki boşluğu (tek boş satırı) temsil ederken, bir 3 kullanımı üç boşluğu (iki boş satırı) ifade eder. 4 ve 8 tanımlanmıştır fakat hiç kullanılmamıştır. Bunun hakkında daha fazla okumak için: [#159][7].
+  - Kaynak resimlerde bunlar 8. satırındaki basamak bastırılmamış halde oluşturulmuştur. Bir 2 kullanımı iki boşluğu (tek boş satırı) temsil ederken, bir 3 kullanımı üç boşluğu (iki boş satırı) ifade eder. 4 ve 8 tanımlanmıştır fakat hiç kullanılmamıştır. Bunun hakkında daha fazla okumak için: [#159][7]
 
 Örneğin bu:
 
@@ -108,27 +137,6 @@ R0820
 
 
  0820   LAMPTEST  CS  IMODES33
-```
-
-### Boşluklar
-
-- Bir string'deki iki karakterin arasındaki boşluklar şu kurallara uymalıdır ([#316][10]'daki tartışmayı inceleyin):
-  - Yeni kelimeler arası tek boşluk.
-  - Yeni cümleler arası iki boşluk.
-  - Yeni girintiler için üç boşluk.
-
-Örneğin bu:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Buna dönüşmeli:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
 ```
 
 ## Not

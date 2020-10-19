@@ -8,10 +8,15 @@
 [English][EN]،
 [Español][ES]،
 [Français][FR]،
-[Kurdi][KU],
+[Italiano][IT]،
+[Kurdi][KU]،
+[Lietuvių][LT]،
 [Nederlands][NL]،
+[Norsk][NO]،
+[Polski][PL]،
 [Português][PT_BR]،
 [Türkçe][TR]،
+[Ελληνικά][GR]،
 **العربية**،
 [日本語][JA]،
 [正體中文][ZH_TW]،
@@ -24,10 +29,15 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
+[PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
@@ -117,7 +127,7 @@ R0820
 </div>
 
 ```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
+	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT،
 	GARPLY, WALDO.
 ```
 
@@ -126,7 +136,7 @@ R0820
 </div>
 
 ```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
+	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT،
 	   GARPLY, WALDO.
 ```
 

@@ -16,15 +16,18 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
 [日本語][JA],
@@ -33,6 +36,7 @@
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [CZ]:README.cz.md
@@ -41,13 +45,17 @@
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -56,7 +64,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 阿波罗 11 号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。由 [虚拟 AGC][3] 和 [MIT 科学博物馆][4] 的伙计们完成电子化。本仓库存在的目的是存储阿波罗 11 号原始代码。当然，倘若在本仓库或原始代码扫描件 [Luminary 099][5] 及 [Comanche 055][6] 发现问题，或者任何我可能漏掉的文件，欢迎提交 PR。
 

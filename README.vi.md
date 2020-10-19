@@ -16,15 +16,18 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 **Tiếng Việt**,
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
 [日本語][JA],
@@ -33,6 +36,7 @@
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [CZ]:README.cz.md
@@ -41,13 +45,17 @@
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -56,7 +64,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Mã nguồn của máy tính hướng dẫn Apollo 11 (AGC) thông qua Command Module (Comanche055) và Lunar Module (Luminary099). Được số hóa bởi những người ở [Virtual AGC][3] và [Bảo tàng MIT][4]. Mục tiêu là tạo ra một kho lưu trữ mã nguồn cho Apollo 11. Do vậy, PRs là một điều bình thường cho bất kì một vấn đề được xác định giữa các bản dịch trong kho lưu trữ này và nguồn gốc quét mã cho [Luminary 099][5] và [Comanche 055][6], cũng như bất kì file nào mà chúng tôi có thể bỏ lỡ.
 
