@@ -74,21 +74,21 @@ SVDWN2		BOF	RVQ		# SW=1=AVETOMID DOING W-MATRIX INTEG.
 		STORE	PIPTIME
 		RVQ
 # Page 321
-					  SVDWN1   VLOAD  VSL*
-							  TDELTAV
-							  0 -7,2
-						   VAD	  VSL*
-							  RCV
-							  0,2
-						   STOVL  R-OTHER
-							  TNUV
-						   VSL*	  VAD
-							  0 -4,2
-							  VCV
-						   VSL*
-							  0,2
-						   STORE  V-OTHER
-						   RVQ
+SVDWN1   	VLOAD  VSL*
+		       TDELTAV
+		       0 -7,2
+		VAD    VSL*
+		       RCV
+		       0,2
+	        STOVL  R-OTHER
+		       TNUV
+		VSL*   VAD
+		       0 -4,2
+		       VCV
+		VSL*
+		       0,2
+		STORE  V-OTHER
+		RVQ
 
 # Page 322
 # 	   THE FOLLOWING ROUTINE TAKES A HALF UNIT TARGET VECTOR REFERRED TO NAV BASE COORDINATES AND FINDS BOTH
@@ -104,104 +104,104 @@ SVDWN2		BOF	RVQ		# SW=1=AVETOMID DOING W-MATRIX INTEG.
 #
 # THE VECTOR ARRIVES IN MPAC WHERE TRG*SMNB OR *SMNB* WILL HAVE LEFT IT.
 
-				      RRANGLES STORE  32D
-					       DLOAD  DCOMP	    # SINCE WE WILL FIND THE MODE 1 SHAFT
-						      34D	    # ANGLE LATER, WE CAN FIND THE MODE 1
-					       SETPD  ASIN	    # TRUNNION BY SIMPLY TAKING THE ARCSIN OF
-						      0		    # THE Y COMPONENT, THE ASIN GIVIN AN
-					       PUSH   BDSU	    # ANSWER WHOSE ABS VAL IS LESS THAN 90 DEG
-						      LODPHALF
-					       STODL  4		    # MODE 2 TRUNNION TO 4.
+RRANGLES 	STORE  32D
+		DLOAD  DCOMP	    	# SINCE WE WILL FIND THE MODE 1 SHAFT
+		       34D	    	# ANGLE LATER, WE CAN FIND THE MODE 1
+		SETPD  ASIN	    	# TRUNNION BY SIMPLY TAKING THE ARCSIN OF
+		       0	    	# THE Y COMPONENT, THE ASIN GIVIN AN
+		PUSH   BDSU	    	# ANSWER WHOSE ABS VAL IS LESS THAN 90 DEG
+		       LODPHALF
+		STODL  4	    	# MODE 2 TRUNNION TO 4.
 
-						      LO6ZEROS
-					       STOVL  34D	    # UNIT THE PROJECTION OF THE VECTOR
-						      32D	    # IN THE X-Z PLANE
-					       UNIT   BOVB	    # IF OVERFLOW,TARGET VECTOR IS ALONG Y
-						      LUNDESCH	    # CALL FOR MANEUVER UNLESS ON LUNAR SURF
-					       STODL  32D	    # PROJECTION VECTOR.
-						      32D
-					       SR1    STQ
-						      S2
-					       STODL  SINTH	    # USE ARCTRIG SINCE SHAFT COULD BE ARB.
-						      36D
-					       SR1
-					       STCALL COSTH
-						      ARCTRIG
+		       LO6ZEROS
+		STOVL  34D	    	# UNIT THE PROJECTION OF THE VECTOR
+		       32D	    	# IN THE X-Z PLANE
+		UNIT   BOVB	    	# IF OVERFLOW,TARGET VECTOR IS ALONG Y
+		       LUNDESCH	    	# CALL FOR MANEUVER UNLESS ON LUNAR SURF
+		STODL  32D	    	# PROJECTION VECTOR.
+		       32D
+		SR1    STQ
+		       S2
+		STODL  SINTH	    	# USE ARCTRIG SINCE SHAFT COULD BE ARB.
+		       36D
+		SR1
+		STCALL COSTH
+		       ARCTRIG
 # Page 323
-					       PUSH   DAD	    # MODE 1 SHAFT TO 2.
-						      LODPHALF
-					       STOVL  6
-						      4
-					       RTB		    # FIND MODE 2 CDU ANGLES.
-						      2V1STO2S
-					       STOVL  MODEB
-						      0
-					       RTB		    # MODE 1 ANGLES TO MODE A.
-						      2V1STO2S
-					       STORE  MODEA
-					       EXIT
+		PUSH   DAD	    	# MODE 1 SHAFT TO 2.
+		       LODPHALF
+		STOVL  6
+		       4
+		RTB		    	# FIND MODE 2 CDU ANGLES.
+		       2V1STO2S
+		STOVL  MODEB
+		       0
+		RTB		    	# MODE 1 ANGLES TO MODE A.
+		       2V1STO2S
+		STORE  MODEA
+		EXIT
 
-					       CS     RADMODES	    # SWAP MODEA AND MODEB IF RR IN MODE 2.
-					       MASK   ANTENBIT
-					       CCS    A
-					       TCF    +4
+		CS     RADMODES	    	# SWAP MODEA AND MODEB IF RR IN MODE 2.
+		MASK   ANTENBIT
+		CCS    A
+		TCF    +4
 
-					       DXCH   MODEA
-					       DXCH   MODEB
-					       DXCH   MODEA
+		DXCH   MODEA
+		DXCH   MODEB
+		DXCH   MODEA
 
-					       TC     INTPRET
-					       GOTO
-						      S2
+		TC     INTPRET
+		GOTO
+		       S2
 # Page 324
 # GIVEN RR TRUNNION AND SHAFT (T,S) IN TANGNB,+1,FIND THE ASSOCIATED
 # LINE OF SIGHT IN NAV BASE AXES.  THE HALF UNIT VECTOR, .5(SIN(S)COS(T),
 # -SIN(T),COS(S)COS(T)) IS LEFT IN MPAC AND 32D.
 
-						   SETLOC INFLIGHT
-						   BANK
+		SETLOC INFLIGHT
+		BANK
 
-						   COUNT* $$/GEOM
+		COUNT* $$/GEOM
 
-				          RRNB     SLOAD  RTB
-						      	  TANGNB
-							  CDULOGIC
-						   SETPD  PUSH	    	# TRUNNION ANGLE TO 0
-							  0
-						   SIN	  DCOMP
-						   STODL  34D	    	# Y COMPONENT
+RRNB     	SLOAD  RTB
+		       TANGNB
+		       CDULOGIC
+		SETPD  PUSH	    	# TRUNNION ANGLE TO 0
+		       0
+		SIN    DCOMP
+		STODL  34D	    	# Y COMPONENT
 
-						   COS	  PUSH	    	# .5 COS(T) TO 0
-						   SLOAD  RTB
-							  TANGNB +1
-							  CDULOGIC
-					  RRNB1	   PUSH   COS	    	# SHAFT ANGLE TO 2
-						   DMP	  SL1
-							  0
-						   STODL  36D 	    	# Z COMPONENT
+		COS    PUSH	    	# .5 COS(T) TO 0
+		SLOAD  RTB
+		       TANGNB +1
+		       CDULOGIC
+RRNB1	   	PUSH   COS	    	# SHAFT ANGLE TO 2
+		DMP    SL1
+		       0
+		STODL  36D 	    	# Z COMPONENT
 
-						   SIN	  DMP
-						   SL1
-						   STOVL  32D
-							  32D
-						   RVQ
+		SIN    DMP
+		SL1
+		STOVL  32D
+		       32D
+		RVQ
 
 # THIS ENTRY TO RRNB REQUIRES THE TRUNNION AND SHAFT ANGLES IN MPAC AND MPAC +1 RESPECTIVELY
 
-					  RRNBMPAC STODL  20D	        # SAVE SHAFT CDU IN 21.
-							  MPAC	        # SET MODE TO DP.  (THE PRECEEDING STORE
-								        # MAY BE DP. TP OR VECTOR.)
-						   RTB	  SETPD
-							  CDULOGIC
-							  0
-						   PUSH	  SIN		# TRUNNION ANGLE TO 0
-						   DCOMP
-						   STODL  34D		# Y COMPONENT
-						   COS	  PUSH		# .5COS(T) TO 0
-						   SLOAD  RTB		# PICK UP CDU'S.
-							  21D
-							  CDULOGIC
-						   GOTO
-							  RRNB1
+RRNBMPAC 	STODL  20D	        # SAVE SHAFT CDU IN 21.
+		       MPAC	        # SET MODE TO DP.  (THE PRECEEDING STORE
+					# MAY BE DP. TP OR VECTOR.)
+		RTB    SETPD
+		       CDULOGIC
+		       0
+		PUSH   SIN		# TRUNNION ANGLE TO 0
+		DCOMP
+		STODL  34D		# Y COMPONENT
+		COS    PUSH		# .5COS(T) TO 0
+		SLOAD  RTB		# PICK UP CDU'S.
+		       21D
+		       CDULOGIC
+		GOTO
+		       RRNB1
 # Page 325
 # (This page has nothing on it.)
