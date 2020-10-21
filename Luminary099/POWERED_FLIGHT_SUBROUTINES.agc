@@ -115,7 +115,7 @@ TR*GL**P	MASK	SIX		# MAKE IT EVEN AND SMALLER
 		TCF	TR*GL**P
 		TC	TEM2
 # Page 1261
-# *******************************************************************************************************
+# *****************************************************************************************************************
 #     QUICTRIG, INTENDED FOR GUIDANCE CYCLE USE WHERE TIME IS CRITICAL, IS A MUCH FASTER VERSION OF CD*TR*GS.
 # QUICTRIG COMPUTES AND STORES THE SINES AND COSINES OF THE 2'S COMPLEMENT ANGLES AT CDUSPOT, CDUSPOT +2,
 # AND CDUSPOT +4.   UNLIKE CD*TR*GS, QUICTRIG DOES NOT LEAVE THE 1'S COMPLEMENT VERSIONS OF THE ANGLES IN
@@ -149,7 +149,7 @@ QUICTRIG	INHINT			# INHINT SINCE DAP USES THE SAME TEMPS
 		TC	A
 
 # Page 1262
-#****************************************************************************
+# *****************************************************************************************************************
 #     THESE INTERFACE ROUTINES MAKE IT POSSIBLE TO CALL AX*SR*T, ETC., IN
 # INTERPRETIVE.   LATER, WHERE POSSIBLE, THEY WILL BE ELIMINATED.
 #
@@ -260,7 +260,7 @@ LOOP1		DXCH	MPAC
 		DXCH	TERM1TMP
 
 		CA	SIX		# SINCDU AND COSCDU (EACH 6 WORDS) MUST
-		ADS	ADDRWD		#	BE CONSECUTIVE AND IN THAT ORDER
+		ADS	ADDRWD		#   BE CONSECUTIVE AND IN THAT ORDER
 
 		EXTEND
 		INDEX	BUF
@@ -297,7 +297,7 @@ INDEXI		DEC	4		# **********   DON'T   ***********
 # Page 1265
 		DEC	4		# ********** CONSTANTS ***********
 
-# ******************************************************************************
+# *****************************************************************************************************************
 
 		BANK	10
 		SETLOC	FLESHLOC
