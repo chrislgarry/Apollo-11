@@ -1,0 +1,122 @@
+:root {
+  --accent-color: #e3e3e39a;
+  --link-color: #9e1bd6;
+  --bg-color: white;
+}
+
+a {
+  color: var(--link-color, #9e1bd6);
+}
+
+body {
+  margin: 1rem;
+  font-size: 16px;
+  font-family: "IBM Plex Mono", monospace;
+  background-color: var(--bg-color, white);
+}
+
+.header {
+  margin-bottom: -0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+button {
+  font: inherit;
+  appearance: none;
+  padding: 10px;
+  height: min-content;
+  background-color: var(--accent-color, #e3e3e39a);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form {
+  font-family: "IBM Plex Mono", monospace;
+
+  & select {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: inherit;
+    appearance: none;
+    padding: 10px;
+    padding-right: 30px;
+    background-color: var(--accent-color, #e3e3e39a);
+    border: none;
+    border-radius: 5px;
+    line-height: 1;
+    background: url("../assets/bx-chevron-down.svg") no-repeat right
+      var(--accent-color, #e3e3e39a);
+    -webkit-appearance: none;
+    background-position: 97%;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+
+  & input {
+    font-family: "IBM Plex Mono", monospace;
+    padding: 10px;
+    background-color: var(--accent-color, #e3e3e39a);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 1rem;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &[type="button"] {
+      min-width: 80px;
+    }
+
+    &[type="text"] {
+      text-align: center;
+      font-weight: 500;
+      min-width: 160px;
+      border: var(--accent-color, #e3e3e39a) solid 2px;
+      background: transparent;
+      cursor: text;
+      &:active,
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+img {
+  min-width: 100%;
+  height: auto;
+}
+
+.invert {
+  filter: invert(100%) contrast(120%);
+}
+
+select,
+input {
+  cursor: pointer;
+}
+
+span {
+  font-weight: 500;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
+.hover {
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.muted-color {
+  color: var(--accent-color);
+}
+
+.white {
+  color: white;
+}
