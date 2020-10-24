@@ -569,7 +569,7 @@ P33/P73F	ABS	DSU
 			P33/P73B
 
 # Page 629
-# ***** ADFLAG/P *****
+# ***** AVFLAGA/P *****
 #
 # SUBROUTINES USED
 #
