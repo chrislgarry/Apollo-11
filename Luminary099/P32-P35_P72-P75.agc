@@ -1220,9 +1220,10 @@ INTINT3P	PDDL	PDDL
 			INTINT
 
 # Page 645
-# ***** S32/33.1 *****
+# ..... S32/33.1  .....
 #
 # SUBROUTINES USED
+#
 #	S32/33.X
 
 S32/33.1	STQ	AXT,1
