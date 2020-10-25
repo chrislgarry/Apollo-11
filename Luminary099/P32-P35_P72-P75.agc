@@ -1311,43 +1311,43 @@ CDHMVR		STQ	VLOAD
 		DSU
 # Page 648
 			02D
-		STODL	DIFFALT		# DELTA H IN METERS		B+29
+		STODL	DIFFALT		# DELTA H IN METERS	      B+29
 			R1A
-		NORM	PDDL		# 2 - R V**/MU				04D
+		NORM	PDDL		# 2 - R V**/MU			       04D
 			X1
 			R1
 		CALL
 			SHIFTR1
 		SR1R	DDV
 		SL*	PUSH
-			0 	-5,1
-		DSU	PDDL		# A SUB A			B+29 	04D
+			0 -5,1
+		DSU	PDDL		# A SUB A		      B+29     04D
 			DIFFALT
-		SR2	DDV		# A SUB P			B+31
-			04D		#				B+2
-		PUSH	SQRT		# A SUB P/A SUB A			06D
+		SR2	DDV		# A SUB P		     B+31
+			04D		#			     B+2
+		PUSH	SQRT		#    A SUB P/A SUB A	       06D
 		DMPR	DMP
 			06D
 			00D
-		SL3R	PDDL		# V SUB AV METERS/CS		B+7 	08D
-			02D		# R SUB A MAGNITUDE		B+29
+		SL3R	PDDL		# V SUB AV METERS/CS	      B+7      08D
+			02D		# R SUB A MAGNITUDE   B+29
 		NORM	PDDL
 			X1
 			RTMU
-		SR1	DDV		# 2MU 				B+38
-		SL*	PDDL		# 2 MU/R SUBAA			B+14 	10D
-			0 	-5,1
-			04D		# ASUBA				B+29
+		SR1	DDV		# 2MU  B+38
+		SL*	PDDL		#    2 MU/R SUBAA     B+14     10D
+			0 -5,1
+			04D		# ASUBA			     B+29
 		NORM	PDDL
 			X2
 			RTMU
 		SR1	DDV
 		SL*	BDSU
-			0 	-6,2	# 2U/R - U/A		B+14 (METERS/CS)SQ
-		PDDL	DSQ		#					10D
+			0 -6,2		#  2U/R - U/A	B+14 (METERS/CS)SQ
+		PDDL	DSQ		#				      10D
 			08D
 		BDSU	SQRT
-		PDVL	VXV		# SQRT(MU(2/R SUB A-1/A SUB A)-VSUBA2)	10D
+		PDVL	VXV		#  SQRT(MU(2/R SUB A-1/A SUB A)-VSUBA2)10D
 			UP1
 			UNVEC
 		UNIT	VXSC
