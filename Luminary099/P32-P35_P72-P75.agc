@@ -1202,7 +1202,7 @@ ROTATE		PUSH	PUSH
 		VSL1	RVQ
 
 # Page 644
-# ***** INTINTNA *****
+# ..... INTINTNA  .....
 
 INTINT2C	PDDL	PDDL
 			TCSI
