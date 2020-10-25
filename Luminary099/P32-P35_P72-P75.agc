@@ -1153,9 +1153,10 @@ SCNDSOL		BON	BOFF
 			CSI/B
 
 # Page 642
-# ***** ADVANCE *****
+# ..... ADVANCE   .....
 #
 # SUBROUTINES USED
+#
 #	PRECSET
 #	ROTATE
 
