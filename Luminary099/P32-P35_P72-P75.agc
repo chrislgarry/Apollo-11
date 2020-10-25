@@ -1244,7 +1244,7 @@ S32/33.1	STQ	AXT,1
 			SUBEXIT
 
 # Page 646
-# ***** S32/33.X *****
+# ..... S32/33.X  .....
 
 S32/33.X	SETPD	VLOAD
 			6D
