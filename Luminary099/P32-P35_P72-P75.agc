@@ -569,7 +569,7 @@ P33/P73F	ABS	DSU
 			P33/P73B
 
 # Page 629
-# ***** AVFLAGA/P *****
+# ..... AVFLAGA/P .....
 #
 # SUBROUTINES USED
 #
@@ -595,7 +595,7 @@ P20FLGON	EXTEND
 		TC	SUBEXIT
 
 # Page 630
-# ***** DISDVLVC  *****
+# ..... DISDVLVC  .....
 #
 # SUBROUTINES USED
 #
@@ -620,7 +620,7 @@ DISDVLVC	STORE	DELVLVC
 			NORMEX
 
 # Page 631
-# ***** CONSTANTS *****
+# ..... CONSTANTS .....
 
 V06N11		VN	0611
 V06N13		VN	0613
