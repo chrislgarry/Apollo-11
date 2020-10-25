@@ -1190,7 +1190,7 @@ ADVANCE		STQ	DLOAD
 			SUBEXIT
 
 # Page 643
-# ***** ROTATE *****
+# ..... ROTATE    .....
 
 ROTATE		PUSH	PUSH
 		DOT	VXSC
