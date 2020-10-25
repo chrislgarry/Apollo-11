@@ -1259,9 +1259,10 @@ S32/33.X	SETPD	VLOAD
 		RVQ
 
 # Page 647
-# ***** CDHMVR *****
+# ..... CDHMVR    .....
 #
 # SUBROUTINES USED
+#
 #	VECSHIFT
 #	TIMETHET
 #	SHIFTR1
