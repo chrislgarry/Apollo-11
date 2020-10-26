@@ -96,7 +96,6 @@ Skaitmenizacija    | Šis šaltinio kodas buvo transkribuotas ar kitaip pritaiky
 
 Ši programa yra skirta naudoti CM, kaip nurodyta ataskaitoje `R-577`. Ši programa buvo parengta pagal DSR projektą `55-23870`, remiamą Nacionalinės Aeronautikos ir Kosmoso Administracijos Pilotuojamų Erdvėlaivių Centro, sudarant sutartį `NAS 9-4065` su Masačusetso Technologijų Instituto Instrumentavimo Laboratorija, Kembridžas, Mišios.
 
-
 Pateikė              | Funkcija | Data
 :------------------- | :---     | :---
 Margaret H. Hamilton | Colossus Programavimo Vadovė<br>Apollo Orientavimasis ir Navigacija | Kovo 28, 1969
