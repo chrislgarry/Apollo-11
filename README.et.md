@@ -68,15 +68,15 @@
 [ZH_TW]:README.zh_tw.md
 
 Apollo 11 juhtarvuti (AGC) algne lähtekood käsumoodulile (Comanche055) ja Kuu moodulile (Luminary099). 
-Digiteeritud tüüpide [Virtual AGC] [3] ja [MIT Museum] [4] järgi. Eesmärk on olla algse Apollo 11 lähtekoodi hoidla. Sel moel on selle hoidla ärakirjadega seotud suhtekorraldus ning algsete [Luminary 099] [5] ja [Comanche 055] koodide skannimine seotud Tere tulemast. ] [6], samuti failid, mis ma unustasin.
+Digiteeritud tüüpide [Virtual AGC][3] ja [MIT Museum][4] järgi. Eesmärk on olla algse Apollo 11 lähtekoodi hoidla. Sel moel on selle hoidla ärakirjadega seotud suhtekorraldus ning algsete [Luminary 099][5] ja [Comanche 055] koodide skannimine seotud Tere tulemast.][6], samuti failid, mis ma unustasin.
 
 ## Kuidas aidata
 
-Enne taastamistaotluse avamist lugege palun [CONTRIBUTING.es.md] [7].
+Enne taastamistaotluse avamist lugege palun [CONTRIBUTING.es.md][7].
 
 ## Koostama
 
-Kui olete huvitatud algse lähtekoodi koostamisest, vaadake [Virtual AGC] [8].
+Kui olete huvitatud algse lähtekoodi koostamisest, vaadake [Virtual AGC][8].
 
 ## Omistused
 
