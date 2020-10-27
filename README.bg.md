@@ -83,7 +83,7 @@
 :---------------- | :-----
 Авторско право    | Публичен домейн
 Comanche055 	    | Част от изходния код за Colossus 2A, команден компютър Apollo Command Module (CM) (AGC) за Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099 	    | Част от изходния код за Luminary 1A, Лунният модул (LM) Apollo Guide Computer (AGC) за Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099 	    | Част от изходния код за Luminary 1A, Лунният модул (LM) Apollo Guide Computer (AGC) за Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>` 2021112-061. 16:27 JUL. 14, 1969`
 Асемблер 		      | yaYUL
 Контакт			      | Ron Burkey <info@sandroid.org>
 Уебсайт			      | www.ibiblio.org/apollo
