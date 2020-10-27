@@ -126,4 +126,3 @@ Ralph R. Ragan 		| Заместник-директор на измервател
 [ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
 [Luminary]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/2
 [LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
-
