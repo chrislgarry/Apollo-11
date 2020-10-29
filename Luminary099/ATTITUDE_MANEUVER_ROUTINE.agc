@@ -273,57 +273,58 @@
 #       Y    =    ARCSIN (-M /COSZ)
 #                           6
 #
-# IF M  IS NEGATIVE, Y IS REPLACED BY PI SGN Y - Y
+# IF M  IS NEGATIVE Y IS REPLACED BY PI SGN Y - Y
 #     0
 
 # Page 347
-#	X	=	ARCSIN (-M /COSZ)
-#			          5
+#       X    =    ARCSIN (-M /COSZ)
+#                           5
 #
-# IF M  IS NEGATIVE, X IS REPLACED BY PI SGN X - X.
+# IF M  IS NEGATIVE X IS REPLACED BY PI SGN X - X
 #     4
 #
-# THIS ROUTINE DOES NOT SET THE PUSH DOWN POINTER, BUT USES THE NEXT 8 LOCATIONS OF THE PUSH DOWN LIST AND
+#      THIS ROUTINE DOES NOT SET THE PUSH DOWN POINTER, BUT USES THE NEXT 8 LOCATIONS OF THE PUSH DOWN LIST AND
 # RETURNS THE POINTER TO ITS ORIGINAL SETTING.  THIS PROCEDURE ALLOWS THE CALLER TO STORE THE MATRIX AT THE TOP OF
 # THE PUSH DOWN LIST.
 #
-# DELCOMP
-# -------
-#                                                     *
-# THIS ROUTINE COMPUTES THE DIRECTION COSINE MATRIX (DEL) RELATING ON
-#                                                                          _
-# IS ROTATED WITH RESPECT TO THE FIRST BY AN ANGLE, A, ABOUT A UNIT VECTOR U.  THE FORMULA FOR THIS MATRIX IS
+#      DELCOMP
+#      -------
+#                                                          *
+#      THIS ROUTINE COMPUTES THE DIRECTION COSINE MATRIX (DEL) RELATING ON
+#                                                                          -
+# IS ROTATED WITH RESPECT TO THE FIRST BY AN ANGLE, A, ABOUT A UNIT VECTOR, U.  THE FORMULA FOR THIS MATRIX IS
 #
-#	 *		*	 _ _T              *
-#	DEL	=	I COSA + U U  (1 - COSA) + V  SINA
-#			                            X
+#       *         *           __T           *
+#       DEL  =    I  COSA  +  UU (1-COSA) + V SINA
+#                                            X
 #
-# WHERE		*		[ 1    0    0 ]
-#		I	=	[ 0    1    0 ]
-#				[ 0    0    1 ]
-#
-#				[    2                             ]
-#				[  U           U  U          U  U  ]
-#				[   X           X  Y          X  Z ]
-#				[                                  ]
-#		_ _T		[                 2                ]
-#		U U	=	[ U  U          U            U  U  ]
-#				[  Y  X          Y            Y  Z ]
-#				[                                  ]
-#				[                               2  ]
-#				[ U  U         U  U           U    ]
-#				[  Z  X         Z  Y           Z   ]
+# WHERE      *         (1   0    0)
+#            I    =    (0   1    0)
+#                      (0   0    1)
 #
 #
-#				[   0		-U		 U  ]
-#				[		  Z		  Y ]
-#		*		[				    ]
-#		V	=	[  U		 0		-U  ]
-#		 X		[   Z                             X ]
-#				[				    ]
-#				[ -U		 U		 0  ]
-#				[   Y 		  X		    ]
+#                         2
+#                      (U        U U       U U )
+#                      ( X        X Y       X Z)
+#                      (                       )
+#            --T       (           2           )
+#            UU	  =    (U U      U         U U )
+#                      ( Y X      Y         Y Z)
+#                      (                       )
+#                      (                     2 )
+#                      (U U      U U       U  )
+#                      ( Z X      Z Y       Z  )
 #
+#
+#                      (0        -U        U  )
+#                      (           Z        Y )
+#            *         (                      )
+#            V    =    (U        0         -U )
+#             X        ( Z                   X)
+#                      (                      )
+#                      (-U       U         0  )
+#                      (  Y       X           )
+
 # Page 348
 #	_
 #	U	=	UNIT ROTATION VECTOR RESOLVED INTO S/C AXES.
