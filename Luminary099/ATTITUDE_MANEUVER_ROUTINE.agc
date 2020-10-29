@@ -375,50 +375,52 @@
 #            3)   STATE SWITCHES                        3
 
 # Page 349
-#	4)	FLAGS			   1
+#            4)   FLAGS                                 1
 #
-# JOB PRIORITIES
+#      JOB PRIORITIES
 #
-#	1)	KALCMANU		TBD
-#	2)	ONE SECOND UPDATE	TBD
+#            1)   KALCMANU                            TBD
+#            2)	  ONE SECOND UPDATE                   TBD
 #
-# SUMMARY OF STATE SWITCHES AND FLAGWORDS USED BY KALCMANU.
+#      SUMMARY OF STATE SWITCHES AND FLAGWORDS USED BY KALCMANU.
 #
-#	STATE		FLAGWRD 2	SETTING		MEANING
-#	SWITCH NO.	BIT NO.
+# STATE	               FLAGWRD 2      SETTING             MEANING
+# SWITCH NO.            BIT NO.
 #
-#	  *
-#	31		14		0		MANEUVER WENT THROUGH GIMBAL LOCK
-#					1		MANEUVER DID NOT GO THROUGH GIMBAL LOCK
-#	  *
-#	32		13		0		CONTINUE UPDATE PROCESS
-#					1		START UPDATE PROCESS
+#   *
+# 31                      14            0       MANEUVER WENT THROUGH GIMBAL LOCK
+#					1       MANEUVER DID NOT GO THROUGH GIMBAL LOCK
 #
-#	33		12		0		PERFORM FINAL P AXIS YAW IF REQUIRED
-#					1		IGNORE ANY FINAL P-AXIS YAW
+#   *
+# 32                      13            0       CONTINUE UPDATE PROCESS
+#                                       1       START UPDATE PROCESS
 #
-#	34		11		0		SIGNAL END OF KALCMANU
-#					1		KALCMANU IN PROCESS.	USER MUST SET SWITCH BEFORE INITIATING
+# 33                      12            0       PERFORM FINAL P AXIS YAW IF REQUIRED
+#                                       1       IGNORE ANY FINAL P-AXIS YAW
 #
-#	* INTERNAL TO KALCMANU
+# 34                      11            0       SIGNAL END OF KALCMANU
+#                                       1       KALCMANU IN PROCESS       USER MUST SET SWITCH BEFORE INITIATING
 #
-# SUGGESTIONS FOR PROGRAM INTEGRATION
+#         *  INTERNAL TO KALCMANU
 #
-# THE FOLLOWING VARIABLES SHOULD BE ASSIGNED TO UNSWITCH ERASABLE:
+#      SUGGESTIONS FOR PROGRAM INTEGRATION
 #
-#	CPHI
-#	CTHETA
-#	CPSI
-#	POINTVSM +5
-#	SCAXIS 	 +5
-#	DELDCDU
-#	DELDCDU1
-#	DELDCDU2
-#	RATEINDX
+#      THE FOLLOWING VARIABLES SHOULD BE ASSIGNED TO UNSWITCH ERASABLE:
 #
-# THE FOLLOWING SUBROUTINES MAY BE PUT IN A DIFFERENT BANK
+#                      CPHI
+#                      CTHETA
+#                      CPSI
+#                      POINTVSM  +5
+#                      SCAXIS    +5
+#                      DELDCDU
+#                      DELDCDU1
+#                      DELDCDU2
+#                      RATEINDX
 #
-#	MXM3
+#      THE FOLLOWING SUBROUTINES MAY BE PUT IN A DIFFERENT BANK
+#
+#                      MXM3
+
 # Page 350
 #	TRANSPGS
 #	SIGNMPAC
