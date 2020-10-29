@@ -326,50 +326,54 @@
 #                      (  Y       X           )
 
 # Page 348
-#	_
-#	U	=	UNIT ROTATION VECTOR RESOLVED INTO S/C AXES.
-#	A	=	ROTATION ANGLE
+#            -
+#            U    =    UNIT ROTATION VECTOR RESOLVED INTO S/C AXES
+#            A    =    ROTATION ANGLE
 #
-#                        *
-# THE INTERPRETATION OF DEL IS AS FOLLOWS:
+#                             *
+#      THE INTERPRETATION OF DEL IS AS FOLLOWS:
 #
-# IF A , A , A  REPRESENT THE COMPONENTS OF A VECTOR IN THE ROTATED FRAME, THEN THE COMPONENTS OF THE SAME
-#     X   Y   Z
+#      IF A , A , A  REPRESENT THE COMPONENT OF A VECTOR IN THE ROTATED FRAME, THEN THE COMPONENTS OF THE SAME
+#          X   Y   Z
 # VECTOR IN THE ORIGINAL S/C AXES (B , B , B ) ARE
 #                                   X   Y   Z
 #
-#	[ B  ]			[ A  ]
-#	[  X ]			[  X ]
-#	[    ]			[    ]
-#	[ B  ]		  *	[ A  ]
-#	[  Y ]	   =	 DEL	[  Y ]
-#	[    ]			[    ]
-#	[ B  ]			[ B  ]
-#	[  Z ]			[  Z ]
+#            (B )                     (A )
+#            ( X)                     ( X)
+#            (  )            *        (  )
+#            (B )      =    DEL       (A )
+#            ( Y)                     ( Y)
+#            (  )                     (  )
+#            (B )                     (A )
+#            ( Z)                     ( Z)
 #
-# THE ROUTINE WILL STORE THIS MATRIX (SCALED UNITY) IN SEQUENTIAL LOCATIONS OF ERASABLE MEMORY BEGINNING WITH
-#                                                                                             _
+#      THE ROUTINE WILL STORE THIS MATRIX (SCALED UNITY) IN SEQUENTIAL LOCATIONS OF ERASABLE MEMORY BEGINNING WITH
+#                                                                                             -
 # THE LOCATION CALLED DEL.  IN ORDER TO USE THE ROUTINE, THE CALLING PROGRAM MUST FIRST STORE U (A HALF UNIT
 # DOUBLE PRECISION VECTOR) IN THE SET OF ERASABLE LOCATIONS BEGINNING WITH THE ADDRESS CALLED COF.  THE ANGLE, A,
 # MUST THEN BE LOADED INTO D(MPAC).
 #
-# INTERNALLY, THE PROGRAM ALSO USES THE FIRST 10 LOCATIONS OF THE PUSH DOWN LIST.
+#      INTERNALLY, THE PROGRAM ALSO USES THE FIRST 10 LOCATIONS OF THE PUSH DOWN LIST.
 #
-# READCDUK
-# --------
 #
-# THIS BASIC LANGUAGE SUBROUTINE LOADS T(MPAC) WITH THE THREE CDU ANGLES.
+#      READCDUK
+#      --------
 #
-# SIGNMPAC
-# --------
+#      THIS BASIC LANGUAGE SUBROUTINE LOADS T(MPAC) WITH THE THREE CDU ANGLES.
 #
-# THIS IS A BASIC LANGUAGE SUBROUTINE WHICH LIMITS THE MAGNITUDE OF D(MPAC) TO + OR - DPOSMAX ON OVERFLOW.
 #
-# PROGRAM STORAGE ALLOCATION
+#     SIGNMPAC
+#     --------
 #
-#	1)	FIXED MEMORY		1059 WORDS
-#	2)	ERASABLE MEMORY		  98
-#	3)	STATE SWITCHES		   3
+#      THIS IS A BASIC LANGUAGE SUBROUTINE WHICH LIMITS THE MAGNITUDE OF D(MPAC) TO + OR - DPOSMAX ON OVERFLOW.
+#
+#
+#      PROGRAM STORAGE ALLOCATION
+#
+#            1)   FIXED MEMORY                       1059 WORDS
+#            2)	  ERASABLE MEMORY                      98
+#            3)   STATE SWITCHES                        3
+
 # Page 349
 #	4)	FLAGS			   1
 #
