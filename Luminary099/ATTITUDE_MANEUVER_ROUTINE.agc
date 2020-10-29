@@ -227,53 +227,55 @@
 #	 7
 
 # Page 346
-#	M	=	-SINY SINZ SINX + COSY COSX
+#	M    =    -SINY  SINZ  SINX  +  COSY  COSX
 #	 8
 #
-# WHERE		X	=	OUTER GIMBAL ANGLE
-#		Y	=	INNER GIMBAL ANGLE
-#		Z	=	MIDDLE GIMBAL ANGLE
+# WHERE	     X    =    OUTER GIMBAL ANGLE
+#            Y    =    INNER GIMBAL ANGLE
+#            Z    =    MIDDLE GIMBAL ANGLE
 #
-# THE INTERPRETATION OF THIS MATRIX IS AS FOLLOWS:
+#      THE INTERPRETATION OF THIS MATRIX IS AS FOLLOWS
 #
-# IF A , A , A  REPRESENT THE COMPONENTS OF A VECTOR IN S/C AXES THEN THE COMPONENTS OF THE SAME VECTOR IN
-#     X   Y   Z
+#      IF A , A , A  REPRESENT THE COMPONENTS OF A VECTOR IN S/C AXES THEN THE COMPONENTS OF THE SAME VECTOR IN
+#          X   Y   Z
 # STABLE MEMBER AXES (B , B , B ) ARE
 #                      X   Y   Z
 #
-#	[ B  ]			[ A  ]
-#	[  X ]			[  X ]
-#	[    ]			[    ]
-#	[ B  ]		  *	[ A  ]
-#	[  Y ]	   =	  M	[  Y ]
-#	[    ]			[    ]
-#	[ B  ]			[ B  ]
-#	[  Z ]			[  Z ]
+#            (B )                (A )
+#            ( X)                ( X)
+#            (  )                (  )
+#            (  )           *    (  )
+#            (B )      =    M    (A )
+#            ( Y)                ( Y)
+#            (  )                (  )
+#            (B )                (A )
+#            ( Z)                ( Z)
 #
-# THE SUBROUTINE WILL STORE THIS MATRIX IN SEQUENTIAL LOCATIONS OF ERASABLE MEMORY AS SPECIFIED BY THE CALLING
+#     THE SUBROUTINE WILL STORE THIS MATRIX IN SEQUENTIAL LOCATIONS OF ERASABLE MEMORY AS SPECIFIED BY THE CALLING
 #                                                                                                             *
 # PROGRAM.  TO DO THIS THE CALLING PROGRAM MUST FIRST LOAD X2 WITH THE COMPLEMENT OF THE STARTING ADDRESS FOR M.
 #
-# INTERNALLY, THE ROUTINE USES THE FIRST 16 LOCATIONS OF THE PUSH DOWN LIST, ALSO STEP REGISTER S1 AND INDEX
+#      INTERNALLY, THE ROUTINE USES THE FIRST 16 LOCATIONS OF THE PUSH DOWN LIST, ALSO STEP REGISTER S1 AND INDEX
 # REGISTER X2.
 #
-# DCM TO CDU
-# ----------
-#								       *
-# THIS ROUTINE EXTRACTS THE CDU ANGLES FROM A DIRECTION COSINE MATRIX (M SCALED BY 2) RELATING S/C AXIS TO
+#      DCM TO CDU
+#      ----------
+#                                                                           *
+#      THIS ROUTINE EXTRACTS THE CDU ANGLES FROM A DIRECTION COSINE MATRIX (M SCALED BY 2) RELATING S/C AXIS TO
 #                                                                                 *
 # STABLE MEMBER AXES.  X1 MUST CONTAIN THE COMPLEMENT OF THE STARTING ADDRESS FOR M.  THE SUBROUTINE LEAVES THE
-# CORRESPONDING GIMBAL ANGLES IN V(MPAC) AS DOUBLE PRECISION 1'S COMPLEMENT ANGLES SCALED BY 2PI.  THE FORMULAS
+# CORRESPONDING GIMBAL ANGLES IN V(MPAC) AS DOUBLE PRECISION 1:S COMPLEMENT ANGLES SCALED BY 2PI.  THE FORMULAS
 # FOR THIS CONVERSION ARE
 #
-#	Z 	=	ARCSIN (M  )
-#			         3
+#       Z    =    ARCSIN (M )
+#                          3
 #
-#	Y	=	ARCSIN (-M /COSZ)
-#			          6
+#       Y    =    ARCSIN (-M /COSZ)
+#                           6
 #
-# IF M  IS NEGATIVE, Y IS REPLACED BY PI SGN Y - Y.
+# IF M  IS NEGATIVE, Y IS REPLACED BY PI SGN Y - Y
 #     0
+
 # Page 347
 #	X	=	ARCSIN (-M /COSZ)
 #			          5
