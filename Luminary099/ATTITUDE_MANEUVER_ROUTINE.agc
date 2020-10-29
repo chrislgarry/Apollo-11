@@ -856,55 +856,56 @@ DELCOMP		SETPD	PUSH		# MPAC CONTAINS THE ANGLE A
 
 # Page 360
 		STODL	KEL		# UX UX(1-COS(A)) +COS(A)		$1
-			COF 	+2
+			COF +2
 		DSQ	DMP
 			4
 		DAD	SL3
 			2
 		BOVB
 			SIGNMPAC
-		STODL	KEL 	+8D	# UY UY(1-COS(A)) +COS(A)		$1
-			COF 	+4
+		STODL	KEL +8D		# UY UY(1-COS(A)) +COS(A)		$1
+			COF +4
 		DSQ	DMP
 			4
 		DAD	SL3
 			2
 		BOVB
 			SIGNMPAC
-		STORE	KEL 	+16D	# UZ UZ(1-COS(A)) +COS(A)		$1
+		STORE	KEL +16D	# UZ UZ(1-COS(A)) +COS(A)		$1
 
 # COMPUTE THE OFF DIAGONAL TERMS OF DEL
 
 		DLOAD	DMP
 			COF
-			COF	+2
+			COF +2
 		DMP	SL1
 			4
-		PDDL	DMP		# D6	 UX UY (1-COS A)		$4
-			COF 	+4
+		PDDL	DMP		# D6  UX UY (1-COS A)			$4
+			COF +4
 			0
-		PUSH	DAD		# D8 	UZ SIN A			$4
+		PUSH	DAD		# D8  UZ SIN A				$4
 			6
 		SL2	BOVB
 			SIGNMPAC
-		STODL	KEL 	+6
+		STODL	KEL +6
 		BDSU	SL2
 		BOVB
 			SIGNMPAC
-		STODL	KEL 	+2
+		STODL	KEL +2
 			COF
 		DMP	DMP
-			COF 	+4
+			COF +4
 			4
-		SL1	PDDL		# D6 	UX UZ (1-COS A)			$4
-			COF 	+2
-		DMP	PUSH		# D8	UY SIN(A)
+		SL1	PDDL		# D6  UX UZ (1-COS A)			$4
+			COF +2
+		DMP	PUSH		# D8  UY SIN(A)
 			0
 		DAD	SL2
 			6
 		BOVB
 			SIGNMPAC
-		STODL	KEL 	+4	# UX UZ (1-COS(A))+UY SIN(A)
+		STODL	KEL +4		# UX UZ (1-COS(A))+UY SIN(A)
+
 # Page 361
 		BDSU	SL2
 		BOVB
