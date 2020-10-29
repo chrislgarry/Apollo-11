@@ -422,10 +422,10 @@
 #                      MXM3
 
 # Page 350
-#	TRANSPGS
-#	SIGNMPAC
-#	READCDUK
-#	CDUTODCM
+#                      TRANSPGS
+#                      SIGNMPAC
+#                      READCDUK
+#                      CDUTODCM
 
 # Page 351
 		BANK	15
