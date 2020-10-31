@@ -680,8 +680,8 @@
 #	  3	  DSPTEM2 +2	  C
 # 99	  1	  WWPOS		  XX
 # Page 17
-#		2		WWVEL			YY
-#		3		WWBIAS			AAA
+#	  2	  WWVEL		  YY
+#	  3	  WWBIAS	  AAA
 # Page 18
 # NOUN SCALES AND FORMATS
 
