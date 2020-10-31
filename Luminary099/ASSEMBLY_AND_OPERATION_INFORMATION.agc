@@ -578,56 +578,56 @@
 #	   3	  DVLOS +4	  S
 # 60	   1	  VHORIZ	  S
 # Page 15
-#		2		HDOTDISP		S
-#		3		HCALC			RR
-# 61		1		TTFDISP			L
-#		2		TTOGO			L
-#		3		OUTOFPLN		QQ
-# 62		1		ABVEL			S
-#		2		TTOGO			L
-#		3		DVTOTAL			S
-# 63		1		ABVEL			S
-#		2		HDOTDISP		S
-#		3		HCALC1			RR
-# 64		1		FUNNYDSP		PP
-#		2		HDOTDISP		S
-#		3		HCALC			RR
-# 65		1		SAMPTIME		K
-#		2		SAMPTIME		K
-#		3		SAMPTIME		K
-# 66		1		RSTACK +6		W
-#		2		CHANNEL 33		TT
-# 67		1		RSTACK			X
-#		2		RSTACK +2		Y
-#		3		RSTACK +4		Z
-# 68		1		RANGEDSP		QQ
-#		2		TTFDISP			L
-#		3		DELTAH			RR
-# 69		SPARE
-# 70		1		AOTCODE			A
-#		2		AOTCODE +1		A
-#		3		AOTCODE +2		A
-# 71		1		AOTCODE			A
-#		2		AOTCODE +1		A
-#		3		AOTCODE +2		A
-# 72		1		CDUT			WW
-#		2		CDUS			D
-# 73		1		TANG			WW
-#		2		TANG +1			D
-# 74		1		TTOGO			L
-#		2		YAW			H
-#		3		PITCH			H
-# 75		1		DIFFALT			Q
-#		2		T1TOT2			L
-#		3		T2TOT3			L
-# 76		1		ZDOTD			S
-#		2		RDOTD			S
-#		3		XRANGE			Q
-# 77		1		TTOGO			L
-#		2		YDOT			S
-# 78		1		RSTACK			U
-#		2		RSTACK +2		V
-# 79		1		CURSOR			D
+#	  2	  HDOTDISP	  S
+#	  3	  HCALC		  RR
+# 61	  1	  TTFDISP	  L
+#	  2	  TTOGO		  L
+#	  3	  OUTOFPLN	  QQ
+# 62	  1	  ABVEL		  S
+#	  2	  TTOGO		  L
+#	  3	  DVTOTAL	  S
+# 63	  1	  ABVEL		  S
+#	  2	  HDOTDISP	  S
+#	  3	  HCALC1	  RR
+# 64	  1	  FUNNYDSP	  PP
+#	  2	  HDOTDISP	  S
+#	  3	  HCALC		  RR
+# 65	  1	  SAMPTIME	  K
+#	  2	  SAMPTIME	  K
+#	  3	  SAMPTIME	  K
+# 66	  1	  RSTACK +6	  W
+#	  2	  CHANNEL  33	  TT
+# 67	  1	  RSTACK	  X
+#	  2	  RSTACK +2	  Y
+#	  3	  RSTACK +4	  Z
+# 68	  1	  RANGEDSP	  QQ
+#	  2	  TTFDISP	  L
+#	  3	  DELTAH	  RR
+# 69	  SPARE
+# 70	  1	  AOTCODE	  A
+#	  2	  AOTCODE +1	  A
+#	  3	  AOTCODE +2	  A
+# 71	  1	  AOTCODE	  A
+#	  2	  AOTCODE +1	  A
+#	  3	  AOTCODE +2	  A
+# 72	  1	  CDUT		  WW
+#	  2	  CDUS		  D
+# 73	  1	  TANG		  WW
+#	  2	  TANG +1	  D
+# 74	  1	  TTOGO		  L
+#	  2	  YAW		  H
+#	  3	  PITCH		  H
+# 75	  1	  DIFFALT	  Q
+#	  2	  T1TOT2	  L
+#	  3	  T2TOT3	  L
+# 76	  1	  ZDOTD		  S
+#	  2	  RDOTD		  S
+#	  3	  XRANGE	  Q
+# 77	  1	  TTOGO		  L
+#	  2	  YDOT		  S
+# 78	  1	  RSTACK	  U
+#	  2	  RSTACK +2	  V
+# 79	  1	  CURSOR	  D
 # Page 16
 #		2		SPIRAL			D
 #		3		POSCODE			C
