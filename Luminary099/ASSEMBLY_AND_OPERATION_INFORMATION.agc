@@ -880,17 +880,15 @@
 #						2   METERS
 
 # Page 22
-
 # -YY-
-# VELOCITY 4		xxxx.x FEET/SEC		DP	FRACTIONAL PART
-#			(MAX 328.0)			METERS/CENTI-SEC
+# VELOCITY 4	       XXXX.X FEET/SEC	     DP FRACTIONAL PART OF
+#		       (MAX 328.0)		METERS/CENTI-SEC
 
 # -AAA-
-# RADIANS		xx.xxx RADIANS		DP	BIT 1 OF HIGH REGISTER =
-#			(MAX 31.999)			 -9
-#							2   RADIANS.
-
-
+# RADIANS	       XX.XXX RADIANS	     DP BIT 1 OF HIGH REGISTER =
+#		       (MAX 31.999)		 -9
+#						2   RADIANS
+#
 # THAT-S ALL ON THE NOUNS.
 
 # Page 23
