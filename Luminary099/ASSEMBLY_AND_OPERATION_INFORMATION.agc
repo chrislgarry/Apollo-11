@@ -629,56 +629,56 @@
 #	  2	  RSTACK +2	  V
 # 79	  1	  CURSOR	  D
 # Page 16
-#		2		SPIRAL			D
-#		3		POSCODE			C
-# 80		1		DATAGOOD		C
-#		2		OMEGAD			H
-# 81		1		DELVLVC			S
-#		2		DELVLVC +2		S
-#		3		DELVLVC +4		S
-# 82		1		DELVLVC			S
-#		2		DELVLVC +2		S
-#		3		DELVLVC +4		S
-# 83		1		DELVIMU			S
-#		2		DELVIMU +2		S
-#		3		DELVIMU +4		S
-# 84		1		DELVOV			S
-#		2		DELVOV +2		S
-#		3		DELVOV +4		S
-# 85		1		VGBODY			S
-#		2		VGBODY +2		S
-#		3		VGBODY +4		S
-# 86		1		DELVLVC			S
-#		2		DELVLVC +2		S
-#		3		DELVLVC +4		S
-# 87		1		AZ			D
-#		2		EL			D
-# 88		1		STARAD			B
-#		2		STARAD +2		B
-# 		3		STARAD +4		B
-# 89		1		LANDLAT			G
-#		2		LANDLONG		G
-#		3		LANDALT			JJ
-# 90		1		RANGE			JJ
-#		2		RRATE			S
-#		3		RTHETA			H
-# 91		1		P21ALT			Q (MEMORY/100 TO DISPLAY TENS N.M.)
-#		2		P21VEL			P
-#		3		P21GAM			H
-# 92		SPARE
-# 93		1		OGC			G
-#		2		OGC +2			G
-#		3		OGC +4			G
-# 94		SPARE
-# 95		SPARE
-# 96		SPARE
-# 97		1		DSPTEM1			C
-#		2		DSPTEM1 +1		C
-#		3		DSPTEM1 +2		C
-# 98		1		DSPTEM2			C
-#		2		DSPTEM2 +1		B
-#		3		DSPTEM2 +2		C
-# 99		1		WWPOS			XX
+#	  2	  SPIRAL	  D
+#	  3	  POSCODE	  C
+# 80	  1	  DATAGOOD	  C
+#	  2	  OMEGAD	  H
+# 81	  1	  DELVLVC	  S
+#	  2	  DELVLVC +2	  S
+#	  3	  DELVLVC +4	  S
+# 82	  1	  DELVLVC	  S
+#	  2	  DELVLVC +2	  S
+#	  3	  DELVLVC +4	  S
+# 83	  1	  DELVIMU	  S
+#	  2	  DELVIMU +2	  S
+#	  3	  DELVIMU +4	  S
+# 84	  1	  DELVOV	  S
+#	  2	  DELVOV +2	  S
+#	  3	  DELVOV +4	  S
+# 85	  1	  VGBODY	  S
+#	  2	  VGBODY +2	  S
+#	  3	  VGBODY +4	  S
+# 86	  1	  DELVLVC	  S
+#	  2	  DELVLVC +2	  S
+#	  3	  DELVLVC +4	  S
+# 87	  1	  AZ		  D
+#	  2	  EL		  D
+# 88	  1	  STARAD	  B
+#	  2	  STARAD +2	  B
+# 	  3	  STARAD +4	  B
+# 89	  1	  LANDLAT	  G
+#	  2	  LANDLONG	  G
+#	  3	  LANDALT	  JJ
+# 90	  1	  RANGE		  JJ
+#	  2	  RRATE		  S
+#	  3	  RTHETA	  H
+# 91	  1	  P21ALT	  Q (MEMORY/100 TO DIPLAY TENS N.M.)
+#	  2	  P21VEL	  P
+#	  3	  P21GAM	  H
+# 92	  SPARE
+# 93	  1	  OGC		  G
+#	  2	  OGC +2	  G
+#	  3	  OGC +4	  G
+# 94	  SPARE
+# 95	  SPARE
+# 96	  SPARE
+# 97	  1	  DSPTEM1	  C
+#	  2	  DSPTEM1 +1	  C
+#	  3	  DSPTEM1 +2	  C
+# 98	  1	  DSPTEM2	  C
+#	  2	  DSPTEM2 +1	  B
+#	  3	  DSPTEM2 +2	  C
+# 99	  1	  WWPOS		  XX
 # Page 17
 #		2		WWVEL			YY
 #		3		WWBIAS			AAA
