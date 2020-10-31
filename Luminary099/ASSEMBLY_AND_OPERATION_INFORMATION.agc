@@ -528,54 +528,55 @@
 
 # Page 14
 # REGISTERS AND SCALING FOR MIXED NOUNS
-
-# NOUN		COMP		REGISTER		SCALE TYPE
-# 40		1		TTOGO			L
-#		2		VGDISP			S
-#		3		DVTOTAL			S
-# 41		1		DSPTEM1			D
-#		2		DSPTEM1 +1		E
-# 42		1		HAPO			Q
-#		2		HPER			Q
-#		3		VGDISP			S
-# 43		1		LAT			H
-#		2		LONG			H
-#		3		ALT			Q
-# 44		1		HAPOX			Q
-# 		2		HPERX			Q
-#		3		TFF			L
-# 45		1		TRKMKCNT		C
-#		2		TTOGO			L
-#		3		+MGA			H
-# 46		1		DAPDATR1		A
-# 47		1		LEMMASS			KK
-#		2		CSMMASS			KK
-# 48		1		PITTIME			NN
-#		2		ROLLTIME		NN
-# 49		1		R22DISP			Q
-#		2		R22DISP +2		S
-#		3		WHCHREAD		C
-# 50		SPARE
-# 51		1		ALPHASB			H
-#		2		BETASB			H
-# 52		1		ACTCENT			H
-# 53		SPARE
-# 54		1		RANGE			JJ
-#		2		RRATE			S
-#		3		RTHETA			H
-# 55		1		NN			C
-#		2		ELEV			H
-#		3		CENTANG			H
-# 56		1		RR-AZ			H
-#		2		RR-ELEV			H
-# 57		1		DELTAR			Q
-# 58		1		POSTTPI			Q
-#		2		DELVTPI			S
-# 		3		DELVTPF			S
-# 59		1		DVLOS			S
-#		2		DVLOS +2		S
-#		3		DVLOS +4		S
-# 60		1		VHORIZ			S
+#
+# NOUN	   COMP	  REGISTER	  SCALE TYPE
+#
+# 40	   1	  TTOGO		  L
+#	   2	  VGDISP	  S
+#	   3	  DVTOTAL	  S
+# 41	   1	  DSPTEM1	  D
+#	   2	  DSPTEM1 +1	  E
+# 42	   1	  HAPO		  Q
+#	   2	  HPER		  Q
+#	   3	  VGDISP	  S
+# 43	   1	  LAT		  H
+#	   2	  LONG		  H
+#	   3	  ALT		  Q
+# 44	   1	  HAPOX		  Q
+# 	   2	  HPERX		  Q
+#	   3	  TFF		  L
+# 45	   1	  TRKMKCNT	  C
+#	   2	  TTOGO		  L
+#	   3	  +MGA		  H
+# 46	   1	  DAPDATR1	  A
+# 47	   1	  LEMMASS	  KK
+#	   2	  CSMMASS	  KK
+# 48	   1	  PITTIME	  NN
+#	   2	  ROLLTIME	  NN
+# 49	   1	  R22DISP	  Q
+#	   2	  R22DISP +2	  S
+#	   3	  WHCHREAD	  C
+# 50	   SPARE
+# 51	   1	  ALPHASB	  H
+#	   2	  BETASB	  H
+# 52	   1	  ACTCENT	  H
+# 53	   SPARE
+# 54	   1	  RANGE		  JJ
+#	   2	  RRATE		  S
+#	   3	  RTHETA	  H
+# 55	   1	  NN		  C
+#	   2	  ELEV		  H
+#	   3	  CENTANG	  H
+# 56	   1	  RR-AZ		  H
+#	   2	  RR-ELEV	  H
+# 57	   1	  DELTAR	  Q
+# 58	   1	  POSTTPI	  Q
+#	   2	  DELVTPI	  S
+# 	   3	  DELVTPF	  S
+# 59	   1	  DVLOS		  S
+#	   2	  DVLOS +2	  S
+#	   3	  DVLOS +4	  S
+# 60	   1	  VHORIZ	  S
 # Page 15
 #		2		HDOTDISP		S
 #		3		HCALC			RR
