@@ -682,46 +682,47 @@
 # Page 17
 #	  2	  WWVEL		  YY
 #	  3	  WWBIAS	  AAA
+
 # Page 18
 # NOUN SCALES AND FORMATS
-
-# -SCALE TYPE-			       PRECISION
-# UNITS			DECIMAL FORMAT		--	AGC FORMAT
-# ------------		--------------		--	----------
-
+#
+# -SCALE TYPE-			      PRECISION
+# UNITS		       DECIMAL FORMAT	     -- AGC FORMAT
+# ------------	       --------------	     -- ----------
+#
 # -A-
-# OCTAL			xxxxx			SP	OCTAL
-
-# -B-								 -14
-# FRACTIONAL		.xxxxx			SP	BIT 1 = 2    UNITS
-#			(MAX .99996)
-
+# OCTAL		       XXXXX		     SP OCTAL
+#
+# -B-							 -14
+# FRACTIONAL	       .XXXXX		     SP BIT 1 = 2    UNITS
+#		       (MAX .99996)
+#
 # -C-
-# WHOLE			xxxxx.			SP	BIT 1 = 1 UNIT
-#			(MAX 16383.)
-
-# -D-								     15
-# CDU DEGREES		xxx.xx DEGREES		SP	BIT 1 = 360/2   DEGREES
-#			(MAX 359.99)			(USES 15 BITS FOR MAGNI-
-#							 TUDE AND 2-S COMP.)
-
-# -E-								    14
-# ELEVATION DEGREES	xx.xxx DEGREES		SP	BIT 1 = 90/2   DEGREES
-#			(MAX 89.999)
-
-# -F-								     14
-# DEGREES (180)		xxx.xx DEGREES		SP	BIT 1 = 180/2   DEGREES
-#			(MAX 179.99)
-
+# WHOLE		       XXXXX.		     SP BIT 1 = 1 UNIT
+#		       (MAX 16383.)
+#
+# -D-							     15
+# CDU DEGREES	       XXX.XX DEGREES	     SP BIT 1 = 360/2   DEGREES
+#		       (MAX 359.99)		(USES 15 BITS FOR MAGNI-
+#						 TUDE AND 2-S COMP.)
+#
+# -E-							    14
+# ELEVATION DEGREES    XX.XXX DEGREES	     SP BIT 1 = 90/2   DEGREES
+#		       (MAX 89.999)
+#
+# -F-							     14
+# DEGREES (180)	       XXX.XX DEGREES	     SP BIT 1 = 180/2   DEGREES
+#		       (MAX 179.99)
+#
 # -G-
-# DP DEGREES(90)	xx.xxx DEGREES		DP	BIT 1 OF LOW REGISTER =
-#							     28
-#							360/2   DEGREES
-
+# DP DEGREES(90)       XX.XXX DEGREES	     DP BIT 1 OF LOW REGISTER =
+#						     28
+#						360/2   DEGREES
+#
 # -H-
-# DP DEGREES (360)	xxx.xx DEGREES		DP	BIT 1 OF LOW REGISTER =
-#							     28
-#			(MAX 359.99)			360/2   DEGREES
+# DP DEGREES (360)     XXX.XX DEGREES	     DP BIT 1 OF LOW REGISTER =
+#						     28
+#		       (MAX 359.99)		360/2   DEGREES
 
 # Page 19
 # -K-
