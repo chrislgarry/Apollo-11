@@ -726,55 +726,55 @@
 
 # Page 19
 # -K-
-# TIME (HR, MIN, SEC)	00xxx. HR		DP	BIT 1 OF LOW REGISTER =
-#			000xx. MIN			  -2
-#			0xx.xx SEC			10   SEC
-#			(DECIMAL ONLY.
-#			MAX MIN COMP=59
-#			MAX SEC COMP=59.99
-#			MAX CAPACITY=745 HRS
-#				      39 MINS
-#				      14.55 SECS.
-#			WHEN LOADING, ALL 3
-#			COMPONENTS MUST BE
-#			SUPPLIED.)
-
+# TIME (HR, MIN, SEC)  00XXX. HR	     DP BIT 1 OF LOW REGISTER =
+#		       000XX. MIN		  -2
+#		       0XX.XX SEC		10   SEC
+#		       (DECIMAL ONLY.
+#		       MAX MIN COMP=59
+#		       MAX SEC COMP=59.99
+#		       MAX CAPACITY=745 HRS
+#				     39 MINS
+#				     14.55 SECS.
+#		       WHEN LOADING, ALL 3
+#		       COMPONENTS MUST BE
+#		       SUPPLIED.)
+#
 # -L-
-# TIME (MIN/SEC)	xxBxx MIN/SEC		DP	BIT 1 OF LOW REGISTER =
-#			(B IS A BLANK			  -2
-#			POSITION, DECIMAL		10   SEC
-#			ONLY, DISPLAY OR
-#			MONITOR ONLY.  CANNOT
-#			BE LOADED.
-#			MAX MIN COMP=59
-#			MAX SEC COMP=59
-#			VALUES GREATER THAN
-#			59 MIN 59 SEC
-#			ARE DISPLAYED AS
-#			59 MIN 59 SEC.)
-
-# -M-								  -2
-# TIME (SEC)		xxx.xx SEC		SP	BIT 1 = 10   SEC
-#			(MAX 163.83)
-
+# TIME (MIN/SEC)       XXBXX MIN/SEC	     DP BIT 1 OF LOW REGISTER =
+#		       (B IS A BLANK		  -2
+#		       POSITION, DECIMAL	10   SEC
+#		       ONLY, DISPLAY OR
+#		       MONITOR ONLY. CANNOT
+#		       BE LOADED.
+#		       MAX MIN COMP=59
+#		       MAX SEC COMP=59
+#		       VALUES GREATER THAN
+#		       59 MIN 59 SEC
+#		       ARE DISPLAYED AS
+#		       59 MIN 59 SEC.)
+#
+# -M-							  -2
+# TIME (SEC)	       XXX.XX SEC	     SP BIT 1 = 10   SEC
+#		       (MAX 163.83)
+#
 # -N-
-# TIME(SEC) DP		xxx.xx SEC		DP	BIT 1 OF LOW REGISTER =
-#							  -2
-#							10   SEC.
-
+# TIME(SEC) DP	       XXX.XX SEC	     DP BIT 1 OF LOW REGISTER =
+#						  -2
+#						10   SEC
+#
 # -P-
-# VELOCITY 2		xxxxx. FEET/SEC		DP	BIT 1 OF HIGH REGISTER =
-#			(MAX 41994.)			 -7
-#							2   METERS/CENTI-SEC
-
+# VELOCITY 2	       XXXXX. FEET/SEC	     DP B*T 1 OF HIGH REGISTER =
+#			(MAX 41994.)		 -7
+#						2   METERS/CENTI-SEC
+#
 # -Q-
-# POSITION 4		xxxx.x NAUTICAL MILES	DP	BIT 1 OF LOW REGISTER =
-#							2 METERS
-
+# POSITION 4	       XXXX.X NAUTICAL MILES DP BIT 1 OF LOW REGISTER =
+#						2 METERS
+#
 # -S-
-# VELOCITY 3		xxxx.x FT/SEC		DP	BIT 1 OF HIGH REGISTER =
-#							 -7
-#							2   METERS/CENTI-SEC
+# VELOCITY 3	       XXXX.X FT/SEC	     DP BIT 1 OF HIGH REGISTER =
+#						 -7
+#						2   METERS/CENTI-SEC
 
 # Page 20
 # -T-								  -2
