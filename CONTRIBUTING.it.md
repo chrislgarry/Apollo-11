@@ -48,7 +48,7 @@ Il codice sorgente in questa repository è stato digitalizzato manualmente da st
 
 ## Estensioni utili
 
-Github supporta la sintassi dell'assembly AGC nativamente. Sfortunatamente il tuo editor di codice non lo farà, tuttabia ci sono estensioni che aggiungono la colorazione della sintassi per questi editor:
+Github supporta la sintassi dell' assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la colorazione della sintassi per i seguenti editor:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -61,7 +61,7 @@ Github supporta la sintassi dell'assembly AGC nativamente. Sfortunatamente il tu
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Supports automatic formatting
+† Supporta la formattazione automatica
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -76,7 +76,7 @@ Github supporta la sintassi dell'assembly AGC nativamente. Sfortunatamente il tu
 
 ## Formattazione
 
-**Nota:** GitHub e le estenzioni riportate di sopra si assicureranno che tu stia usando la formattazione corretta automaticamente.
+**Nota:** GitHub e le estensioni riportate di sopra assicureranno che tu stia usando automaticamente la formattazione corretta.
 
 - Indenta con le tabulazioni
 - Usa una tabulazione di larghezza 8
@@ -94,11 +94,11 @@ Errori comuni a cui dovresti stare attento mentre verifichi includono, ma non so
 
 #### Errori tipografici
 
-Qualche volta, gli originali sviluppatori hanno fatto degli errori tipografici mentre scrivevano i commenti. Alcuni sono stati erroneamente corretti durante l'iniziale digitalizzazione, comunque la digitalizzazione ha anche introdotto altri errori tipografici che non erano presenti nelle scannerizzazioni originali.
+Qualche volta, gli sviluppatori originali hanno fatto degli errori tipografici mentre scrivevano i commenti. Alcuni sono stati erroneamente corretti durante la digitalizzazione iniziale e anche la digitalizzazione stessa ha introdotto altri errori tipografici che non erano presenti nelle scannerizzazioni originali.
 
 Per esempio, se i commenti digitalizzati contengono `SPACEFRAFT`, ma `SPAECRAFT` è stato stampato sulle scannerizzazioni, allora le digitalizzaioni **DEVONO** essere corrette in `SPAECRAFT` (senza `C`).
 
-Analogamente, se una parola ha un errore di ma è scritta correttamente nelle scannerizzazioni allora l'errore **DEVE** essere corretto.
+Analogamente, se una parola ha un errore di battitura ma è scritta correttamente nelle scannerizzazioni allora l'errore **DEVE** essere corretto.
 
 #### Spazi
 
@@ -108,7 +108,7 @@ Spazi tra due caratteri nei commenti **DOVREBBERO** corrispondere alle scanneriz
 - Doppio spazio tra frasi.
 - Triplo spazio per l'indentazione.
 
-Non tutte le pagine nelle scannerizzazioni seguono queste generalizzare, se le scannerizzazioni hanno un solo uno spazio, usane uno solo.
+Non tutte le pagine nelle scannerizzazioni seguono queste linee guida, se le scannerizzazioni hanno un solo uno spazio, usane uno solo.
 
 ### Ritorni a capo
 
@@ -116,7 +116,7 @@ Non tutte le pagine nelle scannerizzazioni seguono queste generalizzare, se le s
 - I ritorni a capo *senza* `R0000` nella colonna 1 dovrebbero contenere solo 1 o 2 linee vuote di seguito.
   - Se ci sono più di 2 ritorni a capo, elimina quelli in eccesso.
     - Righe con `R0000` nella colonna 1 non seguono questa regola.
-  - Nelle immagini originali, queste sono state create da un cifra non stampato nella colonna 8. Un 2 lì ha forzato un duppio spazio (una riga vuota), invece un 3 ha forzato unn spazio triplo (due righe vuote). Valori da 4 a 8 sono
+  - Nelle immagini originali, queste sono state create da un numero non stampato nella colonna 8. Un 2 ha forzato un doppio spazio (una singola riga vuota), invece un 3 ha forzato uno spazio triplo (due righe vuote). Valori da 4 a 8 sono
   stati definiti ma non sono mai stati usati. Puoi leggere di più qui [#159][7]
 
 Per esempio, il seguente:
@@ -142,7 +142,7 @@ R0820
 
 ## Note
 
-Prima di fare una PR(Pull Request), per piacere controlla che i tu tuoi cambiamenti siano consistenti con le scannerizzazioni!
+Prima di fare una PR(Pull Request), per piacere controlla che i tuoi cambiamenti siano consistenti con le scannerizzazioni!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
