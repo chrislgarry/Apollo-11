@@ -48,7 +48,7 @@ De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken
 
 ## Handige extensies
 
-Github heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas heeft jouw editor dit niet, gelukkig zijn er AGC extensies die de volgende editors kunnen voorzien van syntax ondersteuning:
+GitHub heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas heeft jouw editor dit niet, gelukkig zijn er AGC extensies die de volgende editors kunnen voorzien van syntax ondersteuning:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
