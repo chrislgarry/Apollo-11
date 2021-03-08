@@ -48,7 +48,7 @@ Bu repodaki kaynak kodu kağıt çıktılarından elle dijitalleştirilmiştir. 
 
 ## Yararlı Eklentiler
 
-Github, AGC assembly dili için sentaks desteği sağlıyor ama sizin kodu düzenlemek için kullandığınız editör sağlamayacaktır. Aşağıdaki editörler AGC dili sentaks vurgulaması için eklentiler sunmaktadır:
+GitHub, AGC assembly dili için sentaks desteği sağlıyor ama sizin kodu düzenlemek için kullandığınız editör sağlamayacaktır. Aşağıdaki editörler AGC dili sentaks vurgulaması için eklentiler sunmaktadır:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
