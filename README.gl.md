@@ -101,7 +101,7 @@ Enviado por          | Rol | Data
 :------------------- | :-- | :----
 Margaret H. Hamilton | Líder de programación de Colossus <br> Apollo Guidance and Navigation | 28 mar 69
 
-Aprobado por      | Rol | Data 
+Aprobado por      | Rol | Data
 :---------------- | :-- | :----
 Daniel J. Lickly  | Director, Desenvolvemento do programa de misión <br> Programa de orientación e navegación Apollo | 28 mar 69
 Fred H. Martin    | Colossus Project Manager <br> Programa de orientación e navegación Apollo | 28 mar 69
