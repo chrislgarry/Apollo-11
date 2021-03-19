@@ -67,7 +67,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Código fonte orixinal do ordenador guía do Apollo 11 (AGC) para o módulo de comando (Comanche055) e o módulo lunar (Luminary099). Dixitalizado polos rapaces de [Virtual AGC][3] y [o museo do MIT][4]. O obxetivo é ser un repositorio do código fonte orixinal do Apollo 11. Deste modo, serán benvidos os PRs relacionados coas transcricións neste repositorio e os escaneos do código fonte orixinal para o [Luminary 099][5] y el [Comanche 055][6], así como calquera ficheiro que esquecera.
+Código fonte orixinal do ordenador guía do Apollo 11 (AGC) para o módulo de comando (Comanche055) e o módulo lunar (Luminary099). Dixitalizado polos rapaces de [Virtual AGC][3] y [o museo do MIT][4]. O obxetivo é ser un repositorio do código fonte orixinal do Apollo 11. Deste modo, serán benvidos os PRs relacionados coas transcricións neste repositorio e os escaneos do código fonte orixinal para o [Luminary 099][5] e o [Comanche 055][6], así como calquera ficheiro que esquecera.
 
 ## Cómo contribuír
 
