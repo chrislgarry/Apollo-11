@@ -1,4 +1,4 @@
-# Contributing
+# Contribuíndo
 
 🎌
 [Čeština][CZ],
@@ -93,7 +93,7 @@ Calqueira discrepancia entre os escaneos e o código fonte neste repositorio, in
 - Os comentarios no código transcrito deben coincidir exactamente cos escaneos
   - Isto podería implicar crear un erro tipográfico deliberado ou eliminar / agregar un comentario completo.
 
-### Saltos de liña 
+### Saltos de liña
 
 - Salto de liña *with* `R0000` na columna 1 debe coincidir exactamente cos escaneos.
 - Salto de liña *with**__out__* `R0000` na columna 1 debe conter só 1 ou 2 liñas en branco nunha fila.
@@ -127,7 +127,7 @@ R0820
 - Os espazos entre dous caracteres na cadea deben respetar a seguinte convención (vexa a discusión en [#316][10]):
   - Espazo único para novas palabras.
   - Dobre espazo para novas oracións.
-  - Triple espazo para fendas. 
+  - Triple espazo para fendas.
 
 Por exemplo o seguiente:
 
