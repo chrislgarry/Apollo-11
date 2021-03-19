@@ -1,4 +1,4 @@
-# Apolo 11
+# Apollo 11
 
 [![NASA][1]][2]
 [![SWH]][SWH_URL]
@@ -97,7 +97,7 @@ Este programa tamén debe chamarse Colossus 2A.
 
 Este programa foi creado para ser empregado no CM tal e como especifícase no informe `R-577`. Este programa preparouse no proxecto `55-23870`, patrocinado polo Centro de Naves Tripuladas do Centro Nacional de Aeronáutica e Administración Espacial a través do contrato `NAS 9-4065` do Laboratorio de Instrumentación do Instituto de Tecnoloxía de Massachussets, Cambridge, Mass.
 
-Enviado por          | Rol | Data 
+Enviado por          | Rol | Data
 :------------------- | :-- | :----
 Margaret H. Hamilton | Líder de programación de Colossus <br> Apollo Guidance and Navigation | 28 mar 69
 
