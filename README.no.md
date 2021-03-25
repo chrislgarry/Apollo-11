@@ -9,6 +9,7 @@
 [Bahasa Indonesia][ID],
 [Català][CA],
 [Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
@@ -40,6 +41,7 @@
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
@@ -65,7 +67,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Original kildekode til Apollo 11’s veilednings datamaskin for kommando ( Comanche055 ) og måne ( Luminary099 ) modulene. Digitalisert av folkene ifra Virtual AGC og MIT Museet. Målet er og være et «repo» for den originale Apollo 11 kilde koden. «Pull Requests» er ønskelige for problemer som måtte finnes i oversettelser i dette «repository» og de originale kilde kode bildene til Luminary 099 og Comanche 055, samt bortglemte filer
+Original kildekode til Apollo 11’s veilednings datamaskin for kommando ( Comanche055 ) og måne ( Luminary099 ) modulene. Digitalisert av folkene ifra [Virtual AGC][3] og [MIT Museum][4]. Målet er og være et «repo» for den originale Apollo 11 kilde koden. «Pull Requests» er ønskelige for problemer som måtte finnes i oversettelser i dette «repository» og de originale kilde kode bildene til Luminary 099 og Comanche 055, samt bortglemte filer
 
 ## Bidra
 
@@ -93,7 +95,7 @@ Digitalisering | Denne kilde koden er tydet og adoptert fra de digitaliserte bil
 
 Dette AGC programmet skal også refereres til som Colossus 2A.
 
-Dette programmet brukes i «CM» som spesifisert i rapport `R-577`. Dette programmet var også laget under DST prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjon laboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
+Dette programmet brukes i «CM» som spesifisert i rapport `R-577`. Dette programmet var også laget under DSR prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjon laboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
 
 Innsendt av          | Rolle | Dato
 :------------------- | :---- | :---
