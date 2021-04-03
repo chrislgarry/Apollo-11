@@ -87,7 +87,7 @@ Luminary099       | Parte do código fonte do Luminary 1A, o ordenador guía Apo
 Ensamblador       | yaYUL
 Contacto          | Ron Burkey <info@sandroid.org>
 Páxina Web        | www.ibiblio.org/apollo
-Dixitalización    | Este código fuente ha sido transcrito o adaptado desde imágenes digitalizadas de una copia en papel presente en el museo del MIT. Los empleados del museo Paul Fjeld y Deborah Douglas realizaron la digitalización y la gestión de las imágenes, respectivamente. Muchas gracias a ambos. Este código fonte transcribiuse ou adaptouse dende imaxes dixitalizadas dunha copia en papel presente no museo do MIT. Os empregados do museo Paul Fjeld e Deborah Douglas realizaron a dixitalización e a xestión das imaxes, respectivamente. Moitas grazas a ambos os dous.
+Dixitalización    | Este código fonte transcribiuse ou adaptouse dende imaxes dixitalizadas dunha copia en papel presente no museo do MIT. Os empregados do museo Paul Fjeld e Deborah Douglas realizaron a dixitalización e a xestión das imaxes, respectivamente. Moitas grazas a ambos os dous.
 
 ### Contratos e aprobacións
 
