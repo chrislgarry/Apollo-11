@@ -48,7 +48,7 @@ Le code source de ce dépôt a été numérisé manuellement à partir d’impri
 
 ## Extensions utiles
 
-Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants:
+GitHub prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]

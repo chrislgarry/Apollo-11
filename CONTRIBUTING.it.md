@@ -48,7 +48,7 @@ Il codice sorgente in questa repository è stato digitalizzato manualmente da st
 
 ## Estensioni utili
 
-Github supporta la sintassi dell' assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la colorazione della sintassi per i seguenti editor:
+GitHub supporta la sintassi dell' assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la colorazione della sintassi per i seguenti editor:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]

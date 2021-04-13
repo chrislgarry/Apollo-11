@@ -48,7 +48,7 @@ O código-fonte neste repositório foi digitado manualmente a partir de impress�
 
 ## Extensões úteis
 
-Github possui suporte de sintaxe nativo para a linguagem assembly AGC.
+GitHub possui suporte de sintaxe nativo para a linguagem assembly AGC.
 Infelizmente, seu editor de texto não o terá. Portanto, existem extensões para a linguagem AGC que providenciam destaque de sintaxe para os seguintes editores:
 
 - [Atom][Atom]†
@@ -77,7 +77,7 @@ Infelizmente, seu editor de texto não o terá. Portanto, existem extensões par
 
 ## Formatando
 
-**Nota:** Github e as três extensões listadas acima garantirão que você estará usando a formatação correta automaticamente.
+**Nota:** GitHub e as três extensões listadas acima garantirão que você estará usando a formatação correta automaticamente.
 
 - Use indentação por tab
 - Use largura de tab em 8
