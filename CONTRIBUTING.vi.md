@@ -76,7 +76,7 @@ GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích h
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Định dạng   
+## Định dạng  
 
 **Lưu ý:** GitHub và các tiện ích mở rộng được đánh dấu ở trên sẽ đảm bảo bạn đang sử dụng đúng định dạng tự động.
 
