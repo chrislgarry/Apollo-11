@@ -1,4 +1,4 @@
-# Contributing
+# Đóng góp 
 
 🎌
 [Čeština][CZ],
@@ -48,7 +48,7 @@ Mã nguồn trong kho lưu trữ này đã được số hóa thủ công từ c
 - [Bản in AGC cho Comanche][8]
 - [Bản in AGC cho Luminary][9]
 
-## Useful Extensions 
+## Tiện ích mở rộng 
 
 GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích hợp sẵn. Rất tiếc, trình soạn thảo mã nguồn của bạn sẽ không thể, tuy nhiên, có các phần mở rộng ngôn ngữ AGC cung cấp đánh dấu cú pháp cho các trình chỉnh sửa sau:
 
@@ -76,7 +76,7 @@ GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích h
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Formatting  
+## Định dạng  
 
 **Lưu ý:** GitHub và các tiện ích mở rộng được đánh dấu ở trên sẽ đảm bảo bạn đang sử dụng đúng định dạng tự động.
 
@@ -144,3 +144,13 @@ R0820
 ## Lưu ý
 
 Trước khi bạn thực hiện một Pull Request, hãy đảm bảo rằng các thay đổi của bạn phù hợp với bản quét!
+
+
+[0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
+[1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
+[2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[6]:https://github.com/wopian/agc-assembly#user-settings
+[7]:https://github.com/chrislgarry/Apollo-11/issues/159
+[8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
+[10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
