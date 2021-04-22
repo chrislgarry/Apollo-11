@@ -48,7 +48,7 @@ Mã nguồn trong kho lưu trữ này đã được số hóa thủ công từ c
 - [Bản in AGC cho Comanche][8]
 - [Bản in AGC cho Luminary][9]
 
-## Mở rộng tiện ích 
+ ## Mở rộng tiện ích 
 
 GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích hợp sẵn. Rất tiếc, trình soạn thảo mã nguồn của bạn sẽ không thể, tuy nhiên, có các phần mở rộng ngôn ngữ AGC cung cấp đánh dấu cú pháp cho các trình chỉnh sửa sau:
 
@@ -78,7 +78,7 @@ GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích h
 
 ## Định dạng 
 
-**Lưu ý:** GitHub và các tiện ích mở rộng được đánh dấu ở trên sẽ đảm bảo bạn đang sử dụng đúng định dạng tự động.
+ **Lưu ý:** GitHub và các tiện ích mở rộng được đánh dấu ở trên sẽ đảm bảo bạn đang sử dụng đúng định dạng tự động.
 
 - Sử dụng thụt đầu dòng
 - Sử dụng chiều rộng là 8
@@ -100,7 +100,7 @@ Các vấn đề phổ biến bạn nên chú ý trong khi soát lỗi bao gồm
 
 Ví dụ: nếu các nhận xét được số hóa chứa `SPACECRAFT`, nhưng `SPAECRAFT` đã được in trong bản quét, thì số hóa **PHẢI** được sửa thành `SPAECRAFT` (bỏ kí tự `C`).
 
-Tương tự như vậy, nếu một từ có lỗi đánh máy trong số hóa nhưng lại được viết đúng chính tả trong bản quét thì lỗi chính tả ** PHẢI ** sẽ được sửa.
+Tương tự như vậy, nếu một từ có lỗi đánh máy trong số hóa nhưng lại được viết đúng chính tả trong bản quét thì lỗi chính tả **PHẢI** được sửa.
 
 #### Khoảng cách
 
@@ -110,14 +110,14 @@ Khoảng cách giữa hai ký tự trong bình luận **NÊN** khớp với bả
 - Gấp đôi khoảng cách cho các câu mới.
 - Gấp ba khoảng cách cho các thụt dòng.
 
-Not all pages in the scans follow this generalisation, if the scans only have a single space instead of a double space, use a single space.
+Không phải tất cả các trang trong bản quét đều tuân theo sự khái quát này, trong số các bản quét chỉ có một khoảng trắng duy nhất thay vì một khoảng trắng kép, hãy sử dụng một khoảng trắng duy nhất.
 
 ### Ngắt dòng
 
 - Ngắt dòng *với* `R0000` trong cột 1 phải khớp chính xác với các lần quét.
 - Ngắt dòng *với**__out__* `R0000` trong cột 1 chỉ được chứa 1 hoặc 2 dòng trống liên tiếp.
    - Nếu có nhiều hơn 2 dấu ngắt dòng trống thì ngắt dòng thừa.
-     - Các dòng có `R0000` trong cột 1 không được tính vào dòng này.
+   - Các dòng có `R0000` trong cột 1 không được tính vào dòng này.
    - Trong các nguồn ảnh, chúng được tạo bởi một chữ số không được in trong cột 8. A 2 buộc phải có khoảng trắng kép (dòng trống đơn) và a 3 buộc phải có ba khoảng trắng (dòng trống kép). Giá trị 4-8 đã được xác định nhưng không bao giờ được sử dụng. Đọc thêm về nó trong [#159] [7]
 
 Ví dụ như sau:
