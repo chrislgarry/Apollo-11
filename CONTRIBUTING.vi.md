@@ -48,7 +48,7 @@ Mã nguồn trong kho lưu trữ này đã được số hóa thủ công từ c
 - [Bản in AGC cho Comanche][8]
 - [Bản in AGC cho Luminary][9]
 
-## Tiện ích mở rộng  
+## Tiện ích mở rộng
 
 GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích hợp sẵn. Rất tiếc, trình soạn thảo mã nguồn của bạn sẽ không thể, tuy nhiên, có các phần mở rộng ngôn ngữ AGC cung cấp đánh dấu cú pháp cho các trình chỉnh sửa sau:
 
@@ -76,7 +76,7 @@ GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích h
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Định dạng  
+## Định dạng
 
 **Lưu ý:** GitHub và các tiện ích mở rộng được đánh dấu ở trên sẽ đảm bảo bạn đang sử dụng đúng định dạng tự động.
 
