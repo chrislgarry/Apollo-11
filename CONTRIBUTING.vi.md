@@ -48,7 +48,7 @@ Mã nguồn trong kho lưu trữ này đã được số hóa thủ công từ c
 - [Bản in AGC cho Comanche][8]
 - [Bản in AGC cho Luminary][9]
 
-## Mở rộng tiện ích 
+## Useful Extensions 
 
 GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích hợp sẵn. Rất tiếc, trình soạn thảo mã nguồn của bạn sẽ không thể, tuy nhiên, có các phần mở rộng ngôn ngữ AGC cung cấp đánh dấu cú pháp cho các trình chỉnh sửa sau:
 
@@ -76,7 +76,7 @@ GitHub có hỗ trợ cú pháp cho ngôn ngữ hợp ngữ AGC được tích h
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Định dạng 
+## Formatting  
 
 **Lưu ý:** GitHub và các tiện ích mở rộng được đánh dấu ở trên sẽ đảm bảo bạn đang sử dụng đúng định dạng tự động.
 
@@ -117,8 +117,8 @@ Không phải tất cả các trang trong bản quét đều tuân theo sự kh�
 - Ngắt dòng *với* `R0000` trong cột 1 phải khớp chính xác với các lần quét.
 - Ngắt dòng *với**__out__* `R0000` trong cột 1 chỉ được chứa 1 hoặc 2 dòng trống liên tiếp.
    - Nếu có nhiều hơn 2 dấu ngắt dòng trống thì ngắt dòng thừa.
-    - Các dòng có `R0000` trong cột 1 không được tính vào dòng này.
-     - Trong các nguồn ảnh, chúng được tạo bởi một chữ số không được in trong cột 8. A 2 buộc phải có khoảng trắng kép (dòng trống đơn) và a 3 buộc phải có ba khoảng trắng (dòng trống kép). Giá trị 4-8 đã được xác định nhưng không bao giờ được sử dụng. Đọc thêm về nó trong [#159] [7]
+     - Các dòng có `R0000` trong cột 1 không được tính vào dòng này.
+    - Trong các nguồn ảnh, chúng được tạo bởi một chữ số không được in trong cột 8. A 2 buộc phải có khoảng trắng kép (dòng trống đơn) và a 3 buộc phải có ba khoảng trắng (dòng trống kép). Giá trị 4-8 đã được xác định nhưng không bao giờ được sử dụng. Đọc thêm về nó trong [#159] [7]
 
 Ví dụ như sau:
 
