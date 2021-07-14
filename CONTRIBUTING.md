@@ -2,6 +2,7 @@
 
 🎌
 [Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 **English**,
 [Español][ES],
@@ -23,6 +24,7 @@
 
 [AR]:CONTRIBUTING.ar.md
 [CZ]:CONTRIBUTING.cz.md
+[DA]:CONTRIBUTING.da.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
