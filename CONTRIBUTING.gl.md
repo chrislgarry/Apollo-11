@@ -1,12 +1,12 @@
-# Contributing
+# Contribuíndo
 
 🎌
 [Čeština][CZ],
-**Deutsch**,
+[Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
-[Galego][GL],
+**Galego**,
 [Italiano][IT],
 [Kurdi][KU],
 [Lietuvių][LT],
@@ -43,14 +43,14 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Der Quellcode in diesem Repository wurde manuell digitalisiert, also sind jegliche schriftlichen Fehler und Ungereimtheiten aus Versehen hinzugefügt worden. Der Code soll so modifiziert werden, dass er mit den Vorlagen übereinstimmt.
+O código fonte neste repositorio dixitalizouse manualmente a partir de impresións en papel, polo que os erros tipográficos e outras discrepancias foron introducidas accidentalmente. O código modificarase para que sexa coherente coas impresións escaneadas:
 
-- [AGC printouts for Comanche][8]
-- [AGC printouts for Luminary][9]
+- [AGC impresións para Comanche][8]
+- [AGC impresións para Luminary][9]
 
-## Nützliche Erweiterungen
+## Extensións Útiles
 
-GitHub hat eine integrierte Unterstützung für AGC assembly. Das gilt leider nicht für deinen Editor. Für die folgenden Editoren gibt es aber AGC-Erweiterungen, die Syntaxhighlighting hinzufügen:
+GitHub ten soporte de sintaxis para o lenguaxe ensamblador AGC incorporado. Lamentablemente, o seu editor de código non o fará, non obstante, hai extensións de linguaxe AGC que proporcionan resaltado de sintaxis para os seguintes editores:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -63,7 +63,7 @@ GitHub hat eine integrierte Unterstützung für AGC assembly. Das gilt leider ni
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† unterstützt auch automatisches Formatieren
+† Admite formatado automático
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -76,32 +76,32 @@ GitHub hat eine integrierte Unterstützung für AGC assembly. Das gilt leider ni
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Formatierung
+## Formatado
 
-**Anmerkung:** GitHub und die oben erwähnten Erweiterungen werden automatisch sicherstellen, dass du die korrekte Formatierung einhältst.
+**Nota:** GitHub e as extensións marcadas anteriormente aseguraranse de que estés utilizando o formato correcto automaticamente.
 
-- benutze tab indentation
-- benutze tab width von 8
-- entferne Leerzeichen am Ende einer Zeile
+- Empregar sangría de separación
+- Empregar un ancho de pestana de 8
+- Recortar espazos en branco ao final
 
-## Was soll ich überprüfen?
+## Que comprobar?
 
-Alle Ungereimtheiten zwischen den Scans und dem Code in diesem Repository, einschließlich:
+Calqueira discrepancia entre os escaneos e o código fonte neste repositorio, incluíndo:
 
-### Kommentare
+### Comentarios
 
-- Kommentare in dem abgeschriebenen Code müssen denen in den Scans gleichen
-  - Das kann bedeuten, dass man einen Rechtschreibfehler übernehmen oder einen ganzen Kommentar entfernen/hinzufügen muss
+- Os comentarios no código transcrito deben coincidir exactamente cos escaneos
+  - Isto podería implicar crear un erro tipográfico deliberado ou eliminar / agregar un comentario completo.
 
-### Zeilenumbruch
+### Saltos de liña
 
-- Zeilenumbrüche *mit* `R0000` in Spalte 1 sollte genau mit den Scans übereinstimmen
-- Zeilenumbrüche *__ohne__* `R0000` in Spalte 1 sollten nur ein bis zwei Leerzeilen nacheinander haben
-  - Wenn es dort mehr als zwei Leerzeilen gibt, sollten die zusätzlichen Leerzeilen entfernt werden.
-    - Zeilen mit `R0000` in Spalte 1 zählen nicht dazu
-  - In den Originalbildern wurden die durch eine nicht gedruckte Ziffer in Spalte 8 verursacht. Eine 2 dort hat ein doppeltes Leerzeichen (einzelne Leerzeile) und eine 3 hat ein dreifaches Leerzeichen (doppelte Leerzeile). Die Werte 4-8 wurden definiert, aber nie benutzt. Mehr dazu hier: [#159][7]
+- Salto de liña *with* `R0000` na columna 1 debe coincidir exactamente cos escaneos.
+- Salto de liña *with**__out__* `R0000` na columna 1 debe conter só 1 ou 2 liñas en branco nunha fila.
+  - Se hai máis de 2 saltos de líña en branco, elimine os saltos de líña adicionales.
+    - Liñas con `R0000` na columna 1 non contan para isto.
+  - Nas imaxes de orixen, estas foron creadas por un díxito sen imprimir na columna 8. A 2 forzou un dobre espazo (liña en branco sinxela) e un 3 forzou un espazo triple (liña en branco doble). Os valores 4-8 definíronse pero nunca se empregaron. Lea máis sobre isto en [#159][7]
 
-Beispiel:
+Por exemplo o siguiente:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -112,7 +112,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-wird zu:
+Debe convertirse:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -122,9 +122,30 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-## Hinweis
+### Espazos
 
-Bevor du einen PR startest, überprüfe bitte, ob die Änderungen mit den Scans übereinstimmen!
+- Os espazos entre dous caracteres na cadea deben respetar a seguinte convención (vexa a discusión en [#316][10]):
+  - Espazo único para novas palabras.
+  - Dobre espazo para novas oracións.
+  - Triple espazo para fendas.
+
+Por exemplo o seguiente:
+
+```plain
+	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
+	GARPLY, WALDO.
+```
+
+Debe convertirse:
+
+```plain
+	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
+	   GARPLY, WALDO.
+```
+
+## Nota
+
+Antes de facer un RP, asegúrese de que os seus cambios sexan consistentes cos escaneos!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
