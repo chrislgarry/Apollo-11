@@ -42,9 +42,6 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[TR]:CONTRIBUTING.tr.md
-[ZH_CN]:CONTRIBUTING.zh_cn.md
-[ZH_TW]:CONTRIBUTING.zh_tw.md
 
 Koda xwerû di vê depoyê de ji kaxezek çapkirî bi awak destkî hat dîjîtîzkirin, ji ber vê yekê nakokî û cudahiyên din bi şaşî hatine danîn. Pêdivîye ku kod bêne guhertin da ku li gorî çapên şandî li hev bikin:
 
