@@ -16,15 +16,18 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 **မြန်မာ**,
 [日本語][JA],
@@ -33,6 +36,7 @@
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [CZ]:README.cz.md
@@ -41,13 +45,17 @@
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -56,7 +64,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 မူရင်း Apollo 11​​ ထိန်းချုပ်မှု ကွန်ပျူတာ (AGC) တွင်ပါဝင်သော ကွပ်ကဲမှုအစိတ်အပိုင်း (Comanche055) နဲ့ လပေါ်တွင်ဆင်းသက်သည့် အစိတ်အပိုင်း (Luminary099) တို့ရဲ့ ကုဒ်။ [Virtual AGC][3] နှင့် [MIT Museum][4] အကူအညီဖြင့် ဒီဂျစ်တယ်ပုံစံသို့ ပြောင်းထားခြင်းဖြစ်သည်။​ မူရင်း Apollo 11 ကုဒ်များ သိမ်းစည်းထားသော ရီပိုတစ်ခုဖြစ်လာစေရန်ရည်ရွယ်သည်။ ဒါကြောင့် [Luminary 099][5] နဲ့ [Comanche 055][6] တို့ရဲ့ အရင်းအမြစ်စာတမ်းများနဲ့ ဒီရီပိုကြား ကွဲလွဲချက်များတွေ့ရင် Pull Request (PR) တွေဖွင့်ပေးဖို့ ကြိုဆိုပါတယ်။ ကျွန်တော် ကျန်ခဲ့တဲ့ ဖိုင်လ်လေးတွေရှိရင်လည်း ပြောပေးကြပါဉီး။
 

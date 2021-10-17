@@ -6,10 +6,15 @@
 [English][EN],
 [Español][ES],
 **Français**,
+[Italiano][IT],
 [Kurdi][KU],
+[Lietuvių][LT],
 [Nederlands][NL],
+[Norsk][NO],
+[Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
 [正體中文][ZH_TW],
@@ -22,23 +27,28 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
+[PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Le code source de ce dépôt a été numérisé manuellement à partir d’imprimés papier, de sorte que les fautes de frappe et autres anomalies ont été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées:
+Le code source de ce dépôt a été numérisé manuellement à partir de papiers imprimés, les fautes de frappe et autres anomalies ont donc été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées suivantes:
 
 - [Impressions AGC pour Comanche][8]
 - [Impressions AGC pour Luminary][9]
 
 ## Extensions utiles
 
-Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants:
+GitHub prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -68,18 +78,36 @@ Github prend en charge nativement la syntaxe pour le langage assembleur AGC. Mal
 
 **Note:** GitHub et les extensions marquées ci-dessus vous assureront d'utiliser automatiquement le bon formatage.
 
-- Indenter avec tabulation
-- Les tabulations ont une taille de 8
+- Utiliser tabulation (tab) pour l'indentation
+- Utiliser une largeur de 8 caractères pour la tabulation
 - Pas d'espace à la fin des ligne
 
 ## Comment vérifier ?
 
-Tout écart entre les scans et le code source dans ce référentiel, y compris :
+Tout écart entre les scans et le code source dans ce référentiel.
 
 ### Commentaires
 
-- Les commentaires dans le code transcrit doivent correspondre exactement aux scans
-  - Cela peut impliquer de créer délibérément une erreur de frappe  ou de supprimer/ajouter un commentaire entier.
+- Les commentaires dans le code transcrit **doivent** correspondre **exactement** aux scans.
+  - Les problèmes courants que vous devez rechercher lors de la vérification sont les suivants. Attention la liste n'est pas exhaustive!
+
+#### Erreurs typographiques
+
+À certains endroits, les développeurs originaux ont fait des erreurs typographiques en écrivant des commentaires. Certaines d’entre elles ont été corrigées par erreur lors de la numérisation initiale, mais la numérisation a également introduit des erreurs typographiques qui n’étaient pas présentes dans les scans.
+
+Par exemple, si les commentaires numérisés contiennent `SPACECRAFT`, mais que `SPAECRAFT` a été imprimé dans les scans, la numérisation DOIT être corrigée en `SPAECRAFT` (C manquant).
+
+De même, si un mot a une faute de frappe dans la numérisation mais est correctement orthographié dans les scans, alors la faute de frappe DOIT être corrigée.
+
+#### Espaces
+
+Les espaces entre deux caractères dans les commentaires **DEVRAIENT** correspondre aux scans. Dans la plupart des cas (voir la discussion dans [#316][10]), c'est:
+
+- Espace unique pour les nouveaux mots.
+- Double espace pour les nouvelles phrases.
+- Triple espace pour les indentations.
+
+Toutes les pages des scans ne suivent pas cette généralisation, si les scans n'ont qu'un seul espace au lieu d'un double espace, utiliser un seul espace.
 
 ### Sauts de ligne
 
@@ -87,7 +115,7 @@ Tout écart entre les scans et le code source dans ce référentiel, y compris :
 - Les sauts de ligne *sans* `R0000` dans la colonne 1 ne doivent contenir que 1 ou 2 lignes vides d'affilée.
   - Si il y a plus de 2 lignes vides, supprimer les sauts de ligne supplémentaires.
     - Ne pas prendre en compte les lignes avecc `R0000` dans la cononne 1.
-  - Dans les images sources, il y a digits non imprimés dans la colonne 8. Un 2 force un double espace (une seul ligne vide) et un 3 force une triple espace (double ligne vide). Les valeurs 4-8 ont été définies mais n’ont jamais été utilisées. Pour en savoir plus [#159][7]
+  - Dans les images sources, ceux-ci ont été créés à cause d'un caractère non imprimé dans la colonne 8. Un 2 a forcé un double espace (une seul ligne vide) et un 3 a forcé un triple espace (double ligne vide). Les valeurs 4-8 ont été définies mais n’ont jamais été utilisées. Pour en savoir plus [#159][7]
 
 Par exemple, ce qui suit:
 
@@ -110,30 +138,9 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### Espaces
-
-- Les espaces entre deux caractères doivent respecter la convention suivante (voir la discussion [#316][10]):
-  - Un seul espace pour un nouveau mot.
-  - Deux espaces pour une nouvelle phrase.
-  - Trois espaces pour l'indentations.
-
-Par exemple, ce qui suit:
-
-```plain
-	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
-	GARPLY, WALDO.
-```
-
-Doit devenir:
-
-```plain
-	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
-	   GARPLY, WALDO.
-```
-
 ## Note
 
-Avant de faire une PR, assurez-vous que vos modifications sont cohérentes avec les scans!
+Avant de faire un PR, assurez-vous que vos modifications sont cohérentes avec les scans!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/

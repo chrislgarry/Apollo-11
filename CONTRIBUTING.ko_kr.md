@@ -6,10 +6,15 @@
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Italiano][IT],
 [Kurdi][KU],
+[Lietuvių][LT],
 [Nederlands][NL],
+[Norsk][NO],
+[Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
 [正體中文][ZH_TW],
@@ -22,10 +27,15 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
+[PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
@@ -61,7 +71,7 @@ GitHub은 내장 에디터에서 AGC문법을 지원합니다. 그러나 불행�
 
 ## 포매팅
 
-**참고:** Github 내장 에디터와 위의 세 확장기능들은 이 문단에서 정의하는 포매팅을 자동으로 수행해줍니다.
+**참고:** GitHub 내장 에디터와 위의 세 확장기능들은 이 문단에서 정의하는 포매팅을 자동으로 수행해줍니다.
 
 - 탭 들여쓰기를 사용하십시오.
 - 들여쓰기 크기는 8입니다.
