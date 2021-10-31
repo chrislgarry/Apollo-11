@@ -77,7 +77,7 @@ Infelizmente, seu editor de texto não o terá. Portanto, existem extensões par
 
 ## Formatando
 
-**Nota:** GitHub e as três extensões listadas acima garantirão que você estará usando a formatação correta automaticamente.
+**Nota:** GitHub e às três extensões listadas acima garantirão que você estará usando a formatação correta automaticamente.
 
 - Use indentação por tab
 - Use largura de tab em 8
