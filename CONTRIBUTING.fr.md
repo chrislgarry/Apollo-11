@@ -41,14 +41,14 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Le code source de ce dépôt a été numérisé manuellement à partir de papiers imprimés, les fautes de frappe et autres anomalies ont donc été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées suivantes:
+Le code source de ce dépôt a été numérisé manuellement à partir de papiers imprimés, les fautes de frappe et autres anomalies ont donc été introduites accidentellement. Le code doit être modifié pour être cohérent avec les impressions numérisées suivantes :
 
 - [Impressions AGC pour Comanche][8]
 - [Impressions AGC pour Luminary][9]
 
 ## Extensions utiles
 
-GitHub prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants:
+GitHub prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants :
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -76,11 +76,11 @@ GitHub prend en charge nativement la syntaxe pour le langage assembleur AGC. Mal
 
 ## Mise en page
 
-**Note:** GitHub et les extensions marquées ci-dessus vous assureront d'utiliser automatiquement le bon formatage.
+**Note :** GitHub et les extensions marquées ci-dessus vous assureront d'utiliser automatiquement le bon formatage.
 
-- Utiliser tabulation (tab) pour l'indentation
+- Utiliser une tabulation (tab) pour l'indentation
 - Utiliser une largeur de 8 caractères pour la tabulation
-- Pas d'espace à la fin des ligne
+- Pas d'espace à la fin des lignes
 
 ## Comment vérifier ?
 
@@ -89,7 +89,7 @@ Tout écart entre les scans et le code source dans ce référentiel.
 ### Commentaires
 
 - Les commentaires dans le code transcrit **doivent** correspondre **exactement** aux scans.
-  - Les problèmes courants que vous devez rechercher lors de la vérification sont les suivants. Attention la liste n'est pas exhaustive!
+  - Les problèmes courants que vous devez rechercher lors de la vérification sont les suivants. Attention, la liste n'est pas exhaustive !
 
 #### Erreurs typographiques
 
@@ -103,9 +103,9 @@ De même, si un mot a une faute de frappe dans la numérisation mais est correct
 
 Les espaces entre deux caractères dans les commentaires **DEVRAIENT** correspondre aux scans. Dans la plupart des cas (voir la discussion dans [#316][10]), c'est:
 
-- Espace unique pour les nouveaux mots.
-- Double espace pour les nouvelles phrases.
-- Triple espace pour les indentations.
+- Espace unique pour les nouveaux mots
+- Double espace pour les nouvelles phrases
+- Triple espace pour les indentations
 
 Toutes les pages des scans ne suivent pas cette généralisation, si les scans n'ont qu'un seul espace au lieu d'un double espace, utiliser un seul espace.
 
@@ -114,10 +114,10 @@ Toutes les pages des scans ne suivent pas cette généralisation, si les scans n
 - Les lignes *avec* `R0000` dans la colonne 1 doivent correspondre exactement aux scans.
 - Les sauts de ligne *sans* `R0000` dans la colonne 1 ne doivent contenir que 1 ou 2 lignes vides d'affilée.
   - Si il y a plus de 2 lignes vides, supprimer les sauts de ligne supplémentaires.
-    - Ne pas prendre en compte les lignes avecc `R0000` dans la cononne 1.
-  - Dans les images sources, ceux-ci ont été créés à cause d'un caractère non imprimé dans la colonne 8. Un 2 a forcé un double espace (une seul ligne vide) et un 3 a forcé un triple espace (double ligne vide). Les valeurs 4-8 ont été définies mais n’ont jamais été utilisées. Pour en savoir plus [#159][7]
+    - Ne pas prendre en compte les lignes avec `R0000` dans la colonne 1.
+  - Dans les images sources, celles-ci ont été créées à cause d'un caractère non imprimé dans la colonne 8. Un 2 a forcé un double espace (une seule ligne vide) et un 3 a forcé un triple espace (double ligne vide). Les valeurs 4-8 ont été définies mais n’ont jamais été utilisées. Pour en savoir plus [#159][7]
 
-Par exemple, ce qui suit:
+Par exemple, ce qui suit :
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -128,7 +128,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-Doit devenir:
+Doit devenir :
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -140,7 +140,7 @@ R0820
 
 ## Note
 
-Avant de faire un PR, assurez-vous que vos modifications sont cohérentes avec les scans!
+Avant de faire une PR, assurez-vous que vos modifications soient cohérentes avec les scans !
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
