@@ -119,7 +119,7 @@ What follows is simply a bunch of file-includes for the individual code chunks. 
 | [DAPIDLER_PROGRAM.agc]                        | 1410-1420   |
 | [P-AXIS_RCS_AUTOPILOT.agc]                    | 1421-1441   |
 | [Q_R-AXIS_RCS_AUTOPILOT.agc]                  | 1442-1459   |
-| [TJET_LAW.agc]                                | 1460-1459   |
+| [TJET_LAW.agc]                                | 1460-1469   |
 | [KALMAN_FILTER.agc]                           | 1470-1471   |
 | [TRIM_GIMBAL_CNTROL_SYSTEM.agc]               | 1472-1484   |
 | [AOSTASK_AND_AOSJOB.agc]                      | 1485-1506   |
