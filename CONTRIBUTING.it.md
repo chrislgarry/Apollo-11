@@ -48,7 +48,7 @@ Il codice sorgente in questa repository è stato digitalizzato manualmente da st
 
 ## Estensioni utili
 
-GitHub supporta la sintassi dell' assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la colorazione della sintassi per i seguenti editor:
+GitHub supporta la sintassi assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la sottolineazione della sintassi per i seguenti editor:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -88,7 +88,7 @@ Qualsiasi differenza tra le scannerizzazioni e il codice sorgente in questa repo
 
 ### Commenti
 
-Commenti nel codice trascritto **DEVONO** coincidere **esattamente** con quelli delle scannerizzazioni.
+Commenti nel codice trascritto **DEVONO** coincidere **ESATTAMENTE** con quelli delle scannerizzazioni.
 
 Errori comuni a cui dovresti stare attento mentre verifichi includono, ma non sono limitati a:
 
