@@ -93,7 +93,7 @@ Digitalización    | Este código fuente ha sido transcrito o adaptado desde im�
 
 Este programa debe también llamarse Colossus 2A.
 
-Este programa fue creado para ser usado en el CM tal y como se especifica en el informe `R-577`. Este programa se preparó en el proyecto `55-23870`, patrocinado por el Centro de Naves Tripuladas del Centro Nacional de Aeronáutica y Administración Espacial a través del contrato `NAS 9-4065` del Laboratorio de Instrumentación del Instituto de Tecnología de Massachussets, Cambridge, Mass.
+Este programa fue creado para ser usado en el Modulo de Comando tal y como se especifica en el informe `R-577`. Este programa se preparó en el proyecto `55-23870`, patrocinado por el Centro de Naves Tripuladas del Centro Nacional de Aeronáutica y Administración Espacial a través del contrato `NAS 9-4065` del Laboratorio de Instrumentación del Instituto de Tecnología de Massachussets, Cambridge, Mass.
 
 Enviado por          | Rol | Fecha
 :------------------- | :-- | :----
