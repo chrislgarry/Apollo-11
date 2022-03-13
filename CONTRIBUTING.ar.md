@@ -15,6 +15,7 @@
 [Norsk][NO]،
 [Polski][PL]،
 [Português][PT_BR]،
+[Русский][RU],
 [Türkçe][TR]،
 [Ελληνικά][GR]،
 **العربية**،
@@ -39,6 +40,7 @@
 [NO]:CONTRIBUTING.no.md
 [PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
+[RU]:CONTRIBUTTING.ru.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
