@@ -100,9 +100,9 @@ Margaret H. Hamilton | Colossus 程式設計負責人<br>阿波羅導引導航�
 Daniel J. Lickly  | 負責人, 任務程式開發<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
 Fred H. Martin    | Colossus 專案經理<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
 Norman E. Sears   | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
-Richard H. Battin | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969 年 3月 28 日
+Richard H. Battin | 負責人, 任務開發<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
 David G. Hoag     | 負責人<br>阿波羅導引導航程式 | 1969 年 3 月 28 日
-Ralph R. Ragan    | 副負責人<br>(美國)實驗儀器公司 | 1969 年 3 月 2 8日
+Ralph R. Ragan    | 副負責人<br>(美國)實驗儀器公司 | 1969 年 3 月 28 日
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
