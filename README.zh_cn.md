@@ -102,7 +102,7 @@ Margaret H. Hamilton | Colossus 程序设计负责人<br>阿波罗制导 |  1969
 核准人             | Role | 日期
 :---------------- | :--- | :--
 Daniel J. Lickly  | 负责人、任务程序开发<br>阿波罗制导程序 | 1969 年 3 月 28 日
-Fred H. Martin    | Colossus 项目经理<br>阿波罗制导程序 |  1969 年 3月 28 日
+Fred H. Martin    | Colossus 项目经理<br>阿波罗制导程序 |  1969 年 3 月 28 日
 Norman E. Sears   | 负责人、任务开发<br>阿波罗制导程序 | 1969 年 3 月 28 日
 Richard H. Battin | 负责人、任务开发<br>阿波罗制导程序 | 1969 年 3 月 28 日
 David G. Hoag     | 负责人<br>阿波罗制导程序 | 1969 年 3 月 28 日
