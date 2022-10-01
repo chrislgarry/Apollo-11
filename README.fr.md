@@ -69,7 +69,7 @@ Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module d
 
 ## Contribuer
 
-Merci de lire [CONTRIBUTING.fr.md][7] avant d'ouvrir un pull request.
+Merci de lire [CONTRIBUTING.fr.md][7] avant d'ouvrir une pull request.
 
 ## Compilation
 
@@ -106,7 +106,7 @@ CAMBRIDGE, MASS.
 
 Soumis par           | Rôle | Date
 :------------------- | :--- | :---
-Margaret H. Hamilton | Chef de la programmation Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Margaret H. Hamilton | Chef de programmation Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
 
 Approuvé par      | Rôle | Date
 :---------------- | :--- | :---
