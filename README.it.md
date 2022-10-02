@@ -73,7 +73,7 @@ Per favore, leggere [CONTRIBUTING.it.md][7] prima di aprire una Pull Request (PR
 
 ## Compilare
 
-Se sei interessato a compilare il codice sorgente originale puoi usare [Virtual AGC][8].
+Se sei interessato a compilare il codice sorgente originale dai un'occhiata a [Virtual AGC][8].
 
 ## Crediti
 
@@ -97,16 +97,16 @@ Questo programma è destinato all'uso nel CM (Modulo Di Comando) come specificat
 
 Presentato da        | Ruolo | Data
 :------------------- | :---- | :---
-Margaret H. Hamilton | Leader della programmazione del colosso<br>Apollo Guidance and Navigation | 28 Mar 69
+Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
 
 Approvato da      | Ruolo | Data
 :---------------- | :---- | :---
-Daniel J. Lickly  | Direttore dello sviluppo per il progetto missione<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin    | Manager del progetto collosuss<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears   | Direttore dello sviluppo missione<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin | Direttore dello sviluppo missione<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Daniel J. Lickly  | Direttore, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
 David G. Hoag     | Direttore<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan    | Direttore deputato<br>Instrumentation Laboratory | 28 Mar 69
+Ralph R. Ragan    | Vice direttore<br>Instrumentation Laboratory | 28 Mar 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91

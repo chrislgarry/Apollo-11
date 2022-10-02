@@ -41,14 +41,14 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Il codice sorgente in questa repository è stato digitalizzato manualmente da stampe su carta, quindi errori di battitura e altre differenze sono state aggiunte accidentalmente. Il codice dovrebbe essere modificato per essere consistente con le seguenti scannerizzazioni:
+Il codice sorgente in questa repository è stato digitalizzato manualmente da stampe su carta, quindi errori di battitura e altre differenze sono state aggiunte accidentalmente. Il codice dovrebbe essere modificato per essere consistente con le seguenti scansioni:
 
 - [AGC stampa per Comanche][8]
 - [AGC stampa per Luminary][9]
 
 ## Estensioni utili
 
-GitHub supporta la sintassi assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la sottolineazione della sintassi per i seguenti editor:
+GitHub supporta la sintassi assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la sottolineatura della sintassi per i seguenti editor:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
