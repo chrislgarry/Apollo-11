@@ -98,7 +98,7 @@ Masalah umum yang harus Anda perhatikan saat pemeriksaan termasuk, tetapi tidak 
 
 Di beberapa tempat, pengembang asli membuat kesalahan ketik saat menulis komentar. Beberapa di antaranya salah dikoreksi selama digitalisasi awal, namun digitalisasi juga menimbulkan kesalahan tipografi yang tidak ada dalam pemindaian.
 
-Misalnya, jika komentar digital berisi `SPACECRAFT`, tetapi` spaecraft` dicetak dalam pemindaian, maka digitalisasi **HARUS** dikoreksi ke `spaecraft` (hilang `C`).
+Misalnya, jika komentar digital berisi `SPACECRAFT`, tetapi `spaecraft` dicetak dalam pemindaian, maka digitalisasi **HARUS** dikoreksi ke `spaecraft` (hilang `C`).
 
 Demikian juga, jika sebuah kata memiliki kesalahan ketik dalam digitalisasi tetapi dieja dengan benar dalam pemindaian, maka kesalahan ketik **HARUS** diperbaiki.
 
