@@ -16,11 +16,11 @@
 [Türkçe][TR],
 [Ελληνικά][GR],
 [العربية][AR],
+**हिंदी**,
 [日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[한국어][KO_KR],
-**हिंदी**,
+[한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
 [CZ]:CONTRIBUTING.cz.md
@@ -29,6 +29,7 @@
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
 [GR]:CONTRIBUTING.gr.md
+[HI_IN]:[CONTRIBUTING.hi_in.md]
 [IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
@@ -41,7 +42,6 @@
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[HI_IN]:[CONTRIBUTING.hi_in.md]
 
 इस रिपॉजिटरी में स्रोत कोड को पेपर प्रिंटआउट से मैन्युअल रूप से डिजिटाइज़ किया गया था, इसलिए गलती से टाइपो और अन्य विसंगतियों को पेश किया गया है। निम्नलिखित स्कैन किए गए प्रिंटआउट के अनुरूप बनाने के लिए कोड को संशोधित किया जाएगा:
 
