@@ -78,7 +78,7 @@ GitHub tiene soporte de sintaxis para el lenguaje ensamblador AGC incorporado. L
 
 **Nota:** GitHub y las extensiones marcadas anteriormente asegurarán que esté utilizando el formato correcto automáticamente.
 
-- Usar sangría de tabulación
+- Use tabulación tipo sangría
 - Use un ancho de pestaña de 8
 - Recortar espacios en blanco al final
 
