@@ -86,7 +86,7 @@ Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM
 Assembler      | yaYUL
 Contact        | Ron Burkey <info@sandroid.org>
 Website        | www.ibiblio.org/apollo
-Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+Digitalization | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
 
 ### Contract and Approvals
 
