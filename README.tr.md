@@ -67,7 +67,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
+Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Komuta Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden, bu repodaki transkriptler ile orijinal [Luminary 099][5] ve [Comanche 055][6] kaynak taramaları arasında tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
 
 ## Katkıda Bulunma
 
@@ -82,7 +82,7 @@ Eğer orijinal kaynak kodu derlemek isterseniz, [Virtual AGC][8] projesine bakab
 &nbsp;          | &nbsp;
 :-------------- | :-----
 Lisans          | Kamu malı - ABD hükümeti çalışması
-Comanche055     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Yönetim Modülü (CM) olan Colossus 2A'nın kaynak kodunun bir parçası.<br>`AGC programı Comanche'nin NASA tarafından yapılan 055 sayılı birleştirme revizyonu`<br>`2021113-051. 10:28 NİS. 1, 1969`
+Comanche055     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Komuta Modülü (CM) olan Colossus 2A'nın kaynak kodunun bir parçası.<br>`AGC programı Comanche'nin NASA tarafından yapılan 055 sayılı birleştirme revizyonu`<br>`2021113-051. 10:28 NİS. 1, 1969`
 Luminary099     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) olan Luminary 1A'in kaynak kodunun bir parçası.<br>`AGC Programı LMY99'un NASA tarafından yapılan 001 sayılı birleştirme revizyonu`<br>`2021112-061. 16:27 TEM. 14, 1969`
 Derleyici       | yaYUL
 İletişim        | Ron Burkey <info@sandroid.org>
@@ -99,7 +99,7 @@ Rapor `R-577`'de belirtildiği gibi, bu program CM için kullanım amacıyla haz
 
 Gönderen             | Mevkisi | Tarih
 :------------------- | :------ | :----
-Margaret H. Hamilton | Colossus Programı Lideri<br>Apollo Yönlendirme ve Navigasyon | 28 Mar 69
+Margaret H. Hamilton | Colossus Programlama Lideri<br>Apollo Yönlendirme ve Navigasyon | 28 Mar 69
 
 Onaylayan         | Mevkisi | Tarih
 :---------------- | :------ | :----

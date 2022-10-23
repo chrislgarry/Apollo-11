@@ -75,7 +75,7 @@ Merci de lire [CONTRIBUTING.fr.md][7] avant d'ouvrir une pull request.
 
 ## Compilation
 
-Si vous êtes intéressés par la compilation du code source original visitez [Virtual AGC][8].
+Si vous êtes intéressé par la compilation du code source original, visitez [Virtual AGC][8].
 
 ## Attribution
 
@@ -108,7 +108,7 @@ CAMBRIDGE, MASS.
 
 Soumis par           | Rôle | Date
 :------------------- | :--- | :---
-Margaret H. Hamilton | Chef de la programmation Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
+Margaret H. Hamilton | Chef de programmation Colossus<br>Programme de guidage et de navigation Apollo | 28 Mar 69
 
 Approuvé par      | Rôle | Date
 :---------------- | :--- | :---

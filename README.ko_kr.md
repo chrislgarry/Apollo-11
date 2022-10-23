@@ -67,7 +67,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-사령선 모듈 (Comanche055) 및 달 착륙선 모듈 (Luminary099)을 위한 아폴로 11호 유도 컴퓨터(AGC)의 소스코드입니다. [Virtual AGC][3] 및 [MIT Museum][4]에 의해 디지털화 되었습니다. 이 레포지토리는 아폴로 11호의 원본 소스코드를 완벽하게 재현하여 보관하는 것을 목표로 합니다. 따라서 원본과 본 디지털본 간에 발견된 모든 이슈, 또한 빠뜨렸을 듯한 파일들에 대해 PR을 환영합니다.
+사령선 모듈 (Comanche055) 및 달 착륙선 모듈 (Luminary099)을 위한 아폴로 11호 유도 컴퓨터(AGC)의 소스코드입니다. [Virtual AGC][3] 및 [MIT Museum][4]에 의해 디지털화되었습니다. 이 레포지토리는 아폴로 11호의 원본 소스코드를 완벽하게 재현하여 보관하는 것을 목표로 합니다. 따라서 원본과 본 디지털본 간에 발견된 모든 이슈, 또한 빠뜨렸을 듯한 파일들에 대해 PR을 환영합니다.
 
 ## 기여하기
 
@@ -87,7 +87,7 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 어셈블러     | yaYUL
 연락처       | Ron Burkey <info@sandroid.org>
 웹사이트     | www.ibiblio.org/apollo
-디지털화     | 이 소스코드는 MIT Museum에서 하드카피본을 디지털화, 옮긴 것 입니다. 디지털화는 Paul Fjeld에 의해 이루어졌으며, Deborah Douglas가 정리하였습니다. 두 분께 깊은 감사를 표합니다.
+디지털화     | 이 소스코드는 MIT Museum에서 하드 카피본을 디지털화, 옮긴 것입니다. 디지털화는 Paul Fjeld에 의해 이루어졌으며, Deborah Douglas가 정리하였습니다. 두 분께 깊은 감사를 표합니다.
 
 ### Contract and Approvals
 
@@ -95,7 +95,7 @@ Luminary099 | Part of the source code for Luminary 1A, the Lunar Module's (LM) A
 
 본 아폴로 유도 컴퓨터 프로그램은 다음에 의해 참조됩니다 : 콜로서스 2A
 
-이 프로그램은 R-577에 명세된 사령선 모듈에 사용됩니다. DSR 프로젝트 55-23870 에 의해 준비되었으며, NASA 유인 우주선 센터가 MIT 기계 연구소 와의 NAS 9-4065 계약에 의해 스폰싱 하였습니다.
+이 프로그램은 R-577에 명세된 사령선 모듈에 사용됩니다. DSR 프로젝트 55-23870에 의해 준비되었으며, NASA 유인 우주선 센터가 MIT 기계 연구소와의 NAS 9-4065 계약에 의해 스폰싱 하였습니다.
 
 제출됨                | Role | 일시
 :------------------- | :--- | :--

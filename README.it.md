@@ -67,11 +67,11 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Codice sorgente dell'Apollo 11 Guidance Computer (AGC) utilizzato dal Command Module (Comanche055) e dal Lunar Module (Luminary099). Digitalizzato dagli autori del [Virtual AGC][3] e dal [MIT Museum][4]. L'obbiettivo è quello di avere un repository contenente il codice usato dalla missione Apollo 11. Di conseguenza, le PRs volte a correggere qualsiasi problema, identificato confrontando le trascrizioni in questo repository e le scansioni originali del codice del [Luminary 099][5] e del [Comanche 055][6], sono benvenute.
+Codice sorgente dell'"Apollo 11 Guidance Computer (AGC)" utilizzato dal Modulo di Comando ("Comanche055") e dal Modulo Lunare (Luminary099). Digitalizzato dagli autori del "[Virtual AGC][3]" e dal "[MIT Museum][4]". L'obbiettivo è quello di avere un repository contenente il codice usato dalla missione Apollo 11. Di conseguenza, le PRs volte a correggere qualsiasi problema, identificato confrontando le trascrizioni in questo repository e le scansioni originali del codice del [Luminary 099][5] e del [Comanche 055][6], sono benvenute.
 
 ## Contribuire
 
-Leggere [CONTRIBUTING.it.md][7] prima di aprire una pull request (PR).
+Per favore, leggere [CONTRIBUTING.it.md][7] prima di aprire una Pull Request (PR).
 
 ## Compilare
 
@@ -95,7 +95,7 @@ Digitalizzazione | Questo codice sorgente è stato trascritto utilizzando le cop
 
 Questo AGC deve fare riferimento al Colossus 2A.
 
-Questo programma è destinato all'uso nel CM (Command Module) come specificato nel report `R-577`. Questo programma è stato sviluppato nell'ambito del progetto DSR `55-23870`, promosso dal Manned Spacecraft Center of The National Aeronautics and Space Administration attraverso il contratto `NAS 9-4065` siglato con l'Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
+Questo programma è destinato all'uso nel CM (Modulo Di Comando) come specificato nel report `R-577`. Questo programma è stato sviluppato nell'ambito del progetto DSR `55-23870`, promosso dal "Manned Spacecraft Center of The National Aeronautics and Space Administration" attraverso il contratto `NAS 9-4065` siglato con "l'Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass".
 
 Presentato da        | Ruolo | Data
 :------------------- | :---- | :---
@@ -103,12 +103,12 @@ Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Naviga
 
 Approvato da      | Ruolo | Data
 :---------------- | :---- | :---
-Daniel J. Lickly  | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Daniel J. Lickly  | Direttore, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
 Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag     | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+David G. Hoag     | Direttore<br>Apollo Guidance and Navigation Program | 28 Mar 69
+Ralph R. Ragan    | Vice direttore<br>Instrumentation Laboratory | 28 Mar 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
