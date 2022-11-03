@@ -9,6 +9,7 @@
 [Bahasa Indonesia][ID],
 [Català][CA],
 [Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
@@ -40,6 +41,7 @@
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
 [CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
