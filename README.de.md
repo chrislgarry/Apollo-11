@@ -69,7 +69,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Dieses Repository beinhaltet den originalen Quellcode des Apollo 11 Navigationscomputers (kurz AGC) für das Kommandomodul (Comanche055) und die Mondlandefähre (Luminary099). Digitalisiert wurde der Code durch das [Virtual AGC][3] Projekt und das [MIT Museum][4]. Ziel dieses Projektes ist es, den originalen Apollo 11 Source Code an einem zentralen Ort zu sammeln. Daher sind PRs, die Diskrepanzen zwischen den Transkripten in diesem Repository und den originalen Scans des Source Codes von [Luminary 099][5] und [Comanche 055][6] beheben, gern gesehen.
+Dieses Repository beinhaltet den originalen Quellcode des Apollo 11 Navigationscomputers (kurz AGC) für das Kommandomodul (Comanche055) und die Mondlandefähre (Luminary099). Digitalisiert wurde der Code durch das [Virtual AGC][3] Projekt und das [MIT Museum][4]. Ziel dieses Projektes ist es, den originalen Apollo 11 Source Code an einem zentralen Ort zu sammeln. Daher sind PRs, die Diskrepanzen zwischen den Transkripten in diesem Repository und den originalen Scans des Source Codes von [Luminary 099][5] und [Comanche 055][6] beheben, gern gesehen. Das Gleiche gilt für irgendwelche Dateien, die ich verpasst haben könnte.
 
 ## Mitmachen
 
@@ -83,7 +83,7 @@ Wenn du den originalen Quellcode gern selbst kompilieren möchtest, wirf am best
 
 &nbsp;          | &nbsp;
 :-------------- | :-----
-Copyright       | Gemeingut
+Urheberrecht    | Gemeingut
 Comanche055     | Teil des Quellcodes für Colossus 2A, den Apollo Navigationscomputer (AGC) des Kommandomoduls (CM) für Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099     | Teil des Quellcodes für Luminary 1A, den Apollo Navigationscomputer (AGC) der Mondlandefähre (LM) für Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler       | yaYUL
@@ -95,9 +95,9 @@ Digitalisierung | Der vorliegende Quellcode wurde von digitalisierten Bildern ei
 
 *Abgeleitet aus [CONTRACT_AND_APPROVALS.agc]*
 
-Dieses AGC Programm soll auch Colossus 2A genannt werden.
+Dieses AGC Programm wird gleichfalls als Colossus 2A bezeichnet.
 
-Dieses Programm ist für die Benutzung im CM vorgesehen, wie in Report `R577` spezifiziert. Das Programm wurde vorbereitet im Rahmen des DSR Projekts `55-23870`, gesponsort vom Zentrum für bemannte Raumfahrt der National Aeronautics and Space Administration durch Vertrag `NAS 9-4065`, geschlossen mit dem Instrumentation Laboratory des Massachusetts Institute of Technology, Cambridge, Mass.
+Dieses Programm ist für die Benutzung im CM vorgesehen, wie in Report `R577` spezifiziert. Das Programm wurde vorbereitet im Rahmen des DSR Projekts `55-23870`, gesponsert vom Zentrum für bemannte Raumfahrt der National Aeronautics and Space Administration durch Vertrag `NAS 9-4065`, geschlossen mit dem Instrumentation Laboratory des Massachusetts Institute of Technology, Cambridge, Mass.
 
 Eingereicht von      | Position | Datum
 :------------------- | :------- | :----
