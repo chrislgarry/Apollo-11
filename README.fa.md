@@ -25,6 +25,7 @@
 [Română][RO]،
 [Tiếng Việt][VI]،
 [Türkçe][TR]،
+[Ukrainian][UA],
 [Ελληνικά][GR]،
 [Русский][RU]،
 [العربية][AR]،
@@ -65,6 +66,7 @@
 [RO]:README.ro.md
 [RU]:README.ru.md
 [TR]:README.tr.md
+[UA]:README.ua.md
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
