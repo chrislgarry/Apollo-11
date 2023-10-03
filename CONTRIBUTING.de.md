@@ -145,7 +145,7 @@ R0820
 
 ## Anmerkung
 
-Bevor du einen PR erstellst, stelle bitte sicher, dass deine Änderungen mit den Scans übereinstimmen!
+Bevor du eine Pull Request erstellst, stelle bitte sicher, dass deine Änderungen mit den Scans übereinstimmen!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
