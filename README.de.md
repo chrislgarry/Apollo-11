@@ -75,7 +75,7 @@ Dieses Repository beinhaltet den originalen Quellcode des Apollo 11 Navigationsc
 
 ## Mitmachen
 
-Bitte lies [CONTRIBUTING.de.md][7], bevor du einen Pull Request öffnest.
+Bitte lies [CONTRIBUTING.de.md][7], bevor du eine Pull Request öffnest.
 
 ## Kompilieren
 
