@@ -13,6 +13,7 @@
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
+[Galego][GL],
 [Français][FR],
 [Italiano][IT],
 [Kurdi][KU],
@@ -48,6 +49,7 @@
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GL]:README.gl.md
 [GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
