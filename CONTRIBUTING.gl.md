@@ -1,13 +1,12 @@
-# 貢獻
+# Contribuíndo
 
 🎌
 [Čeština][CZ],
-[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
-[Galego][GL],
+**Galego**,
 [Italiano][IT],
 [Kurdi][KU],
 [Lietuvių][LT],
@@ -16,17 +15,15 @@
 [Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
-[Ukrainian][UA]،
 [Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
-**正體中文**,
+[正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
 [CZ]:CONTRIBUTING.cz.md
-[DA]:CONTRIBUTING.da.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
@@ -43,18 +40,17 @@
 [PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
-[UA]:CONTRIBUTING.ua.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-這個倉庫的原始碼，是透過列印出的紙本輸出，予以手動數位化。所以可能會不小心出現錯字和其他出入。程式碼應當修正到與紙本掃描的輸出一致：
+O código fonte neste repositorio dixitalizouse manualmente a partir de impresións en papel, polo que os erros tipográficos e outras discrepancias foron introducidas accidentalmente. O código modificarase para que sexa coherente coas impresións escaneadas:
 
-- [AGC printouts for Comanche][8]
-- [AGC printouts for Luminary][9]
+- [AGC impresións para Comanche][8]
+- [AGC impresións para Luminary][9]
 
-## 實用套件
+## Extensións Útiles
 
-GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不過，以下編輯器有提供 AGC 語法突顯的語言套件：
+GitHub ten soporte de sintaxis para o lenguaxe ensamblador AGC incorporado. Lamentablemente, o seu editor de código non o fará, non obstante, hai extensións de linguaxe AGC que proporcionan resaltado de sintaxis para os seguintes editores:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -67,7 +63,7 @@ GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不�
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† 支援自動格式化
+† Admite formatado automático
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -80,51 +76,32 @@ GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不�
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## 格式化
+## Formatado
 
-**注意：** GitHub 與上面列出的套件，會自動確保您使用正確的格式。
+**Nota:** GitHub e as extensións marcadas anteriormente aseguraranse de que estés utilizando o formato correcto automaticamente.
 
-- 用 tab 縮排
-- tab 寬度為 8
-- 去除底部空白
+- Empregar sangría de separación
+- Empregar un ancho de pestana de 8
+- Recortar espazos en branco ao final
 
-## 如何檢查？
+## Que comprobar?
 
-掃描與倉庫原始碼的差異會包括：
+Calqueira discrepancia entre os escaneos e o código fonte neste repositorio, incluíndo:
 
-### 註解
+### Comentarios
 
-抄寫的註解**必須**和掃描**一模一樣**。
+- Os comentarios no código transcrito deben coincidir exactamente cos escaneos
+  - Isto podería implicar crear un erro tipográfico deliberado ou eliminar / agregar un comentario completo.
 
-在檢查程式時需要留心，但不限於的問題有：
+### Saltos de liña
 
-#### 拼寫錯誤
+- Salto de liña *with* `R0000` na columna 1 debe coincidir exactamente cos escaneos.
+- Salto de liña *with**__out__* `R0000` na columna 1 debe conter só 1 ou 2 liñas en branco nunha fila.
+  - Se hai máis de 2 saltos de líña en branco, elimine os saltos de líña adicionales.
+    - Liñas con `R0000` na columna 1 non contan para isto.
+  - Nas imaxes de orixen, estas foron creadas por un díxito sen imprimir na columna 8. A 2 forzou un dobre espazo (liña en branco sinxela) e un 3 forzou un espazo triple (liña en branco doble). Os valores 4-8 definíronse pero nunca se empregaron. Lea máis sobre isto en [#159][7]
 
-有時候，原始程式的開發者會撰寫時，出現若干拼寫錯誤。有時可能會在初次數位化時，被錯誤地更正；不過數位化本身，也可能產出在原始稿沒出現的拼寫錯誤。
-
-比方說，數位化的註解如果是 `SPACECRAFT`、但掃描原稿是 `SPAECRAFT` 的話，數位化就**必須**更正為沒有 C 的 `SPAECRAFT`。
-
-同樣地，如果是數位化的註解錯了、但掃描稿正確的話，就**必須**更正數位化的程式。
-
-#### 空格
-
-在字元內，兩個單字之間的空白**必須**與掃描相同。大多數時（請參閱 [#316][10] 的討論）慣例如下：
-
-- 單字間空一格。
-- 句子間空兩格。
-- 縮排間空三格。
-
-不是所有掃描都遵照這個慣例。如果不空兩格，而是空一格，那就空一格。
-
-### 換行
-
-- 在第一列（column 1）*有著* `R0000` 的換行，要和掃描一模一樣。
-- 在第一列*沒有* `R0000` 的換行，在一行（row）只能留有一到兩個空白行。
-  - 如果空白行超過兩個，請刪去額外的空白行。
-    - 如果在第一列有 `R0000` 的話，就不要這麼做。
-  - 在原始圖片中，這些都是由第八列（column 8）的未列印數字所產生。2 強制用兩個（也就是單一空白行）、3 強制用三個（也就是雙空行）、4-8 有定義，但從未使用過。請參閱 [#159][7] 的詳細訊息。
-
-例如以下程式：
+Por exemplo o siguiente:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -135,7 +112,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-要改寫成：
+Debe convertirse:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -145,16 +122,34 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-## 注意
+### Espazos
 
-在發 PR 前，請確保您的修改與掃描輸出一模一樣！
+- Os espazos entre dous caracteres na cadea deben respetar a seguinte convención (vexa a discusión en [#316][10]):
+  - Espazo único para novas palabras.
+  - Dobre espazo para novas oracións.
+  - Triple espazo para fendas.
+
+Por exemplo o seguiente:
+
+```plain
+	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
+	GARPLY, WALDO.
+```
+
+Debe convertirse:
+
+```plain
+	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
+	   GARPLY, WALDO.
+```
+
+## Nota
+
+Antes de facer un RP, asegúrese de que os seus cambios sexan consistentes cos escaneos!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[3]:https://github.com/wopian/agc-assembly
-[4]:https://github.com/jimlawton/AGC-Assembly
-[5]:https://github.com/Alhadis/language-agc
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/

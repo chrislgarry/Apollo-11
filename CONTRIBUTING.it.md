@@ -7,7 +7,8 @@
 [English][EN],
 [Español][ES],
 [Français][FR],
-**Italiano**
+[Galego][GL],
+**Italiano**,
 [Kurdi][KU],
 [Lietuvių][LT],
 [Nederlands][NL],
@@ -30,6 +31,7 @@
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GL]:CONTRIBUTING.gl.md
 [GR]:CONTRIBUTING.gr.md
 [IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
