@@ -69,7 +69,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Mã nguồn của máy tính hướng dẫn Apollo 11 (AGC) thông qua Command Module (Comanche055) và Lunar Module (Luminary099). Được số hóa bởi những người ở [Virtual AGC][3] và [Bảo tàng MIT][4]. Mục tiêu là tạo ra một kho lưu trữ mã nguồn cho Apollo 11. Do vậy, PRs là một điều bình thường cho bất kì một vấn đề được xác định giữa các bản dịch trong kho lưu trữ này và nguồn gốc quét mã cho [Luminary 099][5] và [Comanche 055][6], cũng như bất kì file nào mà chúng tôi có thể bỏ lỡ.
+Mã nguồn của máy tính hướng dẫn Apollo 11 (AGC) thông qua Command Module (Comanche055) và Lunar Module (Luminary099). Được số hóa bởi những người ở [Virtual AGC][3] và [Bảo tàng MIT][4]. Mục tiêu là tạo ra một repo lưu trữ mã nguồn cho Apollo 11. Do vậy, yêu cầu đóng góp (pull request) là một điều bình thường cho bất kì một vấn đề được xác định giữa các bản dịch trong repo này và nguồn gốc quét mã cho [Luminary 099][5] và [Comanche 055][6], cũng như bất kì file nào mà chúng tôi có thể bỏ lỡ.
 
 ## Đóng góp
 
@@ -79,11 +79,11 @@ Hãy đọc [CONTRIBUTING.md][7] trước khi bạn mở một pull request.
 
 Nếu bạn quan tâm đến việc biên dịch mã nguồn, hãy kiểm tra [Virtual AGC][8].
 
-## Ghi công
+## Ghi nhận công sức và đóng góp
 
 &nbsp;      | &nbsp;
 :---------- | :-----
-Bản quyền   | Công cộng
+Bản quyền   | Tài nguyên công cộng
 Comanche055 | Một phần của mã nguồn cho Colossus 2A, Command Module's (CM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 055 của AGC chương trình Comanche bởi NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099 | Một phần của mã nguồn cho Luminary 1A, Lunar Module's (LM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 001 của AGC chương trình LMY99 bởi NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler   | yaYUL
@@ -97,7 +97,7 @@ Số hóa      | Mã nguồn này đã được sao chép hoặc chuyển thể 
 
 Chương trình AGC này cũng sẽ được gọi là Colossus 2A.
 
-Chương trình này được thiết kế để sử dụng trong CM như được chỉ định trong báo cáo `R-577`. Chương trình này được chuẩn bị theo dự án DSR `55-23870`, được tài trợ bởi Trung tâm tàu vũ trụ có người lái của Cơ quan hàng không vũ trụ quốc gia thông qua hợp đồng `NAS 9-4065` với Phòng thí nghiệm thiết bị, Viện công nghệ Massachusetts, Cambridge, Mass.
+Chương trình này được thiết kế để sử dụng trong Mô-đun Chỉ huy (Command Module) như được chỉ định trong báo cáo `R-577`. Chương trình này được chuẩn bị theo dự án DSR `55-23870`, được tài trợ bởi Trung tâm tàu vũ trụ có người lái của Cơ quan hàng không vũ trụ quốc gia (Manned Spacecraft Center of The National Aeronautics and Space Administration) thông qua hợp đồng `NAS 9-4065` với Phòng thí nghiệm thiết bị (Instrumentation Laboratory), Viện công nghệ Massachusetts (Massachusetts Institute of Technology), Cambridge, Mass.
 
 Gửi bởi              | Vai trò | Ngày
 :------------------- | :------ | :---
