@@ -10,6 +10,7 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Lietuvių][LT],
+[Mongolia][MN],
 [Nederlands][NL],
 [Norsk][NO],
 [Polski][PL],
@@ -33,9 +34,11 @@
 [GR]:CONTRIBUTING.gr.md
 [IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
+[MN]:CONTRIBUTING.mn.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
 [LT]:CONTRIBUTING.lt.md
+[MN]:CONTRIBUTING.mn.md
 [NL]:CONTRIBUTING.nl.md
 [NO]:CONTRIBUTING.no.md
 [PL]:CONTRIBUTING.pl.md
