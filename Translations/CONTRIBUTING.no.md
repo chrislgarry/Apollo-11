@@ -58,16 +58,16 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Kilde koden I dette «repository» var digitalisert manuelt ifra papir utskrifter, om det finnes stavefeil og andre avvik skall koden reflektere dette. Skrivefeil og andre avvik kan ha blitt innført ved et uhell men skal allikevel være identisk med følgende digitalisert papir utskrifter:
+Kildekoden i dette depotet ble digitalisert manuelt fra papirutskrifter, hvis det finnes stavefeil og andre avvik skal koden reflektere dette. Skrivefeil og andre avvik kan ha blitt innført ved et uhell, men skal likevel være identisk med følgende digitaliserte papirutskrifter:
 
-- [AGC utskrift for Comanche][8]
-- [AGC utskrift for Luminary][9]
+- [AGC-utskrift for Comanche][8]
+- [AGC-utskrift for Luminary][9]
 
 Følgende nettside er lett tilgjengelig med skannede utskrifter av både Comanche og Luminary: https://28gpc.csb.app/
 
 ## Nytteprogrammer
 
-GitHub har kildekode støtte for «assembly» programmerings språket AGC ( innebygget ), og de følgene tekst redigerings programmene har også støtte for nøkkel ord fargesetting:
+GitHub har innebygd støtte for programmeringsspråket AGC "assembly", og følgene tekstredigeringsprogrammer har også støtte for syntaksutheving:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -80,7 +80,7 @@ GitHub har kildekode støtte for «assembly» programmerings språket AGC ( inne
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Supporterer automatisk formattering
+† Støtter automatisk formatering
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -93,9 +93,9 @@ GitHub har kildekode støtte for «assembly» programmerings språket AGC ( inne
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Formattering
+## Formatering
 
-**Merk:** GitHub og redigerings programmene nevnt ovenfor vil sørge for at du bruker korrekt formattering av kilde koden.
+**Merk:** GitHub og de nevnte redigeringsprogrammene vil sørge for at du bruker korrekt formatering av kildekoden.
 
 -	Bruk Tab for innrykk
 -	Bruk Tab med 8 mellomrom
@@ -103,31 +103,31 @@ GitHub har kildekode støtte for «assembly» programmerings språket AGC ( inne
 
 ## Hva må jeg sjekke?
 
-Eventuelle avvik ifra de innskannede bildene og kilde koden i dette «repository»
+Eventuelle avvik fra de innskannede bildene og kildekoden i dette depotet
 
 ### Kommentarer
 
 Kommentarer i denne koden **SKAL** stemme **eksakt** med den digitaliserte originalen.
 
-Vanlige feil en bør se etter er blant annet:
+Vanlige feil man bør se etter er blant annet:
 
 #### Typografiske feil
 
-Noen steder skrev original utvikleren feil i kode kommentarene. Noen av disse feilene ble rettet under digitaliseringen, og digitaliseringen har også introdusert nye typografiske feil som ikke kommer ifra papir utskriften.
+Noen steder skrev originalutvikleren feil i kodekommentarene. Noen av disse feilene ble rettet under digitaliseringen, og digitaliseringen har også introdusert nye typografiske feil som ikke stammer fra papirutskriften.
 
-For eksempel, om de originale dokumentene var feilstavet til ‘SPAECRAFT’ og de digitaliserte dokumentene ble endret til ‘SPACECRAFT’ så **SKAL** dette rettes til og reflektere de originale dokumentene, altså uten ‘C’ i ordet.
+For eksempel, hvis de originale dokumentene var feilstavet som ‘SPAECRAFT’ og de digitaliserte dokumentene ble endret til ‘SPACECRAFT’ så **SKAL** dette rettes for å reflektere de originale dokumentene, altså uten ‘C’ i ordet.
 
 På samme måte, om digitaliseringen introduserte stavefeil som ikke var tilstede i de originale dokumentene **SKAL** dette rettes.
 
 #### Mellomrom
 
-Mellomrom mellom to karakterer i teksten **BØR** følge de digitaliserte dokumentene. I de fleste tilfeller (se diskusjon i [#316[10]) betyr dette:
+Mellomrom mellom to tegn i teksten **BØR** følge de digitaliserte dokumentene. I de fleste tilfeller (se diskusjon i [#316[10]) betyr dette:
 
 - Enkelt mellomrom for nye ord
 - Dobbelt mellomrom for nye linjer
 - Trippel mellomrom for innrykk
 
-Ikke alle sider i de digitaliserte dokumentene følger denne generaliseringen, så om de digitaliserte dokumentene bruker enkelt mellomrom i stedet for dobbelt mellomrom så skal enkelt mellomrom følges.
+Ikke alle sider i de digitaliserte dokumentene følger denne generaliseringen, så hvis de digitaliserte dokumentene bruker enkelt mellomrom i stedet for dobbelt mellomrom så skal enkelt mellomrom følges.
 
 ### Linjeskift
 
@@ -160,7 +160,7 @@ R0820
 
 ## Noter
 
-Før en gjør en «Pull Request» bør man være helt sikker på at forandringer er helt lik de digitaliserte bildene!
+Før man åpner en «Pull Request», bør man være helt sikker på at endringene er i samsvar med de digitaliserte bildene!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
