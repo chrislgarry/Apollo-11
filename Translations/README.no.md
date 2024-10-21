@@ -106,7 +106,7 @@ Digitalisering | Denne kildekoden er avskrevet og tilpasset fra de digitaliserte
 
 Dette AGC-programmet skal også refereres til som Colossus 2A.
 
-Dette programmet ble brukt i «CM», som spesifisert i rapporten `R-577`. Programmet ble også laget under DSR-prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjonslaboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
+Dette programmet er tiltenkt brukt i kommandomodulen, som spesifisert i rapporten `R-577`. Programmet ble laget under DSR-prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjonslaboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
 
 Innsendt av          | Rolle | Dato
 :------------------- | :---- | :---
