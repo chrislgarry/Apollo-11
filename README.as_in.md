@@ -64,48 +64,48 @@
 [ZH_TW]:README.zh_tw.md
 [NL]:README.nl.md
 
-মূল এপোলো 11 গাইডেন্স কম্পিউটাৰ (AGC) কমাণ্ড মডিউল (Comanche055) আৰু লুনাৰ মডিউলৰ বাবে উৎস ক'ড (Luminary099)। [Virtual AGC][3] আৰু [MIT Museum][4] থকা লোকৰ দ্বাৰা ডিজিটাইজ কৰা হৈছে। লক্ষ্যটো হৈছে মূল এপলো 11 উৎস ক'ডৰ বাবে repo হোৱা। এনেদৰে, এই ভঁৰালত প্ৰতিলিপি আৰু লুমিনাৰী 099 আৰু কোমানচে 055-ৰ বাবে মূল উৎসৰ মাজত চিনাক্ত কৰা যিকোনো সমস্যাৰ বাবে পি.আৰ. স্বাগতম, লগতে মোৰ থাকি যাব পৰা যিকোনো ফাইল সংলগ্ন কৰিব পাৰে।
+মূল অ্যাপোলো ১১ গাইডেন্স কম্পিউটার (AGC) এর কমান্ড মডিউল (Comanche055) এবং লুনার মডিউল (Luminary099) এর উৎস কোড। এটি [Virtual AGC][3] এবং [MIT Museum][4] এর সদস্যদের দ্বারা ডিজিটাইজ করা হয়েছে। মূল লক্ষ্য হলো অ্যাপোলো ১১ এর উৎস কোডের জন্য একটি রেপোজিটরি তৈরি করা। এই ভান্ডারে কপি এবং Luminary 099 এবং Comanche 055 এর মূল উৎসের মধ্যে সনাক্ত হওয়া যে কোনো সমস্যার জন্য PR (পুল রিকোয়েস্ট) স্বাগত জানানো হয় এবং সংশ্লিষ্ট যে কোনো ফাইল অন্তর্ভুক্ত করা যেতে পারে।
 
-## অৱদান
+## অবদান
 
-অনুগ্ৰহ কৰি pull requestৰ আগতে [COMPINING.md][7] পঢ়ক।
+অনুগ্রহ করে pull request জমা দেওয়ার আগে [COMPILING.md][7] পড়ুন।
 
 ## কম্পাইল
 
-যদি আপুনি মূল উৎস ক'ড কম্পাইল কৰাত আগ্ৰহী, [Virtual AGC][8] চাওক।
+যদি আপনি মূল উৎস কোড কম্পাইল করতে আগ্রহী, তবে [Virtual AGC][8] দেখুন।
 
-## Attribution
+## উৎস
 
 &nbsp;         | &nbsp;
 :------------- | :-----
-কপিৰাইট       | ৰাজহুৱা ডমেইন
-Comanche055    | কলোচাছ (Colossus) 2A ৰ উৎস কোডৰ অংশ, এপলো 11-ৰ কমাণ্ড মডিউলৰ (CM) এপলো গাইডেচন কম্পিউটাৰ (AGC)<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | লুমিনাৰী (Luminary) 1A-ৰ বাবে উৎস কোডৰ অংশ, এপোলো 11-ৰ বাবে লুনাৰ মডিউলৰ (LM) এপোলো গাইডেচন কম্পিউটাৰ (AGC)<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+কপিরাইট       | পাবলিক ডোমেইন
+Comanche055    | Colossus 2A প্রোগ্রামের উৎস কোডের অংশ, অ্যাপোলো ১১ এর কমান্ড মডিউল (CM) এর জন্য অ্যাপোলো গাইডেন্স কম্পিউটার (AGC)<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    | Luminary 1A প্রোগ্রামের উৎস কোডের অংশ, অ্যাপোলো ১১ এর লুনার মডিউল (LM) এর জন্য অ্যাপোলো গাইডেন্স কম্পিউটার (AGC)<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler      | yaYUL
 যোগাযোগ        | Ron Burkey <info@sandroid.org>
-ৱেবছাইট        | www.ibiblio.org/apollo
-Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+ওয়েবসাইট       | www.ibiblio.org/apollo
+ডিজিটাইজেশন     | এই উৎস কোডটি হার্ডকপির ডিজিটাইজড ছবি থেকে অনুলিপি বা অভিযোজিত করা হয়েছে যা MIT মিউজিয়াম থেকে সংগ্রহ করা। এটি Paul Fjeld দ্বারা ডিজিটাইজ এবং Deborah Douglas দ্বারা আয়োজিত হয়েছে। দুজনের প্রতিই আন্তরিক ধন্যবাদ।
 
-## চুক্তি আৰু অনুমোদন
+## চুক্তি এবং অনুমোদন
 
-*এই বিভাগটো [CONTRACT_AND_APPROVALS.agc]ৰ পৰা আহৰণ কৰা হৈছে*
+*এই বিভাগটি [CONTRACT_AND_APPROVALS.agc] থেকে নেওয়া হয়েছে*
 
-এই এজিচি প্ৰ'গ্ৰামক কোলচাছ 2এ বুলিও কোৱা হ'ব।
+এই AGC প্রোগ্রামটিকে Colossus 2A নামেও ডাকা হয়।
 
-প্ৰতিবেদন 'R-577'ত নিৰ্ধাৰিত অনুসৰি এই প্ৰ'গ্ৰামটো চি.এম.-ত ব্যৱহাৰ হৈছিল। এই কাৰ্য্যসূচীটো DSR প্ৰকল্প '55-23870'ৰ অধীনত প্ৰস্তুত কৰা হৈছিল, যাৰ পৃষ্ঠপোষকতা কৰিছিল National Aeronautics and Space Administrationৰ Manned Spacecraft Centerএ, Instrumentation Laboratory, Massachusetts Institute of Technologyৰ সৈতে চুক্তি 'NAS 9-4065'ৰ যোগেৰে।
+'R-577' রিপোর্ট অনুযায়ী, এই প্রোগ্রামটি CM-এ ব্যবহৃত হয়েছিল। এই প্রজেক্ট DSR প্রোজেক্ট '55-23870' এর অধীনে, National Aeronautics and Space Administration এর Manned Spacecraft Center দ্বারা পৃষ্ঠপোষিত, Instrumentation Laboratory, Massachusetts Institute of Technology এর সাথে চুক্তি 'NAS 9-4065' দ্বারা।
 
-দাখিলকাৰী             | ভূমিকা | দিনাংক
+দাখিলকারী             | ভূমিকা | তারিখ
 :------------------- | :--- | :---
-Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | ২৮ মাৰ্চ '৬৯
+Margaret H. Hamilton | Colossus প্রোগ্রামিং লিডার<br>অ্যাপোলো গাইডেন্স এবং নেভিগেশন | ২৮ মার্চ '৬৯
 
-অনুমোদক          | ভূমিকা | দিনাংক
+অনুমোদনকারী          | ভূমিকা | তারিখ
 :---------------- | :--- | :---
-Daniel J. Lickly  | পৰিচালক, Mission Program Development<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
-Fred H. Martin    | Colossus প্ৰকল্প ব্যৱস্থাপক<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
-Norman E. Sears   | পৰিচালক, Mission Development<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
-Richard H. Battin | পৰিচালক, Mission Development<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
-David G. Hoag     | পৰিচালক<br>Apollo Guidance and Navigation Program | ২৮ মাৰ্চ '৬৯
-Ralph R. Ragan    | উপ-পৰিচালক<br>Instrumentation Laboratory | ২৮ মাৰ্চ '৬৯
+Daniel J. Lickly  | পরিচালক, মিশন প্রোগ্রাম ডেভেলপমেন্ট<br>অ্যাপোলো গাইডেন্স এবং নেভিগেশন প্রোগ্রাম | ২৮ মার্চ '৬৯
+Fred H. Martin    | Colossus প্রজেক্ট ম্যানেজার<br>অ্যাপোলো গাইডেন্স এবং নেভিগেশন প্রোগ্রাম | ২৮ মার্চ '৬৯
+Norman E. Sears   | পরিচালক, মিশন ডেভেলপমেন্ট<br>অ্যাপোলো গাইডেন্স এবং নেভিগেশন প্রোগ্রাম | ২৮ মার্চ '৬৯
+Richard H. Battin | পরিচালক, মিশন ডেভেলপমেন্ট<br>অ্যাপোলো গাইডেন্স এবং নেভিগেশন প্রোগ্রাম | ২৮ মার্চ '৬৯
+David G. Hoag     | পরিচালক<br>অ্যাপোলো গাইডেন্স এবং নেভিগেশন প্রোগ্রাম | ২৮ মার্চ '৬৯
+Ralph R. Ragan    | সহকারী পরিচালক<br>ইন্সট্রুমেন্টেশন ল্যাবরেটরি | ২৮ মার্চ '৬৯
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
