@@ -10,11 +10,13 @@
 [Italiano][IT],
 **Kurdî**,
 [Lietuvių][LT],
+[Mongolian][MN],
 [Nederlands][NL],
 [Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Ukrainian][UA]،
 [Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
@@ -35,6 +37,7 @@
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
 [LT]:CONTRIBUTING.lt.md
+[MN]:CONTRIBUTING.mn.md
 [NL]:CONTRIBUTING.nl.md
 [NO]:CONTRIBUTING.no.md
 [PL]:CONTRIBUTING.pl.md
@@ -43,6 +46,7 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 [TR]:CONTRIBUTING.tr.md
+[UA]:CONTRIBUTING.ua.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 

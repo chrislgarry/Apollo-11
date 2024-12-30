@@ -9,11 +9,13 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Lietuvių][LT],
+[Mongolian][MN],
 [Nederlands][NL],
 **Norsk**,
 [Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Ukrainian][UA]،
 [Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
@@ -33,11 +35,13 @@
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
 [LT]:CONTRIBUTING.lt.md
+[MN]:CONTRIBUTING.mn.md
 [NL]:CONTRIBUTING.nl.md
 [NO]:CONTRIBUTING.no.md
 [PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
+[UA]:CONTRIBUTING.ua.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
@@ -110,11 +114,11 @@ Mellomrom mellom to karakterer i teksten **BØR** følge de digitaliserte dokume
 
 Ikke alle sider i de digitaliserte dokumentene følger denne generaliseringen, så om de digitaliserte dokumentene bruker enkelt mellomrom i stedet for dobbelt mellomrom så skal enkelt mellomrom følges.
 
-### Linje Skift
+### Linjeskift
 
-- Linje skift *med* `R0000` i kolonne 1 skal stemme helt med originalen.
-- Linje skift *uten* `R0000` i kolonne 1 skal bare ha en eller to blanke linjer etter seg.
-  - Om det er flere enn to blanke linjer skal de fjernes
+- Linjeskift *med* `R0000` i kolonne 1 skal stemme helt med originalen.
+- Linjeskift *uten* `R0000` i kolonne 1 skal bare ha en eller to blanke linjer etter seg.
+  - Om det er flere enn to blanke linjer, skal de fjernes
     - Linjer med `R0000` i kolonne 1 regnes ikke i slike tilfeller
   - I originalen ble disse skapt av et uskrevet tegn i kolonne 8. Sto det 2 der var der et dobbelt mellomrom ( enkel blank linje ) og om det var 3 så ble det et trippel mellomrom ( to dobble linjer ). Verdiene ifra 4 til 8 var definert, men er ikke i bruk. Les mer om dette i [#159][7]
 

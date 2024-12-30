@@ -23,6 +23,7 @@
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ukrainian][UA],
 [Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
@@ -63,11 +64,12 @@
 [RO]:README.ro.md
 [RU]:README.ru.md
 [TR]:README.tr.md
+[UA]:README.ua.md
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Codice sorgente dell'"Apollo 11 Guidance Computer (AGC)" utilizzato dal Modulo di Comando ("Comanche055") e dal Modulo Lunare (Luminary099). Digitalizzato dagli autori del "[Virtual AGC][3]" e dal "[MIT Museum][4]". L'obbiettivo è quello di avere un repository contenente il codice usato dalla missione Apollo 11. Di conseguenza, le PRs volte a correggere qualsiasi problema, identificato confrontando le trascrizioni in questo repository e le scansioni originali del codice del [Luminary 099][5] e del [Comanche 055][6], sono benvenute.
+Codice sorgente dell'"Apollo 11 Guidance Computer (AGC)" utilizzato dal Modulo di Comando ("Comanche055") e dal Modulo Lunare (Luminary099). Digitalizzato dagli autori del "[Virtual AGC][3]" e dal "[MIT Museum][4]". L'obbiettivo è quello di avere un repository contenente il codice usato dalla missione Apollo 11. Di conseguenza, i PR sono i benvenuti per qualsiasi problema identificato, confrontando le trascrizioni in questo repository e le scansioni originali del codice del [Luminary 099][5] e del [Comanche 055][6], sono benvenute.
 
 ## Contribuire
 

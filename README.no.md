@@ -16,6 +16,7 @@
 [Français][FR],
 [Italiano][IT],
 [Kurdi][KU],
+[Mongolian][MN],
 [Nederlands][NL],
 **Norsk**,
 [Polski][PL],
@@ -23,6 +24,7 @@
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ukrainian][UA],
 [Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
@@ -56,6 +58,7 @@
 [KU]:README.ku.md
 [LT]:README.lt.md
 [MM]:README.mm.md
+[MN]:README.mn.md
 [NL]:README.nl.md
 [NO]:README.no.md
 [PL]:README.pl.md
@@ -63,6 +66,7 @@
 [RO]:README.ro.md
 [RU]:README.ru.md
 [TR]:README.tr.md
+[UA]:README.ua.md
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
@@ -75,7 +79,7 @@ Venligst les [CONTRIBUTING.no.md][7] før en "pull request" åpnes.
 
 ## Kompilere
 
-Om du er interesert i og kompilere den originale kilde koden så sjekk [Virtual AGC][8].
+Om du er interesert i å kompilere den originale kildekoden, sjekk [Virtual AGC][8].
 
 ## Bidragsytere
 
@@ -93,9 +97,9 @@ Digitalisering | Denne kilde koden er tydet og adoptert fra de digitaliserte bil
 
 *Fra [CONTRACT_AND_APPROVALS.agc]*
 
-Dette AGC programmet skal også refereres til som Colossus 2A.
+Dette AGC-programmet skal også refereres til som Colossus 2A.
 
-Dette programmet brukes i «CM» som spesifisert i rapport `R-577`. Dette programmet var også laget under DSR prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjon laboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
+Dette programmet brukes i «CM» som spesifisert i rapport `R-577`. Dette programmet var også laget under DSR-prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjonslaboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
 
 Innsendt av          | Rolle | Dato
 :------------------- | :---- | :---
