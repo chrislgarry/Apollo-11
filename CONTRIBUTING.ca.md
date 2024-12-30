@@ -1,65 +1,54 @@
-# 贡献
+# Contributing
 
 🎌
-[Català][CA]،
+**Català**,
 [Čeština][CZ],
-[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
-[Galego][GL],
 [Italiano][IT],
 [Kurdi][KU],
 [Lietuvių][LT],
-[Mongolian][MN],
 [Nederlands][NL],
 [Norsk][NO],
-[Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
-[Ukrainian][UA]،
 [Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
 [正體中文][ZH_TW],
-**简体中文**,
+[简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
 [CA]:CONTRIBUTING.ca.md
 [CZ]:CONTRIBUTING.cz.md
-[DA]:CONTRIBUTING.da.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
-[GL]:CONTRIBUTING.gl.md
 [GR]:CONTRIBUTING.gr.md
 [IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
 [LT]:CONTRIBUTING.lt.md
-[MN]:CONTRIBUTING.mn.md
 [NL]:CONTRIBUTING.nl.md
 [NO]:CONTRIBUTING.no.md
-[PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
-[UA]:CONTRIBUTING.ua.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-本仓库中的源代码来自对纸质打印输出文件的手动数字化，所以会不小心引入一些拼写错误和其他差异。这些代码应该被修正以使其与原纸质打印输出文件内容保持一致：
+El codi font en aquest repositori es va digitalitzar manualment a partir d'impressions en paper, d'aquesta manera els errors tipogràfics i altres discrepàncies s'han introduït accidentalment. El codi es modificarà perquè sigui coherent amb les impressions escanejades:
 
-- [阿波罗 11 号制导计算机（AGC）中指令模块打印输出][8]
-- [阿波罗 11 号制导计算机（AGC）中登月模块打印输出][9]
+- [AGC impressions per a Comanche][8]
+- [AGC impressions per a Luminary][9]
 
-## 有用的扩展
+## Extensions Útils
 
-GitHub 内建支持 AGC 汇编语言语法。不幸的是，你的代码编辑器并不支持，但有些
-AGC 语言的扩展插件可以为下列的编辑器提供语法高亮显示支持：
+GitHub té suport de sintaxi pel llenguatge assemblador AGC incorporat. Malauradament, el seu editor de codi no ho farà, no obstant això, hi ha extensions de llenguatge AGC que proporcionen ressaltat de sintaxi pels següents editors:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -72,7 +61,7 @@ AGC 语言的扩展插件可以为下列的编辑器提供语法高亮显示支�
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† 符号表示支持自动格式化
+† Admet formateig automàtic
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -85,32 +74,35 @@ AGC 语言的扩展插件可以为下列的编辑器提供语法高亮显示支�
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## 格式化
+## Formateig
 
-**注意**：GitHub 和上面列出的3个扩展插件会确保您自动使用正确的格式。
+**Nota:** GitHub i les extensions marcades anteriorment asseguren que s'està utilitzant el format correcte automàticament.
 
-- 使用 TAB 进行缩进
-- TAB 宽度为 8 个字符
-- 去掉末尾的空格
+- Utilitzar la tabulació per la indentació
+- Utilitza una tabulació de 8
+- Retalla espais en blanc al final
 
-## 我该怎么检查？
+## ¿Que verifico?
 
-原始的扫描打印输出文件与此存储库中的源码之间存在的差异，包括：
+Qualsevol discrepància entre els escanejos i el codi font d'aquest repositori, incloent-hi:
 
-### 注释
+### Comentaris
 
-- 转录代码中的注释应与扫描件完全匹配
-  - 这可能涉及故意创建的拼写错误或删除/添加整个评论
+Els comentaris en el codi transcrit **han de coincidir exactament** amb els escanejos
 
-### 换行
+Això podria implicar crear un error tipogràfic deliberat o eliminat/ agregar un comentari complet.
 
-- 第 1 列 *带* `R0000` 的换行符应与扫描件完全匹配。
-- 第 1 列 *不**__带__* `R0000` 的换行符应该只包含 1 个或 2 个连续空行。
-  - 如果有超过 2 个空行换行，请删除额外的空白行换行。
-  - 第 1 列中带 `R0000` 的行不计入此。
-  - 在原始图片中，这些是由一个未打印的数字分 8 列创建。A 2 处强制两个空格（单个空白行），A 3 处强制三个空格（双空行）。值 4-8 被定义但从未使用过。可在 [#159][7] 查看细节
+Els problemes més habituals que heu de tindre en compte durant la prova inclouen, entre d'altres:
 
-例如以下内容：
+### Salts de línia
+
+- Salt de línia *with* `R0000` en la columna 1 ha de coincidir exactament amb els escanejos.
+- Salt de línia *with**__out__* `R0000` en la columna 1 hauria de contenir sols 1 o 2 línies en blanc en una fila.
+  - Si hi ha més de 2 salts de línia en blanc, elimina els salts de línia addicionals.
+    - Línies amb `R0000` en la columna 1 no conten per això.
+  - En les imatges d'origen, aquestes van ser creades per un dígit sense imprimir en la columna 8. A 2 va forçar un doble espai (línia amb blanc simple) i un 3 va forçar un espai triple (línia en blanc doble). Els valors 4-8 es van diferenciar però mai es van utilitzar. Llegeix més sobre  això a [#159][7]
+
+Per exemple el següent:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -121,7 +113,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-应该改为：
+S'ha de convertir en:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -131,37 +123,34 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### 空格
+### Espais
 
-- 字符串中两个字符之间的空格应遵循以下约定 (可在 [#316][10] 查阅相关讨论)：
-  - 新单词另起一个空格.
-  - 新句另起两个空格.
-  - 缩进占三个空格.
+- Els espais entre dos caràcters en la cadena han de respectar la següent convenció (observa la discussió a [#316][10]):
+  - Espai únic per noves paraules.
+  - Doble espai per noves oracions.
+  - Triple espai per esquerdes.
 
-例如以下内容：
+Per exemple el següent:
 
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
 
-应该改为：
+S'ha de convertir en:
 
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.
 ```
 
-## 谨记
+## Nota
 
-在提交 PR 之前，请确保您的更改与原始的扫描件打印输出一致！
+Abans de fer una RP, ¡assegurat que els seus canvis siguin consistents amb els escenaris!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
-[3]:https://github.com/wopian/agc-assembly
-[4]:https://github.com/jimlawton/AGC-Assembly
-[5]:https://github.com/Alhadis/language-agc
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/

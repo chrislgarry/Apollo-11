@@ -3,6 +3,7 @@
 # المساهمة
 
 🎌
+[Català][CA]،
 [Čeština][CZ]،
 [Dansk][DA]،
 [Deutsch][DE]،
@@ -28,6 +29,7 @@
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[CA]:CONTRIBUTING.ca.md
 [CZ]:CONTRIBUTING.cz.md
 [DA]:CONTRIBUTING.da.md
 [DE]:CONTRIBUTING.de.md
