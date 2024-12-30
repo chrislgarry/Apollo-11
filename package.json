@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "lint": "markdownlint *.md --config .markdownlint.yml"
+    "lint": "markdownlint-cli2 *.md translations/*.md Comanche055/*.md Luminary099/*.md --config .markdownlint.yml",
+    "lint:fix": "markdownlint-cli2 *.md translations/*.md Comanche055/*.md Luminary099/*.md --config .markdownlint.yml --fix"
   },
   "dependencies": {},
   "devDependencies": {
-    "markdownlint-cli": "^0.43.0"
+    "markdownlint-cli2": "^0.16.0"
   }
 }

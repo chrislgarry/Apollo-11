@@ -8,7 +8,7 @@ The contents of the "Luminary099" files, in general, are transcribed from a digi
 
 Notations on this document read, in part:
 
-```
+```text
 ASSEMBLE REVISION 001 OF AGC PROGRAM LMY99 BY NASA 2021112-061
 16:27 JULY 14,1969
 [Note that this is the date the hardcopy was made,
