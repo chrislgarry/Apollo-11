@@ -1,56 +1,62 @@
 # Contributing
 
-🎌
+🌐
+[bahasa Indonesia][ID],
 [Català][CA]،
 [Čeština][CZ],
 [Dansk][DA],
 [Deutsch][DE],
-**English**,
+[English][EN],
 [Español][ES],
 [Français][FR],
 [Galego][GL],
 [Italiano][IT],
 [Kurdi][KU],
+[Kurdî][KU],
 [Lietuvių][LT],
 [Mongolia][MN],
 [Nederlands][NL],
 [Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
+[tiếng Việt][VI],
 [Türkçe][TR],
-[Ukrainian][UA]،
 [Ελληνικά][GR],
+[Українська][UK]،
 [العربية][AR],
+[हिन्दी][HI_IN],
+[한국어][KO_KR],
 [日本語][JA],
 [正體中文][ZH_TW],
-[简体中文][ZH_CN],
-[한국어][KO_KR]
+[简体中文][ZH_CN]
 
-[AR]:CONTRIBUTING.ar.md
-[CA]:CONTRIBUTING.ca.md
-[CZ]:CONTRIBUTING.cz.md
-[DA]:CONTRIBUTING.da.md
-[DE]:CONTRIBUTING.de.md
+[AR]:translations/CONTRIBUTING.ar.md
+[CA]:translations/CONTRIBUTING.ca.md
+[CZ]:translations/CONTRIBUTING.cz.md
+[DA]:translations/CONTRIBUTING.da.md
+[DE]:translations/CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
-[ES]:CONTRIBUTING.es.md
-[FR]:CONTRIBUTING.fr.md
-[GL]:CONTRIBUTING.gl.md
-[GR]:CONTRIBUTING.gr.md
-[IT]:CONTRIBUTING.it.md
-[JA]:CONTRIBUTING.ja.md
-[MN]:CONTRIBUTING.mn.md
-[KO_KR]:CONTRIBUTING.ko_kr.md
-[KU]:CONTRIBUTING.ku.md
-[LT]:CONTRIBUTING.lt.md
-[MN]:CONTRIBUTING.mn.md
-[NL]:CONTRIBUTING.nl.md
-[NO]:CONTRIBUTING.no.md
-[PL]:CONTRIBUTING.pl.md
-[PT_BR]:CONTRIBUTING.pt_br.md
-[TR]:CONTRIBUTING.tr.md
-[UA]:CONTRIBUTING.ua.md
-[ZH_CN]:CONTRIBUTING.zh_cn.md
-[ZH_TW]:CONTRIBUTING.zh_tw.md
+[ES]:translations/CONTRIBUTING.es.md
+[FR]:translations/CONTRIBUTING.fr.md
+[GL]:translations/CONTRIBUTING.gl.md
+[GR]:translations/CONTRIBUTING.gr.md
+[HI_IN]:translations/CONTRIBUTING.hi_in.md
+[ID]:translations/CONTRIBUTING.id.md
+[IT]:translations/CONTRIBUTING.it.md
+[JA]:translations/CONTRIBUTING.ja.md
+[KO_KR]:translations/CONTRIBUTING.ko_kr.md
+[KU]:translations/CONTRIBUTING.ku.md
+[LT]:translations/CONTRIBUTING.lt.md
+[MN]:translations/CONTRIBUTING.mn.md
+[NL]:translations/CONTRIBUTING.nl.md
+[NO]:translations/CONTRIBUTING.no.md
+[PL]:translations/CONTRIBUTING.pl.md
+[PT_BR]:translations/CONTRIBUTING.pt_br.md
+[TR]:translations/CONTRIBUTING.tr.md
+[UK]:translations/CONTRIBUTING.uk.md
+[VI]:translations/CONTRIBUTING.vi.md
+[ZH_CN]:translations/CONTRIBUTING.zh_cn.md
+[ZH_TW]:translations/CONTRIBUTING.zh_tw.md
 
 The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the following scanned printouts:
 
