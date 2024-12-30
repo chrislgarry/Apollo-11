@@ -1,23 +1,20 @@
-# Contribuindo
+# Contribuíndo
 
 🎌
 [Čeština][CZ],
-[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
-[Galego][GL],
+**Galego**,
 [Italiano][IT],
 [Kurdi][KU],
 [Lietuvių][LT],
-[Mongolian][MN],
 [Nederlands][NL],
 [Norsk][NO],
 [Polski][PL],
-**Português**,
+[Português][PT_BR],
 [Türkçe][TR],
-[Ukrainian][UA]،
 [Ελληνικά][GR],
 [العربية][AR],
 [日本語][JA],
@@ -27,7 +24,6 @@
 
 [AR]:CONTRIBUTING.ar.md
 [CZ]:CONTRIBUTING.cz.md
-[DA]:CONTRIBUTING.da.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
@@ -39,25 +35,22 @@
 [KO_KR]:CONTRIBUTING.ko_kr.md
 [KU]:CONTRIBUTING.ku.md
 [LT]:CONTRIBUTING.lt.md
-[MN]:CONTRIBUTING.mn.md
 [NL]:CONTRIBUTING.nl.md
 [NO]:CONTRIBUTING.no.md
 [PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
-[UA]:CONTRIBUTING.ua.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-O código-fonte neste repositório foi digitado manualmente a partir de impressões em papel, logo alguns erros de digitação e discrepâncias foram introduzidos acidentalmente. O código deve ser modificado para se tornar consistente com as seguintes digitalizações:
+O código fonte neste repositorio dixitalizouse manualmente a partir de impresións en papel, polo que os erros tipográficos e outras discrepancias foron introducidas accidentalmente. O código modificarase para que sexa coherente coas impresións escaneadas:
 
-- [Impressões em AGC para Comanche][8]
-- [Impressões em AGC para Luminary][9]
+- [AGC impresións para Comanche][8]
+- [AGC impresións para Luminary][9]
 
-## Extensões úteis
+## Extensións Útiles
 
-GitHub possui suporte de sintaxe nativo para a linguagem assembly AGC.
-Infelizmente, seu editor de texto não o terá. Portanto, existem extensões para a linguagem AGC que providenciam destaque de sintaxe para os seguintes editores:
+GitHub ten soporte de sintaxis para o lenguaxe ensamblador AGC incorporado. Lamentablemente, o seu editor de código non o fará, non obstante, hai extensións de linguaxe AGC que proporcionan resaltado de sintaxis para os seguintes editores:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -70,7 +63,7 @@ Infelizmente, seu editor de texto não o terá. Portanto, existem extensões par
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Suporta formatação automática
+† Admite formatado automático
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -83,32 +76,32 @@ Infelizmente, seu editor de texto não o terá. Portanto, existem extensões par
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Formatando
+## Formatado
 
-**Nota:** GitHub e as três extensões listadas acima garantirão que você estará usando a formatação correta automaticamente.
+**Nota:** GitHub e as extensións marcadas anteriormente aseguraranse de que estés utilizando o formato correcto automaticamente.
 
-- Use indentação por tab
-- Use largura de tab em 8
-- Diminua o espaço em branco à direita
+- Empregar sangría de separación
+- Empregar un ancho de pestana de 8
+- Recortar espazos en branco ao final
 
-## O que devo conferir?
+## Que comprobar?
 
-Quaisquer discrepâncias entre as digitalizações e o código-fonte neste repositório, incluindo:
+Calqueira discrepancia entre os escaneos e o código fonte neste repositorio, incluíndo:
 
-### Comentários
+### Comentarios
 
-- Comentários no código transcrito devem corresponder exatamente às digitalizações
-  - Isso pode envolver criar um erro de digitação deliberadamente ou remover/adicionar um comentário inteiro.
+- Os comentarios no código transcrito deben coincidir exactamente cos escaneos
+  - Isto podería implicar crear un erro tipográfico deliberado ou eliminar / agregar un comentario completo.
 
-### Quebra de linha
+### Saltos de liña
 
-- Quebras de linha *com* `R0000` na coluna 1 devem corresponder exatamente às digitalizações.
-- Quebras de linha *sem* `R0000` na coluna 1 devem conter apenas uma ou duas linhas em branco em sequência.
-  - Se existem mais de duas quebras de linha em branco, remova as quebras de linha extras.
-    - Linhas com `R0000` na coluna 1 não contam para este propósito.
-  - As imagens fonte foram criadas por meio de um dígito não-impresso na coluna 8. Um 2 forçava um espaço duplo (linha em branco única) e um 3 forçava um espaço triplo (linha em branco dupla). Os valores de 4 até 8 foram definidos porém nunca usados. Leia mais sobre em [#159][7]
+- Salto de liña *with* `R0000` na columna 1 debe coincidir exactamente cos escaneos.
+- Salto de liña *with**__out__* `R0000` na columna 1 debe conter só 1 ou 2 liñas en branco nunha fila.
+  - Se hai máis de 2 saltos de líña en branco, elimine os saltos de líña adicionales.
+    - Liñas con `R0000` na columna 1 non contan para isto.
+  - Nas imaxes de orixen, estas foron creadas por un díxito sen imprimir na columna 8. A 2 forzou un dobre espazo (liña en branco sinxela) e un 3 forzou un espazo triple (liña en branco doble). Os valores 4-8 definíronse pero nunca se empregaron. Lea máis sobre isto en [#159][7]
 
-Por exemplo, o seguinte código:
+Por exemplo o siguiente:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -119,7 +112,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-Deve tornar-se:
+Debe convertirse:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -129,30 +122,30 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-### Espaços
+### Espazos
 
-- Espaços entre dois caracteres na cadeia de caracteres devem respeitar a seguinte convenção (veja a discussão em [#316][10]):
-  - Espaço único para novas palavras.
-  - Espaço duplo para novas sentenças.
-  - Espaço triplo para indentações.
+- Os espazos entre dous caracteres na cadea deben respetar a seguinte convención (vexa a discusión en [#316][10]):
+  - Espazo único para novas palabras.
+  - Dobre espazo para novas oracións.
+  - Triple espazo para fendas.
 
-Por exemplo, o seguinte código:
+Por exemplo o seguiente:
 
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
 
-Deve tornar-se:
+Debe convertirse:
 
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
 	   GARPLY, WALDO.
 ```
 
-## Notas
+## Nota
 
-Antes de realizar um PR, por favor, certifique-se que suas mudanças estejam consistentes com as digitalizações!
+Antes de facer un RP, asegúrese de que os seus cambios sexan consistentes cos escaneos!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
