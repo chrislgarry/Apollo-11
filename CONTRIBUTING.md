@@ -63,6 +63,8 @@ The source code in this repository was digitized manually from paper printouts, 
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+The following website can be used to easily navigate around the scanned printouts for both Comanche and Luminary: https://28gpc.csb.app/
+
 ## Useful Extensions
 
 GitHub has syntax support for the AGC assembly language built-in. Unfortunately your code editor will not, however there are AGC language extensions that provides syntax highlighting for the following editors:

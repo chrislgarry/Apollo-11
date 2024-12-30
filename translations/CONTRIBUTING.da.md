@@ -63,6 +63,8 @@ Kildekoden i dette «repository» er digitaliseret manuelt fra papirudskrifter, 
 - [AGC udskrift for Comanche][8]
 - [AGC udskrift for Luminary][9]
 
+Følgende hjemmeside kan bruges til nemt at navigere rundt i de scannede udskrifter for både Comanche og Luminary: https://28gpc.csb.app/
+
 ## Brugbare udvidelser
 
 GitHub har indbygget syntaks understøttelse for AGC assembler sprog. De fleste kodeeditorer har ikke, men der findes AGC sprog udvidelser som giver syntaks fremhævelse for følgende editorer:

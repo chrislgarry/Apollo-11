@@ -63,6 +63,8 @@
 - [AGC spausdiniai Comache][8]
 - [AGC spausdiniai Luminary][9]
 
+Norėdami lengvai naršyti po nuskaitytus Comanche ir Luminary spaudinius, galite naudoti šią svetainę: https://28gpc.csb.app/
+
 ## Naudingi plėtiniai
 
 GitHub turi integruotą AGC assemblerio kalbos sintakės palaikymą. Dėja, jūsų kodo redaktorius šios assemblerio kalbos nepalaikys, tačiau yra AGC kalbos plėtinių, kurie suteikia sintakės paryškinimą šiems redaktoriams:

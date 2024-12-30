@@ -63,6 +63,8 @@ Der Quellcode in diesem Repository wurde manuell digitalisiert, also sind jeglic
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+Auf der folgenden Website können Sie problemlos in den gescannten Ausdrucken für Comanche und Luminary navigieren: https://28gpc.csb.app/
+
 ## Nützliche Erweiterungen
 
 GitHub verfügt über eine integrierte Syntax-Unterstützung für die AGC Assembly Sprache. Das gilt leider nicht für deinen Code Editor. Für die folgenden Editoren gibt es aber AGC-Spracherweiterungen, die Syntaxhervorhebung hinzufügen:

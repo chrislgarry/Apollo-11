@@ -63,6 +63,8 @@ Bu repodaki kaynak kodu kağıt çıktılarından elle dijitalleştirilmiştir. 
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+Aşağıdaki web sitesi hem Comanche hem de Luminary'nin taranmış baskılarını kolayca görüntüleyebilir: https://28gpc.csb.app/
+
 ## Yararlı Eklentiler
 
 GitHub, AGC assembly dili için sentaks desteği sağlıyor ama sizin kodu düzenlemek için kullandığınız editör sağlamayacaktır. Aşağıdaki editörler AGC dili sentaks vurgulaması için eklentiler sunmaktadır:

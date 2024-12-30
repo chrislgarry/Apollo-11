@@ -63,6 +63,8 @@ Le code source de ce dépôt a été numérisé manuellement à partir de papier
 - [Impressions AGC pour Comanche][8]
 - [Impressions AGC pour Luminary][9]
 
+Le site Web suivant peut être utilisé pour naviguer facilement dans les impressions numérisées de Comanche et Luminary : https://28gpc.csb.app/
+
 ## Extensions utiles
 
 GitHub prend en charge nativement la syntaxe pour le langage assembleur AGC. Malheureusement, votre éditeur de texte ne l’aura pas. Mais il y a des extensions pour le langage AGC pour les éditeurs suivants :

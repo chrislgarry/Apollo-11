@@ -63,6 +63,8 @@ O código-fonte neste repositório foi digitado manualmente a partir de impress�
 - [Impressões em AGC para Comanche][8]
 - [Impressões em AGC para Luminary][9]
 
+O seguinte site é facilmente navegável com impressões digitalizadas de Comanche e Luminary: https://28gpc.csb.app/
+
 ## Extensões úteis
 
 GitHub possui suporte de sintaxe nativo para a linguagem assembly AGC.

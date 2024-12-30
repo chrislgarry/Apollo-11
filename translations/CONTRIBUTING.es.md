@@ -63,6 +63,8 @@ El código fuente en este repositorio se digitalizó manualmente a partir de imp
 - [AGC impresiones para Comanche][8]
 - [AGC impresiones para Luminary][9]
 
+Se puede utilizar el siguiente sitio web para navegar fácilmente por las impresiones escaneadas de Comanche y Luminary: https://28gpc.csb.app/
+
 ## Extensiones Útiles
 
 GitHub tiene soporte de sintaxis para el lenguaje ensamblador AGC incorporado. Lamentablemente, su editor de código no lo hará, sin embargo, hay extensiones de lenguaje AGC que proporcionan resaltado de sintaxis para los siguientes editores:

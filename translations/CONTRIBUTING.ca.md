@@ -63,6 +63,8 @@ El codi font en aquest repositori es va digitalitzar manualment a partir d'impre
 - [AGC impressions per a Comanche][8]
 - [AGC impressions per a Luminary][9]
 
+El següent lloc web es pot utilitzar per navegar fàcilment per les impressions escanejades tant per a Comanche com per a Luminary: https://28gpc.csb.app/
+
 ## Extensions Útils
 
 GitHub té suport de sintaxi pel llenguatge assemblador AGC incorporat. Malauradament, el seu editor de codi no ho farà, no obstant això, hi ha extensions de llenguatge AGC que proporcionen ressaltat de sintaxi pels següents editors:

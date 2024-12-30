@@ -63,6 +63,8 @@
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+次の Web サイトを使用すると、Comanche と Luminary の両方のスキャンされたプリントアウトを簡単にナビゲートできます: https://28gpc.csb.app/
+
 ## 便利な拡張機能
 
 GitHubには、組み込みのAGCアセンブリ言語の構文サポートがあります。残念ながらコードエディターにはありませんが、次のエディターにシンタックスハイライトをサポートするAGC言語拡張機能があります:

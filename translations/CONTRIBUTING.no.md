@@ -63,6 +63,8 @@ Kilde koden I dette «repository» var digitalisert manuelt ifra papir utskrifte
 - [AGC utskrift for Comanche][8]
 - [AGC utskrift for Luminary][9]
 
+Følgende nettside er lett tilgjengelig med skannede utskrifter av både Comanche og Luminary: https://28gpc.csb.app/
+
 ## Nytteprogrammer
 
 GitHub har kildekode støtte for «assembly» programmerings språket AGC ( innebygget ), og de følgene tekst redigerings programmene har også støtte for nøkkel ord fargesetting:

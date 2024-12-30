@@ -63,6 +63,8 @@ Il codice sorgente in questa repository è stato digitalizzato manualmente da st
 - [AGC stampa per Comanche][8]
 - [AGC stampa per Luminary][9]
 
+Il seguente sito web può essere utilizzato per navigare facilmente tra le stampe scansionate per Comanche e Luminary: https://28gpc.csb.app/
+
 ## Estensioni utili
 
 GitHub supporta la sintassi assembly AGC nativamente. Se sfortunatamente il tuo editor di codice non dovesse farlo, sono presenti delle estensioni che aggiungono la sottolineatura della sintassi per i seguenti editor:

@@ -63,6 +63,8 @@ Zdrojové kódy v tomto repozitáři byly manuálně digitalizovány z papírov�
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+Pro snadnou navigaci mezi naskenovanými výtisky pro Comanche i Luminary lze použít následující web: https://28gpc.csb.app/
+
 ## Užitečná rozšíření
 
 GitHub podporuje syntaxi AGC assembly jazyka. Váš editor pravděpodobně podporu mít nebude, proto zde poskytujeme seznam rozšíření na zvýraznění syntaxe jazyka AGC pro následující editory:

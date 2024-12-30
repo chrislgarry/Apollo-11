@@ -58,6 +58,13 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
+이 저장소의 소스 코드는 종이 인쇄물에서 수동으로 디지털화되었으므로 실수로 오타 및 기타 불일치가 발생했습니다. 코드는 다음 스캔된 인쇄물과 일관되도록 수정해야 합니다.
+
+- [Comanche용 AGC 인쇄물][8]
+- [Luminary용 AGC 인쇄물][9]
+
+다음 웹사이트를 사용하면 Comanche와 Luminary의 스캔된 인쇄물을 쉽게 탐색할 수 있습니다. https://28gpc.csb.app/
+
 ## 유용한 확장기능들
 
 GitHub은 내장 에디터에서 AGC문법을 지원합니다. 그러나 불행하게도 대개 사용되는 에디터들은 그렇지 않습니다. 하지만 확장 기능이 지원되는 에디터들이 있습니다.
@@ -137,3 +144,5 @@ R0820
 [2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [6]:https://github.com/wopian/agc-assembly#user-settings
 [7]:https://github.com/chrislgarry/Apollo-11/issues/159
+[8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/

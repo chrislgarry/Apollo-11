@@ -63,6 +63,8 @@ De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken
 - [AGC prints voor Comanche][8]
 - [AGC prints voor Luminary][9]
 
+De volgende website is eenvoudig te doorzoeken met gescande afdrukken van zowel Comanche als Luminary: https://28gpc.csb.app/
+
 ## Handige extensies
 
 GitHub heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas heeft jouw editor dit niet, gelukkig zijn er AGC extensies die de volgende editors kunnen voorzien van syntax ondersteuning:

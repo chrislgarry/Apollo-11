@@ -63,6 +63,8 @@
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+以下網站可以輕鬆瀏覽 Comanche 和 Luminary 的掃描件：https://28gpc.csb.app/
+
 ## 實用套件
 
 GitHub 內建 AGC 組語語法支援，但你的編輯器本身並沒有。不過，以下編輯器有提供 AGC 語法突顯的語言套件：

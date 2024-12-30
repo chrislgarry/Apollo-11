@@ -65,6 +65,8 @@
 - [طبعات AGC لكود Comanche][8]
 - [طبعات AGC لكود Luminary][9]
 
+The following website can be used to easily navigate around the scanned printouts for both Comanche and Luminary: https://28gpc.csb.app/
+
 ## ملحقات مفيدة
 
 يحوي GitHub دعمًا للتلوين النحويِّ للغة التجميع AGC، و&nbsp;مع أنّ محررات الكود الشائعة لا تدعم ذلك، إلا أنه ثمّة ملحقات توفر الدعم للغة AGC لكلٍ مِنْ المحررات التالية:

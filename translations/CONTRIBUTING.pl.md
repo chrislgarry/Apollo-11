@@ -63,6 +63,8 @@ Kod źródłowy w tym repozytorium został zdigitalizowany ręcznie na podstawie
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+Poniższą stronę internetową można łatwo przeglądać, korzystając ze zeskanowanych wydruków Comanche i Luminary: https://28gpc.csb.app/
+
 ## Przydatne rozszerzenia
 
 GitHub obsługuje składnię wbudowanego języka asemblera AGC. Niestety twój edytor kodu prawdopodobnie nie będzie go obsługiwał, jednak istnieją rozszerzenia języka AGC, które zapewniają obsługę składni tego języka dla następujących edytorów:

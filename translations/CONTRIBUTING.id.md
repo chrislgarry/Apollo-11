@@ -63,6 +63,8 @@ Kode asli dalam repositori ini didigitalkan secara manual dari kertas cetak, seh
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+Situs web berikut dapat digunakan untuk menavigasi dengan mudah hasil cetakan pindaian untuk Comanche dan Luminary: https://28gpc.csb.app/
+
 ## Ekstensi yang berguna
 
 GitHub memiliki dukungan sintaks untuk pengaturan bahasa AGC. Sayangnya kode editor anda tidak dapat melakukannya, namun ada ekstensi bahasa AGC yang menyediakan penyorotan sintaks untuk kode editor berikut:

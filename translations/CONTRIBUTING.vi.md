@@ -63,6 +63,8 @@ Mã nguồn trong repo này được số hóa một cách thủ công từ các
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+Trang web sau đây có thể dễ dàng duyệt qua với các bản in được quét của cả Comanche và Luminary: https://28gpc.csb.app/
+
 ## Các tiện ích mở rộng
 
 GitHub tích hợp sẵn hỗ trợ cú pháp cho ngôn ngữ lắp assembly AGC. Thật không may, trình soạn thảo của bạn sẽ không hỗ trợ, tuy nhiên có các tiện ích mở rộng ngôn ngữ AGC cung cấp tính năng highlight cú pháp cho các trình soạn thảo sau:

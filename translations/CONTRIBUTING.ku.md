@@ -63,6 +63,8 @@ Koda xwerû di vê depoyê de ji kaxezek çapkirî bi awak destkî hat dîjîtî
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
+Malpera jêrîn dikare were bikar anîn da ku meriv hem ji bo Comanche û hem jî ji bo Luminary li dora çapên şehkirî bi hêsanî rêve bibe: https://28gpc.csb.app/
+
 ## Berfirehiyên bikêr
 
 GitHub ji bo sazkirina zimanê AGC-ê desteka syntax heye. Mixabin redaktorê kodê yê li gel wê bê ev destek be, lê di heman dem de berfirehiyên zimanê AGC yê ku ronahî li ser syntaxê dikin ji bo redaktorên jêrîn hene:
