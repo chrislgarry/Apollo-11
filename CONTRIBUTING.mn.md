@@ -56,7 +56,6 @@
 
 GitHub-д AGC угсрах хэлний синтаксийн дэмжлэг байдаг. Харамсалтай нь код засварлагчид байхгүй боловч дараах засварлагчид AGC хэлний өргөтгөлийг синтаксийн тодруулгыг дэмждэг:
 
-
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
 - [Eclipse][Eclipse]
@@ -69,7 +68,6 @@ GitHub-д AGC угсрах хэлний синтаксийн дэмжлэг ба
 - [jEdit][jEdit]
 
 † Автоформатлахыг дэмждэг
-
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -149,7 +147,6 @@ R0820
 ## Анхаар
 
 PR үүсгэхээс өмнө өөрчлөлтүүд скантай таарч байгаа эсэхийг шалгана уу!
-
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
