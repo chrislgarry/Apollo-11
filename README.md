@@ -17,6 +17,7 @@
 [Italiano][IT],
 [Kurdi][KU],
 [Mongolian][MN],
+[Lietuvių][LT]
 [Nederlands][NL],
 [Norsk][NO],
 [Polski][PL],
