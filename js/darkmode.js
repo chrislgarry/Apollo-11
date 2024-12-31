@@ -31,6 +31,4 @@ function lightDark(s) {
     root.style.setProperty("--link-color", lightLink);
     root.style.setProperty("--bg-color", lightBG);
   }
-
-  console.log(darkMode);
 }
