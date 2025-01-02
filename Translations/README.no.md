@@ -78,7 +78,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Original kildekode til Apollo 11’s veilednings datamaskin for kommando ( Comanche055 ) og måne ( Luminary099 ) modulene. Digitalisert av folkene ifra [Virtual AGC][3] og [MIT Museum][4]. Målet er og være et «repo» for den originale Apollo 11 kilde koden. «Pull Requests» er ønskelige for problemer som måtte finnes i oversettelser i dette «repository» og de originale kilde kode bildene til Luminary 099 og Comanche 055, samt bortglemte filer
+Original kildekode til Apollo 11’s veiledningsdatamaskin for kommando ( Comanche055 ) og måne ( Luminary099 ) modulene. Digitalisert av folkene fra [Virtual AGC][3] og [MIT Museum][4]. Målet er å være et depot for den originale Apollo 11 kildekoden. «Pull Requests» er ønskelige for feil som måtte finnes i oversettelser i dette depotet og de originale bildene av kildekoden til Luminary 099 og Comanche 055, samt bortglemte filer.
 
 ## Bidra
 
@@ -86,19 +86,19 @@ Venligst les [CONTRIBUTING.no.md][7] før en "pull request" åpnes.
 
 ## Kompilere
 
-Om du er interesert i å kompilere den originale kildekoden, sjekk [Virtual AGC][8].
+Hvis du er interessert i å kompilere den originale kildekoden, så sjekk [Virtual AGC][8].
 
 ## Bidragsytere
 
 &nbsp;         | &nbsp;
 :------------- | :-----
 Opphavsrett    | Public domain
-Comanche055    | Deler av kilde koden til Colossus 2A, kommando modulen ( CM ) til Apollo Veiledningsdatamaskin ( AGC ) til Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Comanche055    | Deler av kildekoden til Colossus 2A, kommando modulen ( CM ) til Apollo Veiledningsdatamaskin ( AGC ) til Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
 Luminary099    | Deler av kilde koden til Luminary 1A, the Lunar Module's ( LM ) Apollo Veiledningsdatamaskin ( AGC ) til Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler      | yaYUL
 Kontakt        | Ron Burkey <info@sandroid.org>
 Webside        | www.ibiblio.org/apollo
-Digitalisering | Denne kilde koden er tydet og adoptert fra de digitaliserte bildene som finnes på MIT Museet. Digitaliseringen er utført av Paul Fjeld, og sortert av Deborah Douglas som jobber på Museet. Takk til dere begge.
+Digitalisering | Denne kildekoden er avskrevet og tilpasset fra de digitaliserte bildene som finnes på MIT-Museet. Digitaliseringen er utført av Paul Fjeld, og sortert av Deborah Douglas som jobber på Museet. Takk til dere begge.
 
 ### Kontrakt og godkjenninger
 
@@ -106,7 +106,7 @@ Digitalisering | Denne kilde koden er tydet og adoptert fra de digitaliserte bil
 
 Dette AGC-programmet skal også refereres til som Colossus 2A.
 
-Dette programmet brukes i «CM» som spesifisert i rapport `R-577`. Dette programmet var også laget under DSR-prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjonslaboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
+Dette programmet er tiltenkt brukt i kommandomodulen, som spesifisert i rapporten `R-577`. Programmet ble laget under DSR-prosjekt `55-23870`, som var sponset av «Manned Spacecraft Center of The National Aeronautics and Space Administration» via kontrakt `NAS 9-4065` med instrumentasjonslaboratoriet ved «Massachusetts Institute of Technology, Cambridge, Mass»
 
 Innsendt av          | Rolle | Dato
 :------------------- | :---- | :---
