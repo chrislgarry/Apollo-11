@@ -6,6 +6,7 @@
 [![Luminary]][LuminaryMilestone]
 
 🌐
+[Azerbaijani][AZ],
 [bahasa Indonesia][ID],
 [Català][CA],
 [Čeština][CZ],
@@ -44,6 +45,7 @@
 
 [AR]:Translations/README.ar.md
 [AS_IN]:Translations/README.as_in.md
+[AZ]:Translations/README.az.md
 [BD_BN]:Translations/README.bd_bn.md
 [BE]:Translations/README.be.md
 [CA]:Translations/README.ca.md

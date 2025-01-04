@@ -1,6 +1,7 @@
 # Сприяння
 
 🌐
+[Azerbaijani][AZ],
 [bahasa Indonesia][ID],
 [Català][CA]،
 [Čeština][CZ],
@@ -31,6 +32,7 @@
 [简体中文][ZH_CN]
 
 [AR]:CONTRIBUTING.ar.md
+[AZ]:CONTRIBUTING.az.md
 [CA]:CONTRIBUTING.ca.md
 [CZ]:CONTRIBUTING.cz.md
 [DA]:CONTRIBUTING.da.md

@@ -1,6 +1,7 @@
 # Contributing
 
 🌐
+[Azerbaijani][AZ],
 [bahasa Indonesia][ID],
 [Català][CA]،
 [Čeština][CZ],
@@ -31,6 +32,7 @@
 [简体中文][ZH_CN]
 
 [AR]:Translations/CONTRIBUTING.ar.md
+[AZ]:Translations/CONTRIBUTING.az.md
 [CA]:Translations/CONTRIBUTING.ca.md
 [CZ]:Translations/CONTRIBUTING.cz.md
 [DA]:Translations/CONTRIBUTING.da.md
