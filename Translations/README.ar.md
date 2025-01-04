@@ -77,7 +77,7 @@
 [RO]:README.ro.md
 [RU]:README.ru.md
 [TR]:README.tr.md
-[UK]:README.ua.md
+[UK]:README.uk.md
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md

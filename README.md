@@ -75,7 +75,7 @@
 [RO]:Translations/README.ro.md
 [RU]:Translations/README.ru.md
 [TR]:Translations/README.tr.md
-[UK]:Translations/README.ua.md
+[UK]:Translations/README.uk.md
 [VI]:Translations/README.vi.md
 [ZH_CN]:Translations/README.zh_cn.md
 [ZH_TW]:Translations/README.zh_tw.md
