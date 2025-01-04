@@ -1,7 +1,7 @@
 # Töhfə
 
 🎌
-[Azerbaijan][AZ],
+[Azerbaijani][AZ],
 [Čeština][CZ],
 [Deutsch][DE],
 [English][EN],

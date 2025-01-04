@@ -6,7 +6,7 @@
 [![Luminary]][LuminaryMilestone]
 
 🎌
-[Azerbaijan][AZ],
+[Azerbaijani][AZ],
 [Bahasa Indonesia][ID],
 [Català][CA],
 [Čeština][CZ],
