@@ -5,36 +5,43 @@
 [![Comanche]][ComancheMilestone]
 [![Luminary]][LuminaryMilestone]
 
-🎌
+🌐
 [Azerbaijani][AZ],
-[Bahasa Indonesia][ID],
+[bahasa Indonesia][ID],
 [Català][CA],
 [Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Galego][GL],
 [Italiano][IT],
-[Kurdi][KU],
+[Kurdî][KU],
+[Lietuvių][LT],
+[Mongolian][MN],
 [Nederlands][NL],
 [Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
-[Tiếng Việt][VI],
-**Türkçe**,
+[tiếng Việt][VI],
+[Türkçe][TR],
 [Ελληνικά][GR],
+[Беларуская мова][BE],
 [Русский][RU],
+[Українська][UK],
 [العربية][AR],
 [فارسی][FA],
+[नेपाली भाषा][NE]
 [हिंदी][HI_IN],
 [অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
+[한국어][KO_KR],
 [日本語][JA],
 [正體中文][ZH_TW],
-[简体中文][ZH_CN],
-[한국어][KO_KR]
+[简体中文][ZH_CN]
 
 [AR]:README.ar.md
 [AS_IN]:README.as_in.md
