@@ -1,0 +1,35 @@
+{
+    "id": "eytrilmc",
+    "name": "EytrilMC",
+    "description": "Home of The New Comeing of HCF",
+    "addresses": [
+        "Eytril.org",
+        "EytrilMC.org"
+    ],
+    "primaryAddress": "EytrilMC.org",
+    "minecraftVersions": [
+        "1.7.*",
+        "1.8.*"
+    ],
+    "primaryMinecraftVersion": "1.8.9",
+    "primaryColor": "#44a1e3",
+    "secondaryColor": "#a854de",
+    "primaryLanguage": "en",
+    "languages": [
+        "en"
+    ],
+    "primaryRegion": "NA",
+    "regions": [
+        "NA",
+    ],
+    "gameTypes": [
+        "HCF"
+    ],
+    "website": "Comeing Soon",
+    "store": "https://store.EytrilMC.org",
+    "socials": {
+        "twitter": "EytrilMC",
+        "discord": "https://discord.gg/VCFkxq57xn"
+    },
+    "crossplay": false
+}
