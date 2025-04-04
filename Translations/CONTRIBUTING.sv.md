@@ -62,16 +62,16 @@
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Kildekoden i dette depotet ble digitalisert manuelt fra papirutskrifter, skrivefeil og andre avvik kan ha blitt innført ved et uhell. Koden skal modifiseres til å være identisk med følgende digitaliserte papirutskrifter:
+Källkoden i det här kodarkivet digitaliserades manuellt från pappersutskrifter, så stavfel och andra avvikelser har införts av misstag. Koden ska modifieras så att den överensstämmer med följande skannade utskrifter:
 
-- [AGC-utskrift for Comanche][8]
-- [AGC-utskrift for Luminary][9]
+- [AGC-utskrifter för Comanche][8]
+- [AGC-utskrifter för Luminary][9]
 
-Følgende nettside er lett tilgjengelig med skannede utskrifter av både Comanche og Luminary: https://28gpc.csb.app/
+Följande webbplats kan användas för att enkelt navigera runt de skannade utskrifterna för både Comanche och Luminary: https://28gpc.csb.app/
 
-## Nytteprogrammer
+## Användbara tillägg
 
-GitHub har innebygd støtte for programmeringsspråket AGC "assembly", og følgene tekstredigeringsprogrammer har også utvidelser som gir støtte for syntaksutheving i AGC:
+GitHub har syntaxstöd för AGC-assemblerspråket inbyggt. Tyvärr har inte din kodredigerare det, men det finns AGC-språktillägg som ger syntaxmarkering för följande redigerare:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -84,7 +84,7 @@ GitHub har innebygd støtte for programmeringsspråket AGC "assembly", og følge
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Støtter automatisk formatering
+† Stöder automatisk formatering
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -99,49 +99,49 @@ GitHub har innebygd støtte for programmeringsspråket AGC "assembly", og følge
 
 ## Formatering
 
-**Merk:** GitHub og de markerte redigeringsprogrammene vil sørge for at du bruker korrekt formatering av kildekoden automatisk.
+**Notering:** GitHub och tillägg markerade ovan säkerställer att du använder rätt formatering automatiskt.
 
--	Bruk Tab for innrykk
--	Bruk Tab med 8 mellomrom
--	Ta bort mellomrom og annet som ikke er synlig på slutten av setninger
+- Använd flikindrag
+- Använd flikbredden 8
+- Trimma efterföljande blanksteg
 
-## Hva må jeg sjekke?
+## Vad ska jag kolla?
 
-Eventuelle avvik fra de innskannede bildene og kildekoden i dette depotet.
+Eventuella avvikelser mellan skanningarna och källkoden i det här kodarkivet.
 
 ### Kommentarer
 
-Kommentarer i denne koden **SKAL** stemme **eksakt** med den digitaliserte originalen.
+Kommentarer i den transkriberade koden **MÅSTE** matcha skanningarna **exakt**.
 
-Vanlige feil man bør se etter er blant annet:
+Vanliga problem som du bör hålla utkik efter vid korrekturbehandling inkluderar, men inte begränsat till:
 
-#### Typografiske feil
+#### Typografiska fel
 
-Noen steder skrev originalutviklerne feil i kodekommentarene. Noen av disse skrivefeilene ble feilaktig rettet under digitaliseringen, og digitaliseringen har også introdusert nye skrivefeil som ikke stammer fra papirutskriften.
+På vissa ställen gjorde de ursprungliga utvecklarna typografiska fel när de skrev kommentarer. En del av dessa korrigerades av misstag under den inledande digitaliseringen, men digitaliseringen har också infört typografiska fel som inte fanns i skanningarna.
 
-For eksempel, hvis de originale dokumentene var feilstavet som ‘SPAECRAFT’ og de digitaliserte dokumentene ble endret til ‘SPACECRAFT’ så **SKAL** dette rettes for å reflektere de originale dokumentene, altså manglende ‘C’.
+Till exempel, om de digitaliserade kommentarerna innehöll "SPACECRAFT", men "SPAECRAFT" skrevs ut i skanningarna, då **MÅSTE* korrigeras till "SPAECRAFT" (saknas "C").
 
-På samme måte, hvis digitaliseringen introduserte stavefeil som ikke var tilstede i de originale dokumentene **SKAL** dette rettes.
+Likaså, om ett ord har ett stavfel i digitaliseringen men är rättstavat i skanningarna så **MÅSTE** stavfelet korrigeras.
 
-#### Mellomrom
+#### Mellanslag
 
-Mellomrom mellom to tegn i teksten **BØR** følge de digitaliserte dokumentene. I de fleste tilfeller (se diskusjon i [#316[10]) betyr dette:
+Mellanslag mellan två tecken i kommentarerna **SKA** matcha skanningarna. I de flesta fall (se diskussionen i [#316][10]) är detta:
 
-- Enkelt mellomrom for nye ord
-- Dobbelt mellomrom for nye linjer
-- Trippel mellomrom for innrykk
+- Ett mellanslag för nya ord.
+- Dubbelt mellanslag för nya meningar.
+- Trippelt mellanslag för fördjupningar.
 
-Ikke alle sider i de digitaliserte dokumentene følger denne generaliseringen, hvis de digitaliserte dokumentene bruker enkelt mellomrom i stedet for dobbelt mellomrom, skal enkelt mellomrom brukes.
+Alla sidor i skanningarna följer inte denna generalisering, om skanningarna bara har ett enda mellanslag istället för ett dubbelt mellanslag, använd ett enda mellanslag.
 
-### Linjeskift
+### Radbrytningar
 
-- Linje skift *med* `R0000` i kolonne 1 skal stemme helt med originalen.
-- Linje skift *uten* `R0000` i kolonne 1 skal bare ha en eller to blanke linjer etter seg.
-  - Hvis det er flere enn to blanke linjer skal de fjernes
-    - Linjer med `R0000` i kolonne 1 regnes ikke med i slike tilfeller
-  - I originalen ble disse skapt av et siffer i kolonne 8 (som ikke ble skrevet ut). et 2-tall fremtvang dobbelt mellomrom (enkel blank linje) og et 3-tall så ble det et trippel mellomrom (to doble linjer). Verdiene fra 4 til 8 var definert, men ikke brukt. Les mer om dette i [#159][7]
+- Radbrytningar *med* `R0000` i kolumn 1 bör matcha skanningarna exakt.
+- Radbrytningar *med**__out__* `R0000` i kolumn 1 bör endast innehålla 1 eller 2 tomma rader i rad.
+  - Om det finns fler än 2 tomma radbrytningar, ta bort de extra radbrytningarna.
+    - Rader med `R0000` i kolumn 1 räknas inte till detta.
+  - I källbilderna skapades dessa av en otryckt siffra i kolumn 8. En 2:a tvingade fram ett dubbelt mellanslag (enkel blank rad) och en 3:a tvingade fram ett trippelt mellanslag (dubbel blank linje). Värdena 4-8 definierades men användes aldrig. Läs mer om det i [#159][7]
 
-For eksempel skal følgende kode:
+Till exempel följande:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -152,7 +152,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-Se slik ut:
+Bör bli:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -162,9 +162,9 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-## Noter
+## Notering
 
-Før man åpner en «Pull Request», bør man være helt sikker på at endringene er i samsvar med de digitaliserte bildene!
+Innan du gör en PR, se till att dina ändringar överensstämmer med skanningarna!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/

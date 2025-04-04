@@ -20,6 +20,7 @@
 [Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
+[Svenska][SV],
 [tiếng Việt][VI],
 [Türkçe][TR],
 [Ελληνικά][GR],
@@ -54,6 +55,7 @@
 [NO]:Translations/CONTRIBUTING.no.md
 [PL]:Translations/CONTRIBUTING.pl.md
 [PT_BR]:Translations/CONTRIBUTING.pt_br.md
+[SV]:Translations/CONTRIBUTING.sv.md
 [TR]:Translations/CONTRIBUTING.tr.md
 [UK]:Translations/CONTRIBUTING.uk.md
 [VI]:Translations/CONTRIBUTING.vi.md
