@@ -125,3 +125,19 @@
 | Richard H. Battin | ഡയറക്ടർ, മിഷൻ ഡെവലപ്‌മെന്റ്<br>അപ്പോളോ ഗൈഡൻസ് ആൻഡ് നാവിഗേഷൻ പ്രോഗ്രാം | 28 മാർച്ച് 69 |
 | David G. Hoag | ഡയറക്ടർ<br>അപ്പോളോ ഗൈഡൻസ് ആൻഡ് നാവിഗേഷൻ പ്രോഗ്രാം | 28 മാർച്ച് 69 |
 | Ralph R. Ragan | ഡെപ്യൂട്ടി ഡയറക്ടർ<br>ഇൻസ്ട്രുമെന്റേഷൻ ലബോറട്ടറി | 28 മാർച്ച് 69 |
+
+[CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
+[1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
+[2]:https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
+[3]:http://www.ibiblio.org/apollo/
+[4]:http://web.mit.edu/museum/
+[5]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
+[6]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
+[7]:https://github.com/chrislgarry/Apollo-11/blob/master/CONTRIBUTING.md
+[8]:https://github.com/rburkey2005/virtualagc
+[SWH]:https://flat.badgen.net/badge/Software%20Heritage/Archive/0B3D91
+[SWH_URL]:https://archive.softwareheritage.org/browse/origin/https://github.com/chrislgarry/Apollo-11/
+[Comanche]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/1
+[ComancheMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/1
+[Luminary]:https://flat.badgen.net/github/milestones/chrislgarry/Apollo-11/2
+[LuminaryMilestone]:https://github.com/chrislgarry/Apollo-11/milestone/2
