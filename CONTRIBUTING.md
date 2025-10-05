@@ -33,7 +33,6 @@
 [正體中文][ZH_TW],
 [简体中文][ZH_CN]
 
-
 [AR]:Translations/CONTRIBUTING.ar.md
 [AZ]:Translations/CONTRIBUTING.az.md
 [CA]:Translations/CONTRIBUTING.ca.md
