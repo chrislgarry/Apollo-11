@@ -1,4 +1,4 @@
-# Contributing
+# Nyumbang
 
 🌐
 [Azerbaijani][AZ],
@@ -31,7 +31,7 @@
 [日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[ꦧꦱ​ꦗꦮ][JV]
+[Basa Jawa][JV]
 
 [AR]:Translations/CONTRIBUTING.ar.md
 [AZ]:Translations/CONTRIBUTING.az.md
@@ -64,16 +64,16 @@
 [ZH_CN]:Translations/CONTRIBUTING.zh_cn.md
 [ZH_TW]:Translations/CONTRIBUTING.zh_tw.md
 
-The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the following scanned printouts:
+Kode sumber ing repositori iki wis didigitalisasi kanthi manual saka printout kertas, mula kadhang kala ana salah tulis utawa beda cilik sing ora disengaja. Kode kudu didandani supaya konsisten karo printout scan asli iki:
 
-- [AGC printouts for Comanche][8]
-- [AGC printouts for Luminary][9]
+- [AGC printouts kanggo Comanche][8]
+- [AGC printouts kanggo Luminary][9]
 
-The following website can be used to easily navigate around the scanned printouts for both Comanche and Luminary: https://28gpc.csb.app/
+Situs iki bisa digunakake kanggo nggampangaké navigasi ing antarane printout sing wis discan kanggo Comanche lan Luminary: https://28gpc.csb.app/
 
-## Useful Extensions
+## Ekstensi sing Migunani
 
-GitHub has syntax support for the AGC assembly language built-in. Unfortunately your code editor will not, however there are AGC language extensions that provides syntax highlighting for the following editors:
+GitHub wis nduwé dhukungan sintaks kanggo basa assembly AGC bawaan. Nanging umume editor kode ora nduwé. Untungé, ana ekstensi AGC sing nyedhiyakake **syntax highlighting** kanggo sawetara editor, kayata:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -86,7 +86,7 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Supports automatic formatting
+† Dhukungan format otomatis
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -99,51 +99,48 @@ GitHub has syntax support for the AGC assembly language built-in. Unfortunately 
 [VisualStudioCode]:https://github.com/wopian/agc-assembly
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
-## Formatting
+## Format
 
-**Note:** GitHub and extensions marked above will ensure you're using the correct formatting automatically.
+**Cathetan:** GitHub lan ekstensi sing wis ditandai † ing dhuwur bakal mesthekake formatmu wis bener.
 
-- Use tab indentation
-- Use tab width of 8
-- Trim trailing whitespace
+- Gunakake tab kanggo indentasi
+- Jembar tab = 8
+- Mbuwang spasi kosong ing mburi baris
 
-## What do I check?
+## Opo sing kudu dicek?
 
-Any discrepancies between the scans and the source code in this repository.
+Kabeh bedane antarane scan lan kode sumber ing repositori iki.
 
-### Comments
+### Komentar
 
-Comments in the transcribed code **MUST** match the scans **exactly**.
+Komentar ing kode sing wis didigitalisasi **KUDU** padha persis kaya ing scan.
 
-Common issues you should look out for while proofing include, but not limited to:
+Masalah umum sing kudu diwaspadai nalika mriksa, kalebu nanging ora winates ing:
 
-#### Typographic Errors
+#### Salah Tulis (Typo)
 
-In some places, the original developers made typographic errors while writing comments. Some of these were mistakenly corrected during the initial digitisation, however the digitisation has also introduced typographic errors that were not present in the scans.
+Kadhang kala para pangembang asli nggawe salah tulis ing komentar. Sawetara salah tulis iki salahé wis “dibeneraké” nalika digitalisasi awal, nanging proses digitalisasi uga ngenalaké salah tulis anyar sing ora ana ing scan.
 
-For example, if the digitised comments contained `SPACECRAFT`, but `SPAECRAFT` was printed in the scans, then the digitisation **MUST** be corrected to `SPAECRAFT` (missing `C`).
+Conto: yen komentar digitalisasi ana `SPACECRAFT`, nanging ing scan ditulis `SPAECRAFT`, mula kudu dibalekaké dadi `SPAECRAFT`.
 
-Likewise, if a word has a typo in the digitisation but is spelt correctly in the scans then the typo **MUST** be corrected.
+#### Spasi
 
-#### Spaces
+Spasi ing antarane karakter utawa tembung ing komentar **KUDU** padha karo scan. Ing umume kasus (ndeleng diskusi ing [#316][10]) aturané yaiku:
 
-Spaces between two characters in comments **SHOULD** match the scans. In most cases (see the discussion in [#316][10]), this is:
+- Siji spasi kanggo tembung anyar.
+- Loro spasi kanggo kalimat anyar.
+- Telu spasi kanggo indentasi.
 
-- Single space for new words.
-- Double space for new sentences.
-- Triple space for indentations.
+Nanging ora kabeh kaca ing scan konsisten, yen mung ana siji spasi ing scan, ya kudu nganggo siji spasi.
 
-Not all pages in the scans follow this generalisation, if the scans only have a single space instead of a double space, use a single space.
+### Pamisah Baris
 
-### Line breaks
+- Pamisah baris **sing nganggo** `R0000` ing kolom 1 kudu padha karo scan.  
+- Pamisah baris **tanpa** `R0000` ing kolom 1 mung kena 1 utawa 2 baris kosong berturut-turut.  
+  - Yen luwih saka 2, kudu dibusak sing luwih.  
+  - Ing gambar sumber, iki asale saka digit sing ora dicithak ing kolom 8. Angka 2 nyebabake spasi ganda (1 baris kosong), angka 3 spasi telu (2 baris kosong). Angka 4-8 ana definisi nanging ora tau digunakake. Waca luwih lengkap ing [#159][7].
 
-- Line breaks *with* `R0000` in column 1 should match the scans exactly.
-- Line breaks *with**__out__* `R0000` in column 1 should contain only 1 or 2 blank lines in a row.
-  - If there are more than 2 blank lines breaks, strip the extra line breaks.
-    - Lines with `R0000` in column 1 do not count towards this.
-  - In the source images, these were created by an unprinted digit in column 8. A 2 there forced a double space (single blank line) and a 3 forced a triple space (double blank line). Values 4-8 were defined but never used. Read more about it in [#159][7]
-
-For example the following:
+Conto:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -154,7 +151,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-Should become:
+Kudu dadi:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -164,9 +161,9 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-## Note
+## Cathetan
 
-Before you make a PR, please make sure your changes are consistent with the scans!
+Sadurunge nggawe PR, priksa maneh supaya owahanmu konsisten karo hasil scan!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
