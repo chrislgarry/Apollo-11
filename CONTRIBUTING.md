@@ -31,7 +31,7 @@
 [日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[ꦧꦱ​ꦗꦮ][JV]
+[Basa Jawa][JV]
 
 [AR]:Translations/CONTRIBUTING.ar.md
 [AZ]:Translations/CONTRIBUTING.az.md
