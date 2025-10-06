@@ -31,7 +31,8 @@
 [한국어][KO_KR],
 [日本語][JA],
 [正體中文][ZH_TW],
-[简体中文][ZH_CN]
+[简体中文][ZH_CN],
+[Basa Jawa][JV]
 
 
 [AR]:Translations/CONTRIBUTING.ar.md
