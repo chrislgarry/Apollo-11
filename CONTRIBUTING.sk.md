@@ -1,14 +1,9 @@
-
-
-
-
-````md
 # Prispievanie
 
 🌐
-[Azerbaijani][AZ],
+[Azerbajdžanský][AZ],
 [bahasa Indonesia][ID],
-[Català][CA],
+[Katalánsky][CA],
 [Čeština][CZ],
 [Dansk][DA],
 [Deutsch][DE],
@@ -25,7 +20,6 @@
 [Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
-[Slovenčina][SK],
 [Svenska][SV],
 [tiếng Việt][VI],
 [Türkçe][TR],
@@ -36,49 +30,50 @@
 [한국어][KO_KR],
 [日本語][JA],
 [正體中文][ZH_TW],
-[简体中文][ZH_CN]
+[简体中文][ZH_CN],
+[Slovenčina][SK]
 
-[AR]:CONTRIBUTING.ar.md
-[AZ]:CONTRIBUTING.az.md
-[CA]:CONTRIBUTING.ca.md
-[CZ]:CONTRIBUTING.cz.md
-[DA]:CONTRIBUTING.da.md
-[DE]:CONTRIBUTING.de.md
-[EN]:../CONTRIBUTING.md
-[ES]:CONTRIBUTING.es.md
-[FR]:CONTRIBUTING.fr.md
-[GL]:CONTRIBUTING.gl.md
-[GR]:CONTRIBUTING.gr.md
-[HI_IN]:CONTRIBUTING.hi_in.md
-[ID]:CONTRIBUTING.id.md
-[IT]:CONTRIBUTING.it.md
-[JA]:CONTRIBUTING.ja.md
-[KO_KR]:CONTRIBUTING.ko_kr.md
-[KU]:CONTRIBUTING.ku.md
-[LT]:CONTRIBUTING.lt.md
-[MN]:CONTRIBUTING.mn.md
-[NL]:CONTRIBUTING.nl.md
-[NO]:CONTRIBUTING.no.md
-[PL]:CONTRIBUTING.pl.md
-[PT_BR]:CONTRIBUTING.pt_br.md
+[AR]:CONTRIBUTING.ar.md  
+[AZ]:CONTRIBUTING.az.md  
+[CA]:CONTRIBUTING.ca.md  
+[CZ]:CONTRIBUTING.cz.md  
+[DA]:CONTRIBUTING.da.md  
+[DE]:CONTRIBUTING.de.md  
+[EN]:../CONTRIBUTING.md  
+[ES]:CONTRIBUTING.es.md  
+[FR]:CONTRIBUTING.fr.md  
+[GL]:CONTRIBUTING.gl.md  
+[GR]:CONTRIBUTING.gr.md  
+[HI_IN]:CONTRIBUTING.hi_in.md  
+[ID]:CONTRIBUTING.id.md  
+[IT]:CONTRIBUTING.it.md  
+[JA]:CONTRIBUTING.ja.md  
+[KO_KR]:CONTRIBUTING.ko_kr.md  
+[KU]:CONTRIBUTING.ku.md  
+[LT]:CONTRIBUTING.lt.md  
+[MN]:CONTRIBUTING.mn.md  
+[NL]:CONTRIBUTING.nl.md  
+[NO]:CONTRIBUTING.no.md  
+[PL]:CONTRIBUTING.pl.md  
+[PT_BR]:CONTRIBUTING.pt_br.md  
+[SV]:CONTRIBUTING.sv.md  
+[TR]:CONTRIBUTING.tr.md  
+[UK]:CONTRIBUTING.uk.md  
+[VI]:CONTRIBUTING.vi.md  
+[ZH_CN]:CONTRIBUTING.zh_cn.md  
+[ZH_TW]:CONTRIBUTING.zh_tw.md  
 [SK]:CONTRIBUTING.sk.md
-[SV]:CONTRIBUTING.sv.md
-[TR]:CONTRIBUTING.tr.md
-[UK]:CONTRIBUTING.uk.md
-[VI]:CONTRIBUTING.vi.md
-[ZH_CN]:CONTRIBUTING.zh_cn.md
-[ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Zdrojové kódy v tomto repozitári boli manuálne digitalizované z papierových zdrojových materiálov, preto sa v nich môžu nachádzať chyby a preklepy. Kód by sa mal upravovať tak, aby bol konzistentný s pôvodným skenom:
+Zdrojové kódy v tomto repozitári boli manuálne digitalizované z papierových zdrojových materiálov, a preto sa v nich môžu vyskytovať chyby alebo preklepy. Kód by mal byť upravený tak, aby bol konzistentný so zdrojovým skenom:
 
-- [AGC printy pre Comanche][8]
-- [AGC printy pre Luminary][9]
+- [AGC printouts for Comanche][8]
+- [AGC printouts for Luminary][9]
 
-Na jednoduchú navigáciu medzi naskenovanými výtlačkami pre Comanche a Luminary je možné použiť nasledujúcu stránku: https://28gpc.csb.app/
+Pre jednoduchú navigáciu medzi naskenovanými výtlačkami pre Comanche aj Luminary môžete použiť nasledujúci web: https://28gpc.csb.app/
 
 ## Užitočné rozšírenia
 
-GitHub podporuje syntax jazyka AGC assembly. Váš editor pravdepodobne túto podporu nebude mať, preto tu uvádzame zoznam rozšírení na zvýraznenie syntaxe AGC pre nasledujúce editory:
+GitHub podporuje syntax AGC assembly jazyka. Váš editor ju pravdepodobne nepodporuje, preto tu poskytujeme zoznam rozšírení pre zvýraznenie syntaxe AGC pre nasledujúce editory:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -93,43 +88,43 @@ GitHub podporuje syntax jazyka AGC assembly. Váš editor pravdepodobne túto po
 
 † Podporuje automatické formátovanie
 
-[Atom]:https://github.com/Alhadis/language-agc
-[CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
-[Eclipse]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Eclipse
-[Kate]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Kate
-[ProgrammersNotepad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/ProgrammersNotepad
-[Sublime Text]:https://github.com/jimlawton/AGC-Assembly
-[TextPad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/TextPad
-[Vim]:https://github.com/wsdjeg/vim-assembly
-[VisualStudioCode]:https://github.com/wopian/agc-assembly
+[Atom]:https://github.com/Alhadis/language-agc  
+[CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks  
+[Eclipse]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Eclipse  
+[Kate]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/Kate  
+[ProgrammersNotepad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/ProgrammersNotepad  
+[Sublime Text]:https://github.com/jimlawton/AGC-Assembly  
+[TextPad]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/TextPad  
+[Vim]:https://github.com/wsdjeg/vim-assembly  
+[VisualStudioCode]:https://github.com/wopian/agc-assembly  
 [jEdit]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/jEdit
 
 ## Formátovanie
 
-**Poznámka:** GitHub a vyššie uvedené rozšírenia zabezpečia automatické použitie správneho formátovania.
+**Poznámka:** GitHub a vyššie uvedené rozšírenia automaticky zabezpečia správne formátovanie.
 
-- Odsadzovanie s použitím tabulátorov
-- Šírka tabulátora je 8
-- Nezanechávajte biele znaky (whitespace) na konci riadkov
+- Odsadenie pomocou tabulátorov  
+- Šírka tabu: 8  
+- Nenechávajte medzery na konci riadkov
 
 ## Čo mám kontrolovať?
 
-Akékoľvek rozdiely medzi skenmi a zdrojovým kódom v tomto repozitári, vrátane:
+Akékoľvek rozdiely medzi skenmi a zdrojovým kódom v tomto repozitári vrátane:
 
-### Komentárov
+### Komentáre
 
-- Komentáre v prepísanom kóde by mali presne zodpovedať skenom
-  - Toto môže zahŕňať doslovné kopírovanie preklepov či pridávanie/odoberanie celých komentárov
+- Komentáre v prepísanom kóde by mali presne zodpovedať skenom  
+  - To môže zahŕňať aj doslovné preklepy alebo pridávanie/odoberanie komentárov
 
-### Zalomenia riadkov
+### Zalomenie riadkov
 
-- Zalomenia riadkov *obsahujúcich* `R0000` v stĺpci 1 by mali presne zodpovedať skenom.
-- Zalomenia riadkov *__bez__* `R0000` v stĺpci 1 by mali obsahovať len 1 až 2 prázdne riadky za sebou
-  - Ak obsahujú viac ako dva prázdne riadky, nadbytočné odstráňte.
-    - Riadky obsahujúce `R0000` v prvom stĺpci sa do tohto nepočítajú.
-  - Vznikli kvôli nevytlačenému číslu v stĺpci 8 zdrojových dokumentov. Číslo 2 spôsobilo vloženie dvojitej medzery (jeden prázdny riadok) a číslo 3 trojitej medzery (dva prázdne riadky). Hodnoty 4–8 boli definované, ale neboli použité. Viac v [#159][7]
+- Zalomenie riadkov *obsahujúcich* `R0000` v stĺpci 1 musí presne zodpovedať skenom.  
+- Zalomenie riadkov **bez** `R0000` v stĺpci 1 by malo obsahovať len 1–2 prázdne riadky po sebe.  
+  - Ak je ich viac, nadbytočné odstráňte.  
+    - Riadky s `R0000` v prvom stĺpci sa do tohto nepočítajú.  
+  - Tieto vznikli kvôli nevytištěnému číslu v stĺpci 8 zdrojových dokumentov. Číslo 2 spôsobilo dvojitú medzeru (1 prázdny riadok), číslo 3 trojitú (2 prázdne riadky). Hodnoty 4–8 boli definované, ale nepoužité. Viac v [#159][7]
 
-Napríklad nasledujúci kód:
+Príklad:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -138,7 +133,7 @@ R0820
 
 
  0821   LAMPTEST  CS  IMODES33
-````
+```
 
 By mal byť zmenený na:
 
@@ -147,25 +142,24 @@ R0819   SUBROUTINE TO SKIP...
 R0820
 
 
- 0820   LAMPTEST  CS  IMODES33
+ 0821   LAMPTEST  CS  IMODES33
 ```
 
 ### Medzery
 
-* Medzery medzi dvomi znakmi v reťazci by mali rešpektovať tieto konvencie (pozri diskusiu v [#316][10]):
+- Medzery medzi znakmi v reťazcoch by mali nasledovať tieto konvencie (viď [#316][10]):  
+  - 1 medzera pre nové slovo  
+  - 2 medzery pre novú vetu  
+  - 3 medzery pre odsadenie
 
-  * Jedna medzera pre nové slová.
-  * Dve medzery pre nové vety.
-  * Tri medzery pre odsadenie.
-
-Napríklad nasledujúci kód:
+Príklad:
 
 ```plain
 	1)  FOO BAR BAZ QUX QUUX QUUZ. CORGE, GRAULT,
 	GARPLY, WALDO.
 ```
 
-By mal byť zmenený na:
+Správne:
 
 ```plain
 	1) FOO BAR BAZ QUX QUUX QUUZ.  CORGE, GRAULT,
@@ -174,6 +168,13 @@ By mal byť zmenený na:
 
 ## Poznámka
 
-Predtým než otvoríte PR, uistite sa, že vaše zmeny sú konzistentné so skenmi!
+Predtým, než otvoríte PR, uistite sa, že vaše zmeny sú konzistentné so skenmi!
 
-
+[0]:https://github.com/chrislgarry/Apollo-11/pull/new/master  
+[1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/  
+[2]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/  
+[6]:https://github.com/wopian/agc-assembly#user-settings  
+[7]:https://github.com/chrislgarry/Apollo-11/issues/159  
+[8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/  
+[9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/  
+[10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
