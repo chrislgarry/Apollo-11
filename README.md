@@ -5,7 +5,9 @@
 [![Comanche]][ComancheMilestone]
 [![Luminary]][LuminaryMilestone]
 
-🌐
+## 🌍 Translations
+To make the Apollo 11 source code more accessible, this repo includes the README in multiple languages:
+
 [Azerbaijani][AZ],
 [bahasa Indonesia][ID],
 [Català][CA],
