@@ -3,6 +3,7 @@
 🌐
 [Azerbaijani][AZ],
 [bahasa Indonesia][ID],
+[Basa Jawa][JV],
 [Català][CA]،
 [Čeština][CZ],
 [Dansk][DA],

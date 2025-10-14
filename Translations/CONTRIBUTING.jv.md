@@ -3,6 +3,7 @@
 🌐
 [Azerbaijani][AZ],
 [bahasa Indonesia][ID],
+[Basa Jawa][JV],
 [Català][CA]،
 [Čeština][CZ],
 [Dansk][DA],
@@ -31,7 +32,6 @@
 [日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
-[Basa Jawa][JV]
 
 [AR]:Translations/CONTRIBUTING.ar.md
 [AZ]:Translations/CONTRIBUTING.az.md

@@ -85,49 +85,49 @@
 [ZH_CN]:Translations/README.zh_cn.md
 [ZH_TW]:Translations/README.zh_tw.md
 [ML]:Translations/README.ml.md
-Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099][5] and [Comanche 055][6], as well as any files I may have missed.
+Kode sumber asli Apollo 11 guidance computer (AGC) kanggo Command Module (Comanche055) lan Lunar Module (Luminary099). Digitisasi déning kanca-kanca saka [Virtual AGC][3] lan [MIT Museum][4]. Tujuané yaiku ngumpulake kode sumber asli Apollo 11 nang repo iki. Mulane, PR ditrima kanggo saben revisi kesalahan antarané transkripsi nang repo iki karo hasil pindai asli [Luminary 099][5] lan [Comanche 055][6], uga yen ana file sing kélangan.
 
-## Contributing
+## Nyumbang
 
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+Mangga diwaca dhisik [CONTRIBUTING.md][7] sadurunge nggawe pull request.
 
-## Compiling
+## Nglumpukake
 
-If you are interested in compiling the original source code, check
-out [Virtual AGC][8].
+Yen kowe kepengin nyoba ngompile kode sumber asli, bukak [Virtual AGC][8].
 
-## Attribution
+## Atribusi
 
-&nbsp;         | &nbsp;
-:------------- | :-----
-Copyright      | Public domain
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+&nbsp;         | &nbsp;  
+:------------- | :-----  
+Hak cipta      | Domain publik  
+Comanche055    | Bagéan saka kode sumber kanggo Colossus 2A, Guidance Computer (AGC) Modul Komando (CM) kanggo Apollo 11<br>`Assemble revisi 055 saka program AGC Comanche déning NASA`<br>`2021113-051. 10:28 APR. 1, 1969`  
+Luminary099    | Bagéan saka kode sumber kanggo Luminary 1A, Guidance Computer (AGC) Modul Bulan (LM) kanggo Apollo 11<br>`Assemble revisi 001 saka program AGC LMY99 déning NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`  
+Assembler      | yaYUL  
+Kontak         | Ron Burkey <info@sandroid.org>  
+Situs web      | www.ibiblio.org/apollo  
+Digitalisasi   | Kode sumber iki wis ditranskripsi utawa diadaptasi saka gambar digital salinan kertas saka MIT Museum. Proses digitisasi ditindakake déning Paul Fjeld, lan diatur déning Deborah Douglas saka Museum. Matur nuwun sanget kanggo loro-loroné.  
 
-### Contract and Approvals
 
-*Derived from [CONTRACT_AND_APPROVALS.agc]*
+### Kontrak lan Persetujuan
 
-This AGC program shall also be referred to as Colossus 2A.
+*Asal saka [CONTRACT_AND_APPROVALS.agc]*
 
-This program is intended for use in the Command Module as specified in report `R-577`. This program was prepared under DSR project `55-23870`, sponsored by the Manned Spacecraft Center of The National Aeronautics and Space Administration through contract `NAS 9-4065` with the Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
+Program AGC iki uga bakal disebut minangka Colossus 2A.
 
-Submitted by         | Role | Date
-:------------------- | :--- | :---
-Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+Program iki dimaksudaké kanggo digunakaké ing Modul Komando kaya sing ditemtokaké ing laporan `R-577`. Program iki disiapaké ing ngisor proyek DSR `55-23870`, disponsori déning Manned Spacecraft Center saka The National Aeronautics and Space Administration liwat kontrak `NAS 9-4065` karo Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
 
-Approved by       | Role | Date
-:---------------- | :--- | :---
-Daniel J. Lickly  | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag     | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+Dikirim déning        | Peran | Tanggal  
+:------------------- | :--- | :---  
+Margaret H. Hamilton | Pemimpin Program Colossus<br>Apollo Guidance lan Navigasi | 28 Mar 69  
+
+Disetujoni déning    | Peran | Tanggal  
+:------------------- | :--- | :---  
+Daniel J. Lickly     | Direktur, Pangembangan Program Misi<br>Apollo Guidance lan Navigasi | 28 Mar 69  
+Fred H. Martin       | Manajer Proyek Colossus<br>Apollo Guidance lan Navigasi | 28 Mar 69  
+Norman E. Sears      | Direktur, Pangembangan Misi<br>Apollo Guidance lan Navigasi | 28 Mar 69  
+Richard H. Battin    | Direktur, Pangembangan Misi<br>Apollo Guidance lan Navigasi | 28 Mar 69  
+David G. Hoag        | Direktur<br>Apollo Guidance lan Navigasi | 28 Mar 69  
+Ralph R. Ragan       | Wakil Direktur<br>Instrumentation Laboratory | 28 Mar 69  
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
