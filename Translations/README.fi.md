@@ -87,49 +87,48 @@
 [ZH_CN]:Translations/README.zh_cn.md
 [ZH_TW]:Translations/README.zh_tw.md
 [ML]:Translations/README.ml.md
-Original Apollo 11 guidance computer (AGC) source code for Command Module (Comanche055) and Lunar Module (Luminary099). Digitized by the folks at [Virtual AGC][3] and [MIT Museum][4]. The goal is to be a repo for the original Apollo 11 source code. As such, PRs are welcome for any issues identified between the transcriptions in this repository and the original source scans for [Luminary 099][5] and [Comanche 055][6], as well as any files I may have missed.
+Alkuperäinen Apollo 11 guidance computer (AGC) lähdekoodi Command Module (Comanche055) ja Lunar Module (Luminary099) varten. Digitalisoitu [Virtual AGC][3] -proektin ja [MIT Museum][4] toimesta. Tavoitteena on toimia alkuperäisen Apollo 11 -lähdekoodin arkistona. Siksi pull requestit ovat tervetulleita, jos tässä repositoriossa olevien transkriptioiden ja alkuperäisten lähdekoodiskannausten ([Luminary 099][5] ja [Comanche 055][6]) välillä havaitaan eroavaisuuksia, tai jos jokin tiedosto on jäänyt puuttumaan.
 
-## Contributing
+## Osallistuminen
 
-Please read [CONTRIBUTING.md][7] before opening a pull request.
+Ole hyvä ja lue [CONTRIBUTING.md][7] ennen pull requestin avaamista.
 
-## Compiling
+## Lähdekoodin kääntäminen
 
-If you are interested in compiling the original source code, check
-out [Virtual AGC][8].
+Jos olet kiinnostunut kääntämään alkuperäisen lähdekoodin, tutustu kohtaan [Virtual AGC][8].
 
-## Attribution
+## Lähdeviitteet
 
 &nbsp;         | &nbsp;
 :------------- | :-----
-Copyright      | Public domain
-Comanche055    | Part of the source code for Colossus 2A, the Command Module's (CM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Assembler      | yaYUL
-Contact        | Ron Burkey <info@sandroid.org>
-Website        | www.ibiblio.org/apollo
-Digitalisation | This source code has been transcribed or otherwise adapted from digitized images of a hardcopy from the MIT Museum. The digitization was performed by Paul Fjeld, and arranged for by Deborah Douglas of the Museum. Many thanks to both.
+Tekijänoikeudet| Public domain
+Comanche055    | Osa Colossus 2A -ohjelman lähdekoodista, joka toimi Apollo 11:n Command Modulen (CM) ohjaustietokoneessa Apollo Guidance Computer (AGC).<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
+Luminary099    | Osa Luminary 1A -ohjelman lähdekoodista, joka toimi Apollo 11:n kuumoduulin Lunar Module (LM) ohjaustietokoneessa Apollo Guidance Computer (AGC).<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Assembleri     | yaYUL
+Yhteystiedot   | Ron Burkey <info@sandroid.org>
+Sivusto        | www.ibiblio.org/apollo
+Digitalisointi | Tämä lähdekoodi on kirjoitettu uudelleen tai muuten mukautettu MIT-museon hallussa olleen paperiversion digitoiduista kuvista. Digitalisoinnin suoritti Paul Fjeld, ja sen järjesti Deborah Douglas museolta. Suuret kiitokset heille molemmille.
 
-### Contract and Approvals
+### Sopimus ja Hyväksynnät
 
-*Derived from [CONTRACT_AND_APPROVALS.agc]*
+*Peräisin tiedostosta [CONTRACT_AND_APPROVALS.agc]*
 
-This AGC program shall also be referred to as Colossus 2A.
+Tätä AGC-ohjelmaa kutsutaan myös nimellä Colossus 2A.
 
-This program is intended for use in the Command Module as specified in report `R-577`. This program was prepared under DSR project `55-23870`, sponsored by the Manned Spacecraft Center of The National Aeronautics and Space Administration through contract `NAS 9-4065` with the Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass.
+Ohjelma on tarkoitettu käytettäväksi komentomoduulissa Command Module, kuten raportissa `R-577` on määritelty. Ohjelma on valmistettu DSR-projektin `55-23870` puitteissa, jota sponsoroi Manned Spacecraft Center of The National Aeronautics and Space Administration sopimuksen `NAS 9-4065` kautta yhteistyössä Instrumentation Laboratory, Massachusetts Institute of Technology, Cambridge, Mass. kanssa.
 
-Submitted by         | Role | Date
+Lähettäjä            | Rooli | Päivämäärä
 :------------------- | :--- | :---
-Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28 Mar 69
+Margaret H. Hamilton | Colossus Programming Leader<br>Apollo Guidance and Navigation | 28. Maaliskuuta 69
 
-Approved by       | Role | Date
+Hyväksyjät        | Rooli | Päivämäärä
 :---------------- | :--- | :---
-Daniel J. Lickly  | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28 Mar 69
-David G. Hoag     | Director<br>Apollo Guidance and Navigation Program | 28 Mar 69
-Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28 Mar 69
+Daniel J. Lickly  | Director, Mission Program Development<br>Apollo Guidance and Navigation Program | 28. Maaliskuuta 69
+Fred H. Martin    | Colossus Project Manager<br>Apollo Guidance and Navigation Program | 28. Maaliskuuta 69
+Norman E. Sears   | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28. Maaliskuuta 69
+Richard H. Battin | Director, Mission Development<br>Apollo Guidance and Navigation Program | 28. Maaliskuuta 69
+David G. Hoag     | Director<br>Apollo Guidance and Navigation Program | 28. Maaliskuuta 69
+Ralph R. Ragan    | Deputy Director<br>Instrumentation Laboratory | 28. Maaliskuuta 69
 
 [CONTRACT_AND_APPROVALS.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Comanche055/CONTRACT_AND_APPROVALS.agc
 [1]:https://flat.badgen.net/badge/NASA/Mission%20Overview/0B3D91
