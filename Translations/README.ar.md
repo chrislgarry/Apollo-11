@@ -27,6 +27,7 @@
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
+[Suomi][FI],
 [Svenska][SV],
 [tiếng Việt][VI],
 [Türkçe][TR],
@@ -58,6 +59,7 @@
 [EN]:../README.md
 [ES]:README.es.md
 [FA]:README.fa.md
+[FI]:README.fi.md
 [FR]:README.fr.md
 [GL]:README.gl.md
 [GR]:README.gr.md

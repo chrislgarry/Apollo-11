@@ -26,6 +26,7 @@
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
+[Suomi][FI],
 [Svenska][SV],
 [tiếng Việt][VI],
 [Türkçe][TR],
@@ -58,6 +59,7 @@
 [EN]:README.md
 [ES]:Translations/README.es.md
 [FA]:Translations/README.fa.md
+[FI]:README.fi.md
 [FR]:Translations/README.fr.md
 [GL]:Translations/README.gl.md
 [GR]:Translations/README.gr.md
