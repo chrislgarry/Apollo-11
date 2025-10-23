@@ -30,8 +30,8 @@
 [हिन्दी][HI_IN],
 [한국어][KO_KR],
 [日本語][JA],
-[正體中文][ZH_TW],
 [简体中文][ZH_CN],
+[正體中文][ZH_TW],
 [Basa Jawa][JV]
 
 [AR]:Translations/CONTRIBUTING.ar.md
@@ -64,6 +64,8 @@
 [VI]:Translations/CONTRIBUTING.vi.md
 [ZH_CN]:Translations/CONTRIBUTING.zh_cn.md
 [ZH_TW]:Translations/CONTRIBUTING.zh_tw.md
+
+
 
 The source code in this repository was digitized manually from paper printouts, so typos and other discrepancies have been introduced accidentally. The code shall be modified to be made consistent with the following scanned printouts:
 

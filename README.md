@@ -43,8 +43,8 @@
 [မြန်မာ][MM],
 [한국어][KO_KR],
 [日本語][JA],
-[正體中文][ZH_TW],
 [简体中文][ZH_CN],
+[正體中文][ZH_TW],
 [മലയാളം][ML]
 
 [AR]:Translations/README.ar.md
