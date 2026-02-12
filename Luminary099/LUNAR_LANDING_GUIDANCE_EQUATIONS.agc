@@ -277,12 +277,17 @@ STARTP64	TC	NEWMODEX
 #	TTFINCR COMPUTATIONS ARE AS FOLLOWS --
 # Page 803
 #		TTF/8 UPDATED FOR TIME SINCE LAST PASS:
+#
 #			TTF/8 = TTF/8 + (TPIP - TPIPOLD)/8
+#
 #		LANDING SITE VECTOR UPDATED FOR LUNAR ROTATION:
-#			____               ____   ____                   __
+#
+#			_                  _      _                      _
 #			LAND = /LAND/ UNIT(LAND - LAND(TPIP - TPIPOLD) * WM)
+#
 #		SLANT RANGE TO LANDING SITE, FOR DISPLAY:
-#			                 ____   _
+#
+#			                 _      _
 #			RANGEDSP = ABVAL(LAND - R)
 
 TTFINCR		TC	INTPRET
@@ -335,7 +340,7 @@ BRSPOT2		INDEX	WCHPHASE
 REDESIG		CA	FLAGWRD6	# IS REDFLAG SET?
 		MASK	REDFLBIT
 		EXTEND
-		BZF	RGVGCALC	# NO:  SKIP REDESIGNATION LOGIC
+		BZF	RGVGCALC	# NO:   SKIP REDESIGNATION LOGIC
 
 		CA	TREDES		# YES:  HAS TREDES REACHED ZERO?
 		EXTEND
@@ -360,11 +365,11 @@ REDESIG		CA	FLAGWRD6	# IS REDFLAG SET?
 		TC	INTPRET
 		VLOAD	VSU
 			LAND
-			R		#                 ____   _
+			R		#                 _      _
 		RTB	PUSH		# PUSH DOWN UNIT (LAND - R)
 			NORMUNIT
 		VXV	VSL1
-			YNBPIP		#                    ___        ____   _
+			YNBPIP		#                    _          _      _
 		VXSC	PDDL		# PUSH DOWN - ELINCR(YNB * UNIT(LAND - R))
 			ELINCR
 			AZINCR
@@ -400,10 +405,10 @@ REDES1		DLOAD	DSU
 		DXCH	LAND
 		EXTEND
 		DCA	LANDTEMP +2
-		DXCH	LAND +2
+		DXCH	LAND	 +2
 		EXTEND
 		DCA	LANDTEMP +4
-		DXCH	LAND +4
+		DXCH	LAND	 +4
 
 		TCF	RGVGCALC
 
@@ -411,23 +416,29 @@ REDES1		DLOAD	DSU
 # COMPUTE STATE IN GUIDANCE COORDINATES
 # *********************************************************************
 #
-#	RGVGCALC COMPUTATIONS ARE AS FOLLOWS:--
+#	RGVGCALC COMPUTATIONS ARE AS FOLLOWS:-
+#
 #	VELOCITY RELATIVE TO THE SURFACE:
-#		_______   _   _   __
+#
+#		_         _   _   _
 #		ANGTERM = V + R * WM
+#
 #	STATE IN GUIDANCE COORDINATES:
-#		___   *   _   ____
+#
+#		_     *   _   _
 #		RGU = CG (R - LAND)
-#		___   *   _   __   _
+#
+#		_     *   _   _    _
 #		VGU = CG (V - WM * R)
 # Page 806 actually starts one line earlier but that would separate the markers from their variables
 #
-#	HORIZONTAL VELOCITY FOR DISPLAY
+#	HORIZONTAL VELOCITY FOR DISPLAY:
 #
 #		VHORIZ = 8 ABVAL (0, VG , VG )
 #		                       2    1
+#
 # 	DEPRESSION ANGLE FOR DISPLAY:
-#		                       _   ____  ______
+#		                       _   _     _
 #		LOOKANGL = ARCSIN(UNIT(R - LAND).XMBPIP)
 
 CALCRGVG	TC	INTPRET		# IN IGNALG, COMPUTE V FROM INTEGRATION
@@ -453,7 +464,7 @@ RGVGCALC	TC	INTPRET		# ENTER HERE TO RECOMPUTE RG AND VG
 			ZEROVECS	#           2   1
 		ABVAL	SL3
 		STOVL	VHORIZ		# VHORIZ FOR DISPLAY DURING P65.
-			R		#           _   ____
+			R		#           _   _
 		VSU	PUSH		# PUSH DOWN R - LAND
 			LAND
 		MXV	VSL1
@@ -470,7 +481,7 @@ RGVGCALC	TC	INTPRET		# ENTER HERE TO RECOMPUTE RG AND VG
 		TS	PUSHLOC
 
 # Page 807
-		CA	MPAC		# COMPUTE LOOKANGLE ITSELF
+		CA	MPAC		# COMPUTE LOOKANGL ITSELF
 		DOUBLE
 		TC	BANKCALL
 		CADR	SPARCSIN -1
@@ -501,8 +512,8 @@ TTF/8CL		TC	INTPRETX
 		DSU	DMP
 			RGU +4
 			3/8DP
-		STORE	TABLTTF		# A(0) = -24 (RGU  - RDG )/64 TO TABLTTF
-		EXIT			#                2      2
+		STORE	TABLTTF		# A(0) = -24(RGU  - RDG )/64 TO TABLTTF
+		EXIT			#               2      2
 
 		CA	BIT8
 		TS	TABLTTF +10	# FRACTIONAL PRECISION FOR TTF TO TABLE
@@ -530,23 +541,25 @@ TTF/8CL		TC	INTPRETX
 # MAIN GUIDANCE EQUATION
 # *********************************************************************************
 #
-#	AS PUBLISHED --
-#		              ___   __       ___   __
-#		___   ___   6(VDG + VG)   12(RDG - RG)
+#	AS PUBLISHED:-
+#		              _     _        _     _
+#		_     _     6(VDG + VG)   12(RDG - RG)
 #		ACG = ADG + ----------- + ------------
 #		                TTF        (TTF)(TTF)
-#	AS HERE PROGRAMMED --
-#		             ___   __
-#		      3 (1/4(RDG - RG)   ___   __)
+#
+#	AS HERE PROGRAMMED:-
+#
+#		             _     _
+#		      3 (1/4(RDG - RG)   _     _ )
 #		      - (------------- + VDG + VG)
-#		___   4 (    TTF/8               )   ___
+#		_     4 (    TTF/8               )   _
 #		ACG = ---------------------------- + ADG
 #		                  TTF/8
 
 QUADGUID	CS	TTF/8
 		AD	LEADTIME	# LEADTIME IS A NEGATIVE NUMBER
 		AD	POSMAX		# SAFEGUARD THE COMPUTATIONS THAT FOLLOW
-		TS	L		#	BY FORCING -TTF*LEADTIME > OR = ZERO
+		TS	L		#	BY FORCING -TTF+LEADTIME > OR = ZERO
 		CS	L
 		AD	L
 		ZL
@@ -555,22 +568,22 @@ QUADGUID	CS	TTF/8
 		TS	BUF		# - RATIO OF LAG-DIMINISHED TTF TO TTF
 		EXTEND
 		SQUARE
-		TS	BUF +1
+		TS	BUF  +1
 		AD	BUF
-		XCH	BUF +1		# RATIO SQUARED - RATIO
-		AD	BUF +1
+		XCH	BUF  +1		# RATIO SQUARED - RATIO
+		AD	BUF  +1
 		TS	MPAC		# COEFFICIENT FOR VGU TERM
-		AD	BUF +1
+		AD	BUF  +1
 		INDEX	FIXLOC
 		TS	26D		# COEFFICIENT FOR RDG-RGU TERM
-		AD	BUF +1
+		AD	BUF  +1
 		INDEX	FIXLOC
 		TS	28D		# COEFFICIENT FOR VDG TERM
 		AD	BUF
 		AD	POSMAX
 # Page 809
-		AD	BUF +1
-		AD	BUF +1
+		AD	BUF  +1
+		AD	BUF  +1
 		INDEX	FIXLOC
 		TS	30D		# COEFFICIENT FOR ADG TERM
 
@@ -597,7 +610,7 @@ QUADGUID	CS	TTF/8
 			30D
 			ADG,1
 		VAD
-AFCCALC1	VXM	VSL1		# VERGUID COMES HERE
+AFCCALC1	VXM	VSL1		# VERTGUID COMES HERE
 			CG
 		PDVL	V/SC
 			GDT/2
@@ -608,7 +621,7 @@ AFCCALC1	VXM	VSL1		# VERGUID COMES HERE
 AFCCALC2	STODL	/AFC/		# MAGNITUDE OF AFC FOR THROTTLE
 			UNFC/2		# VERTICAL COMPONENT
 		DSQ	PDDL
-			UNFC/2 +2	# OUT-OF-PLANE
+			UNFC/2	+2	# OUT-OF-PLANE
 		DSQ	PDDL
 			HIGHESTF
 		DDV	DSQ
@@ -618,12 +631,12 @@ AFCCALC2	STODL	/AFC/		# MAGNITUDE OF AFC FOR THROTTLE
 			AFCCALC3
 			ZEROVECS
 AFCCALC3	SQRT	DAD
-			UNFC/2 +4
+			UNFC/2	+4
 # Page 810
 		BPL	BDSU
 			AFCCLEND
-			UNFC/2 +4
-		STORE	UNFC/2 +4
+			UNFC/2	+4
+		STORE	UNFC/2	+4
 AFCCLEND	EXIT
 		TC	FASTCHNG
 
@@ -674,11 +687,11 @@ CGCALC		CAF	EBANK5
 		VXV	RTB
 			LAND
 			NORMUNIT
-		STOVL	CG +6		# SECOND ROW
+		STOVL	CG  +6		# SECOND ROW
 			CG
 		VXV	VSL1
-			CG +6
-		STORE	CG +14
+			CG  +6
+		STORE	CG  +14
 		EXIT
 
 #		(CONTINUE TO EXTLOGIC)
@@ -713,11 +726,14 @@ EXSPOT1		EXTEND
 # ***********************************************************************
 #
 # 1.	EXGSUB IS THE RETURN WHEN GUIDSUB IS CALLED BY THE IGNITION ALGORITHM.
+#
 # 2.	EXBRAK IN THE EXIT USED DURING THE BRAKING PHASE.  IN THIS CASE UNIT(R) IS THE WINDOW POINTING VECTOR.
+#
 # 3.	EXNORM IS THE EXIT USED AT OTHER TIMES DURING THE BURN.
-# (EXOVFLOW IS A SUBROUTINE OF EXBRAK AND EXNORM CALLED WHEN OVERFLOW OCCURRED ANYWHERE IN GUIDANCE.)
+#
+# 	(EXOVFLOW IS A SUBROUTINE OF EXBRAK AND EXNORM CALLED WHEN OVERFLOW OCCURRED ANYWHERE IN GUIDANCE.)
 
-EXGSUB		TC	INTPRET		# COMPUTE TRIM VELOCITY CORRECTION TERM.
+EXGSUB		TC	INTPRET		# COMPUTE TRIM VELOCITY CORRECTION TERM
 # Page 812
 		VLOAD	RTB
 			UNFC/2
@@ -736,7 +752,7 @@ EXGSUB		TC	INTPRET		# COMPUTE TRIM VELOCITY CORRECTION TERM.
 		OCT	01412
 
  +3		TC	POSTJUMP
- 		CADR	DDUMCALC
+		CADR	DDUMCALC
 
 EXBRAK		TC	INTPRET
 		VLOAD
