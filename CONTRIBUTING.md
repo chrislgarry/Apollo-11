@@ -27,6 +27,7 @@
 [Ελληνικά][GR],
 [Українська][UK]،
 [العربية][AR],
+[اردو][UR],
 [हिन्दी][HI_IN],
 [한국어][KO_KR],
 [日本語][JA],
@@ -61,6 +62,7 @@
 [SV]:Translations/CONTRIBUTING.sv.md
 [TR]:Translations/CONTRIBUTING.tr.md
 [UK]:Translations/CONTRIBUTING.uk.md
+[UR]:Translations/CONTRIBUTING.ur.md
 [VI]:Translations/CONTRIBUTING.vi.md
 [ZH_CN]:Translations/CONTRIBUTING.zh_cn.md
 [ZH_TW]:Translations/CONTRIBUTING.zh_tw.md

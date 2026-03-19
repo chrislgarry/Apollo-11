@@ -36,6 +36,7 @@
 [Українська][UK],
 [العربية][AR],
 [فارسی][FA],
+[اردو][UR],
 [नेपाली भाषा][NE]
 [हिंदी][HI_IN],
 [অসমীয়া][AS_IN],
@@ -83,6 +84,7 @@
 [SV]:Translations/README.sv.md
 [TR]:Translations/README.tr.md
 [UK]:Translations/README.uk.md
+[UR]:Translations/README.ur.md
 [VI]:Translations/README.vi.md
 [ZH_CN]:Translations/README.zh_cn.md
 [ZH_TW]:Translations/README.zh_tw.md
