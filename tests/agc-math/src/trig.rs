@@ -10,8 +10,6 @@
 //! Reference: Comanche055/INTERPRETER.agc lines 2641-2703 (SINE/COSINE)
 //!            Comanche055/INTERPRETER.agc lines 2708-2797 (ARCSIN/ARCCOS)
 
-use crate::ones_complement::DpWord;
-
 /// Sine polynomial coefficients from INTERPRETER.agc lines 2684-2688.
 ///
 /// These are the Hastings approximation coefficients for:
