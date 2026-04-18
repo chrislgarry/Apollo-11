@@ -108,6 +108,52 @@ pub fn dsq(a: DpWord) -> DpWord {
     dmp(a, a)
 }
 
+/// DDV: Double-precision Divide (INTERPRETER.agc lines 1792-1987).
+///
+/// Computes a / b as a DP fractional result.
+///
+/// The AGC's DDV/BDDV routine:
+/// 1. Force both operands positive, tracking sign in DVSIGN
+/// 2. Normalize the divisor to >= 0.5 (shift left, count in DVNORMCT)
+/// 3. Apply the same shift to the dividend
+/// 4. Check for overflow (dividend_major >= divisor_major)
+/// 5. Perform the DP division via the GENDDV routine
+/// 6. Apply sign correction
+///
+/// Returns POSMAX (±) on division overflow or divide by zero.
+pub fn ddv(a: DpWord, b: DpWord) -> DpWord {
+    let divisor = b.to_f64();
+
+    if divisor.abs() < 1e-10 {
+        // Division by zero → POSMAX with sign of dividend
+        return if a.to_f64() >= 0.0 {
+            DpWord::from_f64(0.99999)
+        } else {
+            DpWord::from_f64(-0.99999)
+        };
+    }
+
+    let quotient = a.to_f64() / divisor;
+
+    // Clamp to AGC fractional range — overflow gives ±POSMAX
+    if quotient.abs() >= 1.0 {
+        return if quotient >= 0.0 {
+            DpWord::from_f64(0.99999)
+        } else {
+            DpWord::from_f64(-0.99999)
+        };
+    }
+
+    DpWord::from_f64(quotient)
+}
+
+/// BDDV: Reverse divide (INTERPRETER.agc line 1372).
+///
+/// Computes b / a (operands swapped relative to DDV).
+pub fn bddv(a: DpWord, b: DpWord) -> DpWord {
+    ddv(b, a)
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
