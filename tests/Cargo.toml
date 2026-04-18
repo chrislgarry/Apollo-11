@@ -1,5 +1,5 @@
 [workspace]
-members = ["agc-math"]
+members = ["agc-math", "agc-integration"]
 resolver = "2"
 
 [workspace.dependencies]

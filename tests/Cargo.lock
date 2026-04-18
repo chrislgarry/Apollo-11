@@ -3,6 +3,13 @@
 version = 4
 
 [[package]]
+name = "agc-integration"
+version = "0.1.0"
+dependencies = [
+ "agc-math",
+]
+
+[[package]]
 name = "agc-math"
 version = "0.1.0"
 dependencies = [
