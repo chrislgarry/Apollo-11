@@ -14,3 +14,4 @@ pub mod poly;
 pub mod trig;
 pub mod sqrt;
 pub mod vector;
+pub mod memory;
