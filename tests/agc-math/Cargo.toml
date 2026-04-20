@@ -1,0 +1,10 @@
+[package]
+name = "agc-math"
+version = "0.1.0"
+edition = "2021"
+description = "15-bit 1's complement arithmetic model for the Apollo Guidance Computer (Block II)"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = { workspace = true }
