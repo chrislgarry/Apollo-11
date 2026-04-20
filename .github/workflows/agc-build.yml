@@ -1,0 +1,51 @@
+name: AGC Build & Test
+on: [push, pull_request]
+
+jobs:
+  # Assemble AGC source with yaYUL and verify against reference binaries
+  assemble:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        program: [Comanche055, Luminary099]
+    steps:
+      - name: Check out AGC source
+        uses: actions/checkout@v6
+
+      - name: Clone Virtual AGC (yaYUL assembler)
+        run: |
+          git clone --depth 1 https://github.com/virtualagc/virtualagc.git /tmp/virtualagc
+
+      - name: Build yaYUL
+        run: |
+          cd /tmp/virtualagc/yaYUL
+          make -j$(nproc)
+          sudo cp yaYUL /usr/local/bin/
+
+      - name: Assemble program
+        env:
+          PROGRAM: ${{ matrix.program }}
+        run: |
+          ./tools/build.sh "$PROGRAM"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.program }}-build
+          path: |
+            ${{ matrix.program }}/MAIN.agc.bin
+            ${{ matrix.program }}/MAIN.agc.lst
+
+  # Run Rust arithmetic tests
+  test-arithmetic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Run AGC math tests
+        working-directory: tests
+        run: cargo test --all -- --nocapture
