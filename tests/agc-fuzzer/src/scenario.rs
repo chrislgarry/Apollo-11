@@ -67,12 +67,20 @@ pub fn run_fuzz_scenario(
     };
 
     // Wait for boot
-    let booted = dsky
-        .wait_for_display(|d| !d.relay_words.is_empty(), config.boot_timeout)
-        .unwrap_or(false);
+    let booted = match dsky.wait_for_display(|d| !d.relay_words.is_empty(), config.boot_timeout) {
+        Ok(b) => b,
+        Err(e) => {
+            if let Err(stop_err) = runner.stop() {
+                eprintln!("warning: failed to stop yaAGC after boot I/O error: {}", stop_err);
+            }
+            return FuzzResult::Error(format!("I/O error during boot wait: {}", e));
+        }
+    };
 
     if !booted {
-        let _ = runner.stop();
+        if let Err(e) = runner.stop() {
+            eprintln!("warning: failed to stop yaAGC after boot timeout: {}", e);
+        }
         return FuzzResult::Error("AGC did not boot within timeout".to_string());
     }
 
@@ -95,18 +103,26 @@ pub fn run_fuzz_scenario(
     let timeout = Duration::from_secs_f64(expectation.timeout_secs);
     let start = std::time::Instant::now();
 
-    let recovered = dsky
-        .wait_for_display(
-            |d| {
-                // Recovery = new relay words appear after the corruption point
-                d.relay_words.len() > 10 // arbitrary threshold for "activity"
-            },
-            timeout,
-        )
-        .unwrap_or(false);
+    let recovered = match dsky.wait_for_display(
+        |d| {
+            // Recovery = new relay words appear after the corruption point
+            d.relay_words.len() > 10 // arbitrary threshold for "activity"
+        },
+        timeout,
+    ) {
+        Ok(r) => r,
+        Err(e) => {
+            if let Err(stop_err) = runner.stop() {
+                eprintln!("warning: failed to stop yaAGC after recovery I/O error: {}", stop_err);
+            }
+            return FuzzResult::Error(format!("I/O error during recovery wait: {}", e));
+        }
+    };
 
     let elapsed = start.elapsed();
-    let _ = runner.stop();
+    if let Err(e) = runner.stop() {
+        eprintln!("warning: failed to stop yaAGC: {}", e);
+    }
 
     if recovered {
         FuzzResult::Recovered {
@@ -122,12 +138,20 @@ pub fn run_fuzz_scenario(
 pub fn validate_result(result: &FuzzResult, expectation: &RestartExpectation) -> Result<(), String> {
     match result {
         FuzzResult::Recovered { alarm_present, .. } => {
-            // If we expect an alarm, verify it's present
             if let Some(expected_code) = expectation.expected_alarm {
+                // We expect an alarm — verify it's present
                 if !alarm_present {
                     return Err(format!(
                         "Expected alarm {:05o} but PROG ALARM not set. {}",
                         expected_code, expectation.description
+                    ));
+                }
+            } else {
+                // No alarm expected — reject unexpected alarms
+                if *alarm_present {
+                    return Err(format!(
+                        "Unexpected PROG ALARM after recovery. {}",
+                        expectation.description
                     ));
                 }
             }
