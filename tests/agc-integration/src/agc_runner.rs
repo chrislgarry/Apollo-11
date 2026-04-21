@@ -62,9 +62,15 @@ impl AgcRunner {
         format!("localhost:{}", self.port)
     }
 
-    /// Stop the yaAGC process.
+    /// Stop the yaAGC process. Tolerates the process having already exited.
     pub fn stop(&mut self) -> io::Result<()> {
-        self.child.kill()?;
+        match self.child.kill() {
+            Ok(()) => {}
+            Err(ref e) if e.kind() == io::ErrorKind::InvalidInput => {
+                // Process already exited — not an error
+            }
+            Err(e) => return Err(e),
+        }
         self.child.wait()?;
         Ok(())
     }
@@ -102,8 +108,13 @@ impl Drop for AgcRunner {
 /// Find yaAGC on PATH or in common locations.
 pub fn find_yaagc() -> Option<String> {
     // Check PATH first
-    if Command::new("yaAGC").arg("--help").output().is_ok() {
-        return Some("yaAGC".to_string());
+    match Command::new("yaAGC").arg("--help").output() {
+        Ok(output) if output.status.success() => return Some("yaAGC".to_string()),
+        Ok(output) => eprintln!("yaAGC found but exited with {}", output.status),
+        Err(ref e) if e.kind() != io::ErrorKind::NotFound => {
+            eprintln!("yaAGC found but failed to run: {}", e);
+        }
+        Err(_) => {} // genuinely not found on PATH
     }
 
     // Check common install locations

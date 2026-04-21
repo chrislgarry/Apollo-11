@@ -78,10 +78,17 @@ pub struct DskyClient {
 
 impl DskyClient {
     /// Connect to a yaAGC instance at the given address (e.g., "localhost:19697").
+    /// Uses a 5-second connection timeout instead of the OS default (~75s).
     pub fn connect(addr: &str) -> io::Result<Self> {
-        let stream = TcpStream::connect(addr)?;
+        use std::net::ToSocketAddrs;
+        let socket_addr = addr
+            .to_socket_addrs()?
+            .next()
+            .ok_or_else(|| io::Error::new(io::ErrorKind::InvalidInput, "invalid address"))?;
+        let stream = TcpStream::connect_timeout(&socket_addr, Duration::from_secs(5))?;
         stream.set_nonblocking(false)?;
         stream.set_read_timeout(Some(Duration::from_millis(100)))?;
+        stream.set_write_timeout(Some(Duration::from_secs(5)))?;
 
         Ok(DskyClient {
             stream,

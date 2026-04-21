@@ -24,11 +24,13 @@ pub struct ChannelPacket {
 }
 
 impl ChannelPacket {
-    /// Create a new channel packet.
+    /// Create a new channel packet, masking inputs to valid widths.
+    /// Channel is masked to 9 bits, value to 15 bits.
     pub fn new(channel: u16, value: u16) -> Self {
-        assert!(channel < 512, "channel {} exceeds 9 bits", channel);
-        assert!(value < 32768, "value {} exceeds 15 bits", value);
-        ChannelPacket { channel, value }
+        ChannelPacket {
+            channel: channel & 0x1FF,
+            value: value & 0x7FFF,
+        }
     }
 
     /// Encode this packet into 4 bytes for transmission to yaAGC.
