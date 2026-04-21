@@ -38,7 +38,7 @@ pub fn core_set_priority_addr(core_set: u16) -> u16 {
 
 /// Address range for all executive core sets.
 pub const EXECUTIVE_START: u16 = ADDR_PRIORITY; // 0o113
-pub const EXECUTIVE_END: u16 = ADDR_PRIORITY + NUM_CORE_SETS * CORE_SET_SIZE; // 0o245
+pub const EXECUTIVE_END: u16 = ADDR_PRIORITY + NUM_CORE_SETS * CORE_SET_SIZE; // 0o237
 
 /// FAILREG spans 3 consecutive words.
 pub const FAILREG_SIZE: u16 = 3;

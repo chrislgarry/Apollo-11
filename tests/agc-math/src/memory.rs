@@ -30,8 +30,9 @@ pub const BANK_SIZE: usize = 256; // 0400-0777 virtual
 /// Number of erasable banks.
 pub const NUM_EBANKS: usize = 8;
 
-/// Total erasable memory words.
-pub const TOTAL_ERASABLE: usize = UNSWITCHED_SIZE + NUM_EBANKS * BANK_SIZE;
+/// Total erasable memory words (8 banks × 256 = 2048).
+/// Unswitched erasable (0000-0377) physically IS EBANK 0 — same memory.
+pub const TOTAL_ERASABLE: usize = NUM_EBANKS * BANK_SIZE;
 
 // ---------------------------------------------------------------------------
 // Named addresses — unswitched erasable (0000-0377 octal)
@@ -59,27 +60,27 @@ pub const ADDR_PRIORITY: u16 = 0o113;
 /// Number of registers per core set
 pub const CORE_SET_SIZE: u16 = 12;
 
-/// Number of core sets (Comanche=6, Luminary=7)
+/// Number of core sets (7 in both Comanche055 and Luminary099)
 pub const NUM_CORE_SETS: u16 = 7;
 
 /// Alarm code registers (3 words)
 pub const ADDR_FAILREG: u16 = 0o317;
 
-/// Phase table entries (6 phases × 2 words each: phase + complement)
-pub const ADDR_PHASE1: u16 = 0o340;
-pub const ADDR_PHASE2: u16 = 0o342;
-pub const ADDR_PHASE3: u16 = 0o344;
-pub const ADDR_PHASE4: u16 = 0o346;
-pub const ADDR_PHASE5: u16 = 0o350;
-pub const ADDR_PHASE6: u16 = 0o352;
-
-/// Phase complement entries (-PHASEn = complement of PHASEn)
-pub const ADDR_NEG_PHASE1: u16 = 0o341;
-pub const ADDR_NEG_PHASE2: u16 = 0o343;
-pub const ADDR_NEG_PHASE3: u16 = 0o345;
-pub const ADDR_NEG_PHASE4: u16 = 0o347;
-pub const ADDR_NEG_PHASE5: u16 = 0o351;
-pub const ADDR_NEG_PHASE6: u16 = 0o353;
+/// Phase table entries (6 phases �� 2 words each: complement then phase).
+/// In ERASABLE_ASSIGNMENTS.agc, -PHASEn is allocated first (even addr),
+/// then PHASEn at the next word (odd addr).
+pub const ADDR_NEG_PHASE1: u16 = 0o340;
+pub const ADDR_PHASE1: u16 = 0o341;
+pub const ADDR_NEG_PHASE2: u16 = 0o342;
+pub const ADDR_PHASE2: u16 = 0o343;
+pub const ADDR_NEG_PHASE3: u16 = 0o344;
+pub const ADDR_PHASE3: u16 = 0o345;
+pub const ADDR_NEG_PHASE4: u16 = 0o346;
+pub const ADDR_PHASE4: u16 = 0o347;
+pub const ADDR_NEG_PHASE5: u16 = 0o350;
+pub const ADDR_PHASE5: u16 = 0o351;
+pub const ADDR_NEG_PHASE6: u16 = 0o352;
+pub const ADDR_PHASE6: u16 = 0o353;
 
 /// Phase priority/dispatch table (interleaved with TBASE)
 pub const ADDR_PHSPRDT1: u16 = 0o363;
@@ -133,11 +134,14 @@ pub const PHSPRDT_ADDRS: [u16; 6] = [
 // ---------------------------------------------------------------------------
 
 /// Model of the AGC's 2048-word erasable memory with bank switching.
+///
+/// Unswitched erasable (0000-0377) physically IS EBANK 0 — they are the
+/// same 256 words of memory. Writing to unswitched address 0o100 and
+/// reading from switched address 0o500 with EBANK=0 returns the same value.
 #[derive(Clone)]
 pub struct ErasableMemory {
-    /// Unswitched erasable: addresses 0000-0377 octal (always accessible).
-    unswitched: [AgcWord; UNSWITCHED_SIZE],
-    /// Switched erasable: 8 banks × 256 words each.
+    /// 8 erasable banks × 256 words each = 2048 words total.
+    /// Bank 0 is also accessible as unswitched erasable (0000-0377).
     banks: [[AgcWord; BANK_SIZE]; NUM_EBANKS],
 }
 
@@ -145,21 +149,22 @@ impl ErasableMemory {
     /// Create a zeroed-out erasable memory.
     pub fn new() -> Self {
         ErasableMemory {
-            unswitched: [AgcWord::POS_ZERO; UNSWITCHED_SIZE],
             banks: [[AgcWord::POS_ZERO; BANK_SIZE]; NUM_EBANKS],
         }
     }
 
-    /// Read from unswitched erasable (addr 0000-0377). Panics if out of range.
+    /// Read from unswitched erasable (addr 0000-0377).
+    /// This reads from EBANK 0 — the physical memory is shared.
     pub fn read_unswitched(&self, addr: u16) -> AgcWord {
         assert!(addr < 0o400, "address {:05o} is not unswitched erasable", addr);
-        self.unswitched[addr as usize]
+        self.banks[0][addr as usize]
     }
 
     /// Write to unswitched erasable (addr 0000-0377).
+    /// This writes to EBANK 0 — the physical memory is shared.
     pub fn write_unswitched(&mut self, addr: u16, val: AgcWord) {
         assert!(addr < 0o400, "address {:05o} is not unswitched erasable", addr);
-        self.unswitched[addr as usize] = val;
+        self.banks[0][addr as usize] = val;
     }
 
     /// Read from switched erasable (virtual addr 0400-0777, in the given EBANK).
@@ -187,7 +192,7 @@ impl ErasableMemory {
     }
 
     /// Read with automatic address decoding.
-    /// Addresses 0000-0377 → unswitched, 0400-0777 → switched (needs ebank).
+    /// Addresses 0000-0377 → EBANK 0 (unswitched), 0400-0777 → selected EBANK.
     pub fn read(&self, addr: u16, ebank: u8) -> AgcWord {
         if addr < 0o400 {
             self.read_unswitched(addr)
@@ -205,13 +210,14 @@ impl ErasableMemory {
         }
     }
 
-    /// Take a snapshot of all unswitched erasable as raw u16 values.
+    /// Take a snapshot of unswitched erasable (EBANK 0) as raw u16 values.
     pub fn snapshot_unswitched(&self) -> Vec<u16> {
-        self.unswitched.iter().map(|w| w.raw()).collect()
+        self.banks[0].iter().map(|w| w.raw()).collect()
     }
 
     /// Take a snapshot of a specific EBANK as raw u16 values.
     pub fn snapshot_bank(&self, ebank: u8) -> Vec<u16> {
+        assert!(ebank < NUM_EBANKS as u8, "EBANK {} out of range", ebank);
         self.banks[ebank as usize].iter().map(|w| w.raw()).collect()
     }
 }
@@ -249,6 +255,77 @@ mod tests {
     }
 
     #[test]
+    fn test_ebank0_aliasing() {
+        // Unswitched erasable (0000-0377) IS EBANK 0 — same physical memory.
+        let mut mem = ErasableMemory::new();
+        let val = AgcWord::from_i16(9999);
+
+        // Write via unswitched path
+        mem.write_unswitched(0o100, val);
+
+        // Read via switched path with EBANK=0 — must see the same value
+        assert_eq!(
+            mem.read_switched(0o500, 0),
+            val,
+            "unswitched 0o100 and switched 0o500 with EBANK=0 must alias"
+        );
+
+        // Write via switched EBANK=0, read via unswitched
+        let val2 = AgcWord::from_i16(4242);
+        mem.write_switched(0o600, 0, val2);
+        assert_eq!(
+            mem.read_unswitched(0o200),
+            val2,
+            "switched 0o600 EBANK=0 and unswitched 0o200 must alias"
+        );
+    }
+
+    #[test]
+    fn test_boundary_addresses() {
+        let mut mem = ErasableMemory::new();
+        let val = AgcWord::from_i16(1111);
+
+        // Last unswitched address
+        mem.write_unswitched(0o377, val);
+        assert_eq!(mem.read_unswitched(0o377), val);
+
+        // First switched address
+        mem.write_switched(0o400, 3, val);
+        assert_eq!(mem.read_switched(0o400, 3), val);
+
+        // Last switched address
+        mem.write_switched(0o777, 7, val);
+        assert_eq!(mem.read_switched(0o777, 7), val);
+
+        // Auto-decode boundary: 0o377 → unswitched, 0o400 → switched
+        mem.write(0o377, 0, val);
+        assert_eq!(mem.read(0o377, 0), val);
+        mem.write(0o400, 5, val);
+        assert_eq!(mem.read(0o400, 5), val);
+    }
+
+    #[test]
+    #[should_panic(expected = "not switched erasable")]
+    fn test_switched_addr_overflow() {
+        let mem = ErasableMemory::new();
+        mem.read_switched(0o1000, 0); // past end of switched window
+    }
+
+    #[test]
+    #[should_panic(expected = "EBANK 8 out of range")]
+    fn test_ebank_overflow() {
+        let mem = ErasableMemory::new();
+        mem.read_switched(0o400, 8);
+    }
+
+    #[test]
+    #[should_panic(expected = "EBANK 9 out of range")]
+    fn test_snapshot_bank_overflow() {
+        let mem = ErasableMemory::new();
+        mem.snapshot_bank(9);
+    }
+
+    #[test]
     fn test_auto_decode() {
         let mut mem = ErasableMemory::new();
         let val = AgcWord::from_i16(42);
@@ -264,9 +341,17 @@ mod tests {
 
     #[test]
     fn test_phase_table_layout() {
-        // Verify phase addresses are correctly spaced (every 2 words)
+        // -PHASEn at even address, PHASEn at odd address (complement first)
+        for i in 0..6 {
+            assert_eq!(
+                PHASE_ADDRS[i],
+                NEG_PHASE_ADDRS[i] + 1,
+                "PHASEn should be one word after -PHASEn"
+            );
+        }
+        // Pairs spaced 2 words apart
         for i in 0..5 {
-            assert_eq!(PHASE_ADDRS[i + 1] - PHASE_ADDRS[i], 2);
+            assert_eq!(NEG_PHASE_ADDRS[i + 1] - NEG_PHASE_ADDRS[i], 2);
         }
     }
 
