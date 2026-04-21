@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apollo DSKY Emulator</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #dsky {
+    background: #2d2d3f;
+    border: 3px solid #555;
+    border-radius: 12px;
+    padding: 24px;
+    width: 420px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+  }
+  .display-panel {
+    background: #0a0a12;
+    border: 2px solid #333;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .display-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0;
+  }
+  .display-row.register { justify-content: flex-start; padding-left: 12px; }
+  .label {
+    color: #888;
+    font-size: 11px;
+    width: 50px;
+    text-align: right;
+    margin-right: 8px;
+  }
+  .sign-box {
+    width: 14px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    font-size: 18px;
+    color: #0a0a12;
+    font-weight: bold;
+  }
+  .sign-box.on { color: #00ff88; }
+  .seg-digit { width: 28px; height: 44px; margin: 0 1px; }
+  .seg-off { fill: #1a1a24; }
+  .seg-on { fill: #00ff88; }
+  .lights-panel {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+  .indicator {
+    background: #1a1a24;
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 3px 2px;
+    text-align: center;
+    font-size: 8px;
+    color: #555;
+    transition: all 0.1s;
+  }
+  .indicator.on {
+    background: #ffaa00;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(255,170,0,0.4);
+  }
+  .indicator.green.on { background: #00ff88; box-shadow: 0 0 8px rgba(0,255,136,0.4); }
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+  }
+  .key {
+    background: #444;
+    border: 1px solid #666;
+    border-radius: 6px;
+    padding: 10px 4px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ddd;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.1s;
+  }
+  .key:active, .key.pressed { background: #888; transform: scale(0.95); }
+  .key.verb { background: #2a4a2a; color: #88ff88; }
+  .key.noun { background: #2a4a2a; color: #88ff88; }
+  .key.enter { background: #4a4a2a; color: #ffff88; }
+  .key.special { background: #3a3a50; color: #aabbff; }
+  .status-bar {
+    margin-top: 12px;
+    font-size: 10px;
+    color: #666;
+    text-align: center;
+  }
+  .status-bar .connected { color: #00ff88; }
+  .status-bar .disconnected { color: #ff4444; }
+  h2 { text-align: center; margin-bottom: 12px; font-size: 14px; color: #888; letter-spacing: 2px; }
+</style>
+</head>
+<body>
+
+<div id="dsky">
+  <h2>APOLLO DSKY</h2>
+
+  <div class="lights-panel">
+    <div class="indicator" id="light-uplink">UPLINK ACTY</div>
+    <div class="indicator" id="light-comp">COMP ACTY</div>
+    <div class="indicator" id="light-stby">STBY</div>
+    <div class="indicator" id="light-prog">PROG</div>
+    <div class="indicator" id="light-keyrel">KEY REL</div>
+    <div class="indicator" id="light-restart">RESTART</div>
+    <div class="indicator" id="light-oprerr">OPR ERR</div>
+    <div class="indicator green" id="light-temp">TEMP</div>
+    <div class="indicator green" id="light-gimbal">GIMBAL LOCK</div>
+    <div class="indicator green" id="light-tracker">TRACKER</div>
+    <div class="indicator green" id="light-alt">ALT</div>
+    <div class="indicator green" id="light-vel">VEL</div>
+    <div class="indicator green" id="light-noatt">NO ATT</div>
+    <div class="indicator" id="light-pgmalm">PGM ALM</div>
+  </div>
+
+  <div class="display-panel">
+    <div class="display-row">
+      <span class="label">PROG</span>
+      <div class="seg-digit" id="prog-0"></div>
+      <div class="seg-digit" id="prog-1"></div>
+    </div>
+    <div class="display-row">
+      <span class="label">VERB</span>
+      <div class="seg-digit" id="verb-0"></div>
+      <div class="seg-digit" id="verb-1"></div>
+      <span class="label" style="margin-left:16px">NOUN</span>
+      <div class="seg-digit" id="noun-0"></div>
+      <div class="seg-digit" id="noun-1"></div>
+    </div>
+    <hr style="border-color:#333;margin:8px 0">
+    <div class="display-row register">
+      <span class="label">R1</span>
+      <div class="sign-box" id="sign-r1-plus">+</div>
+      <div class="sign-box" id="sign-r1-minus">-</div>
+      <div class="seg-digit" id="r1-0"></div>
+      <div class="seg-digit" id="r1-1"></div>
+      <div class="seg-digit" id="r1-2"></div>
+      <div class="seg-digit" id="r1-3"></div>
+      <div class="seg-digit" id="r1-4"></div>
+    </div>
+    <div class="display-row register">
+      <span class="label">R2</span>
+      <div class="sign-box" id="sign-r2-plus">+</div>
+      <div class="sign-box" id="sign-r2-minus">-</div>
+      <div class="seg-digit" id="r2-0"></div>
+      <div class="seg-digit" id="r2-1"></div>
+      <div class="seg-digit" id="r2-2"></div>
+      <div class="seg-digit" id="r2-3"></div>
+      <div class="seg-digit" id="r2-4"></div>
+    </div>
+    <div class="display-row register">
+      <span class="label">R3</span>
+      <div class="sign-box" id="sign-r3-plus">+</div>
+      <div class="sign-box" id="sign-r3-minus">-</div>
+      <div class="seg-digit" id="r3-0"></div>
+      <div class="seg-digit" id="r3-1"></div>
+      <div class="seg-digit" id="r3-2"></div>
+      <div class="seg-digit" id="r3-3"></div>
+      <div class="seg-digit" id="r3-4"></div>
+    </div>
+  </div>
+
+  <div class="keyboard">
+    <div class="key verb" data-key="17">VERB</div>
+    <div class="key noun" data-key="31">NOUN</div>
+    <div class="key special" data-key="26">+</div>
+    <div class="key special" data-key="27">-</div>
+    <div class="key special" data-key="30">CLR</div>
+    <div class="key" data-key="7">7</div>
+    <div class="key" data-key="8">8</div>
+    <div class="key" data-key="9">9</div>
+    <div class="key enter" data-key="28">ENTR</div>
+    <div class="key special" data-key="18">RSET</div>
+    <div class="key" data-key="4">4</div>
+    <div class="key" data-key="5">5</div>
+    <div class="key" data-key="6">6</div>
+    <div class="key special" data-key="25">KEY REL</div>
+    <div class="key special" data-key="99" id="key-pro">PRO</div>
+    <div class="key" data-key="1">1</div>
+    <div class="key" data-key="2">2</div>
+    <div class="key" data-key="3">3</div>
+    <div class="key" data-key="16">0</div>
+    <div class="key" style="visibility:hidden"></div>
+  </div>
+
+  <div class="status-bar">
+    <span id="conn-status" class="disconnected">DISCONNECTED</span>
+    &mdash; ws://localhost:8765
+  </div>
+</div>
+
+<script>
+// Seven-segment SVG — builds from static path data, no user input
+const SEG_PATHS = [
+  'M 4 2 L 20 2 L 18 5 L 6 5 Z',           // a: top
+  'M 21 3 L 24 6 L 23 20 L 20 17 L 21 6 Z', // b: upper right
+  'M 22 22 L 24 25 L 23 39 L 20 36 L 21 25 Z', // c: lower right
+  'M 4 40 L 20 40 L 18 37 L 6 37 Z',        // d: bottom
+  'M 3 22 L 5 25 L 4 39 L 1 36 L 2 25 Z',   // e: lower left
+  'M 3 3 L 5 6 L 4 20 L 1 17 L 2 6 Z',      // f: upper left
+  'M 5 20 L 19 20 L 21 21.5 L 19 23 L 5 23 L 3 21.5 Z', // g: middle
+];
+
+function renderDigit(container, mask) {
+  // Clear existing content safely
+  while (container.firstChild) container.removeChild(container.firstChild);
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 26 42');
+  svg.style.width = '100%';
+  svg.style.height = '100%';
+  for (let i = 0; i < 7; i++) {
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', SEG_PATHS[i]);
+    path.setAttribute('class', (mask >> i) & 1 ? 'seg-on' : 'seg-off');
+    svg.appendChild(path);
+  }
+  container.appendChild(svg);
+}
+
+// 5-bit relay code to 7-segment mask
+const R2S = {
+  0:0,21:0b0111111,3:0b0000110,25:0b1011011,27:0b1001111,
+  15:0b1100110,30:0b1101101,28:0b1111101,19:0b0000111,
+  29:0b1111111,31:0b1101111
+};
+
+const DIGIT_IDS = [
+  'prog-0','prog-1','verb-0','verb-1','noun-0','noun-1',
+  'r1-0','r1-1','r1-2','r1-3','r1-4',
+  'r2-0','r2-1','r2-2','r2-3','r2-4',
+  'r3-0','r3-1','r3-2','r3-3','r3-4',
+];
+
+function initDisplay() {
+  for (const id of DIGIT_IDS) {
+    const el = document.getElementById(id);
+    if (el) renderDigit(el, 0);
+  }
+}
+
+function setDigit(id, code) {
+  const el = document.getElementById(id);
+  if (el) renderDigit(el, R2S[code] || 0);
+}
+
+function processRelayWord(value) {
+  const rn = (value >> 11) & 0xF;
+  const left = (value >> 5) & 0x1F;
+  const right = value & 0x1F;
+  switch (rn) {
+    case 11: setDigit('prog-0',left); setDigit('prog-1',right); break;
+    case 10: setDigit('verb-0',left); setDigit('verb-1',right); break;
+    case 9:  setDigit('noun-0',left); setDigit('noun-1',right); break;
+    case 8:  setDigit('r1-0',right); break;
+    case 7:  setDigit('r1-1',left); setDigit('r1-2',right); break;
+    case 6:  setDigit('r1-3',left); setDigit('r1-4',right); break;
+    case 5:  setDigit('r2-0',right); break;
+    case 4:  setDigit('r2-1',left); setDigit('r2-2',right); break;
+    case 3:  setDigit('r2-3',left); setDigit('r2-4',right); break;
+    case 12: setDigit('r3-0',right); break;
+    case 2:  setDigit('r3-1',left); setDigit('r3-2',right); break;
+    case 1:  setDigit('r3-3',left); setDigit('r3-4',right); break;
+  }
+}
+
+function toggle(id, on) {
+  const el = document.getElementById(id);
+  if (el) el.classList.toggle('on', !!on);
+}
+
+function processChannel11(v) {
+  toggle('light-oprerr', (v>>6)&1);
+  toggle('light-keyrel', (v>>4)&1);
+}
+
+function processChannel13(v) {
+  toggle('light-restart',v&1); toggle('light-stby',(v>>1)&1);
+  toggle('light-pgmalm',(v>>2)&1); toggle('light-gimbal',(v>>3)&1);
+  toggle('light-tracker',(v>>4)&1); toggle('light-alt',(v>>5)&1);
+  toggle('light-vel',(v>>6)&1); toggle('light-noatt',(v>>7)&1);
+  toggle('light-prog',(v>>8)&1); toggle('light-temp',(v>>9)&1);
+  toggle('light-uplink',(v>>10)&1); toggle('light-comp',(v>>11)&1);
+}
+
+// WebSocket
+let ws = null;
+function connect() {
+  const st = document.getElementById('conn-status');
+  try { ws = new WebSocket('ws://localhost:8765'); } catch(e) { return; }
+  ws.onopen = () => { st.textContent='CONNECTED'; st.className='connected'; };
+  ws.onclose = () => { st.textContent='DISCONNECTED'; st.className='disconnected'; setTimeout(connect,2000); };
+  ws.onerror = () => { st.textContent='ERROR'; st.className='disconnected'; };
+  ws.onmessage = (e) => {
+    try {
+      const m = JSON.parse(e.data);
+      if (m.type==='channel') {
+        if (m.channel===8) processRelayWord(m.value);
+        else if (m.channel===9) processChannel11(m.value);
+        else if (m.channel===11) processChannel13(m.value);
+      }
+    } catch(err) { /* ignore bad messages */ }
+  };
+}
+
+function sendKey(code) {
+  if (ws && ws.readyState===WebSocket.OPEN)
+    ws.send(JSON.stringify({type:'key',code:code}));
+}
+
+document.querySelectorAll('.key[data-key]').forEach(b => {
+  const c = parseInt(b.dataset.key);
+  b.addEventListener('mousedown', () => { b.classList.add('pressed'); sendKey(c); });
+  b.addEventListener('mouseup', () => b.classList.remove('pressed'));
+  b.addEventListener('mouseleave', () => b.classList.remove('pressed'));
+});
+
+document.addEventListener('keydown', (e) => {
+  const map = {'0':16,'1':1,'2':2,'3':3,'4':4,'5':5,'6':6,'7':7,'8':8,'9':9,
+    'v':17,'n':31,'Enter':28,'Backspace':30,'+':26,'-':27,'r':18};
+  if (map[e.key]!==undefined) { sendKey(map[e.key]); e.preventDefault(); }
+});
+
+initDisplay();
+connect();
+</script>
+</body>
+</html>
