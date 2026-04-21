@@ -137,8 +137,60 @@ mod tests {
     }
 
     #[test]
-    fn test_decode_bad_markers() {
-        let bad = [0xFF, 0x40, 0x80, 0xC0]; // byte 0 marker wrong
+    fn test_decode_bad_marker_byte0() {
+        let bad = [0xC0, 0x40, 0x80, 0xC0]; // byte 0 has 11 instead of 00
         assert!(ChannelPacket::decode(&bad).is_none());
+    }
+
+    #[test]
+    fn test_decode_bad_marker_byte1() {
+        let bad = [0x00, 0x00, 0x80, 0xC0]; // byte 1 has 00 instead of 01
+        assert!(ChannelPacket::decode(&bad).is_none());
+    }
+
+    #[test]
+    fn test_decode_bad_marker_byte2() {
+        let bad = [0x00, 0x40, 0x40, 0xC0]; // byte 2 has 01 instead of 10
+        assert!(ChannelPacket::decode(&bad).is_none());
+    }
+
+    #[test]
+    fn test_decode_bad_marker_byte3() {
+        let bad = [0x00, 0x40, 0x80, 0x80]; // byte 3 has 10 instead of 11
+        assert!(ChannelPacket::decode(&bad).is_none());
+    }
+
+    #[test]
+    fn test_golden_vector() {
+        // Hand-computed encoding for channel 0o15 (13 decimal), value 0o12345 (5349 decimal)
+        // Channel 0o15 = 0b0_001_101 (9 bits) → hi6 = 0b000001, lo3 = 0b101
+        // Value 0o12345 = 0b1_010_011_100_101 (15 bits) → hi3=0b001, mid6=0b001110, lo6=0b000101
+        //
+        // Byte 0: 00|000001 = 0x01
+        // Byte 1: 01|101_001 = 0x69
+        // Byte 2: 10|001110 = 0x8E  (wait, let me recompute)
+        //
+        // value = 0o12345 = 1*4096 + 2*512 + 3*64 + 4*8 + 5 = 4096+1024+192+32+5 = 5349
+        // 5349 in binary: 0001_0100_1110_0101
+        // hi3 (bits 14-12): 001
+        // mid6 (bits 11-6): 010011
+        // lo6 (bits 5-0): 100101
+        //
+        // channel = 0o15 = 13 = 0b0001101
+        // hi6 (bits 8-3): 000001
+        // lo3 (bits 2-0): 101
+        //
+        // Byte 0: 00_000001 = 0x01
+        // Byte 1: 01_101_001 = 0x69
+        // Byte 2: 10_010011 = 0x93
+        // Byte 3: 11_100101 = 0xE5
+        let packet = ChannelPacket::new(0o15, 0o12345);
+        let encoded = packet.encode();
+        assert_eq!(encoded, [0x01, 0x69, 0x93, 0xE5], "golden vector mismatch");
+
+        // Verify decode of the golden bytes produces the original packet
+        let decoded = ChannelPacket::decode(&[0x01, 0x69, 0x93, 0xE5]).unwrap();
+        assert_eq!(decoded.channel, 0o15);
+        assert_eq!(decoded.value, 0o12345);
     }
 }

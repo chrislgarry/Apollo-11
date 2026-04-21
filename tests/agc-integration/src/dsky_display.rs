@@ -91,3 +91,95 @@ impl DskyDisplay {
         self.prog_alarm = (value & 0x02) != 0;
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    // --- decode_digit tests ---
+
+    #[test]
+    fn test_decode_digit_blank() {
+        assert_eq!(decode_digit(0), None);
+    }
+
+    #[test]
+    fn test_decode_digit_zero() {
+        // Code 1 → digit 0 (offset by 1)
+        assert_eq!(decode_digit(1), Some(0));
+    }
+
+    #[test]
+    fn test_decode_digit_nine() {
+        // Code 10 → digit 9
+        assert_eq!(decode_digit(10), Some(9));
+    }
+
+    #[test]
+    fn test_decode_digit_all_valid() {
+        for code in 1..=10u8 {
+            assert_eq!(decode_digit(code), Some(code - 1));
+        }
+    }
+
+    #[test]
+    fn test_decode_digit_invalid() {
+        // Codes 11-31 are invalid
+        for code in 11..=31u8 {
+            assert_eq!(decode_digit(code), None, "code {} should be invalid", code);
+        }
+    }
+
+    #[test]
+    fn test_decode_digit_masks_to_5_bits() {
+        // High bits should be masked off: 0x20 | 1 = 33, but & 0x1F = 1 → digit 0
+        assert_eq!(decode_digit(0x21), Some(0));
+    }
+
+    // --- update_channel_11 tests ---
+
+    #[test]
+    fn test_prog_alarm_bit_on() {
+        let mut d = DskyDisplay::new();
+        d.update_channel_11(0x02); // bit 1 set
+        assert!(d.prog_alarm, "PROG ALARM should be on when bit 1 set");
+    }
+
+    #[test]
+    fn test_prog_alarm_bit_off() {
+        let mut d = DskyDisplay::new();
+        d.update_channel_11(0x00);
+        assert!(!d.prog_alarm, "PROG ALARM should be off when no bits set");
+    }
+
+    #[test]
+    fn test_prog_alarm_adjacent_bit_not_alarm() {
+        let mut d = DskyDisplay::new();
+        d.update_channel_11(0x01); // bit 0, not bit 1
+        assert!(!d.prog_alarm, "bit 0 should not trigger PROG ALARM");
+    }
+
+    #[test]
+    fn test_prog_alarm_all_bits() {
+        let mut d = DskyDisplay::new();
+        d.update_channel_11(0xFFFF); // all bits set
+        assert!(d.prog_alarm, "PROG ALARM should be on with all bits set");
+    }
+
+    #[test]
+    fn test_lights_stored() {
+        let mut d = DskyDisplay::new();
+        d.update_channel_11(0o1234);
+        assert_eq!(d.lights, 0o1234);
+    }
+
+    // --- relay word tests ---
+
+    #[test]
+    fn test_relay_word_stored() {
+        let mut d = DskyDisplay::new();
+        d.update_relay_word(11, 0x1FF);
+        assert_eq!(d.relay_words.len(), 1);
+        assert_eq!(d.relay_words[0], (11, 0x1FF));
+    }
+}
