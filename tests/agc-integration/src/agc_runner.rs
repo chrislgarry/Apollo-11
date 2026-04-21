@@ -29,15 +29,25 @@ impl AgcRunner {
     pub fn start(yaagc_path: &str, bin_path: &str, port: Option<u16>) -> io::Result<Self> {
         let port = port.unwrap_or(DEFAULT_AGC_PORT);
 
-        let child = Command::new(yaagc_path)
+        let mut child = Command::new(yaagc_path)
             .arg(format!("--port={}", port))
             .arg(bin_path)
             .stdout(std::process::Stdio::null())
-            .stderr(std::process::Stdio::null())
+            .stderr(std::process::Stdio::piped())
             .spawn()?;
 
-        // Give yaAGC time to start and begin listening
-        thread::sleep(Duration::from_millis(500));
+        // Check for immediate exit (bad args, missing binary, port conflict)
+        thread::sleep(Duration::from_millis(50));
+        if let Ok(Some(status)) = child.try_wait() {
+            let stderr = Self::drain_stderr(&mut child);
+            return Err(io::Error::new(
+                io::ErrorKind::Other,
+                format!("yaAGC exited immediately with {}: {}", status, stderr),
+            ));
+        }
+
+        // Wait for port readiness
+        thread::sleep(Duration::from_millis(450));
 
         Ok(AgcRunner { child, port })
     }
@@ -62,6 +72,23 @@ impl AgcRunner {
     /// Check if yaAGC is still running.
     pub fn is_running(&mut self) -> bool {
         matches!(self.child.try_wait(), Ok(None))
+    }
+
+    /// Read any available stderr output from yaAGC (for crash diagnostics).
+    pub fn captured_stderr(&mut self) -> String {
+        Self::drain_stderr(&mut self.child)
+    }
+
+    /// Drain stderr from a child process without blocking.
+    fn drain_stderr(child: &mut Child) -> String {
+        use std::io::Read;
+        let Some(stderr) = child.stderr.as_mut() else {
+            return String::new();
+        };
+        let mut buf = String::new();
+        // Don't block — just read what's available
+        let _ = stderr.read_to_string(&mut buf);
+        buf
     }
 }
 

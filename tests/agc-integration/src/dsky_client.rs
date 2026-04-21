@@ -107,8 +107,16 @@ impl DskyClient {
         Ok(())
     }
 
-    /// Send a verb-noun-enter sequence: V{vv}N{nn}E
+    /// Send a verb-noun-enter sequence: V{vv}N{nn}E.
+    /// Verb and noun must be 0-99 (two-digit DSKY values).
     pub fn verb_noun(&mut self, verb: u8, noun: u8) -> io::Result<()> {
+        if verb > 99 || noun > 99 {
+            return Err(io::Error::new(
+                io::ErrorKind::InvalidInput,
+                format!("verb ({}) and noun ({}) must be 0-99", verb, noun),
+            ));
+        }
+
         // VERB key
         self.press_key(key::VERB)?;
 
@@ -149,14 +157,20 @@ impl DskyClient {
         while start.elapsed() < duration {
             match self.stream.read_exact(&mut buf) {
                 Ok(()) => {
-                    if let Some(packet) = ChannelPacket::decode(&buf) {
-                        self.process_packet(packet);
+                    match ChannelPacket::decode(&buf) {
+                        Some(packet) => self.process_packet(packet),
+                        None => {
+                            eprintln!(
+                                "warning: packet decode failed (sync error), bytes: {:02x} {:02x} {:02x} {:02x}",
+                                buf[0], buf[1], buf[2], buf[3]
+                            );
+                        }
                     }
                 }
                 Err(ref e) if e.kind() == io::ErrorKind::WouldBlock
                     || e.kind() == io::ErrorKind::TimedOut =>
                 {
-                    break;
+                    continue; // keep polling until duration expires
                 }
                 Err(e) => return Err(e),
             }

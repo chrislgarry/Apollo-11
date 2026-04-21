@@ -9,9 +9,10 @@
 //! yaAGC communicates with peripherals using a simple 4-byte packet protocol
 //! over TCP sockets. Each packet encodes a channel number and a 15-bit value.
 //! The DSKY interface uses:
-//! - Channel 010 (octal): Keyboard input from astronaut
-//! - Channel 011 (octal): Display output (digit data)
-//! - Channel 013 (octal): Discrete outputs (warning lights, PROG ALARM)
+//! - Channel 010 (octal): Relay word output (display digit data to DSKY)
+//! - Channel 011 (octal): Discrete alarm/status outputs (DSALMOUT)
+//! - Channel 013 (octal): Discrete outputs (warning lights)
+//! - Channel 015 (octal): Keyboard input from astronaut (key codes)
 //!
 //! This crate connects as a virtual DSKY, sends keystrokes, and reads
 //! display state to verify AGC behavior.
