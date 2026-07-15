@@ -1,0 +1,12 @@
+[package]
+name = "agc-fuzzer"
+version = "0.1.0"
+edition = "2021"
+description = "Restart/recovery fuzzer for the Apollo Guidance Computer"
+
+[dependencies]
+agc-math = { path = "../agc-math" }
+agc-integration = { path = "../agc-integration" }
+
+[dev-dependencies]
+proptest = { workspace = true }
