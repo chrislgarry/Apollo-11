@@ -84,7 +84,7 @@
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
 
-Original Apollo 11 guidance computer (AGC) kildekode til Command Module (Comanche055) og Lunar Module (Luminary099). Digitaliseret af folkene på [Virtual AGC][3] og [MIT Museum][4]. Målet er at være en repo for den originale Apollo 11-kildekode. Som sådan er PR'er velkomne for ethvert problem, der er identificeret mellem transskriptionerne i dette repo og de originale kildescanninger for [Luminary 099][5] og [Comanche 055][6], såvel som alle filer, jeg kan have savnet.
+Original Apollo 11 guidance computer (AGC) kildekode til Command Module (Comanche055) og Lunar Module (Luminary099). Digitaliseret af folkene på [Virtual AGC][3] og [MIT Museum][4]. Målet er at være et repo for den originale Apollo 11-kildekode. Som sådan er PR'er velkomne for ethvert problem, der er identificeret mellem transskriptionerne i dette repo og de originale kildescanninger for [Luminary 099][5] og [Comanche 055][6], såvel som alle filer, jeg kan have overset.
 
 ## Bidrag
 
