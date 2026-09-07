@@ -69,6 +69,7 @@
 [KO_KR]:README.ko_kr.md
 [KU]:README.ku.md
 [LT]:README.lt.md
+[ML]:README.ml.md
 [MM]:README.mm.md
 [MN]:README.mn.md
 [NE]:README.ne.md

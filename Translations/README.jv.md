@@ -109,7 +109,6 @@ Kontak         | Ron Burkey <info@sandroid.org>
 Situs web      | www.ibiblio.org/apollo  
 Digitalisasi   | Kode sumber iki wis ditranskripsi utawa diadaptasi saka gambar digital salinan kertas saka MIT Museum. Proses digitisasi ditindakake déning Paul Fjeld, lan diatur déning Deborah Douglas saka Museum. Matur nuwun sanget kanggo loro-loroné.  
 
-
 ### Kontrak lan Persetujuan
 
 *Asal saka [CONTRACT_AND_APPROVALS.agc]*
