@@ -3,8 +3,7 @@
 🌐
 [Azerbaijani][AZ],
 [bahasa Indonesia][ID],
-[Basa Jawa][JV],
-[Català][CA]،
+[Català][CA],
 [Čeština][CZ],
 [Dansk][DA],
 [Deutsch][DE],
@@ -25,13 +24,14 @@
 [tiếng Việt][VI],
 [Türkçe][TR],
 [Ελληνικά][GR],
-[Українська][UK]،
+[Українська][UK],
 [العربية][AR],
+[Հայերեն][HY],
 [हिन्दी][HI_IN],
 [한국어][KO_KR],
 [日本語][JA],
 [正體中文][ZH_TW],
-[简体中文][ZH_CN],
+[简体中文][ZH_CN]
 
 [AR]:Translations/CONTRIBUTING.ar.md
 [AZ]:Translations/CONTRIBUTING.az.md
@@ -45,6 +45,7 @@
 [GL]:Translations/CONTRIBUTING.gl.md
 [GR]:Translations/CONTRIBUTING.gr.md
 [HI_IN]:Translations/CONTRIBUTING.hi_in.md
+[HY]:Translations/CONTRIBUTING.hy.md
 [ID]:Translations/CONTRIBUTING.id.md
 [IT]:Translations/CONTRIBUTING.it.md
 [JA]:Translations/CONTRIBUTING.ja.md
