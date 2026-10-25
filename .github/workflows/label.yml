@@ -2,11 +2,17 @@ name: Pull Request Labeler
 on:
   schedule:
     - cron: '0 */3 * * *'
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
 jobs:
   labeler:
     runs-on: ubuntu-latest
     steps:
-      - uses: paulfantom/periodic-labeler@master
+      - uses: paulfantom/periodic-labeler@f47a62ac0749f9bdd8f81a1e0fedb253b8af1505 # master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

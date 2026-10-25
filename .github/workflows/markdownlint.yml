@@ -1,13 +1,17 @@
 name: markdownlint
 on: [push, pull_request]
+
+permissions:
+  contents: read
+
 jobs:
   delivery:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@v6
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
     - name: Lint markdown
-      uses: DavidAnson/markdownlint-cli2-action@v19
+      uses: DavidAnson/markdownlint-cli2-action@05f32210e84442804257b2a6f20b273450ec8265 # v19.1.0
       with:
         config: .markdownlint.yml
         globs: '*.md,translations/*.md,Comanche055/*.md,Luminary099/*.md'
