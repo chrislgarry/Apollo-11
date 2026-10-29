@@ -10,5 +10,5 @@ jobs:
       uses: DavidAnson/markdownlint-cli2-action@v19
       with:
         config: .markdownlint.yml
-        globs: '*.md,translations/*.md,Comanche055/*.md,Luminary099/*.md'
+        globs: '*.md,Translations/*.md,Comanche055/*.md,Luminary099/*.md'
         separator: ','
