@@ -1,0 +1,8 @@
+[package]
+name = "agc-integration"
+version = "0.1.0"
+edition = "2021"
+description = "Integration test harness for the Apollo Guidance Computer via yaAGC simulator"
+
+[dependencies]
+agc-math = { path = "../agc-math" }
