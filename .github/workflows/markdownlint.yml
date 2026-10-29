@@ -7,7 +7,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v6
     - name: Lint markdown
-      uses: DavidAnson/markdownlint-cli2-action@v19
+      uses: DavidAnson/markdownlint-cli2-action@05f32210e84442804257b2a6f20b273450ec8265 # v19
       with:
         config: .markdownlint.yml
         globs: '*.md,translations/*.md,Comanche055/*.md,Luminary099/*.md'
