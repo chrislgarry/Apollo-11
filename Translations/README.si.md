@@ -35,7 +35,8 @@
 [Українська][UK],
 [العربية][AR],
 [فارسی][FA],
-[नेपाली भाषा][NE]
+[Հայերեն][HY],
+[नेपाली भाषा][NE],
 [हिंदी][HI_IN],
 [অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
@@ -64,6 +65,7 @@
 [GL]:Translations/README.gl.md
 [GR]:Translations/README.gr.md
 [HI_IN]:Translations/README.hi_in.md
+[HY]:Translations/README.hy.md
 [ID]:Translations/README.id.md
 [IT]:Translations/README.it.md
 [JA]:Translations/README.ja.md

@@ -5,7 +5,7 @@
 🌐
 [Azerbaijani][AZ],
 [bahasa Indonesia][ID],
-[Català][CA]،
+[Català][CA],
 [Čeština][CZ],
 [Dansk][DA],
 [Deutsch][DE],
@@ -26,8 +26,9 @@
 [tiếng Việt][VI],
 [Türkçe][TR],
 [Ελληνικά][GR],
-[Українська][UK]،
+[Українська][UK],
 [العربية][AR],
+[Հայերեն][HY],
 [हिन्दी][HI_IN],
 [한국어][KO_KR],
 [日本語][JA],
@@ -46,6 +47,7 @@
 [GL]:CONTRIBUTING.gl.md
 [GR]:CONTRIBUTING.gr.md
 [HI_IN]:CONTRIBUTING.hi_in.md
+[HY]:CONTRIBUTING.hy.md
 [ID]:CONTRIBUTING.id.md
 [IT]:CONTRIBUTING.it.md
 [JA]:CONTRIBUTING.ja.md

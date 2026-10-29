@@ -27,6 +27,7 @@
 [Ελληνικά][GR],
 [Українська][UK]،
 [العربية][AR],
+[Հայերեն][HY],
 [हिन्दी][HI_IN],
 [한국어][KO_KR],
 [日本語][JA],
@@ -46,6 +47,7 @@
 [GL]:Translations/CONTRIBUTING.gl.md
 [GR]:Translations/CONTRIBUTING.gr.md
 [HI_IN]:Translations/CONTRIBUTING.hi_in.md
+[HY]:Translations/CONTRIBUTING.hy.md
 [ID]:Translations/CONTRIBUTING.id.md
 [IT]:Translations/CONTRIBUTING.it.md
 [JA]:Translations/CONTRIBUTING.ja.md
